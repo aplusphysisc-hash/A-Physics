@@ -13,7 +13,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAFn20x4pX5QH2WKZZLUE7LbLTd0PTM_7o",
+  apiKey: "AIzaSyAFn20x4pX5QH2WKZZlUE7LbLTd0PTM_7o",
   authDomain: "aplusphysics-36f56.firebaseapp.com",
   projectId: "aplusphysics-36f56",
   storageBucket: "aplusphysics-36f56.firebasestorage.app",
