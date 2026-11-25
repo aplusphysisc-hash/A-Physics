@@ -61,6 +61,17 @@
 </head>
 <body class="selection:bg-[#4FD1C5] selection:text-black min-h-screen flex flex-col">
 
+    <!-- ANNOUNCEMENT BANNER (Dynamic from Firestore) -->
+    <div id="announcement-banner" class="hidden bg-gradient-to-r from-[#0F1A36] via-[#162347] to-[#0F1A36] border-b border-[#4FD1C5]/30 text-xs sm:text-sm text-slate-100 px-4 py-2.5">
+        <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0">
+                <span class="shrink-0 text-[#4FD1C5] font-bold">📢</span>
+                <span id="announcement-text" class="truncate sm:whitespace-normal font-medium"></span>
+            </div>
+            <button id="announcement-close" type="button" aria-label="Đóng thông báo" class="shrink-0 text-slate-400 hover:text-white px-2 py-0.5 rounded-md transition text-base leading-none">&times;</button>
+        </div>
+    </div>
+
     <!-- NAVBAR -->
     <header class="sticky top-0 z-50 bg-[#070D1F]/80 backdrop-blur-md border-b border-[#2A3C6E]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
@@ -119,7 +130,7 @@
                         Ứng dụng học tập và rèn luyện môn Vật lý THPT trên Android, giúp học sinh nắm vững kiến thức nhờ <strong>19 mô hình mô phỏng 3D tương tác</strong>, ngân hàng <strong>2.016 câu hỏi bám sát đề thi tốt nghiệp THPT 2025</strong>, công cụ tính sai số – đổi đơn vị và âm thanh hỗ trợ tập trung.
                     </p>
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                        <a href="#tai-ve" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-base hover:opacity-95 transition shadow-xl shadow-[#4FD1C5]/25 flex items-center justify-center space-x-2">
+                        <a href="#tai-ve" data-download-cta="hero" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-base hover:opacity-95 transition shadow-xl shadow-[#4FD1C5]/25 flex items-center justify-center space-x-2">
                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993s-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.4116 13.8533 8.125 12 8.125s-3.5902.2866-5.1368.8247L4.8409 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.75h24c-.3432-4.0911-2.6889-7.5633-6.1185-9.4286"/></svg>
                             <span>Tải Ứng Dụng Android (.APK)</span>
                         </a>
@@ -387,7 +398,7 @@
                 Cài đặt ứng dụng Android A+ Physics để sử dụng trọn vẹn toàn bộ tính năng mượt mà nhất, hoặc mở nhanh bản Dùng thử trên trình duyệt.
             </p>
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="https://github.com/aplusphysisc-hash/A-Physics/releases" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-base hover:opacity-95 transition shadow-xl shadow-[#4FD1C5]/25 flex items-center justify-center space-x-2">
+                <a href="https://github.com/aplusphysisc-hash/A-Physics/releases" data-download-cta="main" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-base hover:opacity-95 transition shadow-xl shadow-[#4FD1C5]/25 flex items-center justify-center space-x-2">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.551 0 .9993.4482.9993.9993s-.4483.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993s-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.4116 13.8533 8.125 12 8.125s-3.5902.2866-5.1368.8247L4.8409 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.75h24c-.3432-4.0911-2.6889-7.5633-6.1185-9.4286"/></svg>
                     <span>Tải Bản APK (GitHub Releases)</span>
                 </a>
@@ -397,6 +408,14 @@
                 <a href="dung-thu/" class="w-full sm:w-auto px-7 py-4 rounded-xl glass-card text-[#4FD1C5] font-semibold text-base hover:bg-[#162347] transition">
                     🧪 Dùng thử Web (Demo)
                 </a>
+            </div>
+            <!-- Dynamic Version & Changelog from Firestore -->
+            <div id="app-release-info" class="hidden mt-6 max-w-2xl mx-auto glass-card p-5 rounded-2xl text-left">
+                <div class="flex items-center justify-between gap-2 mb-2">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400">Thông tin phát hành mới nhất</span>
+                    <span id="app-version-badge" class="hidden text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#4FD1C5]/15 text-[#4FD1C5] border border-[#4FD1C5]/30"></span>
+                </div>
+                <p id="app-changelog-text" class="hidden text-xs text-slate-300 leading-relaxed whitespace-pre-line"></p>
             </div>
         </div>
     </section>
@@ -459,5 +478,6 @@
             mvObserver.observe(mv);
         });
     </script>
+    <script type="module" src="firebase-public.js"></script>
 </body>
 </html>

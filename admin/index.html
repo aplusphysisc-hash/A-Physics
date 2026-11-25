@@ -3,487 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-  <meta name="googlebot" content="noindex, nofollow">
-  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-  <title>A+ Physics — Cổng Quản Trị &amp; Kiểm Thử Nội Bộ</title>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Quản Trị Hệ Thống - A+ Physics</title>
+  <link rel="icon" type="image/png" href="../assets/ic_logo_aphysics.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body { font-family: 'Be Vietnam Pro', sans-serif; background: #050914; color: #E2E8F0; }
-    .mono { font-family: 'JetBrains Mono', monospace; }
-    .card { background: rgba(15, 26, 54, 0.85); border: 1px solid rgba(79, 209, 197, 0.2); }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin-style.css">
 </head>
-<body class="min-h-screen flex flex-col">
-
-  <!-- AUTH GATE OVERLAY -->
-  <div id="auth-overlay" class="fixed inset-0 z-50 bg-[#050914]/98 flex items-center justify-center p-4">
-    <div class="card max-w-md w-full p-7 rounded-3xl shadow-2xl space-y-5">
-      <div class="flex items-center space-x-3">
-        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#4FD1C5] to-[#818CF8] flex items-center justify-center font-black text-slate-950 text-lg">🛡️</div>
-        <div>
-          <h1 class="text-lg font-extrabold text-white">Cổng Quản Trị &amp; QA Nội Bộ</h1>
-          <p class="text-xs text-slate-400">Không liên kết công khai • Bảo vệ SHA-256</p>
-        </div>
-      </div>
-
-      <div id="auth-mode-desc" class="text-xs text-slate-300 bg-[#070D1F] p-3.5 rounded-xl border border-[#2A3C6E]"></div>
-
-      <form id="auth-form" class="space-y-4">
-        <div>
-          <label class="block text-xs text-slate-400 mb-1">Mật khẩu Quản trị (tối thiểu 8 ký tự)</label>
-          <input id="auth-pass" type="password" autocomplete="current-password" required minlength="8" class="w-full bg-[#070D1F] border border-[#2A3C6E] rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#4FD1C5]" placeholder="Nhập mật khẩu...">
-        </div>
-        <div id="auth-confirm-wrap" class="hidden">
-          <label class="block text-xs text-slate-400 mb-1">Xác nhận mật khẩu</label>
-          <input id="auth-pass-confirm" type="password" autocomplete="new-password" class="w-full bg-[#070D1F] border border-[#2A3C6E] rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#4FD1C5]" placeholder="Nhập lại mật khẩu...">
-        </div>
-        <div id="auth-error" class="hidden text-xs text-rose-400 bg-rose-500/10 border border-rose-500/30 p-2.5 rounded-xl"></div>
-        <button id="auth-submit" type="submit" class="w-full py-3 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-sm hover:opacity-95">Mở Khóa Phiên Làm Việc</button>
-      </form>
-
-      <div class="flex items-center justify-between text-[11px] text-slate-500 pt-2 border-t border-[#2A3C6E]">
-        <span>Tự khóa sau 15 phút không thao tác</span>
-        <button id="auth-reset-local" type="button" class="text-slate-400 hover:text-rose-400 underline">Đặt lại khóa cục bộ</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- MAIN ADMIN SHELL (hidden until unlocked) -->
-  <div id="admin-shell" class="hidden flex-1 flex flex-col">
-    <header class="border-b border-[#2A3C6E] bg-[#070D1F]/90 sticky top-0 z-30">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
-        <div class="flex items-center space-x-3">
-          <span class="px-2.5 py-1 rounded-lg bg-[#4FD1C5]/15 text-[#4FD1C5] border border-[#4FD1C5]/30 text-xs font-extrabold">ADMIN &amp; QA</span>
-          <span class="font-bold text-white text-sm sm:text-base">A+ Physics Control Center</span>
-        </div>
-        <div class="flex items-center space-x-2">
-          <button data-tab="tests" class="adm-tab px-3.5 py-1.5 rounded-lg text-xs font-bold bg-[#4FD1C5] text-slate-950">🧪 Kiểm Thử Tự Động</button>
-          <button data-tab="cloud" class="adm-tab px-3.5 py-1.5 rounded-lg text-xs font-bold bg-[#0F1A36] text-slate-300 border border-[#2A3C6E]">☁️ Đồng Bộ Cloud</button>
-          <button id="btn-lock-session" class="px-3.5 py-1.5 rounded-lg text-xs font-bold bg-rose-500/20 text-rose-300 border border-rose-500/30 hover:bg-rose-500/30">🔒 Khóa</button>
-        </div>
-      </div>
-    </header>
-
-    <main class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 flex-1 space-y-6">
-      <!-- TAB 1: AUTOMATED QA TESTS -->
-      <section id="tab-tests" class="space-y-6">
-        <div class="card p-6 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<body>
+  <div class="page-wrapper">
+    <!-- LOGIN SECTION -->
+    <section id="login-section" class="login-container">
+      <div class="card">
+        <div class="brand-header">
+          <img src="../assets/ic_logo_aphysics.png" alt="A+ Physics" class="brand-icon">
           <div>
-            <h2 class="text-xl font-extrabold text-white">Bộ Kiểm Thử Toàn Vẹn Hệ Thống Web</h2>
-            <p class="text-xs text-slate-400 mt-1">Kiểm tra tự động JSON học liệu, mô hình 3D (.glb), âm thanh, công thức tính toán và quy tắc bảo mật.</p>
-          </div>
-          <button id="btn-run-all-tests" class="px-6 py-3 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-sm hover:opacity-95 shrink-0">▶ Chạy Tất Cả Bài Test</button>
-        </div>
-
-        <!-- Summary KPIs -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <div class="card p-4 rounded-2xl text-center">
-            <div id="kpi-total" class="text-2xl font-black text-white">0</div>
-            <div class="text-xs text-slate-400">Tổng số kiểm tra</div>
-          </div>
-          <div class="card p-4 rounded-2xl text-center">
-            <div id="kpi-pass" class="text-2xl font-black text-emerald-400">0</div>
-            <div class="text-xs text-slate-400">Đạt (PASS)</div>
-          </div>
-          <div class="card p-4 rounded-2xl text-center">
-            <div id="kpi-fail" class="text-2xl font-black text-rose-400">0</div>
-            <div class="text-xs text-slate-400">Lỗi (FAIL)</div>
-          </div>
-          <div class="card p-4 rounded-2xl text-center">
-            <div id="kpi-time" class="text-2xl font-black text-[#38BDF8]">0 ms</div>
-            <div class="text-xs text-slate-400">Thời gian chạy</div>
+            <h1 class="brand-title">Quản Trị A+ Physics</h1>
+            <p class="brand-sub">Đăng nhập tài khoản quản trị Firebase</p>
           </div>
         </div>
 
-        <!-- Test Results List -->
-        <div id="test-results-list" class="space-y-3">
-          <div class="card p-8 rounded-2xl text-center text-xs text-slate-400">
-            Nhấn <strong>"▶ Chạy Tất Cả Bài Test"</strong> để bắt đầu kiểm tra toàn bộ hệ thống.
+        <div id="login-error" class="alert alert-error hidden" role="alert"></div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label class="form-label" for="login-email">Email quản trị</label>
+            <input
+              id="login-email"
+              class="form-input"
+              type="email"
+              autocomplete="email"
+              placeholder="nhap-email@example.com"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="login-password">Mật khẩu</label>
+            <input
+              id="login-password"
+              class="form-input"
+              type="password"
+              autocomplete="current-password"
+              placeholder="Nhập mật khẩu quản trị"
+              required
+            >
+          </div>
+
+          <button id="login-submit-btn" type="submit" class="btn btn-primary btn-full">
+            Đăng nhập
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- DASHBOARD SECTION -->
+    <section id="dashboard-section" class="hidden">
+      <header class="topbar">
+        <div class="brand-header" style="margin-bottom: 0;">
+          <img src="../assets/ic_logo_aphysics.png" alt="A+ Physics" class="brand-icon">
+          <div>
+            <h1 class="brand-title">Bảng Điều Khiển Website</h1>
+            <p class="brand-sub">Cấu hình động hệ thống A+ Physics (Firestore: system/web_config)</p>
           </div>
         </div>
-      </section>
 
-      <!-- TAB 2: CLOUD WEBHOOK ADMIN -->
-      <section id="tab-cloud" class="hidden space-y-6">
-        <div class="card p-6 rounded-2xl space-y-4">
-          <h2 class="text-lg font-extrabold text-white">Kết Nối Google Apps Script Webhook (Lưu trong phiên)</h2>
-          <p class="text-xs text-slate-400">URL Webhook và mã PIN không được lưu cứng trong mã nguồn công khai để đảm bảo an toàn. Chỉ lưu tạm trong <code>sessionStorage</code> của tab hiện tại.</p>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div class="md:col-span-2">
-              <label class="block text-xs text-slate-400 mb-1">Apps Script Webhook URL (https://)</label>
-              <input id="cloud-url" type="url" class="w-full bg-[#070D1F] border border-[#2A3C6E] rounded-xl px-3.5 py-2 text-xs text-white mono" placeholder="https://script.google.com/macros/s/.../exec">
+        <div class="user-actions">
+          <span id="admin-email-display" class="user-email"></span>
+          <button id="logout-btn" type="button" class="btn btn-secondary">Đăng xuất</button>
+        </div>
+      </header>
+
+      <!-- STATS -->
+      <div class="stats-grid">
+        <div class="card stat-card">
+          <span class="stat-label">Tổng lượt bấm tải ứng dụng</span>
+          <span id="stat-download-count" class="stat-value">0</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-label">Phiên bản đang phát hành</span>
+          <span id="stat-current-version" class="stat-value stat-text">—</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-label">Cập nhật lần cuối</span>
+          <span id="stat-updated-at" class="stat-value stat-text">—</span>
+        </div>
+      </div>
+
+      <!-- CONFIG FORM -->
+      <div class="card">
+        <h2 class="section-title">Cấu Hình Trang Chủ &amp; Phát Hành Ứng Dụng</h2>
+        <p class="section-desc">Dữ liệu lưu tại đây sẽ tự động đồng bộ lên trang chủ aplusphysics.io.vn.</p>
+
+        <div id="config-feedback" class="alert hidden" role="status"></div>
+
+        <form id="config-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="cfg-version">Phiên bản hiện tại (version)</label>
+              <input
+                id="cfg-version"
+                class="form-input"
+                type="text"
+                placeholder="Ví dụ: v1.0.2"
+              >
             </div>
-            <div>
-              <label class="block text-xs text-slate-400 mb-1">Admin PIN Cloud</label>
-              <input id="cloud-pin" type="password" class="w-full bg-[#070D1F] border border-[#2A3C6E] rounded-xl px-3.5 py-2 text-xs text-white" placeholder="Nhập PIN Apps Script">
+
+            <div class="form-group">
+              <label class="form-label" for="cfg-download-url">Đường dẫn tải ứng dụng (downloadUrl)</label>
+              <input
+                id="cfg-download-url"
+                class="form-input"
+                type="url"
+                placeholder="https://github.com/... hoặc link Google Play"
+              >
             </div>
           </div>
-          <div class="flex flex-wrap gap-3">
-            <button id="btn-cloud-fetch" class="px-5 py-2.5 rounded-xl bg-[#4FD1C5] text-slate-950 font-bold text-xs">🔄 Tải Danh Sách Học Sinh</button>
-            <span id="cloud-status" class="text-xs text-slate-400 self-center"></span>
-          </div>
-        </div>
 
-        <div id="cloud-users-wrap" class="card p-6 rounded-2xl overflow-x-auto">
-          <p class="text-xs text-slate-400">Chưa có dữ liệu Cloud. Nhập Webhook URL và bấm "Tải Danh Sách Học Sinh".</p>
-        </div>
-      </section>
-    </main>
+          <div class="form-group">
+            <label class="form-label" for="cfg-changelog">Nhật ký cập nhật (changelog)</label>
+            <textarea
+              id="cfg-changelog"
+              class="form-textarea"
+              placeholder="Mô tả các tính năng mới hoặc bản sửa lỗi trong phiên bản này..."
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="checkbox-row" for="cfg-banner-active">
+              <input id="cfg-banner-active" type="checkbox">
+              <span class="checkbox-label">Bật thanh thông báo nổi trên trang chủ (bannerActive)</span>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="cfg-banner-text">Nội dung thanh thông báo nổi (bannerText)</label>
+            <input
+              id="cfg-banner-text"
+              class="form-input"
+              type="text"
+              placeholder="Ví dụ: Đã cập nhật phiên bản mới v1.0.2 với mô hình 3D mượt hơn!"
+            >
+            <p class="form-hint">Chỉ hiển thị trên trang chủ khi mục bật thanh thông báo được đánh dấu và nội dung không để trống.</p>
+          </div>
+
+          <div class="form-footer">
+            <button id="reload-config-btn" type="button" class="btn btn-secondary">Tải lại dữ liệu</button>
+            <button id="save-config-btn" type="submit" class="btn btn-primary">Lưu cấu hình</button>
+          </div>
+        </form>
+      </div>
+    </section>
   </div>
 
-  <script>
-    (function () {
-      const CRED_KEY = 'aphysics_admin_cred_v1';
-      const SESSION_KEY = 'aphysics_admin_session_v1';
-      const LOCK_KEY = 'aphysics_admin_lock_v1';
-      const IDLE_MS = 15 * 60 * 1000;
-      let idleTimer = null;
-
-      function esc(str) {
-        return String(str ?? '')
-          .replace(/&/g, '&amp;').replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-      }
-
-      async function sha256Hex(text) {
-        const enc = new TextEncoder().encode(text);
-        const buf = await crypto.subtle.digest('SHA-256', enc);
-        return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, '0')).join('');
-      }
-
-      function randomSaltHex() {
-        const arr = new Uint8Array(16);
-        crypto.getRandomValues(arr);
-        return Array.from(arr).map((b) => b.toString(16).padStart(2, '0')).join('');
-      }
-
-      function getCred() {
-        try { return JSON.parse(localStorage.getItem(CRED_KEY) || 'null'); } catch { return null; }
-      }
-
-      function lockSession() {
-        sessionStorage.removeItem(SESSION_KEY);
-        if (idleTimer) clearTimeout(idleTimer);
-        document.getElementById('admin-shell').classList.add('hidden');
-        document.getElementById('auth-overlay').classList.remove('hidden');
-        document.getElementById('auth-pass').value = '';
-        initAuthGate();
-      }
-
-      function resetIdleTimer() {
-        if (idleTimer) clearTimeout(idleTimer);
-        idleTimer = setTimeout(lockSession, IDLE_MS);
-      }
-
-      function unlockSession() {
-        sessionStorage.setItem(SESSION_KEY, String(Date.now()));
-        document.getElementById('auth-overlay').classList.add('hidden');
-        document.getElementById('admin-shell').classList.remove('hidden');
-        resetIdleTimer();
-      }
-
-      function initAuthGate() {
-        const cred = getCred();
-        const desc = document.getElementById('auth-mode-desc');
-        const confirmWrap = document.getElementById('auth-confirm-wrap');
-        const confirmIn = document.getElementById('auth-pass-confirm');
-        const submitBtn = document.getElementById('auth-submit');
-
-        if (!cred) {
-          desc.innerHTML = '🔐 <strong>Thiết lập lần đầu:</strong> Tạo mật khẩu quản trị cục bộ (lưu dạng băm SHA-256 kèm salt trên trình duyệt này, không lưu mật khẩu gốc).';
-          confirmWrap.classList.remove('hidden');
-          confirmIn.required = true;
-          submitBtn.textContent = 'Tạo Mật Khẩu & Mở Khóa';
-        } else {
-          desc.textContent = '🔑 Nhập mật khẩu quản trị đã thiết lập để mở khóa bảng điều khiển & kiểm thử.';
-          confirmWrap.classList.add('hidden');
-          confirmIn.required = false;
-          submitBtn.textContent = 'Mở Khóa Phiên Làm Việc';
-        }
-      }
-
-      document.getElementById('auth-form').addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const errEl = document.getElementById('auth-error');
-        errEl.classList.add('hidden');
-
-        const lockInfo = JSON.parse(localStorage.getItem(LOCK_KEY) || '{"fails":0,"until":0}');
-        if (Date.now() < lockInfo.until) {
-          const waitSec = Math.ceil((lockInfo.until - Date.now()) / 1000);
-          errEl.textContent = `Nhập sai quá 5 lần. Vui lòng thử lại sau ${waitSec} giây.`;
-          errEl.classList.remove('hidden');
-          return;
-        }
-
-        const pass = document.getElementById('auth-pass').value;
-        const cred = getCred();
-
-        if (!cred) {
-          const confirmPass = document.getElementById('auth-pass-confirm').value;
-          if (pass !== confirmPass) {
-            errEl.textContent = 'Mật khẩu xác nhận không khớp.';
-            errEl.classList.remove('hidden');
-            return;
-          }
-          const salt = randomSaltHex();
-          const hash = await sha256Hex(`${salt}:${pass}`);
-          localStorage.setItem(CRED_KEY, JSON.stringify({ salt, hash }));
-          localStorage.removeItem(LOCK_KEY);
-          unlockSession();
-        } else {
-          const hash = await sha256Hex(`${cred.salt}:${pass}`);
-          if (hash === cred.hash) {
-            localStorage.removeItem(LOCK_KEY);
-            unlockSession();
-          } else {
-            lockInfo.fails = (lockInfo.fails || 0) + 1;
-            if (lockInfo.fails >= 5) {
-              lockInfo.until = Date.now() + 30000;
-              lockInfo.fails = 0;
-            }
-            localStorage.setItem(LOCK_KEY, JSON.stringify(lockInfo));
-            errEl.textContent = 'Mật khẩu không chính xác.';
-            errEl.classList.remove('hidden');
-          }
-        }
-      });
-
-      document.getElementById('auth-reset-local').addEventListener('click', () => {
-        if (confirm('Xóa khóa quản trị cục bộ để thiết lập mật khẩu mới?')) {
-          localStorage.removeItem(CRED_KEY);
-          localStorage.removeItem(LOCK_KEY);
-          initAuthGate();
-        }
-      });
-
-      document.getElementById('btn-lock-session').addEventListener('click', lockSession);
-      ['click', 'keydown', 'mousemove'].forEach((ev) => document.addEventListener(ev, () => {
-        if (sessionStorage.getItem(SESSION_KEY)) resetIdleTimer();
-      }));
-
-      if (sessionStorage.getItem(SESSION_KEY)) unlockSession();
-      else initAuthGate();
-
-      // Tabs
-      document.querySelectorAll('.adm-tab').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          const target = btn.dataset.tab;
-          document.getElementById('tab-tests').classList.toggle('hidden', target !== 'tests');
-          document.getElementById('tab-cloud').classList.toggle('hidden', target !== 'cloud');
-          document.querySelectorAll('.adm-tab').forEach((b) => {
-            const active = b.dataset.tab === target;
-            b.className = active
-              ? 'adm-tab px-3.5 py-1.5 rounded-lg text-xs font-bold bg-[#4FD1C5] text-slate-950'
-              : 'adm-tab px-3.5 py-1.5 rounded-lg text-xs font-bold bg-[#0F1A36] text-slate-300 border border-[#2A3C6E]';
-          });
-        });
-      });
-
-      // ================= AUTOMATED QA TEST SUITE =================
-      async function runSuite(name, fn) {
-        const t0 = performance.now();
-        try {
-          const detail = await fn();
-          return { name, pass: true, ms: Math.round(performance.now() - t0), detail };
-        } catch (err) {
-          return { name, pass: false, ms: Math.round(performance.now() - t0), detail: err.message || String(err) };
-        }
-      }
-
-      function assert(cond, msg) {
-        if (!cond) throw new Error(msg);
-      }
-
-      document.getElementById('btn-run-all-tests').addEventListener('click', async () => {
-        const listEl = document.getElementById('test-results-list');
-        listEl.innerHTML = `<div class="card p-6 rounded-2xl text-center text-xs text-[#4FD1C5]">⏳ Đang chạy bộ kiểm thử toàn hệ thống...</div>`;
-        const tStart = performance.now();
-
-        const results = [];
-
-        // Test 1: Manifest & All JSON Assets
-        results.push(await runSuite('1. Toàn vẹn Roadmap Manifest & Toàn bộ JSON Học liệu', async () => {
-          const mRes = await fetch('../assets/roadmap_manifest.json');
-          assert(mRes.ok, 'Không tải được roadmap_manifest.json');
-          const manifest = await mRes.json();
-          assert(Array.isArray(manifest.topics) && manifest.topics.length === 7, `Mong đợi 7 chủ đề, nhận ${manifest.topics?.length}`);
-
-          let fileCount = 0;
-          let questionCount = 0;
-          for (const topic of manifest.topics) {
-            for (const tk of topic.tasks) {
-              const r = await fetch(`../assets/${tk.filePath}`);
-              assert(r.ok, `Lỗi HTTP ${r.status} ở ${tk.filePath}`);
-              const txt = (await r.text()).replace(/^\uFEFF/, '');
-              const parsed = JSON.parse(txt);
-              fileCount++;
-              if (tk.kind.startsWith('LyThuyet')) {
-                const item = Array.isArray(parsed) ? parsed[0] : parsed;
-                assert(item && item.tieude, `Thiếu tieude trong ${tk.filePath}`);
-              } else {
-                const arr = Array.isArray(parsed) ? parsed : [parsed];
-                assert(arr.length > 0, `File đề rỗng: ${tk.filePath}`);
-                for (const q of arr) {
-                  assert(typeof q.cauhoi === 'string' && q.cauhoi.length > 0, `Câu hỏi trống ở ${tk.filePath}`);
-                }
-                questionCount += arr.length;
-              }
-            }
-          }
-          return `Đã xác minh ${fileCount} file JSON (7 chủ đề, ${questionCount} câu hỏi) hợp lệ 100%.`;
-        }));
-
-        // Test 2: PhanXa, KhoiDong, App Info, Terms
-        results.push(await runSuite('2. Kiểm tra JSON Phản xạ, Khởi động, App Info & Terms', async () => {
-          const pxMeta = await (await fetch('../assets/PhanXa/danhSachChuDePhanXa.json')).json();
-          assert(pxMeta.length === 7, 'danhSachChuDePhanXa.json phải có 7 chủ đề');
-          for (const px of pxMeta.filter((x) => Number(x.id) <= 2)) {
-            const r = await fetch(`../assets/${px.fileJson}`);
-            assert(r.ok, `Thiếu file phản xạ ${px.fileJson}`);
-            const qs = await r.json();
-            assert(Array.isArray(qs) && qs.length > 0, `File ${px.fileJson} rỗng`);
-          }
-          const kd = await (await fetch('../assets/KhoiDong/cauHoiKhoiDong.json')).json();
-          assert(Array.isArray(kd) && kd.length === 3, 'KhoiDong phải có 3 câu');
-          const info = await (await fetch('../assets/app_info.json')).json();
-          assert(!JSON.stringify(info).includes('_tên nhóm_'), 'app_info.json vẫn còn placeholder');
-          const tos = await (await fetch('../assets/terms_of_service.json')).json();
-          assert(tos && Array.isArray(tos.sections || tos.danhSachDieuKhoan || Object.keys(tos)), 'terms_of_service.json không hợp lệ');
-          return '7 file Phản xạ, 3 câu Khởi động, app_info.json và terms_of_service.json đều hợp lệ.';
-        }));
-
-        // Test 3: Active Models 3D (.glb) & 4 Audio files
-        results.push(await runSuite('3. Kiểm tra Mô hình 3D (.glb) & 4 File Âm thanh', async () => {
-          const manifest = await (await fetch('../assets/roadmap_manifest.json')).json();
-          assert(manifest.models3D.length >= 4, `Mong đợi tối thiểu 4 mô hình 3D, thấy ${manifest.models3D.length}`);
-          for (const m of manifest.models3D) {
-            const r = await fetch(`../${m.path}`, { method: 'HEAD' });
-            assert(r.ok, `Không tìm thấy mô hình 3D: ${m.path}`);
-          }
-          const audios = ['song_nao_alpha.aac', 'tieng_mua.aac', 'song_bien.aac', 'click.wav'];
-          for (const a of audios) {
-            const r = await fetch(`../assets/audio/${a}`, { method: 'HEAD' });
-            assert(r.ok, `Không tìm thấy âm thanh: ${a}`);
-          }
-          return `${manifest.models3D.length}/${manifest.models3D.length} file .glb và 4/4 file âm thanh tồn tại và phản hồi HTTP 200.`;
-        }));
-
-        // Test 4: Physics Math & Dual Grading Logic
-        results.push(await runSuite('4. Kiểm tra Công thức Đổi đơn vị, Sai số 6 bước & Chấm điểm', async () => {
-          // Temperature: 0°C -> 273.15 K -> 32°F
-          const cToK = 0 + 273.15;
-          const cToF = 0 * 1.8 + 32;
-          assert(Math.abs(cToK - 273.15) < 1e-9 && Math.abs(cToF - 32) < 1e-9, 'Lỗi quy đổi nhiệt độ');
-          // Velocity: 72 km/h -> 20 m/s
-          const vMs = 72 / 3.6;
-          assert(Math.abs(vMs - 20) < 1e-9, 'Lỗi quy đổi vận tốc');
-          // 6-step error on [2.00, 2.02, 1.98], dc = 0.01
-          const vals = [2.00, 2.02, 1.98];
-          const mean = vals.reduce((a, b) => a + b, 0) / vals.length;
-          const meanDiff = vals.reduce((a, b) => a + Math.abs(mean - b), 0) / vals.length;
-          const absErr = meanDiff + 0.01;
-          assert(Math.abs(mean - 2.0) < 1e-9, 'Sai giá trị trung bình');
-          assert(Math.abs(absErr - (0.04 / 3 + 0.01)) < 1e-6, 'Sai số tuyệt đối không khớp');
-          // Dual grading progressive scale for DUNG_SAI
-          const ptsMap = [0, 0.1, 0.25, 0.5, 1.0];
-          assert(ptsMap[1] === 0.1 && ptsMap[2] === 0.25 && ptsMap[3] === 0.5 && ptsMap[4] === 1.0, 'Sai thang điểm Đúng/Sai');
-          return 'Các phép tính quy đổi nhiệt độ/vận tốc, sai số 6 bước và thang điểm lũy tiến chính xác.';
-        }));
-
-        // Test 5: Security & Isolation Check on Main Site
-        results.push(await runSuite('5. Kiểm tra Bảo mật & Cô lập Trang gốc (index.html)', async () => {
-          const idxHtml = await (await fetch('../index.html')).text();
-          assert(!idxHtml.includes('admin/'), 'index.html không được chứa liên kết tới trang admin!');
-          assert(!idxHtml.includes('độc quyền'), 'index.html vẫn còn từ "độc quyền"!');
-          assert(!idxHtml.includes('../../app'), 'index.html vẫn còn đường dẫn ../../app bị gãy!');
-          assert(idxHtml.includes('dung-thu/'), 'index.html phải có liên kết tới chế độ dùng thử dung-thu/');
-          assert(idxHtml.includes('IntersectionObserver'), 'index.html chưa có IntersectionObserver tự chạy 3D khi vào màn hình!');
-          return 'index.html cô lập hoàn toàn với trang Admin, không có từ độc quyền và đã bật tự chạy 3D theo vùng nhìn.';
-        }));
-
-        const totalMs = Math.round(performance.now() - tStart);
-        const passCount = results.filter((r) => r.pass).length;
-        const failCount = results.length - passCount;
-
-        document.getElementById('kpi-total').textContent = String(results.length);
-        document.getElementById('kpi-pass').textContent = String(passCount);
-        document.getElementById('kpi-fail').textContent = String(failCount);
-        document.getElementById('kpi-time').textContent = `${totalMs} ms`;
-
-        listEl.innerHTML = results.map((r) => `
-          <div class="card p-5 rounded-2xl border ${r.pass ? 'border-emerald-500/40' : 'border-rose-500/50'} flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-            <div>
-              <div class="flex items-center space-x-2">
-                <span class="text-xs font-black px-2 py-0.5 rounded ${r.pass ? 'bg-emerald-500/20 text-emerald-300' : 'bg-rose-500/20 text-rose-300'}">${r.pass ? 'PASS' : 'FAIL'}</span>
-                <span class="text-sm font-bold text-white">${esc(r.name)}</span>
-              </div>
-              <p class="text-xs text-slate-300 mt-1.5">${esc(r.detail)}</p>
-            </div>
-            <span class="text-xs mono text-slate-400 shrink-0">${r.ms} ms</span>
-          </div>
-        `).join('');
-      });
-
-      // ================= CLOUD WEBHOOK CONNECTOR =================
-      document.getElementById('btn-cloud-fetch').addEventListener('click', async () => {
-        const url = document.getElementById('cloud-url').value.trim();
-        const pin = document.getElementById('cloud-pin').value;
-        const statusEl = document.getElementById('cloud-status');
-        const wrapEl = document.getElementById('cloud-users-wrap');
-
-        if (!url.startsWith('https://')) {
-          statusEl.textContent = '⚠️ URL phải bắt đầu bằng https://';
-          return;
-        }
-        statusEl.textContent = '⏳ Đang kết nối...';
-        const ctrl = new AbortController();
-        const t = setTimeout(() => ctrl.abort(), 15000);
-        try {
-          const pinHash = pin ? await sha256Hex(pin) : '';
-          const res = await fetch(url, {
-            method: 'POST',
-            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-            body: JSON.stringify({ action: 'GET_ALL_USERS', adminPinHash: pinHash }),
-            signal: ctrl.signal
-          });
-          clearTimeout(t);
-          const data = await res.json();
-          const users = Array.isArray(data) ? data : (data.users || []);
-          statusEl.textContent = `✓ Đã tải ${users.length} bản ghi.`;
-          if (users.length === 0) {
-            wrapEl.innerHTML = `<p class="text-xs text-slate-400">Không có dữ liệu hoặc PIN không khớp.</p>`;
-            return;
-          }
-          wrapEl.innerHTML = `
-            <table class="w-full text-left text-xs">
-              <thead class="text-slate-400 border-b border-[#2A3C6E]">
-                <tr><th class="py-2 pr-4">Tên</th><th class="py-2 pr-4">Email</th><th class="py-2 pr-4">Lớp</th><th class="py-2 pr-4">Streak</th><th class="py-2">Trạng thái</th></tr>
-              </thead>
-              <tbody class="divide-y divide-[#2A3C6E]/50">
-                ${users.slice(0, 50).map((u) => `
-                  <tr>
-                    <td class="py-2 pr-4 font-semibold text-white">${esc(u.ten)}</td>
-                    <td class="py-2 pr-4 text-slate-300">${esc(u.email)}</td>
-                    <td class="py-2 pr-4">${esc(u.khoiLop)}</td>
-                    <td class="py-2 pr-4 text-amber-300">${esc(u.streakNgay)}</td>
-                    <td class="py-2">${esc(u.accountStatus)}</td>
-                  </tr>
-                `).join('')}
-              </tbody>
-            </table>
-          `;
-        } catch (err) {
-          clearTimeout(t);
-          statusEl.textContent = `❌ Lỗi: ${err.message}`;
-        }
-      });
-    })();
-  </script>
+  <script type="module" src="admin.js"></script>
 </body>
 </html>
