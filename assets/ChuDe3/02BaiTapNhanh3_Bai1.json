@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng vật lý nào đặc trưng cho mức quán tính của một vật?",
+    "caccauChon": [
+      "Vận tốc.",
+      "Lực tác dụng.",
+      "Khối lượng.",
+      "Gia tốc."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khối lượng $m$ là đại lượng đặc trưng cho mức quán tính của một vật."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu hợp lực tác dụng lên một vật đang chuyển động đột ngột triệt tiêu (bằng 0) thì vật sẽ:",
+    "caccauChon": [
+      "Dừng lại ngay lập tức.",
+      "Chuyển động chậm dần rồi dừng lại.",
+      "Tiếp tục chuyển động thẳng đều.",
+      "Chuyển động tròn đều."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo Định luật I Newton, khi hợp lực tác dụng lên vật đang chuyển động bằng $0$ thì vật tiếp tục chuyển động thẳng đều."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $m = 2\\text{ kg}$ chịu tác dụng của hợp lực có độ lớn $F = 6\\text{ N}$. Gia tốc của vật có độ lớn là:",
+    "caccauChon": [
+      "$12\\text{ m/s}^2$",
+      "$3\\text{ m/s}^2$",
+      "$0,33\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng Định luật II Newton: $a = \\frac{F}{m} = \\frac{6}{2} = 3\\text{ m/s}^2$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cặp 'lực và phản lực' trong Định luật III Newton KHÔNG có tính chất nào sau đây?",
+    "caccauChon": [
+      "Cùng phương, ngược chiều.",
+      "Cùng độ lớn.",
+      "Đặt vào hai vật khác nhau.",
+      "Triệt tiêu lẫn nhau vì cân bằng."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Cặp lực và phản lực đặt vào hai vật khác nhau nên không cân bằng và không triệt tiêu lẫn nhau."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi người dùng tay đẩy vào bức tường một lực $50\\text{ N}$ thì bức tường tác dụng trở lại tay người một lực có độ lớn:",
+    "caccauChon": [
+      "Lớn hơn $50\\text{ N}$.",
+      "Nhỏ hơn $50\\text{ N}$.",
+      "Bằng $50\\text{ N}$.",
+      "Bằng $0\\text{ N}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo Định luật III Newton, bức tường tác dụng trở lại tay người một phản lực cùng độ lớn $F = 50\\text{ N}$ và ngược chiều."
+  }
+]

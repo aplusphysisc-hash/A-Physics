@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hướng của lực cản chất lưu tác dụng lên một vật đang chuyển động có đặc điểm:",
+    "caccauChon": [
+      "Luôn hướng thẳng đứng từ dưới lên.",
+      "Luôn ngược hướng với vận tốc tương đối của vật so với chất lưu.",
+      "Luôn cùng hướng với trọng lực.",
+      "Vuông góc với phương chuyển động của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực cản của chất lưu luôn ngược hướng với vận tốc tương đối của vật so với chất lưu."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại sao đầu của các tàu cao tốc, máy bay, tên lửa và cá heo đều có dạng thuôn nhọn?",
+    "caccauChon": [
+      "Để tăng lực đẩy Archimedes.",
+      "Để giảm khối lượng của vật.",
+      "Để giảm tối đa lực cản của chất lưu khi chuyển động nhanh.",
+      "Để tăng diện tích tiếp xúc với chất lưu."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thiết kế khí động học (thuôn nhọn) giúp dòng chất lưu lướt êm qua vật, giảm tối đa lực cản."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi một vận động viên nhảy dù bung dù ra, lực cản của không khí tăng đột ngột khiến vận động viên:",
+    "caccauChon": [
+      "Rơi nhanh dần đều xuống đất.",
+      "Chuyển động chậm dần cho đến khi đạt vận tốc giới hạn mới nhỏ hơn.",
+      "Bay ngược lên trên.",
+      "Dừng lơ lửng đứng yên giữa không trung."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi bung dù, diện tích cản tăng vọt $\\implies F_c > P \\implies$ hợp lực hướng lên làm giảm tốc độ rơi cho đến khi đạt vận tốc giới hạn mới an toàn.",
+    "hinhAnh": "images/ChuDe3/reallife/anh_nhay_du_luc_can_khong_khi.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi thẳng đứng trong chất lưu. Khi vật chuyển động thẳng đều với vận tốc giới hạn thì:",
+    "caccauChon": [
+      "Trọng lực cân bằng với tổng lực đẩy Archimedes và lực cản của chất lưu.",
+      "Lực cản của chất lưu bằng 0.",
+      "Trọng lực lớn hơn tổng lực đẩy Archimedes và lực cản.",
+      "Gia tốc của vật bằng gia tốc rơi tự do $g$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi đạt vận tốc giới hạn (chuyển động thẳng đều), hợp lực bằng 0: $P = F_A + F_c$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực đẩy Archimedes tác dụng lên một vật nhúng chìm hoàn toàn trong chất lỏng phụ thuộc vào:",
+    "caccauChon": [
+      "Khối lượng riêng của vật.",
+      "Độ sâu của vật trong chất lỏng.",
+      "Thể tích của vật và khối lượng riêng của chất lỏng.",
+      "Hình dạng của vật."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Từ $F_A = \\rho \\cdot g \\cdot V$, lực đẩy Archimedes phụ thuộc thể tích phần chất lưu bị chiếm chỗ và khối lượng riêng chất lưu."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một khối sắt đặc có thể tích $V = 500\\text{ cm}^3$ ($0,0005\\text{ m}^3$) được nhúng chìm hoàn toàn trong nước có khối lượng riêng $\\rho = 1000\\text{ kg/m}^3$. Lấy g = $10\\text{ m/s}^2$. Độ lớn lực đẩy Archimedes tác dụng lên khối sắt là:",
+    "caccauChon": [
+      "$5000\\text{ N}$",
+      "$5\\text{ N}$",
+      "$0,5\\text{ N}$",
+      "$50\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$F_A = \\rho \\cdot g \\cdot V = 1000 \\cdot 10 \\cdot 0,0005 = 5\\text{ N}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai tờ giấy giống hệt nhau: một tờ để phẳng và một tờ vo tròn chặt lại. Thả rơi cùng lúc hai tờ giấy từ cùng một độ cao trong không khí thì:",
+    "caccauChon": [
+      "Tờ giấy để phẳng chạm đất trước.",
+      "Tờ giấy vo tròn chạm đất trước.",
+      "Hai tờ chạm đất cùng một lúc.",
+      "Tờ giấy vo tròn chịu lực cản lớn hơn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tờ giấy vo tròn có tiết diện cản nhỏ hơn nhiều so với tờ để phẳng nên chịu lực cản không khí nhỏ hơn và chạm đất trước."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị vận tốc theo thời gian $v(t)$ của một viên bi thả rơi từ trạng thái nghỉ trong một bình dầu rất sâu có dạng:",
+    "caccauChon": [
+      "Đường thẳng đi qua gốc tọa độ.",
+      "Đường cong tăng dần sau đó tiệm cận nằm ngang (vận tốc không đổi).",
+      "Đường thẳng nằm ngang ngay từ lúc đầu.",
+      "Đường parabol hướng bề lõm lên trên."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ban đầu vận tốc tăng nhanh, sau đó gia tốc giảm dần về 0 nên đường cong $v(t)$ uốn cong dần và tiệm cận đường nằm ngang v = $v_{gh}$.",
+    "hinhAnh": "images/ChuDe3/baitap/dothi_van_toc_gioi_han_chat_long.webp"
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một giọt mưa khối lượng $m = 0,05\\text{ g}$ ($5 \\cdot 10^{-5}\\text{ kg}$) rơi từ đám mây xuống đất. Khi đạt vận tốc giới hạn, bỏ qua lực đẩy Archimedes của không khí, lấy g = $10\\text{ m/s}^2$. Độ lớn lực cản không khí tác dụng lên giọt mưa lúc này là:",
+    "caccauChon": [
+      "$5 \\cdot 10^{-4}\\text{ N}$",
+      "$5 \\cdot 10^{-3}\\text{ N}$",
+      "$0,5\\text{ N}$",
+      "$0\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi đạt vận tốc giới hạn: $F_c = P = m \\cdot g = 5 \\cdot 10^{-5} \\cdot 10 = 5 \\cdot 10^{-4}\\text{ N}$.",
+    "hinhAnh": "images/ChuDe3/reallife/anh_giot_nuoc_mua_roi.webp"
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều kiện để một vật rắn đồng chất nổi lên mặt thoáng của chất lỏng là:",
+    "caccauChon": [
+      "Khối lượng riêng của vật lớn hơn khối lượng riêng của chất lỏng.",
+      "Khối lượng riêng của vật nhỏ hơn khối lượng riêng của chất lỏng.",
+      "Trọng lượng của vật lớn hơn lực đẩy Archimedes tối đa.",
+      "Vật phải có dạng rỗng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật nổi lên khi $F_A > P \\iff \\rho_{lỏng} \\cdot g \\cdot V > \\rho_{vật} \\cdot g \\cdot V \\iff \\rho_{vật} < \\rho_{lỏng}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "So sánh chuyển động rơi của một viên bi trong chân không và trong không khí:",
+    "caccauChon": [
+      "Trong cả hai môi trường vật đều rơi tự do với gia tốc $g$.",
+      "Trong chân không gia tốc không đổi bằng g, còn trong không khí gia tốc giảm dần về 0.",
+      "Trong không khí vật chạm đất nhanh hơn trong chân không.",
+      "Trong chân không vật cũng đạt vận tốc giới hạn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong chân không không có lực cản nên vật rơi tự do với a = g không đổi. Trong không khí có lực cản tăng theo v nên gia tốc giảm dần về 0."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi người đi xe đạp chạy ngược chiều gió với tốc độ $15\\text{ km/h}$ và gió thổi ngược lại với tốc độ $10\\text{ km/h}$, độ lớn lực cản của không khí phụ thuộc vào tốc độ tương đối giữa người và không khí bằng:",
+    "caccauChon": [
+      "$5\\text{ km/h}$",
+      "$15\\text{ km/h}$",
+      "$25\\text{ km/h}$",
+      "$10\\text{ km/h}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chạy ngược chiều gió nên tốc độ tương đối so với luồng không khí là $v = 15 + 10 = 25\\text{ km/h}$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi bơi dưới nước, người ta cảm thấy khó di chuyển nhanh hơn chạy trên cạn chủ yếu là do:",
+    "caccauChon": [
+      "Trọng lực dưới nước lớn hơn trên cạn.",
+      "Lực cản của nước lớn hơn nhiều so với lực cản của không khí.",
+      "Lực đẩy Archimedes kéo người chìm xuống.",
+      "Dưới nước không có ma sát."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Nước có khối lượng riêng và độ nhớt lớn hơn không khí rất nhiều nên gây lực cản lớn hơn nhiều."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có trọng lượng $P = 20\\text{ N}$. Khi nhúng vật ngập hoàn toàn vào nước thì lực kế treo vật chỉ $12\\text{ N}$. Độ lớn lực đẩy Archimedes tác dụng lên vật là:",
+    "caccauChon": [
+      "$32\\text{ N}$",
+      "$8\\text{ N}$",
+      "$12\\text{ N}$",
+      "$20\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Số chỉ lực kế khi nhúng trong nước là $F = P - F_A \\implies F_A = P - F = 20 - 12 = 8\\text{ N}$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 14, nếu biết khối lượng riêng của nước là $\\rho = 1000\\text{ kg/m}^3$ và g = $10\\text{ m/s}^2$ thì thể tích của vật là:",
+    "caccauChon": [
+      "$800\\text{ cm}^3$",
+      "$1200\\text{ cm}^3$",
+      "$2000\\text{ cm}^3$",
+      "$80\\text{ cm}^3$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$V = \\frac{F_A}{\\rho \\cdot g} = \\frac{8}{1000 \\cdot 10} = 8 \\cdot 10^{-4}\\text{ m}^3 = 800\\text{ cm}^3$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai quả cầu bằng sắt và bằng nhôm có cùng bán kính (cùng kích thước và hình dạng) được thả rơi cùng lúc trong không khí từ độ cao lớn. Biết $\\rho_{sắt} > \\rho_{nhôm}$. Quả cầu nào có vận tốc giới hạn lớn hơn?",
+    "caccauChon": [
+      "Quả cầu bằng nhôm.",
+      "Quả cầu bằng sắt.",
+      "Hai quả cầu có vận tốc giới hạn bằng nhau.",
+      "Không xác định được."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Cùng kích thước nên chịu cùng $F_A$ và cùng biểu thức $F_c(v)$. Vì $\\rho_{sắt} > \\rho_{nhôm}$ nên $P_{sắt} > P_{nhôm} \\implies F_c$ giới hạn của sắt lớn hơn $\\implies v_{gh(sắt)} > v_{gh(nhôm)}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi ô tô chạy ở tốc độ cao trên đường cao tốc, lực cản của không khí đóng vai trò:",
+    "caccauChon": [
+      "Lực phát động giúp xe chạy nhanh hơn.",
+      "Lực cản tiêu hao phần lớn công suất của động cơ.",
+      "Lực hướng tâm giúp xe vào cua.",
+      "Lực đẩy nâng xe bay lên."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ở tốc độ cao, lực cản không khí tăng rất mạnh và tiêu hao phần lớn công suất động cơ."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi thép có trọng lượng $P = 0,5\\text{ N}$ rơi thẳng đứng trong dầu. Bỏ qua lực đẩy Archimedes. Ở thời điểm lực cản của dầu bằng $0,2\\text{ N}$ thì độ lớn hợp lực tác dụng lên viên bi là:",
+    "caccauChon": [
+      "$0,7\\text{ N}$",
+      "$0,3\\text{ N}$",
+      "$0,2\\text{ N}$",
+      "$0,5\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hợp lực $F_{hl} = P - F_c = 0,5 - 0,2 = 0,3\\text{ N}$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào của vật rơi trong chất lưu luôn không đổi trong suốt quá trình rơi (bỏ qua sự thay đổi của g và $\\rho$ chất lưu)?",
+    "caccauChon": [
+      "Lực cản của chất lưu.",
+      "Gia tốc của vật.",
+      "Trọng lực và lực đẩy Archimedes (khi vật ngập hoàn toàn).",
+      "Động năng của vật."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi vật ngập hoàn toàn trong chất lưu đồng nhất, trọng lực $P = m \\cdot g$ và lực đẩy Archimedes $F_A = \\rho \\cdot g \\cdot V$ luôn không đổi."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại sao khi thiết kế cánh máy bay, người ta tạo tiết diện mặt trên cong vồng hơn mặt dưới?",
+    "caccauChon": [
+      "Để tăng lực cản không khí.",
+      "Để tạo ra lực nâng khí động học hướng lên trên khi máy bay chuyển động.",
+      "Để giảm trọng lượng cánh máy bay.",
+      "Để chứa được nhiều nhiên liệu hơn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thiết kế cánh máy bay tạo ra sự chênh lệch áp suất giữa mặt trên và mặt dưới khi không khí lướt qua, sinh ra lực nâng hướng lên."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phát biểu về lực cản của chất lưu và lực đẩy Archimedes:",
+    "dsYCon": [
+      "Chất lưu bao gồm cả chất lỏng và chất khí.",
+      "Lực đẩy Archimedes luôn hướng thẳng đứng từ dưới lên trên.",
+      "Lực cản của chất lưu có độ lớn không đổi khi tốc độ của vật thay đổi.",
+      "Vật có diện tích mặt cản càng lớn thì chịu lực cản của chất lưu càng lớn."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Đúng định nghĩa chất lưu.\n- **Ý b) ĐÚNG:** Đúng đặc điểm phương chiều của lực đẩy Archimedes.\n- **Ý c) SAI:** Lực cản tăng khi tốc độ của vật tăng.\n- **Ý d) ĐÚNG:** Đúng yếu tố ảnh hưởng của kích thước/hình dạng."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Thả một viên bi sắt đặc khối lượng $m = 78\\text{ g}$ ($0,078\\text{ kg}$), thể tích $V = 10\\text{ cm}^3$ ($10^{-5}\\text{ m}^3$) rơi thẳng đứng từ trạng thái nghỉ trong một bể nước sâu có khối lượng riêng $\\rho = 1000\\text{ kg/m}^3$. Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Trọng lực tác dụng lên viên bi có độ lớn là $P = 0,78\\text{ N}$.",
+      "Lực đẩy Archimedes tác dụng lên viên bi khi ngập hoàn toàn trong nước là $F_A = 0,1\\text{ N}$.",
+      "Ngay tại thời điểm vừa thả ($v = 0$), gia tốc rơi của viên bi trong nước bằng g = $10\\text{ m/s}^2$.",
+      "Khi viên bi đạt vận tốc giới hạn trong nước, lực cản của nước tác dụng lên viên bi có độ lớn là $F_c = 0,68\\text{ N}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $P = m \\cdot g = 0,078 \\cdot 10 = 0,78\\text{ N}$.\n- **Ý b) ĐÚNG:** $F_A = \\rho \\cdot g \\cdot V = 1000 \\cdot 10 \\cdot 10^{-5} = 0,1\\text{ N}$.\n- **Ý c) SAI:** Dù $F_c$ = 0 nhưng vẫn có $F_A$ hướng lên: $a_0 = \\frac{P - F_A}{m} = \\frac{0,78 - 0,1}{0,078} \\approx 8,72\\text{ m/s}^2 < g$.\n- **Ý d) ĐÚNG:** Cân bằng lực: $F_c = P - F_A = 0,78 - 0,1 = 0,68\\text{ N}$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét quá trình rơi của một vận động viên nhảy dù từ máy bay xuống đất (chia làm 2 giai đoạn: trước khi mở dù và sau khi mở dù):",
+    "dsYCon": [
+      "Trước khi mở dù, vận động viên rơi nhanh dần cho đến khi đạt vận tốc giới hạn thứ nhất (khoảng 50 - $60\\text{ m/s}$).",
+      "Khi đạt vận tốc giới hạn thứ nhất, hợp lực tác dụng lên vận động viên bằng 0.",
+      "Ngay sau khi bung dù, lực cản không khí tăng đột ngột lớn hơn trọng lực nên gia tốc của vận động viên hướng lên trên (chuyển động chậm dần).",
+      "Sau khi mở dù một khoảng thời gian, vận động viên tiếp tục rơi thẳng đều với vận tốc giới hạn mới lớn hơn lúc chưa mở dù."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Đúng thực tế vật lý của rơi trong không khí.\n- **Ý b) ĐÚNG:** Vật chuyển động thẳng đều nên hợp lực bằng 0.\n- **Ý c) ĐÚNG:** Lực cản đột ngột lớn hơn trọng lực làm giảm tốc độ rơi.\n- **Ý d) SAI:** Vận tốc giới hạn mới NHỎ HƠN nhiều (khoảng 5 - $6\\text{ m/s}$) để tiếp đất an toàn."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một khối gỗ hình hộp chữ nhật có thể tích $V = 400\\text{ cm}^3$ ($4 \\cdot 10^{-4}\\text{ m}^3$) và khối lượng riêng $\\rho_{gỗ} = 750\\text{ kg/m}^3$ được thả vào một chậu nước lớn có khối lượng riêng $\\rho_{nước} = 1000\\text{ kg/m}^3$. Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Khối lượng của khối gỗ là $m = 0,3\\text{ kg}$.",
+      "Khi thả vào nước, khối gỗ sẽ chìm hoàn toàn xuống đáy chậu.",
+      "Khi khối gỗ nổi cân bằng trên mặt nước, độ lớn lực đẩy Archimedes bằng $3\\text{ N}$.",
+      "Thể tích phần gỗ chìm trong nước khi cân bằng là $300\\text{ cm}^3$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $m = \\rho_{gỗ} \\cdot V = 750 \\cdot 4 \\cdot 10^{-4} = 0,3\\text{ kg}$.\n- **Ý b) SAI:** Vì $\\rho_{gỗ} = 750\\text{ kg/m}^3 < \\rho_{nước} = 1000\\text{ kg/m}^3$ nên khối gỗ NỔI trên mặt nước.\n- **Ý c) ĐÚNG:** Vật nổi cân bằng nên $F_A = P = m \\cdot g = 0,3 \\cdot 10 = 3\\text{ N}$.\n- **Ý d) ĐÚNG:** $V_{chìm} = \\frac{F_A}{\\rho_{nước} \\cdot g} = \\frac{3}{1000 \\cdot 10} = 3 \\cdot 10^{-4}\\text{ m}^3 = 300\\text{ cm}^3$."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một tàu ngầm có khối lượng 1000 tấn ($10^6\\text{ kg}$) đang lặn sâu và chuyển động thẳng đều theo phương ngang dưới biển. Biết lực đẩy của động cơ tàu ngầm theo phương ngang là $F_{đ} = 50000\\text{ N}$. Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Lực cản của nước biển tác dụng lên tàu ngầm theo phương ngang có độ lớn là $50000\\text{ N}$.",
+      "Vì tàu ngầm đang chuyển động thẳng đều theo phương ngang (không đổi độ sâu) nên lực đẩy Archimedes cân bằng với trọng lực của tàu.",
+      "Độ lớn lực đẩy Archimedes tác dụng lên tàu ngầm lúc này là $10^7\\text{ N}$.",
+      "Nếu muốn tàu ngầm lặn sâu hơn, người ta phải bơm bớt nước ra khỏi các khoang chứa của tàu."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Chạy thẳng đều ngang nên $F_c = F_{đ} = 50000\\text{ N}$.\n- **Ý b) ĐÚNG:** Tàu không chuyển động theo phương thẳng đứng nên $F_A$ = P.\n- **Ý c) ĐÚNG:** $F_A = P = m \\cdot g = 10^6 \\cdot 10 = 10^7\\text{ N}$.\n- **Ý d) SAI:** Muốn lặn sâu hơn phải BƠM THÊM nước vào khoang dằn để tăng trọng lượng $P > F_A$."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Khi một vật chuyển động trong chất lưu (chất lỏng hoặc chất khí), ngoài lực cản của chất lưu còn có lực đẩy Archimedes tác dụng lên vật.\na) Nêu điểm giống nhau và khác nhau cơ bản giữa lực cản chất lưu và lực đẩy Archimedes tác dụng lên một hòn bi sắt đang rơi trong dầu nhớt.\nb) Một tờ giấy để phẳng và một tờ giấy được vo tròn có cùng khối lượng, khi thả rơi cùng lúc trong không khí thì tờ giấy nào rơi xuống đất nhanh hơn? Giải thích vì sao.\nc) Trình bày nguyên tắc tạo ra lực nâng khí động học tác dụng lên cánh máy bay khi máy bay chuyển động trên đường băng cất cánh.",
+    "giaithich": "Lời giải chi tiết:\na) So sánh lực cản chất lưu và lực đẩy Archimedes:\n• Giống nhau: Cả hai lực đều có phương thẳng đứng và chiều hướng từ dưới lên trên (ngược chiều với chiều rơi thẳng đứng xuống dưới của hòn bi).\n• Khác nhau:\n  - Lực đẩy Archimedes luôn có chiều thẳng đứng hướng lên trên bất kể vật chuyển động theo chiều nào (do chênh lệch áp suất thủy tĩnh theo độ sâu).\n  - Lực cản chất lưu luôn có chiều ngược chiều với vectơ vận tốc chuyển động của vật (nếu hòn bi đi lên thì lực cản hướng xuống, còn lực đẩy Archimedes vẫn hướng lên).\n\nb) Giải thích sự rơi của tờ giấy phẳng và tờ giấy vo tròn:\n• Hai tờ giấy có cùng khối lượng nên chịu tác dụng của trọng lực $P = m \\cdot g$ như nhau.\n• Tuy nhiên, tờ giấy để phẳng có diện tích cản (diện tích tiết diện ngang) lớn hơn rất nhiều so với khi vo tròn, đồng thời hình dạng phẳng tạo ra dòng khí xoáy cản trở mạnh phía sau. Do đó, lực cản không khí tác dụng lên tờ giấy phẳng lớn hơn rất nhiều, làm gia tốc rơi nhỏ hơn nên tờ giấy vo tròn sẽ rơi xuống đất nhanh hơn.\n\nc) Nguyên tắc tạo ra lực nâng cánh máy bay:\n• Cánh máy bay được chế tạo với hình dạng khí động học đặc biệt: mặt trên cong lồi hơn mặt dưới và đặt nghiêng một góc nhỏ so với luồng khí tới.\n• Khi máy bay lao nhanh về phía trước, luồng không khí chạy qua mặt trên của cánh phải đi quãng đường dài hơn nên có tốc độ lớn hơn luồng khí chạy qua mặt phẳng phía dưới. Theo định luật Bernoulli, tốc độ dòng khí lớn hơn làm áp suất tĩnh ở mặt trên cánh nhỏ hơn áp suất ở mặt dưới.\n• Sự chênh lệch áp suất này tạo ra một hợp lực hướng từ dưới lên trên (gọi là lực nâng khí động học), nâng máy bay cất cánh và giữ vững độ cao trên bầu trời."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một viên bi kim loại hình cầu có khối lượng $m = 50\\text{ g}$ và thể tích $V = 10\\text{ cm}^3$ được thả rơi không vận tốc đầu trong một bình chứa đầy dầu nhớt có khối lượng riêng $\\rho = 1200\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$. Biết lực cản của dầu nhớt tác dụng lên viên bi tỉ lệ với tốc độ theo công thức $F_c = k \\cdot v$, với hệ số $k = 0{,}04\\text{ kg/s}$.\na) Tính độ lớn của trọng lực và lực đẩy Archimedes tác dụng lên viên bi khi ngập hoàn toàn trong dầu.\nb) Tính gia tốc chuyển động của viên bi ở thời điểm ban đầu ngay sau khi buông tay (lúc vận tốc $v \\approx 0$).\nc) Khi viên bi chuyển động thẳng đều (đạt tốc độ giới hạn $v_{gh}$), hãy tính độ lớn của lực cản chất lưu và tốc độ giới hạn $v_{gh}$ của viên bi.",
+    "giaithich": "Lời giải chi tiết:\nĐổi đơn vị: $m = 50\\text{ g} = 0{,}05\\text{ kg}$; $V = 10\\text{ cm}^3 = 10^{-5}\\text{ m}^3$.\n\na) Trọng lực $P$ và lực đẩy Archimedes $F_A$:\n• Trọng lực tác dụng lên viên bi: $P = m \\cdot g = 0{,}05 \\times 10 = 0{,}5\\text{ N}$.\n• Lực đẩy Archimedes: $F_A = \\rho \\cdot g \\cdot V = 1200 \\times 10 \\times 10^{-5} = 0{,}12\\text{ N}$.\n\nb) Gia tốc ban đầu khi $v \\approx 0$:\n• Khi $v \\approx 0$, lực cản chất lỏng $F_c = k \\cdot v \\approx 0$.\n• Chọn chiều dương thẳng đứng hướng xuống. Theo Định luật II Newton:\n  $P - F_A = m \\cdot a \\Rightarrow a = \\frac{P - F_A}{m} = \\frac{0{,}5 - 0{,}12}{0{,}05} = \\frac{0{,}38}{0{,}05} = 7{,}6\\text{ m/s}^2$.\n\nc) Lực cản và tốc độ giới hạn $v_{gh}$ khi rơi thẳng đều:\n• Khi viên bi chuyển động thẳng đều với tốc độ giới hạn, gia tốc $a = 0$ nên hợp lực bằng không:\n  $P - F_A - F_c = 0 \\Rightarrow F_c = P - F_A = 0{,}5 - 0{,}12 = 0{,}38\\text{ N}$.\n• Mặt khác: $F_c = k \\cdot v_{gh} \\Rightarrow v_{gh} = \\frac{F_c}{k} = \\frac{0{,}38}{0{,}04} = 9{,}5\\text{ m/s}$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một khối lập phương bằng gỗ đồng chất có cạnh $a = 10\\text{ cm}$, khối lượng riêng $\\rho_{gỗ} = 750\\text{ kg/m}^3$ được thả vào một chậu nước có khối lượng riêng $\\rho_{nước} = 1000\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$.\na) Chứng minh rằng khối gỗ sẽ nổi trên mặt nước và tính chiều cao phần gỗ chìm trong nước cùng chiều cao phần gỗ nổi trên mặt nước khi nằm cân bằng.\nb) Để nhấn khối gỗ chìm sâu hơn sao cho mặt trên của khối gỗ vừa vặn ngang bằng với mặt thoáng của nước (khối gỗ chìm hoàn toàn nhưng chưa chạm đáy), người ta đặt nhẹ lên mặt trên của khối gỗ một quả cân nhỏ có khối lượng $m_0$. Tính khối lượng $m_0$ của quả cân.",
+    "giaithich": "Lời giải chi tiết:\nĐổi đơn vị: $a = 10\\text{ cm} = 0{,}1\\text{ m}$; thể tích khối gỗ $V = a^3 = 0{,}1^3 = 10^{-3}\\text{ m}^3$.\n\na) Chứng minh khối gỗ nổi và tính chiều cao phần chìm/nổi:\n• Khối lượng khối gỗ: $m_{gỗ} = \\rho_{gỗ} \\cdot V = 750 \\times 10^{-3} = 0{,}75\\text{ kg}$.\n• Trọng lượng khối gỗ: $P_{gỗ} = m_{gỗ} \\cdot g = 0{,}75 \\times 10 = 7{,}5\\text{ N}$.\n• Lực đẩy Archimedes cực đại nếu khối gỗ chìm hoàn toàn:\n  $F_{A(max)} = \\rho_{nước} \\cdot g \\cdot V = 1000 \\times 10 \\times 10^{-3} = 10\\text{ N}$.\n• Vì $F_{A(max)} > P_{gỗ}$ (do $\\rho_{gỗ} < \\rho_{nước}$) nên khối gỗ sẽ nổi trên mặt nước.\n• Khi khối gỗ nổi cân bằng: $F_A = P_{gỗ} \\Leftrightarrow \\rho_{nước} \\cdot g \\cdot V_{chìm} = 7{,}5$.\n• Thể tích phần chìm: $V_{chìm} = \\frac{7{,}5}{1000 \\times 10} = 7{,}5 \\times 10^{-4}\\text{ m}^3$.\n• Chiều cao phần gỗ chìm trong nước (diện tích đáy $S = a^2 = 0{,}01\\text{ m}^2$):\n  $h_{chìm} = \\frac{V_{chìm}}{a^2} = \\frac{7{,}5 \\times 10^{-4}}{0{,}01} = 0{,}075\\text{ m} = 7{,}5\\text{ cm}$.\n• Chiều cao phần gỗ nổi trên mặt nước: $h_{nổi} = a - h_{chìm} = 10 - 7{,}5 = 2{,}5\\text{ cm}$.\n\nb) Khối lượng quả cân $m_0$ để khối gỗ vừa vặn ngập hoàn toàn:\n• Khi khối gỗ chìm hoàn toàn, lực đẩy Archimedes đạt cực đại: $F_{A(max)} = 10\\text{ N}$.\n• Điều kiện cân bằng của hệ (khối gỗ + quả cân):\n  $P_{gỗ} + P_0 = F_{A(max)} \\Leftrightarrow 7{,}5 + m_0 \\cdot g = 10 \\Rightarrow 10 \\cdot m_0 = 2{,}5 \\Rightarrow m_0 = 0{,}25\\text{ kg} = 250\\text{ g}$."
+  }
+]

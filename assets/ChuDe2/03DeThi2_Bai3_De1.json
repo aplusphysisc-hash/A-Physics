@@ -1,0 +1,427 @@
+[
+  {
+    "id": 1,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động rơi tự do là:",
+    "caccauChon": [
+      "Chuyển động thẳng đều.",
+      "Chuyển động thẳng nhanh dần đều dưới tác dụng của trọng lực.",
+      "Chuyển động tròn đều.",
+      "Chuyển động chậm dần đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Rơi tự do là chuyển động thẳng nhanh dần đều chỉ dưới tác dụng của trọng lực (bỏ qua sức cản không khí)."
+  },
+  {
+    "id": 2,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đặc điểm nào sau đây KHÔNG PHẢI của chuyển động rơi tự do?",
+    "caccauChon": [
+      "Phương thẳng đứng.",
+      "Chiều từ trên xuống dưới.",
+      "Vận tốc tại vị trí ban đầu khác 0.",
+      "Là chuyển động thẳng nhanh dần đều."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vật rơi tự do có vận tốc ban đầu bằng 0 $(v_0 = 0)$."
+  },
+  {
+    "id": 3,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại một nơi nhất định trên Trái Đất và ở gần mặt đất, các vật đều rơi tự do với:",
+    "caccauChon": [
+      "Các gia tốc khác nhau tùy theo khối lượng.",
+      "Cùng một gia tốc $g$.",
+      "Vận tốc luôn bằng nhau tại mọi thời điểm.",
+      "Quãng đường đi được luôn bằng nhau trong cùng một khoảng thời gian."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tại một địa điểm, mọi vật rơi tự do đều có cùng một gia tốc $g$."
+  },
+  {
+    "id": 4,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính vận tốc của vật rơi tự do sau thời gian $t$ (với $v_0 = 0$) là:",
+    "caccauChon": [
+      "$v = g \\cdot t$",
+      "$v = \\frac{1}{2} \\cdot g \\cdot t^2$",
+      "$v = \\sqrt{2gh}$",
+      "Cả A và C đều đúng."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Công thức vận tốc là $v = gt$, ngoài ra ta có $v^2 = 2gh$ nên $v = \\sqrt{2gh}$ cũng chính xác."
+  },
+  {
+    "id": 5,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính quãng đường đi được của vật rơi tự do trong thời gian $t$ là:",
+    "caccauChon": [
+      "$s = v \\cdot t$",
+      "$s = \\frac{1}{2} \\cdot g \\cdot t^2$",
+      "$s = g \\cdot t^2$",
+      "$s = \\sqrt{2gh}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quãng đường rơi tự do tính theo công thức $s = \\frac{1}{2} gt^2$."
+  },
+  {
+    "id": 6,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức liên hệ giữa vận tốc, gia tốc và quãng đường đi được trong rơi tự do là:",
+    "caccauChon": [
+      "$v = 2gs$",
+      "$v^2 = gs$",
+      "$v^2 = 2gs$",
+      "$v^2 = \\frac{1}{2} gs$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức độc lập thời gian trong rơi tự do là $v^2 = 2gs$ (hoặc $v^2 = 2gh$)."
+  },
+  {
+    "id": 7,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lấy $g = 10\\text{ m/s}^2$. Một vật thả rơi tự do từ ngọn cây cao $20\\text{ m}$ xuống đất. Thời gian rơi của vật là:",
+    "caccauChon": [
+      "$1\\text{ s}$",
+      "$2\\text{ s}$",
+      "$3\\text{ s}$",
+      "$4\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$h = \\frac{1}{2} gt^2 \\implies 20 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\implies t^2 = 4 \\implies t = 2\\text{ s}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do với $g = 10\\text{ m/s}^2$. Vận tốc của vật khi chạm đất sau $3\\text{ s}$ là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$30\\text{ m/s}$",
+      "$40\\text{ m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$v = gt = 10 \\cdot 3 = 30\\text{ m/s}$."
+  },
+  {
+    "id": 9,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thả một hòn đá rơi tự do từ độ cao $h$ xuống đất. Nếu bỏ qua sức cản không khí thì vận tốc chạm đất của hòn đá phụ thuộc vào:",
+    "caccauChon": [
+      "Khối lượng của hòn đá.",
+      "Kích thước của hòn đá.",
+      "Độ cao $h$ và gia tốc rơi tự do $g$.",
+      "Hình dạng của hòn đá."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc chạm đất $v = \\sqrt{2gh}$ chỉ phụ thuộc vào độ cao $h$ và gia tốc $g$."
+  },
+  {
+    "id": 10,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Gia tốc rơi tự do ở gần mặt đất thường được lấy xấp xỉ bằng:",
+    "caccauChon": [
+      "$5\\text{ m/s}^2$",
+      "$9,8\\text{ m/s}^2$ hoặc $10\\text{ m/s}^2$",
+      "$15\\text{ m/s}^2$",
+      "$3\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Giá trị chuẩn của $g$ gần mặt đất là khoảng $9,8\\text{ m/s}^2$ hoặc làm tròn thành $10\\text{ m/s}^2$."
+  },
+  {
+    "id": 11,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do trong 2 giây đầu tiên đi được quãng đường là (lấy $g = 10\\text{ m/s}^2$):",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$20\\text{ m}$",
+      "$30\\text{ m}$",
+      "$40\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$s = \\frac{1}{2} \\cdot 10 \\cdot 2^2 = 20\\text{ m}$."
+  },
+  {
+    "id": 12,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động rơi tự do, quãng đường đi được trong giây thứ $t$ được tính theo công thức tổng quát là:",
+    "caccauChon": [
+      "$\\Delta s = g \\cdot t$",
+      "$\\Delta s = g \\cdot$ $(t - 0,5)$",
+      "$\\Delta s = \\frac{1}{2} \\cdot g \\cdot t^2$",
+      "Không có công thức riêng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quãng đường đi trong giây thứ $t$ là hiệu quãng đường trong $t$ giây và $(t-1)$ giây: $s(t) - s(t-1) = \\frac{1}{2}g[t^2 - (t-1)^2] = g(t - 0{,}5)$."
+  },
+  {
+    "id": 13,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do chạm đất với vận tốc $40\\text{ m/s}$ (với $g = 10\\text{ m/s}^2$). Độ cao nơi thả vật là:",
+    "caccauChon": [
+      "$40\\text{ m}$",
+      "$60\\text{ m}$",
+      "$80\\text{ m}$",
+      "$100\\text{ m}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$v^2 = 2gh$  $\\implies 40^2 = 2 \\cdot 10 \\cdot h \\implies 1600 = 20$ h  $\\implies h = 80\\text{ m}$."
+  },
+  {
+    "id": 14,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai vật có khối lượng $m_1 = 1\\text{ kg}$ và $m_2 = 2\\text{ kg}$ được thả rơi tự do đồng thời từ cùng một độ cao ở cùng một địa điểm. Bỏ qua sức cản không khí. Phát biểu nào sau đây đúng?",
+    "caccauChon": [
+      "Vật $m_2$ chạm đất trước.",
+      "Vật $m_1$ chạm đất trước.",
+      "Hai vật chạm đất cùng một lúc.",
+      "Không xác định được."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Mọi vật rơi tự do đều có cùng gia tốc $g$ nên rơi nhanh như nhau và chạm đất cùng lúc."
+  },
+  {
+    "id": 15,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do đi được quãng đường $45\\text{ m}$. Lấy $g = 10\\text{ m/s}^2$. Thời gian vật rơi là:",
+    "caccauChon": [
+      "$2\\text{ s}$",
+      "$3\\text{ s}$",
+      "$4\\text{ s}$",
+      "$5\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$s = \\frac{1}{2} gt^2 \\implies 45 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\implies t^2 = 9 \\implies t = 3\\text{ s}$."
+  },
+  {
+    "id": 16,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do trong thời gian $t$ đi được quãng đường $s$. Hỏi trong thời gian $2t$, vật đi được quãng đường là bao nhiêu?",
+    "caccauChon": [
+      "$2s$",
+      "$3s$",
+      "$4s$",
+      "$\\frac{s}{2}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$s$ tỉ lệ thuận với bình phương thời gian ($t^2$). Thời gian tăng gấp đôi ($2t$) thì quãng đường tăng gấp 4 lần ($4s$)."
+  },
+  {
+    "id": 17,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật thả rơi tự do từ độ cao $45\\text{ m}$ xuống đất. Lấy $g = 10\\text{ m/s}^2$. Vận tốc của vật ngay trước khi chạm đất là:",
+    "caccauChon": [
+      "$20\\text{ m/s}$",
+      "$30\\text{ m/s}$",
+      "$40\\text{ m/s}$",
+      "$50\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 45} = \\sqrt{900} = 30\\text{ m/s}$."
+  },
+  {
+    "id": 18,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Yếu tố nào sau đây là nguyên nhân khiến các vật thực tế ngoài đời rơi không cùng tốc độ (ví dụ hòn sỏi rơi nhanh hơn chiếc lá)?",
+    "caccauChon": [
+      "Khối lượng khác nhau.",
+      "Trọng lực khác nhau.",
+      "Lực cản của không khí.",
+      "Vị trí thả khác nhau."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong thực tế có lực cản không khí tác dụng, ảnh hưởng mạnh đến các vật nhẹ hoặc có diện tích lớn."
+  },
+  {
+    "id": 19,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động của một hạt mưa rơi từ đám mây xuống đất (khi chưa đạt vận tốc ổn định lớn) có thể xem gần đúng là:",
+    "caccauChon": [
+      "Chuyển động thẳng đều.",
+      "Chuyển động rơi tự do.",
+      "Chuyển động tròn.",
+      "Chuyển động chậm dần đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong bài toán vật lý phổ thông, nếu bỏ qua sức cản, hạt mưa rơi được xem như rơi tự do."
+  },
+  {
+    "id": 20,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho $g = 10\\text{ m/s}^2$. Quãng đường vật rơi tự do đi được trong giây thứ 3 là:",
+    "caccauChon": [
+      "$15\\text{ m}$",
+      "$20\\text{ m}$",
+      "$25\\text{ m}$",
+      "$35\\text{ m}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Quãng đường giây thứ 3: $s_3 = s(3) - s(2) = \\frac{1}{2} \\cdot 10 \\cdot 3^2 - \\frac{1}{2} \\cdot 10 \\cdot 2^2 = 45 - 20 = 25\\text{ m}$."
+  },
+  {
+    "id": 21,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét hiện tượng một vật rơi tự do gần mặt đất.",
+    "dsYCon": [
+      "Rơi tự do là chuyển động thẳng nhanh dần đều.",
+      "Gia tốc rơi tự do của mọi vật tại cùng một nơi là hoàn toàn như nhau.",
+      "Khi vật rơi tự do, vận tốc ban đầu của vật luôn khác không.",
+      "Lực cản của không khí đóng vai trò quyết định tạo nên bản chất của rơi tự do."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "giaithich": "Vật rơi tự do có vận tốc ban đầu $v_0 = 0$ và bản chất là bỏ qua sức cản không khí."
+  },
+  {
+    "id": 22,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật được thả rơi tự do từ độ cao $h = 80\\text{ m}$ xuống đất, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian từ lúc thả đến khi chạm đất là 4 giây.",
+      "Vận tốc của vật khi chạm đất là $30\\text{ m/s}$.",
+      "Quãng đường vật đi được trong giây cuối cùng trước khi chạm đất là $35\\text{ m}$.",
+      "Sau 2 giây kể từ lúc thả, vật cách mặt đất $60\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "+ $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{160/10} = 4\\text{ s}$ (a đúng).\n+ $v = gt = 10 \\cdot 4 = 40\\text{ m/s}$ (b sai, phải là $40\\text{ m/s}$).\n+ Quãng đường giây thứ 4: $s_4 = s(4) - s(3) = 80 - \\frac{1}{2} \\cdot 10 \\cdot 3^2 = 80 - 45 = 35\\text{ m}$ (c đúng).\n+ Sau $2s$, quãng đường rơi $s_2 = \\frac{1}{2} \\cdot 10 \\cdot 2^2 = 20\\text{ m} \\implies$  Khoảng cách đến đất: $80 - 20 = 60\\text{ m}$ (d đúng)."
+  },
+  {
+    "id": 23,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Phát biểu về các công thức của chuyển động rơi tự do.",
+    "dsYCon": [
+      "Công thức tính vận tốc tức thời là $v = g \\cdot t$.",
+      "Công thức tính quãng đường là $s = g \\cdot t^2$.",
+      "Công thức liên hệ vận tốc và quãng đường là $v^2 = 2gs$.",
+      "Thời gian rơi của vật phụ thuộc vào khối lượng của vật đó."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "Công thức quãng đường đúng là $s = \\frac{1}{2} \\cdot g \\cdot t^2$; thời gian rơi không phụ thuộc khối lượng vật."
+  },
+  {
+    "id": 24,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "So sánh sự rơi của các vật trong không khí.",
+    "dsYCon": [
+      "Trong chân không, mọi vật rơi với cùng một gia tốc.",
+      "Chiếc lá rơi chậm hơn hòn sỏi là do lực cản không khí.",
+      "Nếu bơm hết không khí trong ống thủy tinh chứa viên bi và chiếc lông chim, chúng sẽ rơi nhanh như nhau.",
+      "Trọng lực tác dụng lên viên bi lớn hơn trọng lực tác dụng lên chiếc lông chim nên viên bi rơi nhanh hơn chiếc lông chim trong mọi điều kiện."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "Trong chân không (hoặc khi không có lực cản), viên bi và lông chim rơi nhanh như nhau, không phụ thuộc vào trọng lượng lớn hay nhỏ.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_ong_newton_chan_khong.webp"
+  },
+  {
+    "id": 25,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật rơi tự do có vận tốc chạm đất là $20\\text{ m/s}$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian rơi của vật là 2 giây.",
+      "Độ cao thả vật là $40\\text{ m}$.",
+      "Quãng đường vật đi được trong giây đầu tiên là $5\\text{ m}$.",
+      "Vận tốc của vật sau khi rơi được 1 giây là $15\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "+ $t = \\frac{v}{g} = 20/10 = 2\\text{ s}$ (a đúng).\n+ $h = \\frac{v^2}{2g} = 400/20 = 20\\text{ m}$ (b sai, phải là $20\\text{ m}$).\n+ $s_1 = \\frac{1}{2} \\cdot 10 \\cdot 1^2 = 5\\text{ m}$ (c đúng).\n+ $v$(sau 1s) = $gt = 10 \\cdot 1 = 10\\text{ m/s}$ (d sai, phải là $10\\text{ m/s}$)."
+  },
+  {
+    "id": 26,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Thế nào là sự rơi tự do? Nêu các đặc điểm về phương, chiều và gia tốc của chuyển động rơi tự do.",
+    "giaithich": "- Khái niệm: Sự rơi tự do là sự chuyển động của các vật chỉ dưới tác dụng của trọng lực (bỏ qua sức cản không khí).\n- Đặc điểm:\n+ Phương chuyển động: Phương thẳng đứng.\n+ Chiều chuyển động: Từ trên xuống dưới.\n+ Bản chất: Là chuyển động thẳng nhanh dần đều với vận tốc ban đầu bằng 0 $(v_0 = 0)$.\n+ Gia tốc: Tại một nơi nhất định trên Trái Đất, mọi vật rơi tự do đều có cùng gia tốc $g$ (ký hiệu là gia tốc rơi tự do)."
+  },
+  {
+    "id": 27,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập): Một vật được thả rơi tự do từ độ cao $h = 45\\text{ m}$ xuống đất. Lấy gia tốc rơi tự do $g = 10\\text{ m/s}^2$. Tính:\na) Thời gian từ lúc thả đến khi vật chạm đất.\nb) Vận tốc của vật ngay trước khi chạm đất.",
+    "giaithich": "a) Thời gian rơi:\nÁp dụng công thức: $h = \\frac{1}{2} \\cdot g \\cdot t^2$\n $\\implies 45 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\implies 45 = 5t^2 \\implies t^2 = 9 \\implies t = 3\\text{ (s)}$.\nb) Vận tốc chạm đất:\nÁp dụng công thức: $v = g \\cdot t = 10 \\cdot 3 = 30\\text{ (m/s)}$."
+  },
+  {
+    "id": 28,
+    "baiSo": 3,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập): Một vật rơi tự do tại nơi có $g = 10\\text{ m/s}^2$. Tính quãng đường vật đi được trong:\na) 4 giây đầu tiên.\nb) Giây thứ 4.",
+    "giaithich": "a) Quãng đường đi được trong 4 giây đầu:\n$s_4 = \\frac{1}{2} \\cdot g \\cdot t^2 = \\frac{1}{2} \\cdot 10 \\cdot 4^2 = 5 \\cdot 16 = 80\\text{ (m)}$.\nb) Quãng đường đi được trong giây thứ 4:\nQuãng đường đi trong 3 giây đầu là: $s_3 = \\frac{1}{2} \\cdot 10 \\cdot 3^2 = 45\\text{ (m)}$.\nQuãng đường đi trong giây thứ 4 là: $\\Delta s_4 = s_4 - s_3 = 80 - 45 = 35\\text{ m}$."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "tenChuDe": "Chủ đề Mở đầu",
+    "moTa": "Đối tượng Vật lý, quy tắc an toàn, biển báo phòng thực hành & 6 bước tính sai số",
+    "fileJson": "ChuDeMoDau/04PhanXa1.json",
+    "soCau": 15,
+    "isCoSan": true
+  },
+  {
+    "id": 2,
+    "tenChuDe": "Chủ đề 1: Mô tả chuyển động",
+    "moTa": "Độ dịch chuyển, quãng đường, tốc độ, vận tốc, cộng vận tốc, đồ thị (d - t), gia tốc & chuyển động biến đổi đều",
+    "fileJson": "ChuDe1/04PhanXa1.json",
+    "soCau": 20,
+    "isCoSan": true
+  },
+  {
+    "id": 3,
+    "tenChuDe": "Chủ đề 2: Các dạng chuyển động cơ bản",
+    "moTa": "Chuyển động thẳng đều, thẳng biến đổi đều, rơi tự do, ném ngang, tròn đều & ném xiên",
+    "fileJson": "ChuDe2/04PhanXa2.json",
+    "soCau": 20,
+    "isCoSan": true
+  },
+  {
+    "id": 4,
+    "tenChuDe": "Chủ đề 3: Động lực học — Các dạng của lực",
+    "moTa": "Ba định luật Newton, tổng hợp và phân tích lực, lực đàn hồi Hooke, lực ma sát, lực đẩy Archimedes và chuyển động trong chất lưu",
+    "fileJson": "ChuDe3/04PhanXa3.json",
+    "soCau": 20,
+    "isCoSan": true
+  },
+  {
+    "id": 5,
+    "tenChuDe": "Chủ đề 4: Moment lực - Cân bằng của vật rắn",
+    "moTa": "Moment lực, cánh tay đòn, quy tắc moment lực, đòn bẩy, ngẫu lực và điều kiện cân bằng vật rắn",
+    "fileJson": "ChuDe4/04PhanXa4.json",
+    "soCau": 20,
+    "isCoSan": true
+  },
+  {
+    "id": 6,
+    "tenChuDe": "Chủ đề 5: Năng lượng, công, công suất",
+    "moTa": "Công cơ học, công suất, hiệu suất, động năng, thế năng & định luật bảo toàn cơ năng",
+    "fileJson": "ChuDe5/04PhanXa5.json",
+    "soCau": 20,
+    "isCoSan": true
+  },
+  {
+    "id": 7,
+    "tenChuDe": "Chủ đề 6: Động lượng",
+    "moTa": "Động lượng, xung lượng của lực, định luật bảo toàn động lượng, va chạm đàn hồi & va chạm mềm",
+    "fileJson": "ChuDe6/04PhanXa6.json",
+    "soCau": 20,
+    "isCoSan": true
+  }
+]

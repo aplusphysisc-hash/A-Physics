@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phép đo nào sau đây là phép đo trực tiếp?",
+    "caccauChon": [
+      "Đo vận tốc xe bằng công thức $v = \\frac{s}{t}$.",
+      "Đo chiều dài bàn học bằng thước dây.",
+      "Đo diện tích phòng học bằng cách đo chiều dài và chiều rộng.",
+      "Đo thể tích khối gỗ hình lập phương bằng cách đo độ dài cạnh."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đo chiều dài bằng thước dây là đọc trực tiếp kết quả trên thước, nên là phép đo trực tiếp. Các phương án còn lại đều tính qua công thức nên là phép đo gián tiếp."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính sai số tỉ đối $\\delta A$ của đại lượng $A$ là:",
+    "caccauChon": [
+      "$\\delta A = \\frac{\\bar{A}}{\\Delta A} \\cdot 100\\%$",
+      "$\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%$",
+      "$\\delta A = \\bar{A} \\cdot \\Delta A \\cdot 100\\%$",
+      "$\\delta A = (\\bar{A} + \\Delta A) \\cdot 100\\%$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số tỉ đối là tỉ số phần trăm giữa sai số tuyệt đối $\\Delta A$ và giá trị trung bình $\\bar{A}$: $\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phép đo thời gian rơi tự do cho kết quả $t = (0{,}40 \\pm 0{,}02)\\text{ s}$. Sai số tỉ đối của phép đo là:",
+    "caccauChon": [
+      "$2\\%$",
+      "$5\\%$",
+      "$0{,}05\\%$",
+      "$4\\%$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ta có $\\delta t = \\frac{\\Delta t}{\\bar{t}} \\cdot 100\\% = \\frac{0{,}02}{0{,}40} \\cdot 100\\% = 5\\%$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đại lượng $y$ có công thức $y = \\frac{a \\cdot b}{c}$. Sai số tỉ đối $\\delta y$ được xác định theo công thức:",
+    "caccauChon": [
+      "$\\delta y = \\delta a + \\delta b - \\delta c$",
+      "$\\delta y = \\delta a + \\delta b + \\delta c$",
+      "$\\delta y = \\frac{\\delta a \\cdot \\delta b}{\\delta c}$",
+      "$\\delta y = \\delta a \\cdot \\delta b \\cdot \\delta c$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số tỉ đối của một tích hoặc thương bằng tổng các sai số tỉ đối của các thừa số: $\\delta y = \\delta a + \\delta b + \\delta c$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn cách viết kết quả đo chiều dài ĐÚNG theo quy tắc làm tròn:",
+    "caccauChon": [
+      "$L = (15{,}245 \\pm 0{,}2)\\text{ cm}$",
+      "$L = (15{,}2 \\pm 0{,}245)\\text{ cm}$",
+      "$L = (15{,}2 \\pm 0{,}2)\\text{ cm}$",
+      "$L = (15 \\pm 0{,}24)\\text{ cm}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Giá trị trung bình $\\bar{L}$ phải được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối $\\Delta L$. Ở đây $\\Delta L = 0{,}2\\text{ cm}$ có $1$ chữ số thập phân nên $\\bar{L} = 15{,}2\\text{ cm}$ cũng lấy $1$ chữ số thập phân."
+  }
+]

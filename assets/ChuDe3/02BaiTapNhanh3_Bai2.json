@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hợp lực của hai lực đồng quy $\\vec{F}_1$ và $\\vec{F}_2$ hợp với nhau một góc $\\alpha$ có độ lớn được tính theo công thức nào?",
+    "caccauChon": [
+      "$F = F_1 + F_2$",
+      "$F = \\left| F_1 - F_2 \\right|$",
+      "$F = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha}$",
+      "$F = \\sqrt{F_1^2 + F_2^2 - 2F_1F_2\\cos\\alpha}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo quy tắc hình bình hành, độ lớn hợp lực của hai lực đồng quy hợp với nhau một góc $\\alpha$ được tính bằng công thức $F = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha}$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây là đúng về quy tắc hình bình hành để tổng hợp lực?",
+    "caccauChon": [
+      "Hợp lực được biểu diễn bằng đường chéo của hình bình hành mà hai cạnh kề là hai lực thành phần.",
+      "Hợp lực luôn luôn bằng tổng độ lớn của hai lực thành phần.",
+      "Hợp lực có phương vuông góc với cả hai lực thành phần.",
+      "Hai lực thành phần phải luôn ngược chiều nhau."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Quy tắc hình bình hành phát biểu rằng: Nếu hai lực đồng quy được biểu diễn bằng hai cạnh của một hình bình hành vẽ từ một điểm, thì hợp lực được biểu diễn bằng đường chéo của hình bình hành đó xuất phát từ cùng điểm đó."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều kiện cân bằng của một chất điểm chịu tác dụng của nhiều lực là tổng hợp các lực tác dụng lên vật phải bằng:",
+    "caccauChon": [
+      "Một hằng số khác không.",
+      "Không (véc-tơ không).",
+      "Độ lớn của lực lớn nhất.",
+      "Tổng các trọng lực của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Điều kiện cần và đủ để một chất điểm đứng yên hoặc chuyển động thẳng đều (cân bằng) là tổng hợp các lực tác dụng lên nó phải bằng không ($\\sum \\vec{F} = \\vec{0}$)."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi phân tích một lực $F$ thành hai lực thành phần vuông góc $F_x$ và $F_y$ theo hai trục tọa độ vuông góc Ox và Oy, gọi $\\alpha$ là góc giữa F và trục $Ox$. Công thức tính độ lớn $F_x$ là gì?",
+    "caccauChon": [
+      "$F_x = F \\cdot \\sin\\alpha$",
+      "$F_x = F \\cdot \\cos\\alpha$",
+      "$F_x = \\frac{F}{\\cos\\alpha}$",
+      "$F_x = F \\cdot \\tan\\alpha$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Theo hệ thức lượng trong tam giác vuông, hình chiếu của lực $F$ lên trục $Ox$ nằm kề với góc $\\alpha$ nên $F_x = F \\cdot \\cos\\alpha$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm đứng yên dưới tác dụng của ba lực đồng quy $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$ có độ lớn thỏa mãn điều kiện nào sau đây?",
+    "caccauChon": [
+      "$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$",
+      "$F_1 + F_2 = F_3$",
+      "$F_1^2 + F_2^2 = F_3^2$",
+      "Ba lực phải đôi một vuông góc với nhau."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Để chất điểm đứng yên (cân bằng), tổng hợp tất cả các lực tác dụng lên vật phải bằng véc-tơ không, tức là $\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$."
+  }
+]

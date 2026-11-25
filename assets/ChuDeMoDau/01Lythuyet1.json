@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "tieude": "Bài 1: Làm quen với Vật lý",
+    "noidung": "Đối tượng nghiên cứu, mục tiêu, phương pháp nghiên cứu Vật lý và ảnh hưởng của Vật lý đối với đời sống, kỹ thuật.",
+    "videoYoutubeId": "0_FJwNx0EHU",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Đối tượng nghiên cứu của Vật lý và Mục tiêu của môn Vật lý",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đầu tiên Vật lý là gì?",
+            "noiDung": "Vật lý là ngành khoa học tự nhiên nghiên cứu về vật chất, năng lượng và sự tương tác giữa chúng."
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Đối tượng nghiên cứu và Mục tiêu của môn Vật lý",
+            "noiDung": "Vật lý khám phá các quy luật vận động tổng quát của tự nhiên:",
+            "danhSachYCon": [
+              "**Đối tượng nghiên cứu của Vật lý:** Các dạng vận động của vật chất (như chuyển động cơ học, nhiệt, điện, từ, ánh sáng) và năng lượng.",
+              "**Mục tiêu của môn Vật lý:** Tìm ra các quy luật vận động chung nhất của thế giới tự nhiên, từ đó ứng dụng vào đời sống và tạo ra công nghệ mới."
+            ]
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Phương pháp nghiên cứu Vật lý (2 phương pháp chính)",
+            "noiDung": "Quá trình tìm tòi quy luật vật lý dựa trên sự kết hợp chặt chẽ giữa hai phương pháp:",
+            "danhSachYCon": [
+              "**Phương pháp thực nghiệm:** Tự mình quan sát thực tế, tiến hành làm thí nghiệm để thu thập dữ liệu và rút ra bài học.",
+              "**Phương pháp lý thuyết:** Sử dụng toán học, mô hình giả định và suy luận logic để dự đoán bản chất các hiện tượng trước khi kiểm chứng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Ảnh hưởng của Vật lý đối với đời sống và kỹ thuật",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Ứng dụng trong đời sống và khoa học công nghệ",
+            "noiDung": "Thành tựu của Vật lý hiện diện trong hầu hết các lĩnh vực văn minh nhân loại:",
+            "danhSachYCon": [
+              "**Trong đời sống và sinh hoạt:** Tạo ra điện sinh hoạt, quạt, tủ lạnh, xe máy, điện thoại... giúp nâng cao chất lượng cuộc sống.",
+              "**Trong khoa học kỹ thuật và công nghệ:** Là nền tảng cho công nghệ thông tin, tự động hóa, chế tạo rô-bốt, phát triển năng lượng mặt trời và vật liệu mới."
+            ]
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "TÁC HẠI (nếu không sử dụng đúng cách): Gây ô nhiễm môi trường, sự cố rò rỉ hạt nhân, chế tạo các loại vũ khí hủy diệt hàng loạt."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "tieude": "Bài 2: Vấn đề an toàn trong Vật lý",
+    "noidung": "Các nguy cơ mất an toàn trong nghiên cứu Vật lý, quy tắc an toàn trong phòng thực hành và các nhóm biển báo an toàn thông dụng.",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp",
+    "videoYoutubeId": "U07ACxp_gYM",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Các nguy cơ mất an toàn trong nghiên cứu và học tập Vật lý",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Bốn nguy cơ mất an toàn chính",
+            "noiDung": "Khi làm việc với các thiết bị thí nghiệm Vật lý, cần đặc biệt lưu ý 4 nhóm nguy cơ sau:",
+            "danhSachYCon": [
+              "**Nguy cơ về điện:** Chập cháy điện, rò rỉ điện gây giật điện nguy hiểm khi chạm vào dây điện hở.",
+              "**Nguy cơ về hóa chất và độc hại:** Hít phải khí độc, hóa chất bị bắn vào da hoặc mắt trong các bài thực hành.",
+              "**Nguy cơ do thiết bị quang học và bức xạ:** Tia laser chiếu thẳng vào mắt làm hỏng võng mạc, tiếp xúc trực tiếp với các nguồn phát tia bức xạ mạnh.",
+              "**Nguy cơ chấn thương cơ học:** Dụng cụ bằng thủy tinh bị vỡ làm cắt tay, vật nặng rơi vỡ trúng người, các thiết bị dao động mạnh gây va chạm."
+            ]
+          },
+          {
+            "loai": "nhom_bien_bao",
+            "tieuDePhu": "Hình ảnh 4 nguy cơ nguy hiểm trong phòng thực hành",
+            "noiDung": "Quan sát và nhận diện trực quan 4 nhóm nguy cơ gây tai nạn:",
+            "danhSachAnh": [
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_dien.webp",
+                "tieuDe": "Hình 1: Nguy cơ chập giật điện",
+                "moTa": "Chập cháy điện, rò rỉ điện gây giật điện nguy hiểm khi chạm vào dây điện hở."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_hoa_chat.webp",
+                "tieuDe": "Hình 2: Nguy cơ hóa chất độc hại",
+                "moTa": "Hít phải khí độc, hóa chất bị bắn vào da hoặc mắt trong các bài thực hành."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_laser_buc_xa.webp",
+                "tieuDe": "Hình 3: Nguy cơ tia laser / bức xạ",
+                "moTa": "Tia laser chiếu thẳng vào mắt làm hỏng võng mạc, tiếp xúc nguồn phát bức xạ mạnh."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_co_hoc.webp",
+                "tieuDe": "Hình 4: Nguy cơ chấn thương cơ học / thủy tinh vỡ",
+                "moTa": "Dụng cụ thủy tinh bị vỡ làm cắt tay, vật nặng rơi vỡ trúng người hoặc va chạm thiết bị."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Quy tắc an toàn khi làm việc trong phòng thực hành",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Tuân thủ quy tắc an toàn theo 3 giai đoạn",
+            "noiDung": "Để đảm bảo an toàn tuyệt đối cho bản thân và tập thể, học sinh cần thực hiện:",
+            "danhSachYCon": [
+              "**Trước khi làm thí nghiệm:** Đọc kỹ hướng dẫn thực hành, mặc đồ bảo hộ (nếu được yêu cầu), kiểm tra kỹ dây điện và dụng cụ xem có bị hư hỏng không.",
+              "**Trong khi làm thí nghiệm:** Chỉ tiến hành thí nghiệm hoặc bật nguồn điện khi giáo viên cho phép. Tuyệt đối không ăn uống trong phòng thực hành.",
+              "**Sau khi làm thí nghiệm:** Tắt hết cầu dao điện, lau dọn và xếp dụng cụ gọn gàng, rửa tay sạch bằng xà phòng trước khi rời phòng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Biển báo an toàn và ký hiệu cảnh báo thông dụng",
+        "noiDungBlocks": [
+          {
+            "loai": "nhom_bien_bao",
+            "tieuDePhu": "Bốn nhóm biển báo an toàn tiêu chuẩn",
+            "noiDung": "Phân biệt các nhóm biển báo trong phòng thí nghiệm qua hình dạng và màu sắc:",
+            "danhSachAnh": [
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_cam.webp",
+                "tieuDe": "Biển CẤM",
+                "moTa": "Hình tròn, viền đỏ, nền trắng, hình vẽ màu đen: Cấm thực hiện các hành vi gây mất an toàn (ví dụ: cấm lửa, cấm sờ)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp",
+                "tieuDe": "Biển CẢNH BÁO",
+                "moTa": "Hình tam giác vàng, viền đen, hình vẽ màu đen: Cảnh báo trước các nguy hiểm (ví dụ: cảnh báo điện cao thế, tia laser, chất độc)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_bat_buoc.webp",
+                "tieuDe": "Biển BẮT BUỘC / LỆNH",
+                "moTa": "Hình tròn xanh lam, hình vẽ màu trắng: Yêu cầu bắt buộc phải làm theo (ví dụ: bắt buộc đeo kính bảo hộ, đeo găng tay)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_chi_dan.webp",
+                "tieuDe": "Biển CHỈ DẪN",
+                "moTa": "Hình chữ nhật hoặc hình vuông xanh lá/xanh dương: Chỉ dẫn vị trí thiết bị an toàn, lối thoát hiểm, tủ thuốc y tế."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "tieude": "Bài 3: Thực hành tính sai số phép đo. Ghi kết quả đo",
+    "noidung": "Phép đo trực tiếp, phép đo gián tiếp, phân loại sai số và quy trình 6 bước tính sai số, ghi kết quả phép đo.",
+    "videoYoutubeId": "U5cI8oVBifI",
+    "fileBaiTapNhanh": "ChuDeMoDau/02BaiTapNhanh1_Bai3.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Tóm tắt Lý thuyết & Phân loại Phép đo, Sai số",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Phép đo trực tiếp và Phép đo gián tiếp",
+            "noiDung": "Dựa vào cách thức thu nhận kết quả, phép đo các đại lượng vật lý được chia làm hai loại:",
+            "danhSachYCon": [
+              "**Phép đo trực tiếp:** So sánh trực tiếp đại lượng cần đo với dụng cụ đo, đọc ngay kết quả trên thước, cân hay đồng hồ (không cần qua công thức toán học).",
+              "**Phép đo gián tiếp:** Xác định đại lượng cần đo thông qua công thức toán học liên hệ với các đại lượng đo trực tiếp (ví dụ: đo vận tốc $v = \\frac{s}{t}$)."
+            ]
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Phân loại sai số phép đo",
+            "noiDung": "Mọi phép đo đều tồn tại sai lệch giữa giá trị đo được và giá trị thực, gồm hai loại sai số:",
+            "danhSachYCon": [
+              "**Sai số hệ thống:** Do đặc điểm, cấu tạo của dụng cụ đo hoặc do người đo chưa hiệu chỉnh kim về vạch số $0$ ban đầu. Sai số dụng cụ $\\Delta A_{dc}$ thường được lấy bằng một độ chia nhỏ nhất hoặc một nửa độ chia nhỏ nhất ghi trên dụng cụ.",
+              "**Sai số ngẫu nhiên:** Do thao tác đo không chuẩn, mắt nhìn nghiêng hoặc điều kiện môi trường thay đổi ngẫu nhiên. Cách khắc phục: Tiến hành đo nhiều lần rồi tính giá trị trung bình."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Các bước tính sai số và Công thức cần dùng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 1: TÍNH GIÁ TRỊ TRUNG BÌNH (KHI ĐO ĐẠI LƯỢNG A GỒM n LẦN)",
+            "congThuc": "$\\bar{A} = A_{tb} = \\frac{A_1 + A_2 + \\dots + A_n}{n}$",
+            "mucDich": "Tìm ra giá trị đại diện chuẩn nhất cho đại lượng cần đo.",
+            "chuThich": "$A_1, A_2, \\dots, A_n$ là kết quả ở lần đo $1, 2, \\dots, n$; $n$ là tổng số lần tiến hành đo."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 2: TÍNH SAI SỐ NGẪU NHIÊN TUYỆT ĐỐI CỦA TỪNG LẦN ĐO",
+            "congThuc": "$\\Delta A_1 = |\\bar{A} - A_1|  ;  \\Delta A_2 = |\\bar{A} - A_2|  ;  \\dots  ;  \\Delta A_n = |\\bar{A} - A_n|$",
+            "mucDich": "Dùng để tính mức độ độ lệch (sai lệch) của mỗi lần đo so với giá trị trung bình.",
+            "chuThich": "Dấu $| |$ là dấu giá trị tuyệt đối (kết quả luôn lấy số dương)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 3: TÍNH SAI SỐ NGẪU NHIÊN TUYỆT ĐỐI TRUNG BÌNH",
+            "congThuc": "$\\overline{\\Delta A} = \\Delta A_{tb} = \\frac{\\Delta A_1 + \\Delta A_2 + \\dots + \\Delta A_n}{n}$",
+            "mucDich": "Tính mức độ sai lệch ngẫu nhiên trung bình của tất cả $n$ lần đo.",
+            "chuThich": "Là trung bình cộng các độ lệch tuyệt đối qua $n$ lần đo."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 4: TÍNH SAI SỐ TUYỆT ĐỐI CỦA PHÉP ĐO",
+            "congThuc": "$\\Delta A = \\overline{\\Delta A} + \\Delta A_{dc}$",
+            "mucDich": "Tính tổng sai số toàn phần của phép đo (gồm cả sai số ngẫu nhiên và sai số của thiết bị).",
+            "chuThich": "$\\Delta A_{dc}$ là sai số dụng cụ (lấy bằng một độ chia nhỏ nhất hoặc một nửa độ chia nhỏ nhất ghi trên dụng cụ)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 5: TÍNH SAI SỐ TỈ ĐỐI",
+            "congThuc": "$\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%$",
+            "mucDich": "Dùng khi cần đánh giá mức độ chính xác của phép đo. Cho biết sai số chiếm bao nhiêu phần trăm so với giá trị đo.",
+            "chuThich": "Sai số tỉ đối $\\delta A$ càng nhỏ thì phép đo càng chính xác."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 6: QUY TẮC GHI KẾT QUẢ ĐO CHUẨN",
+            "congThuc": "$A = \\bar{A} \\pm \\Delta A$",
+            "mucDich": "Biểu diễn khoảng giá trị thực của đại lượng đo: $\\bar{A} - \\Delta A \\le A \\le \\bar{A} + \\Delta A$.",
+            "chuThich": "Sai số tuyệt đối $\\Delta A$ thường được làm tròn đến $1$ hoặc $2$ chữ số có nghĩa."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "QUY TẮC LÀM TRÒN VÀ SAI SỐ GIÁN TIẾP:\n- Giá trị trung bình $\\bar{A}$ được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối $\\Delta A$.\n- Sai số tuyệt đối của một tổng hay hiệu bằng tổng các sai số tuyệt đối: Nếu $x = a \\pm b$ thì $\\Delta x = \\Delta a + \\Delta b$.\n- Sai số tỉ đối của một tích hay thương bằng tổng các sai số tỉ đối: Nếu $y = \\frac{a \\cdot b}{c^n}$ thì $\\delta y = \\delta a + \\delta b + n \\cdot \\delta c$."
+          }
+        ]
+      }
+    ]
+  }
+]

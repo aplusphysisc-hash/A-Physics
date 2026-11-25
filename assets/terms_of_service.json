@@ -1,0 +1,52 @@
+{
+  "tieuDe": "Điều khoản sử dụng A+ Physics",
+  "phuDe": "Dự án nghiên cứu KHKT phi thương mại của học sinh Trường THPT Chu Văn An phục vụ ôn luyện Vật lý THPT. Vui lòng xem kỹ quy định về quyền riêng tư, lưu trữ ngoại tuyến và bản quyền media.",
+  "danhSachDieuKhoan": [
+    {
+      "id": 1,
+      "tieuDe": "1. Mục đích phi thương mại & Chấp thuận điều khoản",
+      "noiDung": "Ứng dụng A+ Physics là một dự án nghiên cứu Khoa học Kỹ thuật (KHKT) giáo dục phi thương mại 100%, được thực hiện bởi nhóm tác giả học sinh Trường THPT Chu Văn An nhằm hỗ trợ học sinh tự học, rèn luyện tư duy và ôn thi tốt nghiệp THPT môn Vật lý hoàn toàn miễn phí. Ứng dụng không thu phí, không có tính năng mua bán hay nạp tiền, và không chèn quảng cáo thương mại. Khi tải xuống và sử dụng ứng dụng, bạn xác nhận đã đọc, hiểu và đồng ý tuân thủ toàn bộ các quy định tại điều khoản này.",
+      "iconType": "book"
+    },
+    {
+      "id": 2,
+      "tieuDe": "2. Đối tượng sử dụng & Độ tuổi người học",
+      "noiDung": "• Ứng dụng được thiết kế bám sát Chương trình GDPT 2018 dành riêng cho học sinh THPT (từ 15 tuổi trở lên), giáo viên và những người quan tâm đến môn Vật lý.\n• Toàn bộ nội dung mang tính học thuật, giáo dục trong sáng và lành mạnh, hoàn toàn không chứa các yếu tố bạo lực, nhạy cảm hay độc hại, đảm bảo tuân thủ đầy đủ các tiêu chuẩn an toàn cho người dùng trẻ tuổi trên Google Play Store.",
+      "iconType": "check"
+    },
+    {
+      "id": 3,
+      "tieuDe": "3. Hồ sơ học tập & Lưu trữ ngoại tuyến (Offline-First)",
+      "noiDung": "• Ứng dụng hoạt động theo cơ chế ngoại tuyến ưu tiên (Offline-First), không yêu cầu tạo tài khoản bằng mật khẩu phức tạp.\n• Bạn chỉ cần đặt một biệt danh học tập để cá nhân hóa lộ trình.\n• Toàn bộ tiến độ học tập, lịch sử điểm thi, câu hỏi đã lưu và chuỗi Streak được lưu trực tiếp trên bộ nhớ cục bộ thiết bị của bạn (SharedPreferences / DataStore).\n• Bạn có trách nhiệm tự sử dụng tính năng 'Sao lưu tệp JSON' trong mục Cài đặt để cất giữ dữ liệu an toàn khi đổi máy hoặc đặt lại thiết bị. Nhóm phát triển không lưu trữ bản sao dữ liệu của bạn trên máy chủ trung gian.",
+      "iconType": "storage"
+    },
+    {
+      "id": 4,
+      "tieuDe": "4. Chính sách Quyền riêng tư & Liên kết đám mây",
+      "noiDung": "• Chúng tôi tôn trọng tối đa quyền riêng tư của bạn: Ứng dụng không yêu cầu các quyền truy cập nhạy cảm (danh bạ, vị trí GPS, micro, camera).\n• Tính năng liên kết tài khoản Google chỉ nhằm mục đích tải ảnh đại diện hiển thị ngoại tuyến và sao lưu bảng điểm thi vào Google Drive cá nhân của chính bạn hoặc đồng bộ ẩn danh phục vụ thống kê nghiên cứu học tập.\n• Chúng tôi tuyệt đối không thu thập mật khẩu, không chia sẻ hay thương mại hóa bất kỳ thông tin nào của người dùng cho bên thứ ba.",
+      "iconType": "security"
+    },
+    {
+      "id": 5,
+      "tieuDe": "5. Tuyên bố miễn trừ tác quyền Media (Ảnh, 3D, Video, Âm thanh)",
+      "noiDung": "• Nhóm tác giả KHÔNG NHẬN QUYỀN TÁC GIẢ đối với các tệp đa phương tiện (Media) trong ứng dụng, bao gồm: các hình ảnh sơ đồ/đồ thị trích dẫn, các mô hình mô phỏng 3D (.glb), các video hướng dẫn giải/bài giảng nhúng từ YouTube, và các bản nhạc nền tập trung (Focus Music).\n• Toàn bộ các tư liệu media trên thuộc bản quyền của tác giả, chủ sở hữu và kênh phát hành nguyên bản, được tích hợp phục vụ mục đích minh họa trực quan cho bài học Vật lý phi thương mại (theo nguyên tắc Sử dụng Hợp lý - Fair Use cho giáo dục).\n• Quy trình gỡ bỏ (Notice & Takedown): Nếu bất kỳ tác giả/chủ sở hữu quyền tác giả nào có yêu cầu gỡ bỏ, chúng tôi cam kết xác minh và gỡ bỏ nội dung trong vòng 48 đến 72 giờ làm việc kể từ khi nhận được thông báo qua email liên hệ.",
+      "iconType": "policy"
+    },
+    {
+      "id": 6,
+      "tieuDe": "6. Giới hạn trách nhiệm & Trải nghiệm thiết bị",
+      "noiDung": "• Nội dung lý thuyết, công thức chuẩn KaTeX và ngân hàng câu hỏi được biên soạn với tinh thần trách nhiệm cao nhất nhằm hỗ trợ học tập và tham khảo. Chúng tôi nỗ lực tối đa đảm bảo tính chính xác nhưng không chịu trách nhiệm pháp lý đối với kết quả thi cử thực tế của người dùng.\n• Các tính năng mô phỏng 3D tương tác có thể đòi hỏi phần cứng đồ họa; ứng dụng đã tích hợp sẵn 'Chế độ tối ưu' (dành cho máy yếu) trong Cài đặt để đảm bảo trải nghiệm mượt mà. Chúng tôi không chịu trách nhiệm đối với các sự cố gián đoạn phát sinh từ cấu hình phần cứng thiết bị của bạn.",
+      "iconType": "storage"
+    },
+    {
+      "id": 7,
+      "tieuDe": "7. Thông tin nhóm tác giả, Cập nhật & Liên hệ",
+      "noiDung": "• Dự án: A+ Physics - Ứng dụng hỗ trợ học tập & rèn luyện Vật lý THPT (Nghiên cứu KHKT phi thương mại).\n• Đơn vị thực hiện: Trường THPT Chu Văn An.\n• Nhóm tác giả: Nguyễn Tấn Tài, Nguyễn Hoàng Thục Uyên, Hà Xuân Thắng, Lê Bách Vi, Lê Kim Ánh, Trần Uyên Nhã, Nguyễn Ngọc Gia Yến, Vũ Nguyễn Tiến Phát, Nghiêm Quốc Khang, Nguyễn Thái Toàn.\n• Email hỗ trợ, báo lỗi câu hỏi & liên hệ tác quyền: aplusphysics@gmail.com.\n• Điều khoản này có hiệu lực từ phiên bản phát hành hiện tại và có thể được cập nhật khi có các tính năng mới.",
+      "iconType": "book"
+    }
+  ],
+  "hieuLuc": {
+    "tieuDe": "Hiệu lực và Cập nhật",
+    "noiDung": "Điều khoản này có hiệu lực từ phiên bản phát hành hiện tại (Tháng 11/2026). Khi có bản cập nhật mới, thông tin sẽ được cập nhật tự động trong tệp điều khoản của ứng dụng để bạn tiện theo dõi."
+  }
+}

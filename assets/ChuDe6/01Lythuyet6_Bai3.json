@@ -1,0 +1,53 @@
+[
+  {
+    "id": 3,
+    "baiSo": 3,
+    "loai": "cong_thuc",
+    "laCongThucTongHop": true,
+    "tieude": "Bài 3: Tổng hợp công thức Chủ đề 6",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "Nhóm công thức Động lượng & Xung lượng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "1. ĐỘNG LƯỢNG & XUNG LƯỢNG CỦA LỰC",
+            "congThuc": "$\\vec{p} = m\\vec{v}$ ;  $\\Delta\\vec{p} = \\vec{F}\\cdot\\Delta t$",
+            "mucDich": "Tính động lượng ($\\text{kg}\\cdot\\text{m/s}$) và lực tác dụng trung bình $F = \\frac{|\\Delta p|}{\\Delta t}$ ($\\text{N}$).",
+            "chuThich": "Liên hệ với động năng: $p^2 = 2mW_{\\text{đ}}$. Khi vật đập vuông góc tường rồi bật ngược lại: $\\Delta p = m(v_2 + v_1)$."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "2. ĐỊNH LUẬT BẢO TOÀN ĐỘNG LƯỢNG",
+            "congThuc": "$m_1\\vec{v}_1 + m_2\\vec{v}_2 = m_1\\vec{v}_1' + m_2\\vec{v}_2'$",
+            "mucDich": "Áp dụng cho hệ kín (đạn nổ, súng giật lùi, người nhảy khỏi thuyền).",
+            "chuThich": "- Nếu $\\vec{p}_1 \\perp \\vec{p}_2$: $p = \\sqrt{p_1^2 + p_2^2}$.\\n- Nếu hợp góc $\\alpha$: $p = \\sqrt{p_1^2 + p_2^2 + 2p_1p_2\\cos\\alpha}$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "Nhóm công thức Các dạng Va chạm",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "3. VA CHẠM ĐÀN HỒI XUYÊN TÂM",
+            "congThuc": "$v_1' = \\frac{(m_1 - m_2)v_1 + 2m_2v_2}{m_1 + m_2}$ ;  $v_2' = \\frac{(m_2 - m_1)v_2 + 2m_1v_1}{m_1 + m_2}$",
+            "mucDich": "Bảo toàn cả động lượng và động năng ($\\Delta W_{\\text{đ}} = 0$).",
+            "chuThich": "Đặc biệt khi $m_1 = m_2$: hai vật trao đổi vận tốc ($v_1' = v_2, v_2' = v_1$)."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "4. VA CHẠM MỀM & ĐỘ HAO HỤT ĐỘNG NĂNG",
+            "congThuc": "$V = \\frac{m_1v_1 + m_2v_2}{m_1 + m_2}$ ;  $Q = W_{\\text{đ trước}} - W_{\\text{đ sau}}$",
+            "mucDich": "Hai vật dính vào nhau chuyển động cùng vận tốc $V$; phần động năng mất đi chuyển thành nhiệt năng $Q$.",
+            "chuThich": "Với con lắc thử đạn đạt độ cao $h_{\\max}$: $V = \\sqrt{2gh_{\\max}}$ và $h_{\\max} = l(1 - \\cos\\alpha_{\\max})$."
+          }
+        ]
+      }
+    ]
+  }
+]

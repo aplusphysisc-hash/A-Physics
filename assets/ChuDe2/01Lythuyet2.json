@@ -1,0 +1,508 @@
+﻿[
+    {
+        "id":  1,
+        "baiSo":  1,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 1: Chuyển động thẳng đều",
+        "videoYoutubeId":  "-Suy4ZaXZH0",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai1.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Định nghĩa và đặc điểm của chuyển động thẳng đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Chuyển động thẳng đều là gì?",
+                                                       "noiDung":  "{badge:Khái niệm cốt lõi} {color:primary|**Chuyển động thẳng đều**} là chuyển động có {highlight|quỹ đạo là một đường thẳng} và có {color:success|**tốc độ trung bình như nhau trên mọi quãng đường**} bất kì.",
+                                                       "danhSachYCon":  [
+                                                                            "**Đặc điểm vectơ vận tốc:** Vectơ vận tốc tức thời $\\vec{v}$ có phương nằm trên đường thẳng quỹ đạo, chiều không đổi (cùng chiều chuyển động) và độ lớn không đổi theo thời gian ($v = \\text{hằng số}$, $\\vec{a} = \\vec{0}$).",
+                                                                            "**Quãng đường đi được:** Trong chuyển động thẳng đều, quãng đường đi được $s$ luôn {color:primary|**tỉ lệ thuận**} với thời gian chuyển động $t$."
+                                                                        ]
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Hệ thống công thức cơ bản",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "TỐC ĐỘ TRUNG BÌNH, QUÃNG ĐƯỜNG \u0026 PHƯƠNG TRÌNH CHUYỂN ĐỘNG",
+                                                       "congThuc":  "$$v = \\frac{s}{t} = \\frac{\\Delta x}{\\Delta t}  ;  s = v \\cdot t  ;  x = x_0 + v \\cdot (t - t_0)$$",
+                                                       "mucDich":  "Xác định tốc độ, quãng đường đi được và vị trí (tọa độ $x$) của chất điểm tại thời điểm $t$ bất kì.",
+                                                       "chuThich":  "- Nếu chọn gốc thời gian lúc vật bắt đầu chuyển động ($t_0 = 0$): Phương trình gọn thành {highlight|$x = x_0 + v \\cdot t$}.\n- $x_0$ ($\\text{m}$ hoặc $\\text{km}$): {color:tertiary|Tọa độ ban đầu} của vật tại thời điểm $t_0$.\n- $x$ ($\\text{m}$ hoặc $\\text{km}$): {color:primary|Tọa độ của vật} tại thời điểm $t$.\n- $v$ ($\\text{m/s}$ hoặc $\\text{km/h}$): {color:primary|Vận tốc của vật} ({color:success|$v \u003e 0$} khi vật đi theo chiều dương; {color:error|$v \u003c 0$} khi vật đi ngược chiều dương)."
+                                                   },
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Mẹo quy đổi đơn vị} Quy tắc đổi nhanh giữa $\\text{m/s}$ và $\\text{km/h}$: $1\\text{ m/s} = 3{,}6\\text{ km/h}$ và $1\\text{ km/h} = \\frac{1}{3{,}6}\\text{ m/s}$ (Từ $\\text{m/s} \\to \\text{km/h}$ nhân $3{,}6$; từ $\\text{km/h} \\to \\text{m/s}$ chia $3{,}6$)."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Đồ thị của chuyển động thẳng đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "doan_van",
+                                                       "tieuDePhu":  "Hai dạng đồ thị đặc trưng",
+                                                       "noiDung":  "Dựa vào đồ thị, ta có thể đọc nhanh chiều chuyển động, vận tốc và quãng đường:",
+                                                       "danhSachYCon":  [
+                                                                            "**Đồ thị tọa độ – thời gian $(x - t)$:** Là một {highlight|đường thẳng xiên góc} (khi $v \\neq 0$). Hệ số góc (độ dốc) của đường thẳng chính là vận tốc $v = \\tan\\alpha = \\frac{x - x_0}{t - t_0}$. Nếu đường thẳng hướng lên thì {color:success|$v \u003e 0$}, nếu đường thẳng hướng xuống thì {color:error|$v \u003c 0$}.",
+                                                                            "**Đồ thị vận tốc – thời gian $(v - t)$:** Là một {color:primary|**đường thẳng song song với trục thời gian $Ot$**}. Diện tích hình chữ nhật giới hạn bởi đường biểu diễn $v(t)$ và trục $Ot$ trong khoảng thời gian $\\Delta t$ có giá trị bằng quãng đường đi được: $s = |v| \\cdot \\Delta t$."
+                                                                        ]
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  2,
+        "baiSo":  2,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 2: Chuyển động thẳng biến đổi đều",
+        "videoYoutubeId":  "Zd71I_raqwk",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai2.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Gia tốc và phân loại chuyển động thẳng biến đổi đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Khái niệm gia tốc và chuyển động thẳng biến đổi đều",
+                                                       "noiDung":  "{badge:Khái niệm cốt lõi} {color:primary|**Gia tốc**} ($\\vec{a}$) là đại lượng vật lí vectơ đặc trưng cho {highlight|độ biến thiên nhanh hay chậm của vận tốc theo thời gian}. **Chuyển động thẳng biến đổi đều** là chuyển động có quỹ đạo là đường thẳng và có độ lớn vận tốc tức thời tăng đều hoặc giảm đều theo thời gian ($\u000bec{a} = \\text{hằng số}$).",
+                                                       "danhSachYCon":  [
+                                                                            "**Chuyển động thẳng nhanh dần đều:** Độ lớn vận tốc tăng đều theo thời gian, vectơ gia tốc $\\vec{a}$ cùng chiều với vectơ vận tốc $\\vec{v}$ ({color:success|$a \\cdot v \u003e 0$} hoặc $a \\cdot v_0 \u003e 0$).",
+                                                                            "**Chuyển động thẳng chậm dần đều:** Độ lớn vận tốc giảm đều theo thời gian, vectơ gia tốc $\\vec{a}$ ngược chiều với vectơ vận tốc $\\vec{v}$ ({color:error|$a \\cdot v \u003c 0$} hoặc $a \\cdot v_0 \u003c 0$)."
+                                                                        ]
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CÔNG THỨC ĐỊNH NGHĨA GIA TỐC",
+                                                       "congThuc":  "$$a = \\frac{\\Delta v}{\\Delta t} = \\frac{v - v_0}{t - t_0}$$",
+                                                       "mucDich":  "Tính độ biến thiên vận tốc trong một đơn vị thời gian.",
+                                                       "chuThich":  "- Đơn vị chuẩn của gia tốc trong hệ SI là {color:tertiary|$\\text{m/s}^2$}.\n- $v_0$: Vận tốc ban đầu tại thời điểm $t_0$ ($\\text{m/s}$); $v$: Vận tốc tức thời tại thời điểm $t$ ($\\text{m/s}$)."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Các công thức của chuyển động thẳng biến đổi đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_buoc",
+                                                       "tenBuoc":  "1. CÔNG THỨC VẬN TỐC TỨC THỜI",
+                                                       "congThuc":  "$$v = v_0 + a \\cdot t$$",
+                                                       "mucDich":  "Xác định vận tốc của vật sau khoảng thời gian $t$ (chọn $t_0 = 0$).",
+                                                       "chuThich":  "Hàm bậc nhất theo thời gian $t$. Khi vật dừng lại hẳn thì $v = 0$."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_buoc",
+                                                       "tenBuoc":  "2. CÔNG THỨC ĐỘ DỊCH CHUYỂN \u0026 QUÃNG ĐƯỜNG",
+                                                       "congThuc":  "$$d = s = v_0 \\cdot t + \\frac{1}{2}a \\cdot t^2$$",
+                                                       "mucDich":  "Tính độ dịch chuyển $d$ (hoặc quãng đường $s$ khi vật chuyển động thẳng theo một chiều không đổi).",
+                                                       "chuThich":  "Nếu vật khởi hành từ trạng thái đứng yên ($v_0 = 0$) thì $s = \\frac{1}{2}a \\cdot t^2$ (quãng đường tỉ lệ thuận với $t^2$)."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_buoc",
+                                                       "tenBuoc":  "3. CÔNG THỨC ĐỘC LẬP VỚI THỜI GIAN",
+                                                       "congThuc":  "$$v^2 - v_0^2 = 2 \\cdot a \\cdot d = 2 \\cdot a \\cdot s$$",
+                                                       "mucDich":  "Liên hệ trực tiếp giữa vận tốc đầu $v_0$, vận tốc sau $v$, gia tốc $a$ và quãng đường $s$ khi đề bài không cho thời gian $t$.",
+                                                       "chuThich":  "Rất hữu ích trong các bài toán hãm phanh dừng xe ($v = 0 \\implies s = \\frac{-v_0^2}{2a}$)."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_buoc",
+                                                       "tenBuoc":  "4. PHƯƠNG TRÌNH TỌA ĐỘ THEO THỜI GIAN",
+                                                       "congThuc":  "$$x = x_0 + v_0 \\cdot t + \\frac{1}{2}a \\cdot t^2$$",
+                                                       "mucDich":  "Xác định vị trí tọa độ $x$ của vật trên trục $Ox$ tại mọi thời điểm $t$.",
+                                                       "chuThich":  "{color:warning|Bẫy hệ số:} Hệ số đứng trước $t^2$ là $\\frac{1}{2}a$ chứ không phải $a$ (Ví dụ: $x = 5 + 4t - 3t^2 \\implies \\frac{1}{2}a = -3 \\implies a = -6\\text{ m/s}^2$)."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Đồ thị vận tốc – thời gian (v – t)",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "doan_van",
+                                                       "tieuDePhu":  "Hình dạng và ý nghĩa hình học của đồ thị (v – t)",
+                                                       "noiDung":  "Đồ thị biểu diễn sự phụ thuộc của vận tốc tức thời $v$ theo thời gian $t$ trong chuyển động thẳng biến đổi đều là một {highlight|đường thẳng xiên góc}:",
+                                                       "danhSachYCon":  [
+                                                                            "**Ý nghĩa độ dốc (hệ số góc):** Hệ số góc của đường thẳng trên đồ thị $(v - t)$ chính là giá trị của gia tốc: $a = \\tan\\alpha = \\frac{v_2 - v_1}{t_2 - t_1}$.",
+                                                                            "**Ý nghĩa diện tích:** Diện tích hình phẳng (thường là hình thang hoặc tam giác) giới hạn bởi đường biểu diễn $v(t)$, trục hoành $Ot$ và hai đường gióng tại $t_1, t_2$ bằng {color:primary|**độ dịch chuyển $d$**} (hoặc quãng đường $s$ khi vật đi một chiều)."
+                                                                        ]
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  3,
+        "baiSo":  3,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 3: Chuyển động rơi tự do",
+        "videoYoutubeId":  "iJFiqbW2KRs",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai3.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Khái niệm và đặc điểm của sự rơi tự do",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Sự rơi tự do là gì?",
+                                                       "noiDung":  "{badge:Khái niệm cốt lõi} {color:primary|**Sự rơi tự do**} là sự rơi của các vật {highlight|chỉ dưới tác dụng của trọng lực} (bỏ qua hoàn toàn sức cản của không khí). Ở cùng một nơi trên Trái Đất, mọi vật rơi tự do đều **rơi nhanh như nhau** không phụ thuộc vào khối lượng.",
+                                                       "danhSachYCon":  [
+                                                                            "**Phương chuyển động:** Phương thẳng đứng (phương của dây dọi).",
+                                                                            "**Chiều chuyển động:** Chiều từ trên xuống dưới.",
+                                                                            "**Bản chất động học:** Là {color:primary|**chuyển động thẳng nhanh dần đều**} với vận tốc ban đầu bằng không ($v_0 = 0$)."
+                                                                        ]
+                                                   },
+                                                   {
+                                                       "loai":  "mo_hinh_3d",
+                                                       "tenMoHinh3d":  "Mô phỏng 3D: Sự rơi tự do của quả trứng và cục đá",
+                                                       "duongDanGlb":  "models/ChuDe2/bai3_roi_tu_do.glb",
+                                                       "moTaMoHinh3d":  "Quan sát trực quan quả trứng và tảng đá có khối lượng khác nhau được thả rơi đồng thời từ độ cao $h_0 = 20\\text{ m}$ trong môi trường bỏ qua sức cản không khí: cả hai luôn song hành ở mọi mốc thời gian và chạm đất cùng một lúc.",
+                                                       "tuDongPhatAnimation":  true
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Gia tốc rơi tự do",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "doan_van",
+                                                       "tieuDePhu":  "Đặc điểm của vectơ gia tốc rơi tự do",
+                                                       "noiDung":  "Tại một nơi nhất định trên Trái Đất và ở gần mặt đất, mọi vật đều rơi tự do với cùng một gia tốc gọi là {color:primary|**gia tốc rơi tự do**} (ký hiệu là $g$):",
+                                                       "danhSachYCon":  [
+                                                                            "**Phương \u0026 Chiều:** Phương thẳng đứng, chiều luôn hướng thẳng từ trên xuống dưới.",
+                                                                            "**Độ lớn chuẩn:** Phụ thuộc vào vĩ độ địa lý và độ cao. Trong các bài toán thường lấy $g \\approx 9{,}8\\text{ m/s}^2$ hoặc $g \\approx 10\\text{ m/s}^2$."
+                                                                        ]
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Các công thức của chuyển động rơi tự do",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "HỆ CÔNG THỨC RƠI TỰ DO (VỚI VẬN TỐC ĐẦU BẰNG 0)",
+                                                       "congThuc":  "$$v = g \\cdot t  ;  s = h = \\frac{1}{2}g \\cdot t^2  ;  v^2 = 2gh  ;  t = \\sqrt{\\frac{2h}{g}}$$",
+                                                       "mucDich":  "Tính vận tốc tức thời $v$, quãng đường rơi $s$ (độ cao $h$) và thời gian rơi chạm đất $t$.",
+                                                       "chuThich":  "- **Vận tốc tại thời điểm $t$:** $v = g \\cdot t$ (tỉ lệ thuận với thời gian rơi $t$).\n- **Quãng đường rơi sau thời gian $t$:** $s = h = \\frac{1}{2}g \\cdot t^2$ (tỉ lệ thuận với bình phương thời gian $t^2$).\n- **Hệ thức độc lập thời gian:** $v^2 = 2 \\cdot g \\cdot s = 2gh \\implies v = \\sqrt{2gh}$.\n- **Thời gian từ lúc thả đến khi chạm đất:** $t = \\sqrt{\\frac{2h}{g}}$."
+                                                   },
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Công thức giải nhanh} Quãng đường vật rơi tự do đi được trong **giây thứ $n$** là hiệu quãng đường đi trong $n$ giây và $(n - 1)$ giây: $\\Delta s_n = s_n - s_{n-1} = \\frac{1}{2}gn^2 - \\frac{1}{2}g(n-1)^2 = g\\left(n - 0{,}5\\right)$."
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  4,
+        "baiSo":  4,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 4: Chuyển động ném ngang",
+        "videoYoutubeId":  "NvGixZuvZYE",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai4.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Khái niệm chuyển động ném ngang",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Định nghĩa chuyển động ném ngang",
+                                                       "noiDung":  "{badge:Khái niệm cốt lõi} {color:primary|**Chuyển động ném ngang**} là chuyển động của vật được truyền vận tốc ban đầu $\\vec{v}_0$ {highlight|theo phương nằm ngang} từ một độ cao $h$ so với mặt đất và sau đó chỉ chịu tác dụng của trọng lực (bỏ qua sức cản không khí).",
+                                                       "danhSachYCon":  [
+                                                                            "**Ví dụ thực tế:** Hòn bi thép lăn khỏi mặt bàn nằm ngang rồi rơi xuống sàn, kiện hàng cứu trợ được thả ra từ máy bay đang bay ngang."
+                                                                        ]
+                                                   },
+                                                   {
+                                                       "loai":  "mo_hinh_3d",
+                                                       "tenMoHinh3d":  "Mô phỏng 3D: Hòn bi lăn khỏi bàn (Chuyển động ném ngang)",
+                                                       "duongDanGlb":  "models/ChuDe2/bai4_nem_ngang.glb",
+                                                       "moTaMoHinh3d":  "Quan sát viên bi rời khỏi mép bàn cao $h$ với vận tốc ngang $\\vec{v}_0$, vẽ nên nhánh quỹ đạo parabol trong không gian và đối chiếu với hai hình chiếu chuyển động thành phần trên trục $Ox$ (thẳng đều) và $Oy$ (rơi tự do).",
+                                                       "tuDongPhatAnimation":  true
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Phân tích hai chuyển động thành phần độc lập",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "doan_van",
+                                                       "tieuDePhu":  "Chọn hệ trục tọa độ Oxy (gốc O tại vị trí ném)",
+                                                       "noiDung":  "Chuyển động ném ngang được phân tích thành hai chuyển động thành phần vuông góc và hoàn toàn độc lập với nhau:",
+                                                       "danhSachYCon":  [
+                                                                            "**Theo phương ngang ($Ox$ hướng theo $\\vec{v}_0$):** Vật không chịu lực tác dụng nên {color:primary|**chuyển động thẳng đều**} với $a_x = 0$, vận tốc $v_x = v_0$ và tọa độ $x = v_0 \\cdot t$.",
+                                                                            "**Theo phương thẳng đứng ($Oy$ hướng thẳng xuống dưới):** Vật chịu tác dụng của trọng lực nên {color:warning|**chuyển động rơi tự do**} với $v_{0y} = 0$, gia tốc $a_y = g$, vận tốc $v_y = g \\cdot t$ và tọa độ $y = \\frac{1}{2}g \\cdot t^2$."
+                                                                        ]
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Phương trình quỹ đạo và các đại lượng đặc trưng",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "PHƯƠNG TRÌNH QUỸ ĐẠO, THỜI GIAN RƠI \u0026 TẦM BAY XA",
+                                                       "congThuc":  "$$y = \\frac{g}{2v_0^2} \\cdot x^2  ;  t = \\sqrt{\\frac{2h}{g}}  ;  L = x_{\\max} = v_0 \\cdot t = v_0\\sqrt{\\frac{2h}{g}}$$",
+                                                       "mucDich":  "Xác định hình dạng quỹ đạo, thời gian chuyển động trong không khí và khoảng cách bay xa nhất theo phương ngang.",
+                                                       "chuThich":  "- **Hình dạng quỹ đạo:** Phương trình $y = \\frac{g}{2v_0^2}x^2$ có dạng $y = ax^2$, nên quỹ đạo của vật ném ngang là một {highlight|nhánh parabol} có đỉnh tại điểm ném $O$.\n- **Vận tốc tổng hợp tại thời điểm $t$:** $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{v_0^2 + (gt)^2}$, góc lệch $\\alpha$ so với phương ngang thỏa mãn $\\tan\\alpha = \\frac{v_y}{v_x} = \\frac{gt}{v_0}$."
+                                                   },
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Bẫy điểm thi} Thời gian rơi $t = \\sqrt{\\frac{2h}{g}}$ của vật ném ngang {color:success|**CHỈ phụ thuộc vào độ cao $h$ và gia tốc $g$**}, {color:error|hoàn toàn KHÔNG phụ thuộc vào vận tốc ném ban đầu $v_0$}. Một vật ném ngang và một vật thả rơi tự do cùng lúc từ cùng độ cao $h$ sẽ chạm đất cùng một thời điểm!"
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  5,
+        "baiSo":  5,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 5: Chuyển động tròn đều",
+        "videoYoutubeId":  "BjS7WqNPpcA",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai5.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Số đo góc Radian (ra-đi-ang) và quy tắc quy đổi",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Đơn vị đo góc Radian (rad)",
+                                                       "noiDung":  "{color:primary|**Radian**} (ký hiệu là $\\text{rad}$) là đơn vị chuẩn trong hệ SI dùng để đo góc ở tâm chắn cung tròn có độ dài bằng bán kính ($s = r \\implies \\alpha = 1\\text{ rad}$). Một vòng tròn đầy đủ $360^\\circ$ ứng với góc $2\\pi\\text{ rad}$ ($180^\\circ \\leftrightarrow \\pi\\text{ rad}$).",
+                                                       "danhSachYCon":  [
+                                                                            "**Giá trị xấp xỉ:** $1\\text{ rad} = \\frac{180^\\circ}{\\pi} \\approx 57{,}29^\\circ \\approx 57{,}3^\\circ$.",
+                                                                            "**Đổi từ Độ sang Radian:** $\\alpha(\\text{rad}) = \\alpha(\\text{độ}) \\cdot \\frac{\\pi}{180^\\circ}$ (Ví dụ: $60^\\circ = \\frac{\\pi}{3}\\text{ rad}$; $90^\\circ = \\frac{\\pi}{2}\\text{ rad}$).",
+                                                                            "**Đổi từ Radian sang Độ:** $\\alpha(\\text{độ}) = \\alpha(\\text{rad}) \\cdot \\frac{180^\\circ}{\\pi}$."
+                                                                        ]
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Khái niệm và đặc điểm của chuyển động tròn đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Định nghĩa chuyển động tròn đều",
+                                                       "noiDung":  "{badge:Khái niệm cốt lõi} {color:primary|**Chuyển động tròn đều**} là chuyển động có {highlight|quỹ đạo là một đường tròn} và vật đi được những cung tròn bằng nhau trong những khoảng thời gian bằng nhau bất kì ({color:success|**tốc độ dài không đổi**} trên mọi điểm của quỹ đạo).",
+                                                       "danhSachYCon":  [
+                                                                            "**Ví dụ thực tế:** Một điểm ở đầu cánh quạt trần đang quay ổn định, đầu kim đồng hồ, cabin đu quay, vệ tinh nhân tạo bay quanh Trái Đất theo quỹ đạo tròn."
+                                                                        ]
+                                                   },
+                                                   {
+                                                       "loai":  "mo_hinh_3d",
+                                                       "tenMoHinh3d":  "Mô phỏng 3D: Cánh quạt trần quay tròn đều \u0026 Vectơ hướng tâm",
+                                                       "duongDanGlb":  "models/ChuDe2/bai5_chuyen_dong_tron.glb",
+                                                       "moTaMoHinh3d":  "Quan sát chuyển động quay tròn đều của cánh quạt trần trong không gian 3D cùng sự biến đổi phương liên tục của vectơ vận tốc tiếp tuyến $\\vec{v}$ (màu xanh lá) và vectơ gia tốc hướng tâm $\\vec{a}_{ht}$ (màu đỏ luôn hướng vào tâm quay).",
+                                                       "tuDongPhatAnimation":  true
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Tốc độ dài, tốc độ góc, chu kỳ và tần số",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CÁC ĐẠI LƯỢNG ĐẶC TRƯNG CỦA CHUYỂN ĐỘNG TRÒN ĐỀU",
+                                                       "congThuc":  "$$v = \\frac{s}{t} = \\frac{2\\pi r}{T}  ;  \\omega = \\frac{\\alpha}{t} = \\frac{2\\pi}{T} = 2\\pi f  ;  v = \\omega \\cdot r$$",
+                                                       "mucDich":  "Liên hệ giữa chu kỳ quay $T$, tần số $f$, tốc độ góc $\\omega$ và tốc độ dài $v$ tại bán kính $r$.",
+                                                       "chuThich":  "- **Chu kỳ $T$ ($\\text{s}$):** Thời gian để vật quay hết một vòng tròn đầy đủ.\n- **Tần số $f$ ($\\text{Hz}$ hoặc $\\text{vòng/s}$):** Số vòng vật quay được trong $1\\text{ giây}$, liên hệ nghịch đảo với chu kỳ: $f = \\frac{1}{T}$.\n- **Tốc độ dài $v$ ($\\text{m/s}$):** Có độ lớn không đổi nhưng vectơ $\\vec{v}$ luôn tiếp tuyến với quỹ đạo và đổi hướng liên tục.\n- **Tốc độ góc $\\omega$ ($\\text{rad/s}$):** Góc quét được trong một đơn vị thời gian, luôn là hằng số trong chuyển động tròn đều."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  4,
+                             "soThuTu":  4,
+                             "tieuDeMuc":  "4. Gia tốc hướng tâm và lực hướng tâm",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "GIA TỐC HƯỚNG TÂM \u0026 LỰC HƯỚNG TÂM",
+                                                       "congThuc":  "$$a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r  ;  F_{ht} = m \\cdot a_{ht} = \\frac{m \\cdot v^2}{r} = m \\cdot \\omega^2 \\cdot r$$",
+                                                       "mucDich":  "Tính độ lớn gia tốc hướng tâm và hợp lực hướng tâm giữ cho vật chuyển động trên quỹ đạo tròn.",
+                                                       "chuThich":  "- **Phương \u0026 chiều:** Vectơ $\\vec{a}_{ht}$ và $\\vec{F}_{ht}$ luôn vuông góc với vectơ vận tốc dài ($\\vec{a}_{ht} \\perp \\vec{v}$) và {highlight|luôn hướng thẳng vào tâm quỹ đạo}.\n- **Bản chất lực hướng tâm:** Không phải là một loại lực mới mà là hợp lực của các lực đã biết (như lực hấp dẫn, lực căng dây, lực ma sát nghỉ...) đóng vai trò giữ vật trên đường tròn."
+                                                   },
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Bẫy điểm thi} Trong chuyển động tròn đều, chỉ có **tốc độ dài $v$**, **tốc độ góc $\\omega$** và **độ lớn gia tốc $a_{ht}$** là không đổi; còn các **vectơ $\\vec{v}$ và $\\vec{a}_{ht}$ luôn thay đổi hướng** theo thời gian!"
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  6,
+        "baiSo":  6,
+        "loai":  "ly_thuyet",
+        "tieude":  "Bài 6: Chuyển động ném xiên (Nâng cao)",
+        "videoYoutubeId":  "1IzkJMS8Ajc",
+        "fileBaiTapNhanh":  "ChuDe2/02BaiTapNhanh2_Bai6.json",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Khái niệm chuyển động ném xiên",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Chuyên đề nâng cao} Đây là bài học mở rộng nâng cao giúp bạn làm chủ toàn diện các bài toán chuyển động ném trong trọng trường và vận dụng cao."
+                                                   },
+                                                   {
+                                                       "loai":  "khai_niem",
+                                                       "tieuDePhu":  "Định nghĩa chuyển động ném xiên",
+                                                       "noiDung":  "{color:primary|**Chuyển động ném xiên**} là chuyển động của một vật được ném lên với vận tốc ban đầu $\\vec{v}_0$ {highlight|hợp với phương ngang một góc $\\alpha$ (gọi là góc ném)} từ mặt đất hoặc từ một độ cao $h$ (bỏ qua sức cản của không khí).",
+                                                       "danhSachYCon":  [
+                                                                            "**Ví dụ thực tế:** Quả bóng đá được cầu thủ sút bổng lên cao và bay xa, quả đạn pháo bắn đi từ nòng pháo nghiêng góc $\\alpha$, tia nước phun ra từ vòi cứu hỏa."
+                                                                        ]
+                                                   },
+                                                   {
+                                                       "loai":  "mo_hinh_3d",
+                                                       "tenMoHinh3d":  "Mô phỏng 3D: Quỹ đạo quả đạn pháo trong chuyển động ném xiên",
+                                                       "duongDanGlb":  "models/ChuDe2/bai6_nem_xien.glb",
+                                                       "moTaMoHinh3d":  "Quan sát khẩu pháo bắn viên đạn bay theo vòm quỹ đạo Parabol với góc ném tối ưu $\\alpha = 45^\\circ$, vượt qua đỉnh cực đại $h_{\\max}$ và chạm mục tiêu ở tầm bay xa $L$.",
+                                                       "tuDongPhatAnimation":  true
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Phân tích các chuyển động thành phần",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "hinh_anh",
+                                                       "duongDanAnh":  "images/ChuDe2/lythuyet/so_do_nem_xien.webp",
+                                                       "moTaAnh":  "Hình 6.1: Sơ đồ phân tích vận tốc và quỹ đạo parabol của chuyển động ném xiên trong trọng trường."
+                                                   },
+                                                   {
+                                                       "loai":  "doan_van",
+                                                       "tieuDePhu":  "Chiếu lên hai trục tọa độ vuông góc Ox và Oy (gốc O tại điểm ném)",
+                                                       "noiDung":  "Ta phân tích vectơ vận tốc ban đầu $\\vec{v}_0$ thành hai thành phần: $v_{0x} = v_0 \\cdot \\cos\\alpha$ (phương ngang) và $v_{0y} = v_0 \\cdot \\sin\\alpha$ (phương thẳng đứng hướng lên):",
+                                                       "danhSachYCon":  [
+                                                                            "**Theo phương ngang ($Ox$):** Vật {color:primary|**chuyển động thẳng đều**} vì không có lực tác dụng theo phương ngang ($a_x = 0$). Vận tốc $v_x = v_0 \\cdot \\cos\\alpha = \\text{hằng số}$, tọa độ $x = (v_0 \\cdot \\cos\\alpha) \\cdot t$.",
+                                                                            "**Theo phương thẳng đứng ($Oy$ hướng lên):** Vật {color:warning|**chuyển động thẳng biến đổi đều**} chịu gia tốc trọng trường $\\vec{g}$ hướng xuống ($a_y = -g$). Vận tốc $v_y = v_0 \\cdot \\sin\\alpha - g \\cdot t$, tọa độ $y = (v_0 \\cdot \\sin\\alpha) \\cdot t - \\frac{1}{2}g \\cdot t^2$."
+                                                                        ]
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Phương trình quỹ đạo, độ cao cực đại và tầm bay xa",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "PHƯƠNG TRÌNH QUỸ ĐẠO \u0026 CÁC ĐẠI LƯỢNG ĐẶC TRƯNG (NÉM TỪ MẶT ĐẤT)",
+                                                       "congThuc":  "$$y = \\tan\\alpha \\cdot x - \\frac{g}{2v_0^2 \\cos^2\\alpha} \\cdot x^2  ;  h_{\\max} = \\frac{v_0^2 \\cdot \\sin^2\\alpha}{2g}  ;  L = \\frac{v_0^2 \\cdot \\sin(2\\alpha)}{g}$$",
+                                                       "mucDich":  "Tính thời gian bay, độ cao cực đại $h_{\\max}$ tại đỉnh parabol và tầm bay xa $L$ trên mặt đất.",
+                                                       "chuThich":  "- **Thời gian đạt độ cao cực đại (thời gian đi lên):** Tại đỉnh quỹ đạo $v_y = 0 \\implies t_{\\text{lên}} = \\frac{v_0 \\cdot \\sin\\alpha}{g}$.\n- **Tổng thời gian bay chạm đất (ở cùng độ cao):** $t = 2t_{\\text{lên}} = \\frac{2v_0 \\cdot \\sin\\alpha}{g}$.\n- **Vận tốc tại đỉnh cao nhất $I$:** Thành phần đứng $v_y = 0$, nhưng vận tốc tổng hợp {color:error|**KHÔNG bằng 0**} mà bằng thành phần ngang: $v_I = v_x = v_0 \\cdot \\cos\\alpha$."
+                                                   },
+                                                   {
+                                                       "loai":  "luu_y",
+                                                       "noiDungLuuY":  "{badge:Mẹo giải nhanh} Với cùng vận tốc đầu $v_0$, tầm bay xa $L = \\frac{v_0^2 \\sin(2\\alpha)}{g}$ đạt **giá trị lớn nhất** ($L_{\\max} = \\frac{v_0^2}{g}$) khi góc ném {color:success|**$\\alpha = 45^\\circ$**}. Hai góc ném phụ nhau ($\\alpha_1 + \\alpha_2 = 90^\\circ$, ví dụ $30^\\circ$ và $60^\\circ$) luôn cho **cùng một tầm bay xa $L$**!"
+                                                   }
+                                               ]
+                         }
+                     ]
+    },
+    {
+        "id":  7,
+        "baiSo":  7,
+        "loai":  "cong_thuc",
+        "laCongThucTongHop":  true,
+        "tieude":  "Bài 7: Bảng tổng hợp công thức trọng tâm Chủ đề 2",
+        "sections":  [
+                         {
+                             "id":  1,
+                             "soThuTu":  1,
+                             "tieuDeMuc":  "1. Chuyển động thẳng đều \u0026 Chuyển động thẳng biến đổi đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CHUYỂN ĐỘNG THẲNG ĐỀU (GIA TỐC BẰNG 0)",
+                                                       "congThuc":  "$$v = \\frac{s}{t} = \\text{hằng số}  ;  s = v \\cdot t  ;  x = x_0 + v \\cdot (t - t_0)$$",
+                                                       "mucDich":  "Áp dụng cho vật chuyển động trên đường thẳng với tốc độ không đổi.",
+                                                       "chuThich":  "- Đi theo chiều dương: $v \u003e 0$; đi ngược chiều dương: $v \u003c 0$.\n- Quy đổi đơn vị: $1\\text{ m/s} = 3{,}6\\text{ km/h}$."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CHUYỂN ĐỘNG THẲNG BIẾN ĐỔI ĐỀU (GIA TỐC KHÔNG ĐỔI)",
+                                                       "congThuc":  "$$a = \\frac{v - v_0}{t}  ;  v = v_0 + at  ;  s = v_0 t + \\frac{1}{2}at^2  ;  v^2 - v_0^2 = 2as$$",
+                                                       "mucDich":  "Bộ 4 công thức cốt lõi giải mọi bài toán tăng tốc và hãm phanh trên đường thẳng.",
+                                                       "chuThich":  "- Phương trình tọa độ: $x = x_0 + v_0 t + \\frac{1}{2}at^2$.\n- **Nhanh dần đều:** $a \\cdot v \u003e 0$ ($\\vec{a}$ cùng chiều $\\vec{v}$). **Chậm dần đều:** $a \\cdot v \u003c 0$ ($\\vec{a}$ ngược chiều $\\vec{v}$)."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  2,
+                             "soThuTu":  2,
+                             "tieuDeMuc":  "2. Sự rơi tự do \u0026 Chuyển động ném ngang, ném xiên",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CHUYỂN ĐỘNG RƠI TỰ DO (VẬN TỐC ĐẦU BẰNG 0)",
+                                                       "congThuc":  "$$v = g \\cdot t  ;  h = s = \\frac{1}{2}g \\cdot t^2  ;  v = \\sqrt{2gh}  ;  t = \\sqrt{\\frac{2h}{g}}$$",
+                                                       "mucDich":  "Áp dụng cho vật rơi thẳng đứng chỉ dưới tác dụng của trọng lực ($g \\approx 9{,}8\\text{ m/s}^2$ hoặc $10\\text{ m/s}^2$).",
+                                                       "chuThich":  "- Quãng đường rơi trong giây thứ $n$: $\\Delta s_n = g(n - 0{,}5)$."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CHUYỂN ĐỘNG NÉM NGANG (TỪ ĐỘ CAO h)",
+                                                       "congThuc":  "$$x = v_0 t  ;  y = \\frac{1}{2}gt^2 = \\frac{g}{2v_0^2}x^2  ;  t = \\sqrt{\\frac{2h}{g}}  ;  L = v_0\\sqrt{\\frac{2h}{g}}$$",
+                                                       "mucDich":  "Tổng hợp của chuyển động thẳng đều theo $Ox$ và rơi tự do theo $Oy$.",
+                                                       "chuThich":  "- Độ lớn vận tốc tại thời điểm $t$: $v = \\sqrt{v_0^2 + (gt)^2}$."
+                                                   },
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "CHUYỂN ĐỘNG NÉM XIÊN (GÓC NÉM ALPHA TỪ MẶT ĐẤT)",
+                                                       "congThuc":  "$$t_{\\text{bay}} = \\frac{2v_0\\sin\\alpha}{g}  ;  h_{\\max} = \\frac{v_0^2\\sin^2\\alpha}{2g}  ;  L = \\frac{v_0^2\\sin(2\\alpha)}{g}$$",
+                                                       "mucDich":  "Xác định thời gian bay, độ cao đỉnh parabol và tầm bay xa ngang.",
+                                                       "chuThich":  "- Vận tốc tại đỉnh cao nhất: $v_{\\text{đỉnh}} = v_{0x} = v_0\\cos\\alpha$.\n- Tầm xa cực đại khi $\\alpha = 45^\\circ$: $L_{\\max} = \\frac{v_0^2}{g}$."
+                                                   }
+                                               ]
+                         },
+                         {
+                             "id":  3,
+                             "soThuTu":  3,
+                             "tieuDeMuc":  "3. Động học và Động lực học Chuyển động tròn đều",
+                             "noiDungBlocks":  [
+                                                   {
+                                                       "loai":  "cong_thuc_trong_tam",
+                                                       "tenBuoc":  "ĐỔI GÓC RADIAN, TỐC ĐỘ DÀI, TỐC ĐỘ GÓC \u0026 GIA TỐC HƯỚNG TÂM",
+                                                       "congThuc":  "$$\\alpha(\\text{rad}) = \\alpha^\\circ \\cdot \\frac{\\pi}{180^\\circ}  ;  \\omega = \\frac{2\\pi}{T} = 2\\pi f  ;  v = \\omega r  ;  a_{ht} = \\frac{v^2}{r} = \\omega^2 r$$",
+                                                       "mucDich":  "Tính toán các thông số quay tròn đều và lực hướng tâm $F_{ht} = m \\cdot a_{ht}$.",
+                                                       "chuThich":  "- Chu kỳ $T = \\frac{1}{f}$ ($\\text{s}$), tần số $f$ ($\\text{Hz}$).\n- Lực hướng tâm: $F_{ht} = m\\frac{v^2}{r} = m\\omega^2 r$ (luôn hướng vào tâm đường tròn quỹ đạo)."
+                                                   }
+                                               ]
+                         }
+                     ]
+    }
+]

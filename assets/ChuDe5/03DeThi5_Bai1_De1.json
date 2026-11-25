@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công cơ học là đại lượng:",
+    "caccauChon": [
+      "Vô hướng, luôn có giá trị dương.",
+      "Đại số, có thể dương, âm hoặc bằng $0$.",
+      "Vectơ, có phương và chiều.",
+      "Vô hướng, luôn có giá trị âm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công cơ học $A = F \\cdot s \\cdot \\cos\\alpha$ là đại lượng đại số (vô hướng), có thể nhận giá trị dương (công phát động), âm (công cản) hoặc bằng $0$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong trường hợp nào sau đây lực thực hiện công cản ($A < 0$)?",
+    "caccauChon": [
+      "Góc hợp bởi lực và hướng dịch chuyển là góc nhọn ($\\alpha < 90^\\circ$).",
+      "Lực cùng hướng với hướng dịch chuyển ($\\alpha = 0^\\circ$).",
+      "Góc hợp bởi lực và hướng dịch chuyển là góc tù ($90^\\circ < \\alpha \\le 180^\\circ$).",
+      "Lực vuông góc với hướng dịch chuyển ($\\alpha = 90^\\circ$)."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi góc $\\alpha$ là góc tù ($90^\\circ < \\alpha \\le 180^\\circ$), $\\cos\\alpha < 0$ nên công $A < 0$, lực thực hiện công cản."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị nào sau đây KHÔNG PHẢI là đơn vị của công?",
+    "caccauChon": [
+      "Joule ($\\text{J}$)",
+      "$\\text{N}\\cdot\\text{m}$",
+      "Watt ($\\text{W}$)",
+      "$\\text{kW}\\cdot\\text{h}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Watt ($\\text{W}$) là đơn vị của công suất. Các đơn vị $\\text{J}$, $\\text{N}\\cdot\\text{m}$, $\\text{kW}\\cdot\\text{h}$ đều là đơn vị của công hoặc năng lượng."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực $F = 20\\text{ N}$ tác dụng vào vật làm vật dịch chuyển $s = 5\\text{ m}$ theo phương của lực. Công do lực thực hiện là:",
+    "caccauChon": [
+      "$100\\text{ J}$",
+      "$4\\text{ J}$",
+      "$25\\text{ J}$",
+      "$0\\text{ J}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$A = F \\cdot s \\cdot \\cos 0^\\circ = 20 \\cdot 5 \\cdot 1 = 100\\text{ J}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người nâng một vật khối lượng $m = 5\\text{ kg}$ lên cao $2\\text{ m}$ theo phương thẳng đứng với tốc độ không đổi. Lấy $g = 10\\text{ m/s}^2$. Công của lực nâng tối thiểu là:",
+    "caccauChon": [
+      "$10\\text{ J}$",
+      "$50\\text{ J}$",
+      "$100\\text{ J}$",
+      "$200\\text{ J}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Lực nâng tối thiểu $F = P = m \\cdot g = 5 \\cdot 10 = 50\\text{ N}$. Công lực nâng $A = F \\cdot h = 50 \\cdot 2 = 100\\text{ J}$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi lực $\\vec{F}$ vuông góc với hướng chuyển động của vật ($\\alpha = 90^\\circ$) thì công của lực $\\vec{F}$ bằng:",
+    "caccauChon": [
+      "$A = F \\cdot s$",
+      "$A = -F \\cdot s$",
+      "$A = 0$",
+      "$A = \\frac{1}{2} F \\cdot s$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\cos 90^\\circ = 0$ nên $A = F \\cdot s \\cdot \\cos 90^\\circ = 0$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công suất được xác định bằng:",
+    "caccauChon": [
+      "Tích của công và thời gian thực hiện công.",
+      "Thương số giữa công thực hiện và thời gian thực hiện công đó.",
+      "Thương số giữa thời gian và công thực hiện.",
+      "Tích của lực tác dụng và quãng đường."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công suất $P = \\frac{A}{t}$, là thương số giữa công và thời gian thực hiện công."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một động cơ có công suất $P = 2\\text{ kW} = 2000\\text{ W}$. Công mà động cơ thực hiện được trong $10\\text{ giây}$ là:",
+    "caccauChon": [
+      "$200\\text{ J}$",
+      "$20000\\text{ J}$",
+      "$2000\\text{ J}$",
+      "$20\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$A = P \\cdot t = 2000 \\cdot 10 = 20000\\text{ J} = 20\\text{ kJ}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị mã lực ($\\text{HP}$ - Horsepower) thường được dùng để đo đại lượng nào?",
+    "caccauChon": [
+      "Công cơ học.",
+      "Động năng.",
+      "Công suất.",
+      "Hiệu suất."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Mã lực ($\\text{HP}$) là đơn vị đo công suất ($1\\text{ HP} \\approx 746\\text{ W}$)."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Mối liên hệ giữa công suất $P$, lực $F$ kéo vật và vận tốc $v$ của vật chuyển động thẳng đều theo hướng của lực là:",
+    "caccauChon": [
+      "$P = \\frac{F}{v}$",
+      "$P = F \\cdot v$",
+      "$P = \\frac{v}{F}$",
+      "$P = F \\cdot v^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$P = \\frac{A}{t} = \\frac{F \\cdot s}{t} = F \\cdot \\frac{s}{t} = F \\cdot v$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô chuyển động thẳng đều trên đường nằm ngang với vận tốc $v = 15\\text{ m/s}$. Lực kéo của động cơ là $F = 800\\text{ N}$. Công suất của động cơ ô tô là:",
+    "caccauChon": [
+      "$12000\\text{ W}$",
+      "$53{,}3\\text{ W}$",
+      "$815\\text{ W}$",
+      "$1200\\text{ W}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$P = F \\cdot v = 800 \\cdot 15 = 12000\\text{ W} = 12\\text{ kW}$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hiệu suất $H$ của một máy móc được tính theo công thức:",
+    "caccauChon": [
+      "$H = \\frac{A_{tp}}{A_{ích}} \\cdot 100\\%$",
+      "$H = \\frac{A_{ích}}{A_{tp}} \\cdot 100\\%$",
+      "$H = \\frac{A_{hp}}{A_{tp}} \\cdot 100\\%$",
+      "$H = \\frac{A_{ích}}{A_{hp}} \\cdot 100\\%$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hiệu suất là tỉ lệ phần trăm giữa công có ích và công toàn phần: $H = \\frac{A_{ích}}{A_{tp}} \\cdot 100\\%$.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nhan_nang_luong_hieu_suat.webp"
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một máy bơm nước tiêu thụ công toàn phần $A_{tp} = 5000\\text{ J}$, trong đó công có ích để đưa nước lên cao là $A_{ích} = 4000\\text{ J}$. Hiệu suất của máy bơm là:",
+    "caccauChon": [
+      "$80\\%$",
+      "$125\\%$",
+      "$20\\%$",
+      "$90\\%$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$H = \\frac{4000}{5000} \\cdot 100\\% = 80\\%$.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nha_may_thuy_dien.webp"
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong quá trình cơ học, năng lượng hao phí thường chuyển hóa thành dạng năng lượng nào?",
+    "caccauChon": [
+      "Hóa năng.",
+      "Nhiệt năng.",
+      "Điện năng.",
+      "Quang năng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Năng lượng hao phí trong các hệ cơ học thường chuyển hóa thành nhiệt năng do lực ma sát và lực cản."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một cần cẩu nâng một thùng hàng khối lượng $1000\\text{ kg}$ lên cao $6\\text{ m}$ trong thời gian $12\\text{ giây}$ với tốc độ không đổi. Lấy $g = 10\\text{ m/s}^2$. Công suất có ích của cần cẩu là:",
+    "caccauChon": [
+      "$5000\\text{ W}$",
+      "$500\\text{ W}$",
+      "$60000\\text{ W}$",
+      "$72000\\text{ W}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Công $A = m \\cdot g \\cdot h = 1000 \\cdot 10 \\cdot 6 = 60000\\text{ J}$. Công suất $P = \\frac{A}{t} = \\frac{60000}{12} = 5000\\text{ W} = 5\\text{ kW}$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực $F$ kéo vật dịch chuyển quãng đường $s$ hợp với hướng chuyển động góc $\\alpha = 60^\\circ$. Cho $F = 40\\text{ N}$, $s = 8\\text{ m}$. Công của lực $F$ là:",
+    "caccauChon": [
+      "$320\\text{ J}$",
+      "$160\\text{ J}$",
+      "$160\\sqrt{3}\\text{ J}$",
+      "$0\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$A = F \\cdot s \\cdot \\cos 60^\\circ = 40 \\cdot 8 \\cdot 0{,}5 = 160\\text{ J}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây ĐÚNG về hiệu suất?",
+    "caccauChon": [
+      "Hiệu suất luôn lớn hơn $100\\%$.",
+      "Hiệu suất có thể bằng $100\\%$ nếu không có ma sát và hao phí.",
+      "Hiệu suất càng nhỏ thì máy làm việc càng tiết kiệm năng lượng.",
+      "Hiệu suất là đại lượng có đơn vị là Watt."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong điều kiện lý tưởng không có ma sát hao phí, công có ích bằng công toàn phần nên $H = 100\\%$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực ma sát trượt thực hiện loại công nào khi vật trượt trên mặt phẳng?",
+    "caccauChon": [
+      "Công phát động ($A > 0$).",
+      "Công cản ($A < 0$).",
+      "Không thực hiện công ($A = 0$).",
+      "Công suất cực đại."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực ma sát trượt luôn ngược chiều với hướng chuyển động ($\\alpha = 180^\\circ$), nên $\\cos 180^\\circ = -1 \\implies A < 0$ (công cản)."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đổi đơn vị: $1\\text{ kW}\\cdot\\text{h}$ bằng bao nhiêu Joule?",
+    "caccauChon": [
+      "$1000\\text{ J}$",
+      "$3600\\text{ J}$",
+      "$3{,}6 \\cdot 10^6\\text{ J}$",
+      "$36000\\text{ J}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$1\\text{ kW}\\cdot\\text{h} = 1000\\text{ W} \\cdot 3600\\text{ s} = 3\\,600\\,000\\text{ J} = 3{,}6 \\cdot 10^6\\text{ J}$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe máy chạy thẳng đều với công suất động cơ $P = 3000\\text{ W}$. Lực cản của không khí và mặt đường tổng cộng là $F_c = 150\\text{ N}$. Tốc độ chuyển động của xe là:",
+    "caccauChon": [
+      "$20\\text{ m/s}$",
+      "$10\\text{ m/s}$",
+      "$45\\text{ m/s}$",
+      "$15\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi xe chạy đều, lực kéo $F_k = F_c = 150\\text{ N}$. Ta có $P = F_k \\cdot v \\implies v = \\frac{P}{F_k} = \\frac{3000}{150} = 20\\text{ m/s}$."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phát biểu về khái niệm và đặc điểm của công cơ học:",
+    "dsYCon": [
+      "Công cơ học là đại lượng vectơ có phương trùng với phương của lực.",
+      "Khi góc hợp bởi lực $\\vec{F}$ và hướng chuyển động là $90^\\circ$ thì công của lực $\\vec{F}$ bằng $0$.",
+      "Lực ma sát trượt luôn thực hiện công âm (công cản) lên vật đang chuyển động trượt.",
+      "Một vật chuyển động tròn đều dưới tác dụng của lực hướng tâm, lực hướng tâm thực hiện công phát động làm tăng tốc vật."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Sai: Công cơ học là đại lượng vô hướng (đại số), không phải đại lượng vectơ.\\n- Ý b) Đúng: Vì $\\cos 90^\\circ = 0$ nên $A = F \\cdot s \\cdot \\cos 90^\\circ = 0$.\\n- Ý c) Đúng: Vì lực ma sát trượt ngược hướng chuyển động ($\\alpha = 180^\\circ$, $\\cos 180^\\circ = -1$).\\n- Ý d) Sai: Lực hướng tâm luôn vuông góc với vận tốc tức thời ($\\alpha = 90^\\circ$) nên công của lực hướng tâm luôn bằng $0$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một chiếc ô tô khối lượng $m = 1200\\text{ kg}$ bắt đầu chuyển động nhanh dần đều trên đường nằm ngang, sau $t = 10\\text{ s}$ đạt vận tốc $v = 20\\text{ m/s}$. Bỏ qua ma sát. Lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Gia tốc của ô tô là $a = 2\\text{ m/s}^2$.",
+      "Quãng đường ô tô đi được trong $10\\text{ s}$ là $s = 100\\text{ m}$.",
+      "Lực kéo của động cơ ô tô có độ lớn $F_k = 2400\\text{ N}$.",
+      "Công suất trung bình của động cơ ô tô trong thời gian $10\\text{ s}$ là $P = 48\\text{ kW}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng: $a = \\frac{v - v_0}{t} = \\frac{20 - 0}{10} = 2\\text{ m/s}^2$.\\n- Ý b) Đúng: $s = \\frac{1}{2} a t^2 = \\frac{1}{2} \\cdot 2 \\cdot 10^2 = 100\\text{ m}$.\\n- Ý c) Đúng: $F_k = m \\cdot a = 1200 \\cdot 2 = 2400\\text{ N}$.\\n- Ý d) Sai: Công của động cơ $A = F_k \\cdot s = 2400 \\cdot 100 = 240000\\text{ J}$. Công suất trung bình $P_{tb} = \\frac{A}{t} = \\frac{240000}{10} = 24000\\text{ W} = 24\\text{ kW}$ (không phải $48\\text{ kW}$)."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét một động cơ điện dùng để kéo một thang máy khối lượng $m = 500\\text{ kg}$ đi lên thẳng đều với tốc độ $v = 2\\text{ m/s}$. Hiệu suất của động cơ là $H = 80\\%$. Lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Lực kéo của thang máy có độ lớn $F = 5000\\text{ N}$.",
+      "Công suất có ích của động cơ là $P_{ích} = 10\\text{ kW}$.",
+      "Công suất toàn phần mà động cơ điện tiêu thụ là $P_{tp} = 12{,}5\\text{ kW}$.",
+      "Công suất hao phí do tỏa nhiệt và ma sát của động cơ là $2{,}5\\text{ kW}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a) Đúng: Do thang máy đi lên thẳng đều nên $F = P = m \\cdot g = 500 \\cdot 10 = 5000\\text{ N}$.\\n- Ý b) Đúng: $P_{ích} = F \\cdot v = 5000 \\cdot 2 = 10000\\text{ W} = 10\\text{ kW}$.\\n- Ý c) Đúng: $P_{tp} = \\frac{P_{ích}}{H} = \\frac{10}{0{,}8} = 12{,}5\\text{ kW}$.\\n- Ý d) Đúng: $P_{hp} = P_{tp} - P_{ích} = 12{,}5 - 10 = 2{,}5\\text{ kW}$."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật khối lượng $m = 2\\text{ kg}$ được kéo trượt trên mặt sàn nằm ngang bởi lực $F = 10\\text{ N}$ hợp với phương ngang một góc $\\alpha = 60^\\circ$. Vật dịch chuyển quãng đường $s = 5\\text{ m}$. Hệ số ma sát trượt $\\mu = 0{,}1$. Lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thành phần lực kéo theo phương ngang có độ lớn $F_x = 5\\text{ N}$.",
+      "Áp lực của vật lên mặt sàn là $N = 20\\text{ N}$.",
+      "Công của lực kéo $\\vec{F}$ là $A_F = 25\\text{ J}$.",
+      "Công của trọng lực $\\vec{P}$ thực hiện trên quãng đường $s$ là $A_P = 100\\text{ J}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng: $F_x = F \\cdot \\cos 60^\\circ = 10 \\cdot 0{,}5 = 5\\text{ N}$.\\n- Ý b) Sai: Phương thẳng đứng có $N + F_y = P \\implies N = m \\cdot g - F \\cdot \\sin 60^\\circ = 20 - 10 \\cdot \\frac{\\sqrt{3}}{2} \\approx 11{,}34\\text{ N}$ (nhỏ hơn $20\\text{ N}$).\\n- Ý c) Đúng: $A_F = F \\cdot s \\cdot \\cos 60^\\circ = 10 \\cdot 5 \\cdot 0{,}5 = 25\\text{ J}$.\\n- Ý d) Sai: Trọng lực $\\vec{P}$ vuông góc với phương dịch chuyển nằm ngang nên $A_P = 0\\text{ J}$."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phát biểu về công suất và hiệu suất trong đời sống và kỹ thuật:",
+    "dsYCon": [
+      "Hai máy thực hiện cùng một công $A$, máy nào thực hiện trong thời gian ngắn hơn thì có công suất lớn hơn.",
+      "Máy có công suất lớn hơn thì nhất định sẽ thực hiện được công nhiều hơn.",
+      "Hiệu suất của một động cơ cơ học luôn luôn nhỏ hơn $100\\%$ (hay $H < 1$).",
+      "Đơn vị $\\text{kW}\\cdot\\text{h}$ ghi trên đồng hồ điện sinh hoạt là đơn vị của công suất tiêu thụ điện."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng: Vì $P = \\frac{A}{t}$, thời gian $t$ nhỏ hơn thì công suất $P$ lớn hơn.\\n- Ý b) Sai: Công thực hiện $A = P \\cdot t$ phụ thuộc vào cả thời gian hoạt động $t$.\\n- Ý c) Đúng: Trong thực tế luôn có hao phí năng lượng do ma sát và tỏa nhiệt nên $A_{ích} < A_{tp} \\implies H < 100\\%$.\\n- Ý d) Sai: $\\text{kW}\\cdot\\text{h}$ là đơn vị đo công / năng lượng điện tiêu thụ, không phải công suất.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nhan_nang_luong_hieu_suat.webp"
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một người kéo một thùng hàng có khối lượng $m = 40\\text{ kg}$ trượt đều trên sàn nhà nằm ngang một đoạn đường $s = 15\\text{ m}$ bằng một sợi dây hợp với phương ngang một góc $\\alpha = 30^\\circ$. Biết hệ số ma sát trượt giữa thùng hàng và sàn nhà là $\\mu = 0{,}25$. Lấy $g = 10\\text{ m/s}^2$, $\\cos 30^\\circ \\approx 0{,}866$, $\\sin 30^\\circ = 0{,}5$.\\na) Tính độ lớn lực kéo của người đó (làm tròn đến 2 chữ số thập phân, đơn vị $\\text{N}$).\\nb) Tính công của lực kéo, công của lực ma sát và công của trọng lực tác dụng lên thùng hàng trên đoạn đường trên (đơn vị $\\text{J}$).",
+    "giaithich": "- **Tóm tắt:** $m = 40\\text{ kg}$, $s = 15\\text{ m}$, $\\alpha = 30^\\circ$, $\\mu = 0{,}25$, $g = 10\\text{ m/s}^2$, vận tốc không đổi ($a = 0$).\\n- **a) Tính độ lớn lực kéo:**\\n  Các lực tác dụng: trọng lực $\\vec{P}$, phản lực $\\vec{N}$, lực kéo $\\vec{F}_k$, lực ma sát trượt $\\vec{F}_{ms}$.\\n  Chiếu lên phương thẳng đứng $Oy$: $N + F_k \\cdot \\sin\\alpha - P = 0 \\implies N = m \\cdot g - F_k \\cdot \\sin\\alpha$.\\n  Chiếu lên phương chuyển động $Ox$: $F_k \\cdot \\cos\\alpha - F_{ms} = 0 \\iff F_k \\cdot \\cos\\alpha = \\mu \\cdot N = \\mu \\cdot (m \\cdot g - F_k \\cdot \\sin\\alpha)$.\\n  Thay số: $F_k \\cdot \\cos 30^\\circ = 0{,}25 \\cdot (40 \\cdot 10 - F_k \\cdot \\sin 30^\\circ) \\implies 0{,}866 \\cdot F_k = 100 - 0{,}125 \\cdot F_k \\implies 0{,}991 \\cdot F_k = 100 \\implies F_k \\approx 100{,}91\\text{ N}$.\\n- **b) Tính công của các lực:**\\n  + Công của lực kéo: $A_F = F_k \\cdot s \\cdot \\cos\\alpha = 100{,}91 \\cdot 15 \\cdot \\cos 30^\\circ \\approx 1310{,}86\\text{ J}$.\\n  + Lực ma sát: $F_{ms} = F_k \\cdot \\cos 30^\\circ \\approx 87{,}39\\text{ N}$. Công lực ma sát: $A_{ms} = F_{ms} \\cdot s \\cdot \\cos 180^\\circ = -87{,}39 \\cdot 15 \\approx -1310{,}86\\text{ J}$.\\n  + Trọng lực $\\vec{P} \\perp \\vec{s}$ nên $A_P = P \\cdot s \\cdot \\cos 90^\\circ = 0\\text{ J}$.\\nĐáp số: a) 100,91 N; b) A_F ≈ 1310,86 J, A_ms ≈ -1310,86 J, A_P = 0 J"
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô có khối lượng $m = 1{,}2\\text{ tấn}$ bắt đầu chuyển động thẳng nhanh dần đều trên đường nằm ngang từ trạng thái đứng yên. Sau thời gian $t = 10\\text{ s}$, ô tô đạt tốc độ $v = 54\\text{ km/h}$. Biết lực cản chuyển động tác dụng lên ô tô có độ lớn không đổi bằng $0{,}05$ lần trọng lượng của xe. Lấy $g = 10\\text{ m/s}^2$.\\na) Tính công của lực phát động do động cơ ô tô thực hiện trong $10\\text{ s}$ đầu tiên (đơn vị $\\text{kJ}$).\\nb) Tính công suất trung bình của động cơ trong $10\\text{ s}$ đó và công suất tức thời của động cơ ở cuối giây thứ $10$ (đơn vị $\\text{kW}$).",
+    "giaithich": "- **Tóm tắt:** $m = 1{,}2\\text{ tấn} = 1200\\text{ kg}$, $v_0 = 0$, $t = 10\\text{ s}$, $v = 54\\text{ km/h} = 15\\text{ m/s}$, $F_c = 0{,}05P = 0{,}05 \\cdot m \\cdot g = 600\\text{ N}$.\\n- **a) Tính công của lực phát động:**\\n  + Gia tốc ô tô: $a = \\frac{v - v_0}{t} = \\frac{15 - 0}{10} = 1{,}5\\text{ m/s}^2$.\\n  + Quãng đường đi được trong $10\\text{ s}$: $s = \\frac{1}{2}at^2 = 0{,}5 \\cdot 1{,}5 \\cdot 10^2 = 75\\text{ m}$.\\n  + Lực phát động động cơ: $F_k - F_c = m \\cdot a \\implies F_k = F_c + m \\cdot a = 600 + 1200 \\cdot 1{,}5 = 2400\\text{ N}$.\\n  + Công của lực phát động: $A = F_k \\cdot s = 2400 \\cdot 75 = 180\\,000\\text{ J} = 180\\text{ kJ}$.\\n- **b) Tính công suất:**\\n  + Công suất trung bình: $\\overline{P} = \\frac{A}{t} = \\frac{180\\,000}{10} = 18\\,000\\text{ W} = 18\\text{ kW}$.\\n  + Công suất tức thời ở cuối giây thứ $10$ (khi $v = 15\\text{ m/s}$): $P_t = F_k \\cdot v = 2400 \\cdot 15 = 36\\,000\\text{ W} = 36\\text{ kW}$.\\nĐáp số: a) 180 kJ; b) P_tb = 18 kW, P_t = 36 kW"
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một máy bơm nước dùng động cơ điện có công suất tiêu thụ điện $P_{tp} = 2{,}5\\text{ kW}$ để bơm nước từ giếng sâu $h = 12\\text{ m}$ lên bể chứa ở trên cao. Trong thời gian $t = 20\\text{ phút}$, máy bơm đưa được $V = 18\\text{ m}^3$ nước lên bể. Biết khối lượng riêng của nước là $D = 1000\\text{ kg/m}^3$, lấy $g = 10\\text{ m/s}^2$.\\na) Tính công có ích để đưa lượng nước trên lên bể (đơn vị $\\text{kJ}$).\\nb) Tính hiệu suất của máy bơm nước này (theo đơn vị $\\%$).",
+    "giaithich": "- **Tóm tắt:** $P_{tp} = 2{,}5\\text{ kW} = 2500\\text{ W}$, $h = 12\\text{ m}$, $t = 20\\text{ phút} = 1200\\text{ s}$, $V = 18\\text{ m}^3$, $D = 1000\\text{ kg/m}^3$, $g = 10\\text{ m/s}^2$.\\n- **a) Công có ích:**\\n  + Khối lượng nước được bơm lên: $m = D \\cdot V = 1000 \\cdot 18 = 18\\,000\\text{ kg}$.\\n  + Trọng lượng của nước: $P = m \\cdot g = 18\\,000 \\cdot 10 = 180\\,000\\text{ N}$.\\n  + Công có ích để nâng lượng nước lên độ cao $h = 12\\text{ m}$: $A_{ích} = P \\cdot h = 180\\,000 \\cdot 12 = 2\\,160\\,000\\text{ J} = 2160\\text{ kJ}$.\\n- **b) Hiệu suất của máy bơm:**\\n  + Công toàn phần điện năng tiêu thụ trong $t = 1200\\text{ s}$: $A_{tp} = P_{tp} \\cdot t = 2500 \\cdot 1200 = 3\\,000\\,000\\text{ J} = 3000\\text{ kJ}$.\\n  + Hiệu suất máy bơm: $H = \\frac{A_{ích}}{A_{tp}} \\cdot 100\\% = \\frac{2\\,160\\,000}{3\\,000\\,000} \\cdot 100\\% = 72\\%$.\\nĐáp số: a) 2160 kJ; b) 72%"
+  }
+]

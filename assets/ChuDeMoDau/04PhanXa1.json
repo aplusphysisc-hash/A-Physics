@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đối tượng nghiên cứu chính của môn Vật lý là gì?",
+    "caccauChon": [
+      "Cấu trúc tế bào và sự di truyền của sinh vật.",
+      "Lịch sử hình thành các châu lục trên Trái Đất.",
+      "Sự biến đổi chất hóa học và phản ứng phân hủy.",
+      "Các dạng vận động của vật chất và năng lượng."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Vật lý nghiên cứu về các dạng vận động của vật chất (cơ, nhiệt, điện, từ, ánh sáng) và năng lượng."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Mục tiêu cốt lõi của môn Vật lý là:",
+    "caccauChon": [
+      "Tìm ra quy luật vận động chung nhất của tự nhiên để ứng dụng vào đời sống và công nghệ.",
+      "Tổng hợp các hợp chất hữu cơ mới trong công nghiệp.",
+      "Phân loại các loài động thực vật quý hiếm.",
+      "Dự báo thời tiết ngắn hạn hàng ngày."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Mục tiêu của Vật lý là khám phá quy luật vận động chung nhất của tự nhiên, từ đó phục vụ đời sống và phát triển công nghệ."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai phương pháp nghiên cứu chính của Vật lý gồm:",
+    "caccauChon": [
+      "Phương pháp thực nghiệm và phương pháp lý thuyết.",
+      "Phương pháp chưng cất và phương pháp kết tủa.",
+      "Phương pháp giải phẫu và phương pháp lai tạo.",
+      "Phương pháp khảo cổ và phương pháp thống kê."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Nghiên cứu Vật lý sử dụng phương pháp thực nghiệm (quan sát, làm thí nghiệm) và phương pháp lý thuyết (toán học, mô hình suy luận)."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biển báo an toàn có hình tròn, viền đỏ, nền trắng, hình vẽ màu đen thuộc nhóm biển báo nào?",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_cam.webp",
+    "caccauChon": [
+      "Biển cảnh báo nguy hiểm.",
+      "Biển chỉ dẫn an toàn.",
+      "Biển báo cấm.",
+      "Biển bắt buộc thực hiện."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hình tròn, viền đỏ, nền trắng, hình vẽ màu đen là quy chuẩn của biển báo cấm (ví dụ: cấm lửa, cấm chạm)."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biển báo hình tam giác vàng, viền đen, hình vẽ màu đen mang ý nghĩa gì?",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp",
+    "caccauChon": [
+      "Cấm học sinh vào phòng thực hành.",
+      "Chỉ dẫn vị trí lối thoát hiểm.",
+      "Bắt buộc mặc áo bảo hộ.",
+      "Cảnh báo trước các nguy cơ nguy hiểm (điện cao thế, tia laser, chất độc...)."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Biển hình tam giác nền vàng, viền đen là biển cảnh báo nguy hiểm."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biển báo hình tròn nền xanh lam, hình vẽ màu trắng thuộc nhóm biển nào?",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_bat_buoc.webp",
+    "caccauChon": [
+      "Biển cảnh báo nguy hiểm.",
+      "Biển bắt buộc / lệnh (yêu cầu phải làm theo).",
+      "Biển chỉ dẫn thoát hiểm.",
+      "Biển báo cấm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Biển tròn xanh lam, hình trắng là biển bắt buộc thực hiện (ví dụ: bắt buộc đeo kính bảo hộ, đeo găng tay)."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong phòng thực hành, hành động nào sau đây bị NGHIÊM CẤM?",
+    "caccauChon": [
+      "Tắt cầu dao điện và rửa tay sạch sau khi kết thúc buổi thực hành.",
+      "Đọc kỹ hướng dẫn thực hành trước khi làm thí nghiệm.",
+      "Tự ý bật nguồn điện khi chưa có sự cho phép của giáo viên và ăn uống trong phòng.",
+      "Mặc đồ bảo hộ, đeo kính bảo hộ theo quy định."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong khi làm thí nghiệm, chỉ bật nguồn điện khi giáo viên cho phép và tuyệt đối không ăn uống trong phòng thực hành."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phép đo trực tiếp là phép đo:",
+    "caccauChon": [
+      "Không bao giờ xảy ra sai số.",
+      "Tính toán đại lượng cần đo thông qua công thức toán học.",
+      "Chỉ dùng cho các đại lượng không có đơn vị.",
+      "So sánh trực tiếp đại lượng cần đo với dụng cụ đo và đọc ngay kết quả."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Phép đo trực tiếp đọc ngay giá trị trên dụng cụ đo (thước, cân, đồng hồ) mà không cần qua công thức trung gian."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cách khắc phục hiệu quả nhất đối với sai số ngẫu nhiên là:",
+    "caccauChon": [
+      "Cộng thêm hằng số tùy ý vào kết quả đo.",
+      "Không ghi sai số dụng cụ vào kết quả.",
+      "Tiến hành đo nhiều lần rồi tính giá trị trung bình.",
+      "Chỉ đo duy nhất $1$ lần thật nhanh."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Để giảm sai số ngẫu nhiên, ta thực hiện phép đo lặp lại nhiều lần và lấy giá trị trung bình $\\bar{A}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính sai số tuyệt đối toàn phần $\\Delta A$ của phép đo trực tiếp là:",
+    "caccauChon": [
+      "$\\Delta A = \\overline{\\Delta A} \\cdot \\Delta A_{dc}$",
+      "$\\Delta A = \\frac{\\overline{\\Delta A}}{\\Delta A_{dc}}$",
+      "$\\Delta A = \\overline{\\Delta A} - \\Delta A_{dc}$",
+      "$\\Delta A = \\overline{\\Delta A} + \\Delta A_{dc}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Sai số tuyệt đối của phép đo bằng tổng sai số ngẫu nhiên trung bình $\\overline{\\Delta A}$ và sai số dụng cụ $\\Delta A_{dc}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính sai số tỉ đối $\\delta A$ là:",
+    "caccauChon": [
+      "$\\delta A = \\Delta A \\cdot \\bar{A} \\cdot 100\\%$",
+      "$\\delta A = (\\bar{A} - \\Delta A) \\cdot 100\\%$",
+      "$\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%$",
+      "$\\delta A = \\frac{\\bar{A}}{\\Delta A} \\cdot 100\\%$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Sai số tỉ đối bằng tỉ số giữa sai số tuyệt đối $\\Delta A$ và giá trị trung bình $\\bar{A}$ tính theo phần trăm."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho đại lượng gián tiếp $F = x - y$. Sai số tuyệt đối $\\Delta F$ được tính theo công thức:",
+    "caccauChon": [
+      "$\\Delta F = |\\Delta x - \\Delta y|$",
+      "$\\Delta F = \\Delta x \\cdot \\Delta y$",
+      "$\\Delta F = \\Delta x - \\Delta y$",
+      "$\\Delta F = \\Delta x + \\Delta y$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Sai số tuyệt đối của một tổng hay hiệu luôn bằng tổng các sai số tuyệt đối thành phần: $\\Delta F = \\Delta x + \\Delta y$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho công thức $v = \\frac{s}{t}$. Sai số tỉ đối của vận tốc $\\delta v$ là:",
+    "caccauChon": [
+      "$\\delta v = \\delta s \\cdot \\delta t$",
+      "$\\delta v = \\frac{\\delta s}{\\delta t}$",
+      "$\\delta v = \\delta s + \\delta t$",
+      "$\\delta v = \\delta s - \\delta t$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Sai số tỉ đối của một thương bằng tổng các sai số tỉ đối thành phần: $\\delta v = \\delta s + \\delta t$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho đại lượng $V = a^3$. Quan hệ giữa sai số tỉ đối $\\delta V$ và $\\delta a$ là:",
+    "caccauChon": [
+      "$\\delta V = \\delta a + 3$",
+      "$\\delta V = \\frac{1}{3} \\cdot \\delta a$",
+      "$\\delta V = 3 \\cdot \\delta a$",
+      "$\\delta V = (\\delta a)^3$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo quy tắc sai số của lũy thừa $A = B^n \\Rightarrow \\delta A = n \\cdot \\delta B$, với $n = 3$ ta có $\\delta V = 3 \\cdot \\delta a$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Theo quy tắc ghi kết quả đo $A = \\bar{A} \\pm \\Delta A$, nếu $\\Delta A = 0{,}04\\text{ m}$ thì giá trị trung bình $\\bar{A}$ phải được làm tròn đến:",
+    "caccauChon": [
+      "Hàng phần mười ($1$ chữ số thập phân sau dấu phẩy).",
+      "Hàng đơn vị (số nguyên).",
+      "Hàng phần trăm ($2$ chữ số thập phân sau dấu phẩy).",
+      "Hàng phần nghìn ($3$ chữ số thập phân sau dấu phẩy)."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Giá trị trung bình $\\bar{A}$ phải được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối $\\Delta A$ (ở đây $0{,}04$ là hàng phần trăm)."
+  }
+]

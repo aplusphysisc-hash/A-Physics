@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "baiSo": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động thẳng biến đổi đều là chuyển động có quỹ đạo là đường thẳng và có đặc điểm nào sau đây?",
+    "caccauChon": [
+      "Vận tốc không đổi theo thời gian.",
+      "Gia tốc không đổi theo thời gian ($\\vec{a} = \\text{hằng số}$).",
+      "Quãng đường đi được tỉ lệ thuận với thời gian.",
+      "Gia tốc tăng đều theo thời gian."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chuyển động thẳng biến đổi đều là chuyển động có quỹ đạo là đường thẳng và có vận tốc tức thời biến đổi đều theo thời gian, nghĩa là véc-tơ gia tốc không đổi về cả hướng và độ lớn: $\\vec{a} = \\frac{\\Delta \\vec{v}}{\\Delta t} = \\text{hằng số}$."
+  },
+  {
+    "id": 2,
+    "baiSo": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng nhanh dần đều theo chiều dương của trục tọa độ, mối quan hệ về dấu giữa vận tốc tức thời ($v$) và gia tốc ($a$) là:",
+    "caccauChon": [
+      "$a > 0$ và $v > 0$ (tức là $a \\cdot v > 0$).",
+      "$a < 0$ và $v > 0$ (tức là $a \\cdot v < 0$).",
+      "$a = 0$ và $v > 0$.",
+      "$a > 0$ và $v < 0$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trong chuyển động thẳng nhanh dần đều, véc-tơ gia tốc cùng chiều với véc-tơ vận tốc ($a \\cdot v > 0$). Khi vật chuyển động theo chiều dương ($v > 0$), gia tốc cũng mang giá trị dương ($a > 0$)."
+  },
+  {
+    "id": 3,
+    "baiSo": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ giữa vận tốc tức thời ($v$), vận tốc ban đầu ($v_0$), gia tốc ($a$) và độ dịch chuyển ($d$) trong chuyển động thẳng biến đổi đều là:",
+    "caccauChon": [
+      "$v - v_0 = 2ad$",
+      "$v^2 + v_0^2 = 2ad$",
+      "$v^2 - v_0^2 = 2ad$",
+      "$v^2 - v_0^2 = ad$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức độc lập với thời gian liên hệ giữa vận tốc tức thời $v$, vận tốc ban đầu $v_0$, gia tốc $a$ và độ dịch chuyển $d$ là: $v^2 - v_0^2 = 2ad$."
+  },
+  {
+    "id": 4,
+    "baiSo": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc $v_0 = 10\\text{ m/s}$ thì tăng tốc chuyển động thẳng nhanh dần đều với gia tốc $a = 2\\text{ m/s}^2$. Vận tốc của ô tô sau thời gian $t = 5\\text{ s}$ là:",
+    "caccauChon": [
+      "$15\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$25\\text{ m/s}$",
+      "$30\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức tính vận tốc tức thời với $v_0 = 10\\text{ m/s}$, $a = 2\\text{ m/s}^2$ và $t = 5\\text{ s}$: $v = v_0 + at = 10 + 2 \\cdot 5 = 20\\text{ m/s}$."
+  },
+  {
+    "id": 5,
+    "baiSo": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đoàn tàu bắt đầu rời ga ($v_0 = 0$), chuyển động thẳng nhanh dần đều với gia tốc $a = 0{,}5\\text{ m/s}^2$. Quãng đường tàu đi được sau $t = 20\\text{ s}$ là:",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$50\\text{ m}$",
+      "$100\\text{ m}$",
+      "$200\\text{ m}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Do tàu bắt đầu rời ga nên $v_0 = 0$. Thay $a = 0{,}5\\text{ m/s}^2$ và $t = 20\\text{ s}$ vào công thức: $s = v_0 t + \\frac{1}{2}at^2 = 0 + \\frac{1}{2} \\cdot 0{,}5 \\cdot 20^2 = 100\\text{ m}$."
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Động năng của một vật thay đổi như thế nào nếu vận tốc của vật tăng lên $3$ lần?",
+    "caccauChon": [
+      "Tăng $3$ lần.",
+      "Tăng $6$ lần.",
+      "Tăng $9$ lần.",
+      "Không đổi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $W_đ = \\frac{1}{2}mv^2$ tỉ lệ thuận với $v^2$, nên $v$ tăng $3$ lần thì $W_đ$ tăng $3^2 = 9$ lần."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây KHÔNG phụ thuộc vào việc chọn mốc thế năng?",
+    "caccauChon": [
+      "Thế năng trọng trường.",
+      "Độ biến thiên thế năng.",
+      "Cơ năng của vật.",
+      "Tọa độ độ cao $z$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ biến thiên thế năng (bằng công của trọng lực $A = W_{t1} - W_{t2}$) là đại lượng tuyệt đối, không phụ thuộc vào mốc thế năng."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $m = 4\\text{ kg}$ chuyển động với tốc độ $v = 5\\text{ m/s}$. Động năng của vật là:",
+    "caccauChon": [
+      "$20\\text{ J}$",
+      "$50\\text{ J}$",
+      "$100\\text{ J}$",
+      "$10\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$W_đ = \\frac{1}{2} m v^2 = \\frac{1}{2} \\cdot 4 \\cdot 5^2 = 50\\text{ J}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 2\\text{ kg}$ đặt ở độ cao $h = 5\\text{ m}$ so với mặt đất. Lấy $g = 9{,}8\\text{ m/s}^2$. Chọn mốc thế năng tại mặt đất. Thế năng của vật là:",
+    "caccauChon": [
+      "$98\\text{ J}$",
+      "$49\\text{ J}$",
+      "$10\\text{ J}$",
+      "$19{,}6\\text{ J}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$W_t = m \\cdot g \\cdot h = 2 \\cdot 9{,}8 \\cdot 5 = 98\\text{ J}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn phát biểu ĐÚNG về cơ năng của một vật chuyển động rơi tự do:",
+    "caccauChon": [
+      "Động năng tăng, thế năng tăng.",
+      "Động năng giảm, thế năng tăng.",
+      "Động năng tăng, thế năng giảm nhưng tổng cơ năng không đổi.",
+      "Động năng không đổi, thế năng giảm."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong quá trình rơi tự do, độ cao giảm nên thế năng giảm, vận tốc tăng nên động năng tăng, nhưng tổng cơ năng bảo toàn."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi một vật chuyển động trượt có ma sát trên mặt phẳng nghiêng, cơ năng của hệ thay đổi như thế nào?",
+    "caccauChon": [
+      "Cơ năng được bảo toàn.",
+      "Cơ năng tăng dần.",
+      "Cơ năng giảm, phần cơ năng giảm chuyển hóa thành nhiệt năng do ma sát.",
+      "Cơ năng bằng $0$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Do có ma sát (lực không thế), một phần cơ năng bị biến thành nhiệt năng khiến tổng cơ năng của hệ giảm."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật thả rơi tự do từ độ cao $h$. Tại vị trí nào thì động năng bằng thế năng ($W_đ = W_t$)?",
+    "caccauChon": [
+      "Ở độ cao $\\frac{h}{4}$.",
+      "Ở độ cao $\\frac{h}{2}$.",
+      "Ngay trước khi chạm đất.",
+      "Tại đỉnh $h$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tại độ cao $h$: $W = mgh$. Khi $W_đ = W_t \\implies W = 2W_t \\iff mgh = 2mgz \\implies z = \\frac{h}{2}$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do không vận tốc đầu từ độ cao $h = 45\\text{ m}$. Lấy $g = 10\\text{ m/s}^2$. Vận tốc của vật ngay khi chạm đất là:",
+    "caccauChon": [
+      "$30\\text{ m/s}$",
+      "$15\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$45\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 45} = \\sqrt{900} = 30\\text{ m/s}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên đạn khối lượng $m = 20\\text{ g} = 0{,}02\\text{ kg}$ bay với vận tốc $v = 400\\text{ m/s}$. Động năng của viên đạn là:",
+    "caccauChon": [
+      "$1600\\text{ J}$",
+      "$3200\\text{ J}$",
+      "$800\\text{ J}$",
+      "$4000\\text{ J}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$W_đ = \\frac{1}{2} m v^2 = \\frac{1}{2} \\cdot 0{,}02 \\cdot 400^2 = 1600\\text{ J}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công của trọng lực làm một vật rơi từ độ cao $z_1$ xuống độ cao $z_2$ bằng:",
+    "caccauChon": [
+      "$W_{t1} + W_{t2}$",
+      "$W_{t1} - W_{t2}$",
+      "$W_{t2} - W_{t1}$",
+      "$\\frac{1}{2}(W_{t1} + W_{t2})$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công của trọng lực $A = W_{t1} - W_{t2}$ (bằng độ giảm thế năng)."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lò xo có độ cứng $k = 100\\text{ N/m}$ bị nén một đoạn $x = 0{,}05\\text{ m}$. Thế năng đàn hồi của lò xo là:",
+    "caccauChon": [
+      "$0{,}25\\text{ J}$",
+      "$0{,}125\\text{ J}$",
+      "$2{,}5\\text{ J}$",
+      "$5\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$W_{tđ} = \\frac{1}{2} k x^2 = \\frac{1}{2} \\cdot 100 \\cdot (0{,}05)^2 = 0{,}125\\text{ J}$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây SAI về động năng?",
+    "caccauChon": [
+      "Động năng luôn luôn không âm ($W_đ \\ge 0$).",
+      "Động năng phụ thuộc vào hệ quy chiếu.",
+      "Động năng là đại lượng vectơ.",
+      "Động năng tỉ lệ với bình phương vận tốc."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Động năng là đại lượng vô hướng, không phải đại lượng vectơ."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Ném một vật thẳng đứng từ dưới lên trên. Trong quá trình vật chuyển động lên đỉnh cao nhất (bỏ qua sức cản không khí):",
+    "caccauChon": [
+      "Động năng tăng, thế năng giảm.",
+      "Động năng giảm, thế năng tăng.",
+      "Cả động năng và thế năng đều tăng.",
+      "Cả động năng và thế năng đều giảm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật đi lên, vận tốc giảm nên động năng giảm, độ cao tăng nên thế năng tăng."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 1\\text{ kg}$ có thế năng $W_t = 20\\text{ J}$ so với mặt đất. Lấy $g = 10\\text{ m/s}^2$. Vật đang ở độ cao:",
+    "caccauChon": [
+      "$2\\text{ m}$",
+      "$1\\text{ m}$",
+      "$4\\text{ m}$",
+      "$0{,}5\\text{ m}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$h = \\frac{W_t}{m \\cdot g} = \\frac{20}{1 \\cdot 10} = 2\\text{ m}$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một con lắc đơn gồm vật nặng $m$ treo vào dây mảnh không giãn. Kéo vật lệch khỏi vị trí cân bằng rồi thả nhẹ. Bỏ qua ma sát. Khi vật đi qua vị trí cân bằng thì:",
+    "caccauChon": [
+      "Động năng đạt cực đại, thế năng bằng $0$ (nếu chọn mốc thế năng tại VTCB).",
+      "Thế năng đạt cực đại, động năng bằng $0$.",
+      "Động năng bằng thế năng.",
+      "Cơ năng bằng $0$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tại VTCB, độ cao $z = 0$ nên thế năng cực tiểu (bằng $0$), vận tốc đạt cực đại nên động năng cực đại."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 0{,}5\\text{ kg}$ được ném thẳng đứng lên cao từ mặt đất với vận tốc đầu $v_0 = 10\\text{ m/s}$. Lấy $g = 10\\text{ m/s}^2$. Bỏ qua sức cản. Độ cao cực đại vật đạt được là:",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$5\\text{ m}$",
+      "$15\\text{ m}$",
+      "$20\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Bảo toàn cơ năng: $\\frac{1}{2}mv_0^2 = mgh_{max} \\implies h_{max} = \\frac{v_0^2}{2g} = \\frac{100}{20} = 5\\text{ m}$.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nhay_sao_nang_luong.webp"
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Độ biến thiên động năng của một vật bằng công của:",
+    "caccauChon": [
+      "Chỉ riêng trọng lực tác dụng lên vật.",
+      "Chỉ riêng lực ma sát.",
+      "Tổng tất cả các lực tác dụng lên vật.",
+      "Lực đàn hồi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo định lý động năng: $\\Delta W_đ = A_{tổng}$ (tổng công của tất cả ngoại lực tác dụng)."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn mốc thế năng tại mặt đất. Một vật có khối lượng $m = 1\\text{ kg}$ ở độ cao $h = 10\\text{ m}$ rơi tự do. Khi vật rơi đến độ cao $h' = 4\\text{ m}$ thì động năng của vật là bao nhiêu? ($g = 10\\text{ m/s}^2$)",
+    "caccauChon": [
+      "$40\\text{ J}$",
+      "$60\\text{ J}$",
+      "$100\\text{ J}$",
+      "$140\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Cơ năng $W = mgh = 1 \\cdot 10 \\cdot 10 = 100\\text{ J}$. Tại $h' = 4\\text{ m}$, $W_t' = 1 \\cdot 10 \\cdot 4 = 40\\text{ J} \\implies W_đ' = W - W_t' = 100 - 40 = 60\\text{ J}$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị nào sau đây KHÔNG dùng để đo năng lượng?",
+    "caccauChon": [
+      "Joule ($\\text{J}$)",
+      "Calo ($\\text{cal}$)",
+      "Watt trên giây ($\\text{W/s}$)",
+      "KiloWatt giờ ($\\text{kW}\\cdot\\text{h}$)"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$\\text{W/s}$ không phải đơn vị năng lượng ($\\text{W}\\cdot\\text{s} = \\text{J}$ mới là đơn vị năng lượng)."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi một vật trượt từ đỉnh xuống chân mặt phẳng nghiêng có ma sát:",
+    "caccauChon": [
+      "Công của lực ma sát làm tăng cơ năng của vật.",
+      "Thế năng ở đỉnh biến hoàn toàn thành động năng ở chân dốc.",
+      "Động năng ở chân dốc nhỏ hơn thế năng ở đỉnh dốc.",
+      "Cơ năng ở chân dốc bằng cơ năng ở đỉnh dốc."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Do lực ma sát thực hiện công cản âm (làm mất mát năng lượng tỏa nhiệt) nên $W_{đ\\text{ chân}} = W_{t\\text{ đỉnh}} - |A_{ms}| < W_{t\\text{ đỉnh}}$.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_tau_luon_sieu_toc.webp"
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phát biểu về động năng và thế năng trọng trường của một vật:",
+    "dsYCon": [
+      "Động năng của vật là đại lượng vô hướng và không bao giờ nhận giá trị âm.",
+      "Thế năng trọng trường $W_t = m \\cdot g \\cdot z$ phụ thuộc vào vị trí chọn mốc thế năng (gốc tọa độ $z$).",
+      "Động năng của một vật tăng gấp $4$ lần khi vận tốc của vật tăng gấp $2$ lần.",
+      "Khi vật rơi tự do, công của trọng lực luôn có giá trị âm vì trọng lực hướng xuống."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng: Vì $m > 0$ và $v^2 \\ge 0$ nên $W_đ = \\frac{1}{2}mv^2 \\ge 0$.\\n- Ý b) Đúng: Giá trị của $z$ thay đổi tùy theo vị trí chọn mốc thế năng.\\n- Ý c) Đúng: Động năng tỉ lệ thuận với bình phương vận tốc ($2^2 = 4$ lần).\\n- Ý d) Sai: Khi rơi tự do, hướng dịch chuyển cùng hướng với trọng lực ($\\alpha = 0^\\circ$) nên công của trọng lực là công dương ($A = mgh > 0$)."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Thả một vật nhỏ khối lượng $m = 0{,}2\\text{ kg}$ rơi tự do không vận tốc đầu từ độ cao $h = 20\\text{ m}$ so với mặt đất. Lấy $g = 10\\text{ m/s}^2$. Chọn mốc thế năng tại mặt đất. Bỏ qua lực cản không khí.",
+    "dsYCon": [
+      "Cơ năng ban đầu của vật tại độ cao $h = 20\\text{ m}$ là $W = 40\\text{ J}$.",
+      "Ngay trước khi chạm đất, thế năng của vật bằng $40\\text{ J}$.",
+      "Vận tốc của vật ngay trước khi chạm đất có độ lớn $v = 20\\text{ m/s}$.",
+      "Tại độ cao $h' = 10\\text{ m}$, động năng của vật bằng đúng thế năng của vật và bằng $20\\text{ J}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a) Đúng: Ban đầu $v = 0$ nên $W = W_t = mgh = 0{,}2 \\cdot 10 \\cdot 20 = 40\\text{ J}$.\\n- Ý b) Sai: Tại mặt đất $z = 0$ nên thế năng $W_t = 0\\text{ J}$, toàn bộ cơ năng chuyển thành động năng $W_đ = 40\\text{ J}$.\\n- Ý c) Đúng: $\\frac{1}{2}mv^2 = 40 \\implies v = \\sqrt{\\frac{2 \\cdot 40}{0{,}2}} = \\sqrt{400} = 20\\text{ m/s}$.\\n- Ý d) Đúng: $W_t' = 0{,}2 \\cdot 10 \\cdot 10 = 20\\text{ J} \\implies W_đ' = 40 - 20 = 20\\text{ J}$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một xe ô tô khối lượng $m = 1000\\text{ kg}$ đang chạy với vận tốc $v_1 = 10\\text{ m/s}$ thì người lái xe hãm phanh. Xe trượt một đoạn quãng đường $s = 10\\text{ m}$ trên đường ngang thì dừng lại ($v_2 = 0$). Lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Động năng ban đầu của ô tô là $W_{đ1} = 50\\,000\\text{ J}$.",
+      "Độ biến thiên động năng của ô tô trong quá trình hãm phanh là $\\Delta W_đ = -50\\,000\\text{ J}$.",
+      "Công của lực ma sát trượt thực hiện trong quãng đường hãm phanh là $A_{ms} = +50\\,000\\text{ J}$.",
+      "Độ lớn của lực ma sát hãm trượt tác dụng lên ô tô là $F_{ms} = 5000\\text{ N}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) Đúng: $W_{đ1} = \\frac{1}{2} \\cdot 1000 \\cdot 10^2 = 50\\,000\\text{ J}$.\\n- Ý b) Đúng: $\\Delta W_đ = W_{đ2} - W_{đ1} = 0 - 50\\,000 = -50\\,000\\text{ J}$.\\n- Ý c) Sai: Theo định lý động năng $A_{ms} = \\Delta W_đ = -50\\,000\\text{ J}$ (công cản âm).\\n- Ý d) Đúng: $|A_{ms}| = F_{ms} \\cdot s \\implies F_{ms} = \\frac{50\\,000}{10} = 5000\\text{ N}$."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật khối lượng $m = 1\\text{ kg}$ được ném thẳng đứng từ độ cao $h = 5\\text{ m}$ so với mặt đất với vận tốc ban đầu $v_0 = 10\\text{ m/s}$. Lấy $g = 10\\text{ m/s}^2$. Chọn mốc thế năng tại mặt đất. Bỏ qua sức cản không khí.",
+    "dsYCon": [
+      "Cơ năng ban đầu của vật là $W = 100\\text{ J}$.",
+      "Độ cao cực đại mà vật đạt được so với mặt đất là $h_{max} = 10\\text{ m}$.",
+      "Vận tốc của vật ngay trước khi chạm đất là $v_{chạm} = 10\\sqrt{2}\\text{ m/s}$.",
+      "Tại vị trí động năng bằng $3$ lần thế năng, vật ở độ cao $z = 3{,}33\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng: $W = \\frac{1}{2}mv_0^2 + mgh = 50 + 50 = 100\\text{ J}$.\\n- Ý b) Đúng: Tại $h_{max}$, $v = 0 \\implies mgh_{max} = 100 \\implies h_{max} = 10\\text{ m}$.\\n- Ý c) Đúng: Tại mặt đất $W_đ = 100\\text{ J} \\implies \\frac{1}{2} \\cdot 1 \\cdot v^2 = 100 \\implies v = \\sqrt{200} = 10\\sqrt{2}\\text{ m/s}$.\\n- Ý d) Sai: $W_đ = 3W_t \\implies W = 4W_t \\implies 100 = 4mgz \\implies z = 2{,}5\\text{ m}$."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các định luật bảo toàn và sự chuyển hóa năng lượng trong cơ học:",
+    "dsYCon": [
+      "Trong hệ kín không có ma sát, động năng và thế năng có thể chuyển hóa qua lại lẫn nhau nhưng tổng cơ năng luôn giữ không đổi.",
+      "Định lý động năng chỉ áp dụng được khi vật chỉ chịu tác dụng của trọng lực.",
+      "Lực cản của không khí là lực không thế, làm cho cơ năng của vật giảm dần.",
+      "Đơn vị của thế năng, động năng và công cơ học trong hệ SI đều là Joule ($\\text{J}$)."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a) Đúng: Đúng định luật bảo toàn cơ năng trong trường lực thế.\\n- Ý b) Sai: Định lý động năng áp dụng cho tổng công của TẤT CẢ các lực tác dụng lên vật.\\n- Ý c) Đúng: Lực cản/ma sát làm hao phí cơ năng biến thành nhiệt năng.\\n- Ý d) Đúng: Tất cả các dạng năng lượng và công đều dùng chung đơn vị Joule trong hệ SI."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô có khối lượng $m = 1{,}5\\text{ tấn}$ đang chuyển động thẳng đều trên đường nằm ngang với tốc độ $v_1 = 54\\text{ km/h}$ thì người lái xe hãm phanh làm xe chuyển động chậm dần đều. Sau khi đi thêm được quãng đường $s = 25\\text{ m}$ thì tốc độ của ô tô giảm xuống còn $v_2 = 18\\text{ km/h}$.\\na) Tính động năng của ô tô trước khi hãm phanh và sau khi đi được $25\\text{ m}$ (đơn vị $\\text{kJ}$).\\nb) Tính độ biến thiên động năng của ô tô trên đoạn đường đó và độ lớn trung bình của lực hãm tác dụng lên xe (đơn vị $\\text{N}$).",
+    "giaithich": "- **Tóm tắt:** $m = 1{,}5\\text{ tấn} = 1500\\text{ kg}$, $v_1 = 54\\text{ km/h} = 15\\text{ m/s}$, $s = 25\\text{ m}$, $v_2 = 18\\text{ km/h} = 5\\text{ m/s}$.\\n- **a) Động năng trước và sau khi hãm phanh:**\\n  + Trước hãm phanh: $W_{đ1} = \\frac{1}{2}mv_1^2 = 0{,}5 \\cdot 1500 \\cdot 15^2 = 168\\,750\\text{ J} = 168{,}75\\text{ kJ}$.\\n  + Sau khi đi $25\\text{ m}$: $W_{đ2} = \\frac{1}{2}mv_2^2 = 0{,}5 \\cdot 1500 \\cdot 5^2 = 18\\,750\\text{ J} = 18{,}75\\text{ kJ}$.\\n- **b) Độ biến thiên động năng và lực hãm:**\\n  + Độ biến thiên động năng: $\\Delta W_đ = W_{đ2} - W_{đ1} = 18\\,750 - 168\\,750 = -150\\,000\\text{ J} = -150\\text{ kJ}$.\\n  + Áp dụng định lí động năng: $A_h = \\Delta W_đ \\iff -F_h \\cdot s = \\Delta W_đ \\implies F_h = -\\frac{\\Delta W_đ}{s} = -\\frac{-150\\,000}{25} = 6000\\text{ N}$.\\nĐáp số: a) W_đ1 = 168,75 kJ, W_đ2 = 18,75 kJ; b) ΔW_đ = -150 kJ, F_h = 6000 N"
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một vật có khối lượng $m = 2{,}5\\text{ kg}$ được đặt ở đỉnh một tòa nhà cao $H = 20\\text{ m}$ so với mặt đất. Dưới mặt đất có một cái giếng sâu $h = 5\\text{ m}$. Lấy $g = 10\\text{ m/s}^2$.\\na) Tính thế năng trọng trường của vật khi chọn mốc thế năng tại mặt đất và khi chọn mốc thế năng tại đáy giếng (đơn vị $\\text{J}$).\\nb) Tính công của trọng lực khi vật rơi từ đỉnh tòa nhà xuống tới đáy giếng và rút ra nhận xét về độ giảm thế năng trong hai trường hợp chọn mốc thế năng trên.",
+    "giaithich": "- **Tóm tắt:** $m = 2{,}5\\text{ kg}$, $H = 20\\text{ m}$, $h = 5\\text{ m}$, $g = 10\\text{ m/s}^2$.\\n- **a) Tính thế năng trọng trường:**\\n  + Khi mốc thế năng tại mặt đất ($z_0 = 0$): Độ cao đỉnh tòa nhà là $z_1 = H = 20\\text{ m} \\implies W_{t1} = m \\cdot g \\cdot z_1 = 2{,}5 \\cdot 10 \\cdot 20 = 500\\text{ J}$.\\n  + Khi mốc thế năng tại đáy giếng ($z_0' = 0$): Độ cao đỉnh tòa nhà là $z_1' = H + h = 20 + 5 = 25\\text{ m} \\implies W_{t1}' = m \\cdot g \\cdot z_1' = 2{,}5 \\cdot 10 \\cdot 25 = 625\\text{ J}$.\\n- **b) Công trọng lực và nhận xét độ giảm thế năng:**\\n  + Quãng đường rơi từ đỉnh tòa nhà xuống đáy giếng: $\\Delta z = H + h = 25\\text{ m}$. Công trọng lực: $A_P = m \\cdot g \\cdot \\Delta z = 2{,}5 \\cdot 10 \\cdot 25 = 625\\text{ J}$.\\n  + Nhận xét độ giảm thế năng: Mốc tại mặt đất có $\\Delta W_t = 500 - (-2{,}5 \\cdot 10 \\cdot 5) = 625\\text{ J}$; Mốc tại đáy giếng có $\\Delta W_t' = 625 - 0 = 625\\text{ J}$.\\n  $\\implies$ Thế năng phụ thuộc mốc thế năng, nhưng độ giảm thế năng giữa hai vị trí không phụ thuộc mốc thế năng và luôn bằng công của trọng lực.\\nĐáp số: a) W_t1 = 500 J, W_t1' = 625 J; b) A_P = 625 J, độ giảm thế năng đều bằng 625 J"
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Từ độ cao $z_1 = 15\\text{ m}$ so với mặt đất, một viên đá có khối lượng $m = 400\\text{ g}$ được ném thẳng đứng hướng lên với tốc độ ban đầu $v_1 = 10\\text{ m/s}$. Chọn mốc thế năng tại mặt đất, bỏ qua sức cản không khí và lấy $g = 10\\text{ m/s}^2$.\\na) Tính động năng, thế năng trọng trường và tổng cơ năng của viên đá tại vị trí ném (đơn vị $\\text{J}$).\\nb) Tính độ cao cực đại mà viên đá đạt được so với mặt đất (đơn vị $\\text{m}$) và tốc độ của viên đá ngay trước khi chạm đất (đơn vị $\\text{m/s}$).",
+    "giaithich": "- **Tóm tắt:** $z_1 = 15\\text{ m}$, $m = 400\\text{ g} = 0{,}4\\text{ kg}$, $v_1 = 10\\text{ m/s}$, $g = 10\\text{ m/s}^2$, mốc thế năng tại mặt đất, bỏ qua ma sát.\\n- **a) Năng lượng tại vị trí ném:**\\n  + Động năng: $W_{đ1} = \\frac{1}{2}mv_1^2 = 0{,}5 \\cdot 0{,}4 \\cdot 10^2 = 20\\text{ J}$.\\n  + Thế năng: $W_{t1} = m \\cdot g \\cdot z_1 = 0{,}4 \\cdot 10 \\cdot 15 = 60\\text{ J}$.\\n  + Cơ năng: $W = W_{đ1} + W_{t1} = 20 + 60 = 80\\text{ J}$.\\n- **b) Độ cao cực đại và vận tốc chạm đất:**\\n  Vì bỏ qua sức cản không khí nên cơ năng bảo toàn $W = 80\\text{ J}$.\\n  + Tại độ cao cực đại $z_{\\max}$, viên đá dừng lại tức thời ($v = 0 \\implies W_đ = 0$): $W_{t\\max} = W \\iff m \\cdot g \\cdot z_{\\max} = 80 \\implies z_{\\max} = \\frac{80}{0{,}4 \\cdot 10} = 20\\text{ m}$.\\n  + Ngay trước khi chạm đất ($z = 0 \\implies W_t = 0$): $W_đ = W \\iff \\frac{1}{2}mv_{\\text{đất}}^2 = 80 \\implies v_{\\text{đất}} = \\sqrt{\\frac{2 \\cdot 80}{0{,}4}} = \\sqrt{400} = 20\\text{ m/s}$.\\nĐáp số: a) W_đ = 20 J, W_t = 60 J, W = 80 J; b) z_max = 20 m, v_đất = 20 m/s"
+  }
+]

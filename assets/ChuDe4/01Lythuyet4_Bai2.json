@@ -1,0 +1,78 @@
+﻿[
+  {
+    "id": 2,
+    "baiSo": 2,
+    "loai": "cong_thuc",
+    "laCongThucTongHop": true,
+    "tieude": "Bài 2: Bảng tổng hợp công thức & Trọng tâm Chủ đề 4 (Moment lực)",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Hệ thống công thức Moment lực & Cánh tay đòn",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "1. ĐỘ LỚN MOMENT LỰC ĐỐI VỚI TRỤC QUAY O",
+            "congThuc": "$M = F \\cdot d$",
+            "mucDich": "Tính tác dụng làm quay của lực $\\vec{F}$ quanh trục cố định hoặc trục tạm thời $O$.",
+            "chuThich": "- $F$: Độ lớn lực tác dụng ($\\text{N}$).\\n- $d$: Cánh tay đòn — khoảng cách vuông góc từ trục quay $O$ đến giá của lực ($\\text{m}$).\\n- $M$: Moment lực ($\\text{N}\\cdot\\text{m}$ hoặc $\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "2. CÔNG THỨC TÍNH CÁNH TAY ĐÒN KHI LỰC HỢP GÓC ALPHA",
+            "congThuc": "$d = l \\cdot \\sin\\alpha \\implies M = F \\cdot l \\cdot \\sin\\alpha$",
+            "mucDich": "Áp dụng khi lực $\\vec{F}$ đặt cách trục quay $O$ một đoạn $OA = l$ và hợp với thanh $OA$ một góc $\\alpha$.",
+            "chuThich": "- Khi $\\vec{F} \\perp OA$ ($\\alpha = 90^\\circ$): $\\sin 90^\\circ = 1 \\implies d_{max} = l \\implies M_{max} = F \\cdot l$.\\n- Khi giá của $\\vec{F}$ đi qua $O$ ($\\alpha = 0^\\circ$ hoặc $180^\\circ$): $d = 0 \\implies M = 0$ (lực không làm vật quay)."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Quy tắc Moment lực, Đòn bẩy & Chia lực trên hai trụ đỡ",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "3. QUY TẮC CÂN BẰNG MOMENT LỰC (ĐIỀU KIỆN CÂN BẰNG QUAY)",
+            "congThuc": "$\\sum M_{\\text{thuận}} = \\sum M_{\\text{ngược}} \\iff F_1 \\cdot d_1 = F_2 \\cdot d_2$",
+            "mucDich": "Giải các bài toán thanh cứng, đòn bẩy, bập bênh, búa nhổ đinh, xe rùa ở trạng thái cân bằng.",
+            "chuThich": "- Tỉ lệ khuếch đại lực của đòn bẩy: $\\frac{F_2}{F_1} = \\frac{d_1}{d_2}$ (cánh tay đòn dài gấp bao nhiêu lần thì lợi bấy nhiêu lần về lực).\\n- Nếu thanh có trọng lượng $P$ đáng kể thì phải tính thêm moment của trọng lực $P$ đặt tại trọng tâm $G$ (với thanh đồng chất thì $G$ ở trung điểm)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "4. QUY TẮC TỔNG HỢP HAI LỰC SONG SONG CÙNG CHIỀU (ĐÒN GÁNH / HAI TRỤ ĐỠ)",
+            "congThuc": "$\\begin{cases} F_1 + F_2 = P \\\\ F_1 \\cdot d_1 = F_2 \\cdot d_2 \\end{cases} \\implies F_1 = P \\cdot \\frac{d_2}{d_1 + d_2} ;  F_2 = P \\cdot \\frac{d_1}{d_1 + d_2}$",
+            "mucDich": "Tính nhanh lực đè lên vai hai người khiêng vật nặng $P$ hoặc áp lực lên hai trụ cầu $A, B$.",
+            "chuThich": "- $d_1, d_2$: Khoảng cách từ điểm đặt trọng lực $P$ đến điểm tựa thứ nhất và thứ hai ($d_1 + d_2 = L$).\\n- {color:warning|**Mẹo nhớ nhanh:**} Điểm treo vật **gần vai người nào hơn** ($d$ nhỏ hơn) thì người đó phải **chịu lực lớn hơn** ($F$ lớn hơn)."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Ngẫu lực & Điều kiện cân bằng tổng quát của vật rắn",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "5. MOMENT CỦA NGẪU LỰC",
+            "congThuc": "$M = F \\cdot d = F \\cdot (2R)$",
+            "mucDich": "Tính moment của cặp lực song song, ngược chiều, cùng độ lớn $F$ tác dụng lên vô-lăng, tua-vít, nắp chai.",
+            "chuThich": "- $F$: Độ lớn của **mỗi lực** (không phải tổng $2F$).\\n- $d$: Khoảng cách vuông góc giữa hai giá của hai lực (bằng đường kính $2R$ nếu hai lực tiếp tuyến ở hai đầu đường kính).\\n- Moment ngẫu lực **không phụ thuộc** vào vị trí chọn trục quay."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "6. ĐIỀU KIỆN CÂN BẰNG TỔNG QUÁT CỦA VẬT RẮN",
+            "congThuc": "$\\begin{cases} \\sum \\vec{F} = \\vec{0}  ; (\\text{Không tịnh tiến}) \\\\ \\sum M = 0  ; (\\text{Không quay}) \\end{cases}$",
+            "mucDich": "Xét cân bằng tổng quát cho mọi vật rắn trong không gian và mặt phẳng.",
+            "chuThich": "- Với vật chịu tác dụng của 3 lực không song song: Ba lực phải **đồng phẳng, đồng quy** và có hợp lực bằng $\\vec{0}$ ($\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$)."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Tổng kết bẫy sai lầm} **3 lỗi sai phổ biến cần tránh:**\\n1. Quên đổi đơn vị cánh tay đòn từ $\\text{cm}$ sang $\\text{m}$ trước khi nhân tính $M = F \\cdot d$.\\n2. Lấy bán kính $R$ thay vì đường kính $d = 2R$ hoặc nhân đôi thành $2Fd$ khi tính moment ngẫu lực trên vô-lăng.\\n3. Lấy khoảng cách từ trục quay đến điểm đặt lực thay vì hạ vuông góc xuống **giá của lực** khi lực tác dụng xiên góc $\\alpha$."
+          }
+        ]
+      }
+    ]
+  }
+]

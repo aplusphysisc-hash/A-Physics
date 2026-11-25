@@ -1,0 +1,86 @@
+[
+  {
+    "id": 2,
+    "baiSo": 2,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 2: Các dạng va chạm",
+    "videoYoutubeId": "sFgDIbLd0RM",
+    "fileBaiTapNhanh": "ChuDe6/02BaiTapNhanh6_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "Khái niệm chung về Va chạm",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Bản chất tương tác va chạm",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Va chạm**} là quá trình tương tác rất mạnh giữa hai hay nhiều vật trong một khoảng thời gian cực ngắn ($\\Delta t$ rất nhỏ).",
+            "danhSachYCon": [
+              "**Bảo toàn động lượng:** Trong thời gian va chạm, nội lực rất lớn so với ngoại lực nên hệ vật được coi là {highlight|hệ kín} và tổng động lượng luôn bảo toàn: $m_1\\vec{v}_1 + m_2\\vec{v}_2 = m_1\\vec{v}_1' + m_2\\vec{v}_2'$.",
+              "**Phân loại:** Dựa vào sự bảo toàn động năng của hệ sau tương tác, chia làm 2 dạng cơ bản là {color:primary|va chạm đàn hồi} và {color:warning|va chạm mềm}."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "Va chạm đàn hồi",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đặc điểm Va chạm đàn hồi",
+            "noiDung": "Sau va chạm, hai vật {highlight|tách rời nhau, không bị biến dạng vĩnh viễn và không tỏa nhiệt}. {color:success|**Cả động lượng và động năng**} của hệ đều được bảo toàn.",
+            "danhSachYCon": [
+              "**Trường hợp đặc biệt ($m_1 = m_2$):** Hai vật cùng khối lượng va chạm đàn hồi xuyên tâm sẽ {color:primary|**trao đổi vận tốc cho nhau**}: $v_1' = v_2$ và $v_2' = v_1$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC VẬN TỐC SAU VA CHẠM ĐÀN HỒI XUYÊN TÂM",
+            "congThuc": "$v_1' = \\frac{(m_1 - m_2)v_1 + 2m_2v_2}{m_1 + m_2}$ ;  $v_2' = \\frac{(m_2 - m_1)v_2 + 2m_1v_1}{m_1 + m_2}$",
+            "mucDich": "Tính vận tốc đại số của từng vật ngay sau va chạm đàn hồi trên một đường thẳng.",
+            "chuThich": "Hệ bảo toàn đồng thời động lượng $m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2'$ và động năng $\\frac{1}{2}m_1v_1^2 + \\frac{1}{2}m_2v_2^2 = \\frac{1}{2}m_1v_1'^2 + \\frac{1}{2}m_2v_2'^2$."
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Va chạm đàn hồi giữa hai viên bi",
+            "duongDanGlb": "models/ChuDe6/bai2_va_cham_dan_hoi.glb",
+            "moTaMoHinh3d": "Va chạm đàn hồi giữa hai viên bi bật nảy ngược chiều sau va chạm xuyên tâm, bảo toàn đồng thời động lượng và động năng của hệ.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "Va chạm mềm (Va chạm không đàn hồi hoàn toàn)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đặc điểm Va chạm mềm",
+            "noiDung": "Sau va chạm, hai vật {highlight|dính chặt vào nhau và chuyển động cùng một vận tốc chung $\\vec{V}$}. Động lượng được bảo toàn nhưng {color:error|**động năng không bảo toàn**} (giảm đi).",
+            "danhSachYCon": [
+              "**So sánh nhanh:** Va chạm đàn hồi giữ nguyên tổng động năng ($\\Delta W_{\\text{đ}} = 0$, ví dụ hai viên bi-a); va chạm mềm làm giảm động năng ($W_{\\text{đ sau}} < W_{\\text{đ trước}}$, ví dụ viên đạn găm vào bao cát)."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "VẬN TỐC CHUNG & NHIỆT LƯỢNG TỎA RA",
+            "congThuc": "$V = \\frac{m_1v_1 + m_2v_2}{m_1 + m_2}$ ;  $Q = \\left(\\frac{1}{2}m_1v_1^2 + \\frac{1}{2}m_2v_2^2\\right) - \\frac{1}{2}(m_1 + m_2)V^2$",
+            "mucDich": "Xác định vận tốc chung sau khi dính vào nhau và phần cơ năng chuyển hóa thành nhiệt năng / công biến dạng.",
+            "chuThich": "Trong chuyển động thẳng, nhớ chọn chiều dương và thay đúng dấu đại số của $v_1, v_2$."
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Va chạm mềm giữa hai vật",
+            "duongDanGlb": "models/ChuDe6/bai2_va_cham_mem.glb",
+            "moTaMoHinh3d": "Va chạm mềm giữa hai vật dính vào nhau sau va chạm và chuyển động cùng vận tốc chung, động lượng bảo toàn nhưng động năng bị hao hụt.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ]
+  }
+]

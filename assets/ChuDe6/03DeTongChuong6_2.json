@@ -1,0 +1,370 @@
+﻿[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả bóng khối lượng $0,2\\text{ kg}$ bay ngang với tốc độ $15\\text{ m/s}$ đập vuông góc vào một bức tường thẳng đứng rồi bật ngược trở lại theo phương cũ với tốc độ $10\\text{ m/s}$. Độ lớn độ biến thiên động lượng của quả bóng là",
+    "caccauChon": [
+      "$1\\text{ kg}\\cdot\\text{m/s}$",
+      "$5\\text{ kg}\\cdot\\text{m/s}$",
+      "$2,5\\text{ kg}\\cdot\\text{m/s}$",
+      "$3\\text{ kg}\\cdot\\text{m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn chiều dương là chiều bật ra của bóng: $v_1$ = -$15\\text{ m/s}$, $v_2$ = +$10\\text{ m/s}$. Độ biến thiên động lượng: $\\Delta$p$= m$($v_2 - v_1$) = 0,2   \\times   [10 - (-15)] = $5\\text{ kg}\\cdot\\text{m/s}$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô khối lượng $1,2\\text{ tấn}$ đang chạy với tốc độ $20\\text{ m/s}$ thì hãm phanh và dừng hẳn sau $4\\text{ s}$. Độ lớn lực hãm trung bình tác dụng lên ô tô là",
+    "caccauChon": [
+      "$6000\\text{ N}$",
+      "$24000\\text{ N}$",
+      "$600\\text{ N}$",
+      "$4800\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Đổi $m = 1,2\\text{ tấn} = 1200\\text{ kg}$. Áp dụng định lý biến thiên động lượng: $F_h\\cdot\\Delta t$ = |$\\Delta p$| = m|0 - $v_0 | \\Rightarrow F_h = \\frac{1200 \\times 20}{4} = 6000\\text{ N}$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ gồm hai vật có khối lượng $m_1 = 2\\text{ kg}$ và $m_2 = 3\\text{ kg}$ chuyển động trên cùng một đường thẳng theo hai hướng ngược nhau với tốc độ lần lượt là $v_1 = 6\\text{ m/s}$ và $v_2 = 2\\text{ m/s}$. Độ lớn tổng động lượng của hệ là",
+    "caccauChon": [
+      "$18\\text{ kg}\\cdot\\text{m/s}$",
+      "$6\\text{ kg}\\cdot\\text{m/s}$",
+      "$12\\text{ kg}\\cdot\\text{m/s}$",
+      "$0\\text{ kg}\\cdot\\text{m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vì hai vật chuyển động ngược chiều nên: $p$ = |$m_1v_1 - m_2v_2$| = $|2  \\times  6 - 3  \\times  2$| = $6\\text{ kg}\\cdot\\text{m/s}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai vật chuyển động theo hai phương vuông góc với nhau có độ lớn động lượng lần lượt là $p_1 = 6\\text{ kg}\\cdot\\text{m/s}$ và $p_2 = 8\\text{ kg}\\cdot\\text{m/s}$. Tổng động lượng của hệ hai vật có độ lớn bằng",
+    "caccauChon": [
+      "$14\\text{ kg}\\cdot\\text{m/s}$",
+      "$2\\text{ kg}\\cdot\\text{m/s}$",
+      "$10\\text{ kg}\\cdot\\text{m/s}$",
+      "$48\\text{ kg}\\cdot\\text{m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\vec{p}_1 \\perp \\vec{p}_2$ nên $p = \\sqrt{p_1^2 + p_2^2} = \\sqrt{6^2 + 8^2} = 10\\text{ kg}\\cdot\\text{m/s}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai vật có cùng động lượng $p_1 = p_2 = 5\\text{ kg}\\cdot\\text{m/s}$ chuyển động theo hai hướng hợp với nhau một góc $120^\\circ$. Độ lớn tổng động lượng của hệ là",
+    "caccauChon": [
+      "$10\\text{ kg}\\cdot\\text{m/s}$",
+      "$5\\sqrt{3}\\text{ kg}\\cdot\\text{m/s}$",
+      "$5\\text{ kg}\\cdot\\text{m/s}$",
+      "$0\\text{ kg}\\cdot\\text{m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $p_1 = p_2 = 5\\text{ kg}\\cdot\\text{m/s}$ và góc hợp bởi hai vectơ là $\\alpha = 120^\\circ$ nên $p = 2p_1\\cos\\left(\\frac{120^\\circ}{2}\\right) = 2 \\times 5 \\times \\cos 60^\\circ = 5\\text{ kg}\\cdot\\text{m/s}$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một khẩu súng đại bác có khối lượng $400\\text{ kg}$ đặt trên mặt phẳng ngang không ma sát, bắn ra một viên đạn khối lượng $2\\text{ kg}$ theo phương ngang với vận tốc $500\\text{ m/s}$. Tốc độ giật lùi của súng ngay sau khi bắn là",
+    "caccauChon": [
+      "$2,5\\text{ m/s}$",
+      "$5\\text{ m/s}$",
+      "$1,25\\text{ m/s}$",
+      "$4\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Bảo toàn động lượng theo phương ngang: $M V = m v \\Rightarrow V = \\frac{mv}{M} = \\frac{2 \\times 500}{400} = 2$,$5\\text{ m/s}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người khối lượng $50\\text{ kg}$ đang đứng yên trên một chiếc thuyền khối lượng $200\\text{ kg}$ nằm yên trên mặt nước lặng. Người đó bước đi về phía mũi thuyền với vận tốc $1,5\\text{ m/s}$ so với bờ. Bỏ qua sức cản của nước, vận tốc của thuyền so với bờ là",
+    "caccauChon": [
+      "$0,375\\text{ m/s}$ cùng hướng người đi",
+      "$0,375\\text{ m/s}$ ngược hướng người đi",
+      "$0,3\\text{ m/s}$ ngược hướng người đi",
+      "$6\\text{ m/s}$ ngược hướng người đi"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn chiều dương là chiều người bước đi. Bảo toàn động lượng: $m_1v_1 + m_2v_2 = 0 \\Rightarrow v_2$ = -$\\frac{m_1v_1}{m_2}$ = -$\\frac{50 \\times 1,5}{200}$ = -$0,375\\text{ m/s}$. Dấu trừ chứng tỏ thuyền chuyển động ngược hướng người đi với tốc độ $0,375\\text{ m/s}$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả pháo khối lượng $3\\text{ kg}$ đang bay thẳng đứng lên cao với vận tốc $10\\text{ m/s}$ thì nổ thành hai mảnh. Mảnh thứ nhất có khối lượng $1\\text{ kg}$ bay thẳng đứng xuống dưới với vận tốc $20\\text{ m/s}$. Mảnh thứ hai bay theo hướng nào và với tốc độ bao nhiêu?",
+    "caccauChon": [
+      "Thẳng đứng lên trên với tốc độ $25\\text{ m/s}$",
+      "Thẳng đứng lên trên với tốc độ $5\\text{ m/s}$",
+      "Thẳng đứng xuống dưới với tốc độ $25\\text{ m/s}$",
+      "Thẳng đứng lên trên với tốc độ $15\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn chiều dương thẳng đứng hướng lên. Khối lượng mảnh hai: $m_2 = 3 - 1 = 2\\text{ kg}$. Bảo toàn động lượng: Mv = $m_1v_1 + m_2v_2 \\Rightarrow 3 \\times 10 = 1 \\times (-20) + 2v_2 \\Rightarrow v_2$ = +$25\\text{ m/s}$. Vậy mảnh hai bay thẳng đứng lên trên với tốc độ $25\\text{ m/s}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một tên lửa có khối lượng tổng cộng $10\\text{ tấn}$ đang bay với vận tốc $200\\text{ m/s}$ đối với Trái Đất thì phụt ra phía sau tức thời một lượng khí có khối lượng $2\\text{ tấn}$ với tốc độ $500\\text{ m/s}$ đối với Trái Đất. Vận tốc của tên lửa ngay sau khi phụt khí là",
+    "caccauChon": [
+      "$375\\text{ m/s}$",
+      "$250\\text{ m/s}$",
+      "$300\\text{ m/s}$",
+      "$125\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn chiều dương là chiều bay của tên lửa. Khối lượng tên lửa còn lại: $m_1 = 10 - 2 = 8\\text{ tấn}$. Bảo toàn động lượng: Mv = $m_1v_1 + m_2v_2 \\Rightarrow 10 \\times 200 = 8v_1 + 2 \\times (-500) \\Rightarrow 8v_1 = 3000 \\Rightarrow v_1 = 375\\text{ m/s}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên đạn khối lượng $2\\text{ kg}$ đang bay ngang với vận tốc $15\\text{ m/s}$ ở độ cao lớn thì nổ thành hai mảnh bằng nhau. Mảnh một bay thẳng đứng xuống dưới với vận tốc $40\\text{ m/s}$. Độ lớn vận tốc của mảnh hai ngay sau khi nổ là",
+    "caccauChon": [
+      "$50\\text{ m/s}$",
+      "$30\\text{ m/s}$",
+      "$70\\text{ m/s}$",
+      "$10\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Mỗi mảnh có khối lượng $m_1 = m_2 = 1\\text{ kg}$. Động lượng ban đầu (ngang): $p$ = M$v = 2  \\times  15 = 30\\text{ kg}\\cdot\\text{m/s}$. Động lượng mảnh một (thẳng đứng): $p_1 = m_1v_1 = 1 \\times 40 = 40\\text{ kg}\\cdot\\text{m/s}$. Vì $\\vec{p} \\perp \\vec{p}_1$ và $\\vec{p}_2 = \\vec{p} - \\vec{p}_1$ nên $p_2 = \\sqrt{p^2 + p_1^2} = \\sqrt{30^2 + 40^2} = 50\\text{ kg}\\cdot\\text{m/s} \\Rightarrow v_2 = \\frac{p_2}{m_2} = 50\\text{ m/s}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m_1=2 kg$ chuyển động với vận tốc $v_1=4 m/s$ đến va chạm mềm với vật khối lượng $m_2=2 kg$ đang đứng yên. Phần cơ năng của hệ bị chuyển hóa thành nhiệt năng trong quá trình va chạm là:",
+    "caccauChon": [
+      "$16 J$",
+      "$8 J$",
+      "$4 J$",
+      "$0 J$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vận tốc sau va chạm mềm: $V=\\frac{2\\cdot 4}{2+2}=2 m/s$. Nhiệt lượng tỏa ra: $Q=W_{\\text{đ}1}-W_{\\text{đ}2}=\\frac{1}{2}\\cdot 2\\cdot 4^{2}-\\frac{1}{2}\\cdot (2+2)\\cdot 2^{2}=16-8=8 J$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu khối lượng $m_1=0,5 kg$ chuyển động với vận tốc $v_1=6 m/s$ đến va chạm đàn hồi xuyên tâm với quả cầu thứ hai khối lượng $m_2=1 kg$ đang chuyển động ngược chiều với vận tốc có độ lớn $v_2=3 m/s$. Tốc độ của quả cầu $m_1$ ngay sau va chạm là:",
+    "caccauChon": [
+      "$6 m/s$",
+      "$3 m/s$",
+      "$2 m/s$",
+      "$0 m/s$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn chiều dương là chiều chuyển động ban đầu của $m_1$ ($v_1=6 m/s,v_2=-3 m/s$). Công thức va chạm đàn hồi: $v_1'=\\frac{(m_1-m_2)v_1+2m_2v_2}{m_1+m_2}=\\frac{(0,5-1)\\cdot 6+2\\cdot 1\\cdot (-3)}{0,5+1}=\\frac{-3-6}{1,5}=-6 m/s$. Vậy tốc độ của $m_1$ sau va chạm là $6 m/s$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên đạn khối lượng $m=50 g$ bay ngang với vận tốc $v_0=200 m/s$ đến cắm vào một bao cát khối lượng $M=4,95 kg$ được treo bằng một sợi dây dài và đang đứng yên. Lấy $g=10 m/s^{2}$. Sau va chạm, bao cát cùng viên đạn được nâng lên độ cao cực đại so với vị trí cân bằng là:",
+    "caccauChon": [
+      "$0,1 m$",
+      "$0,2 m$",
+      "$0,4 m$",
+      "$0,5 m$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vận tốc hệ ngay sau va chạm mềm ($m=0,05 kg$): $V=\\frac{0,05\\cdot 200}{0,05+4,95}=2 m/s$. Bảo toàn cơ năng sau va chạm: $h_{max}=\\frac{V^{2}}{2g}=\\frac{2^{2}}{2\\cdot 10}=0,2 m$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai vật có khối lượng $m_1=1 kg$ và $m_2=2 kg$ chuyển động theo hai phương vuông góc với nhau trên mặt phẳng ngang không ma sát với các vận tốc $v_1=8 m/s$ và $v_2=3 m/s$. Sau khi va chạm mềm với nhau, hai vật chuyển động với tốc độ bằng:",
+    "caccauChon": [
+      "$\\frac{10}{3} m/s$",
+      "$\\frac{14}{3} m/s$",
+      "$5 m/s$",
+      "$\\frac{2\\sqrt{7}}{3} m/s$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Do $\\vec{p}_{1}\\perp \\vec{p}_{2}$, tổng động lượng có độ lớn: $p=\\sqrt{(m_1v_1)^{2}+(m_2v_2)^{2}}=\\sqrt{(1\\cdot 8)^{2}+(2\\cdot 3)^{2}}=\\sqrt{64+36}=10 kg\\cdot m/s$. Tốc độ sau va chạm mềm: $V=\\frac{p}{m_1+m_2}=\\frac{10}{1+2}=\\frac{10}{3} m/s$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi khối lượng $m_1$ đang chuyển động với vận tốc $v_1$ đến va chạm đàn hồi xuyên tâm với viên bi khối lượng $m_2$ đang đứng yên. Sau va chạm, hai viên bi chuyển động ngược chiều nhau với cùng độ lớn vận tốc. Tỉ số khối lượng $\\frac{m_1}{m_2}$ bằng:",
+    "caccauChon": [
+      "$1$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{3}$",
+      "$3$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Gọi $v$ là tốc độ mỗi viên bi sau va chạm. Vì hai bi chuyển động ngược chiều nên $v_1'=-v$ và $v_2'=v$. Bảo toàn động lượng: $m_1v_1=-m_1v+m_2v=(m_2-m_1)v$. Bảo toàn động năng: $\\frac{1}{2}m_1v_1^{2}=\\frac{1}{2}(m_1+m_2)v^{2}\\Rightarrow m_1v_1^{2}=(m_1+m_2)v^{2}$. Chia hai vế ta được $v_1=\\frac{m_1+m_2}{m_2-m_1}v$. Thay lại vào phương trình động lượng: $m_1\\frac{m_1+m_2}{m_2-m_1}=m_2-m_1\\Rightarrow m_1^{2}+m_1m_2=m_2^{2}-2m_1m_2+m_1^{2}\\Rightarrow 3m_1m_2=m_2^{2}\\Rightarrow \\frac{m_1}{m_2}=\\frac{1}{3}$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu khối lượng $m=0,2 kg$ được thả rơi tự do từ độ cao $h=5 m$ xuống sàn cứng nằm ngang. Ngay sau khi chạm sàn, quả cầu nảy thẳng đứng lên đến độ cao tối đa $h'=3,2 m$. Lấy $g=10 m/s^{2}$. Độ lớn độ biến thiên động lượng của quả cầu khi va chạm với sàn là:",
+    "caccauChon": [
+      "$0,4 kg\\cdot m/s$",
+      "$3,6 kg\\cdot m/s$",
+      "$2,0 kg\\cdot m/s$",
+      "$1,6 kg\\cdot m/s$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc độ ngay trước khi chạm sàn: $v_1=\\sqrt{2gh}=\\sqrt{2\\cdot 10\\cdot 5}=10 m/s$. Tốc độ ngay sau khi bật lên: $v_2=\\sqrt{2gh'}=\\sqrt{2\\cdot 10\\cdot 3,2}=8 m/s$. Vì hai vận tốc ngược chiều nhau nên $\\Delta p=m(v_1+v_2)=0,2\\cdot (10+8)=3,6 kg\\cdot m/s$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe goòng khối lượng $M=150 kg$ đang chạy trên đường ray nằm ngang không ma sát với vận tốc $v_1=4 m/s$. Một người khối lượng $m=50 kg$ nhảy từ trên bờ xuống xe theo phương thẳng đứng. Vận tốc của xe ngay sau khi người nhảy lên xe là:",
+    "caccauChon": [
+      "$3 m/s$",
+      "$4 m/s$",
+      "$2 m/s$",
+      "$5,33 m/s$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Người nhảy theo phương thẳng đứng nên động lượng ban đầu theo phương ngang của người bằng $0$. Bảo toàn động lượng theo phương ngang: $Mv_1=(M+m)V\\Rightarrow V=\\frac{150\\cdot 4}{150+50}=3 m/s$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m_1=3 kg$ chuyển động với vận tốc $v_1=4 m/s$ đến va chạm với vật khối lượng $m_2=2 kg$ đang đứng yên. Sau va chạm, vật $m_1$ tiếp tục chuyển động theo hướng cũ với vận tốc $v_1'=2 m/s$, còn vật $m_2$ chuyển động cùng hướng với vận tốc $v_2'=3 m/s$. Va chạm này thuộc loại nào?",
+    "caccauChon": [
+      "Va chạm đàn hồi",
+      "Va chạm mềm",
+      "Va chạm không đàn hồi một phần",
+      "Không thể xảy ra vì vi phạm định luật bảo toàn động lượng"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Kiểm tra động lượng: $p_{\\text{trước}}=3\\cdot 4=12 kg\\cdot m/s$; $p_{\\text{sau}}=3\\cdot 2+2\\cdot 3=12 kg\\cdot m/s$ (bảo toàn). Kiểm tra động năng: $W_{\\text{đ trước}}=\\frac{1}{2}\\cdot 3\\cdot 4^{2}=24 J$; $W_{\\text{đ sau}}=\\frac{1}{2}\\cdot 3\\cdot 2^{2}+\\frac{1}{2}\\cdot 2\\cdot 3^{2}=6+9=15 J<24 J$. Vì hai vật không dính vào nhau nhưng động năng bị giảm nên đây là va chạm không đàn hồi một phần."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một con lắc đơn gồm quả cầu nhỏ khối lượng $m_1=0,2 kg$ treo vào sợi dây mảnh dài $l=0,8 m$. Kéo quả cầu lệch khỏi phương thẳng đứng góc $\\alpha_{0}=60^\\circ$ rồi thả nhẹ. Khi đi qua vị trí cân bằng, quả cầu $m_1$ va chạm đàn hồi xuyên tâm với quả cầu $m_2=0,2 kg$ đang nằm yên trên mặt bàn ngang nhẵn. Lấy $g=10 m/s^{2}$. Vận tốc của quả cầu $m_2$ ngay sau va chạm là:",
+    "caccauChon": [
+      "$2\\sqrt{2} m/s$",
+      "$4 m/s$",
+      "$2 m/s$",
+      "$1,41 m/s$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vận tốc quả cầu $m_1$ ngay trước va chạm: $v_1=\\sqrt{2gl(1-cos\\alpha_{0})}=\\sqrt{2\\cdot 10\\cdot 0,8\\cdot (1-cos60^\\circ)}=\\sqrt{8}=2\\sqrt{2} m/s$. Vì $m_1=m_2$ và va chạm đàn hồi xuyên tâm nên hai vật trao đổi vận tốc: $v_2'=v_1=2\\sqrt{2} m/s$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi $A$ khối lượng $m_1=1 kg$ chuyển động với vận tốc $v_1=5 m/s$ đến va chạm mềm với viên bi $B$ khối lượng $m_2=4 kg$ đang đứng yên. Tỉ số giữa phần động năng bị mất đi do va chạm và động năng ban đầu của hệ bằng:",
+    "caccauChon": [
+      "$20\\%$",
+      "$50\\%$",
+      "$80\\%$",
+      "$25\\%$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc sau va chạm mềm: $V=\\frac{m_1v_1}{m_1+m_2}=\\frac{1\\cdot 5}{1+4}=1 m/s$. Động năng ban đầu: $W_{\\text{đ}1}=\\frac{1}{2}\\cdot 1\\cdot 5^{2}=12,5 J$. Động năng sau va chạm: $W_{\\text{đ}2}=\\frac{1}{2}\\cdot 5\\cdot 1^{2}=2,5 J$. Tỉ số động năng bị mất: $\\frac{\\Delta W_{\\text{đ}}}{W_{\\text{đ}1}}=\\frac{12,5-2,5}{12,5}=0,8=80\\%$."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các tính chất cơ bản của đại lượng động lượng và xung lượng của lực trong cơ học Newton:",
+    "dsYCon": [
+      "Động lượng là đại lượng vectơ có hướng luôn cùng hướng với vectơ gia tốc của vật.",
+      "Khi một vật chuyển động tròn đều, độ lớn động lượng của vật không đổi nhưng vectơ động lượng luôn thay đổi.",
+      "Độ biến thiên động lượng của một vật trong một khoảng thời gian bằng xung lượng của tổng các lực tác dụng lên vật trong khoảng thời gian đó.",
+      "Trong các vụ tai nạn giao thông, túi khí trên ô tô bung ra giúp làm giảm độ biến thiên động lượng của người lái, từ đó làm giảm lực tác dụng."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Sai. Động lượng $\\vec{p} = m\\vec{v}$ luôn cùng hướng với vectơ vận tốc $\\vec{v}$, không nhất thiết cùng hướng với gia tốc.\\nb) Đúng. Trong chuyển động tròn đều, tốc độ không đổi nên độ lớn động lượng $p = mv$ không đổi, nhưng hướng của vận tốc liên tục thay đổi nên vectơ $\\vec{p}$ luôn thay đổi.\\nc) Đúng. Đây là nội dung của định lý biến thiên động lượng: $\\Delta\\vec{p} = \\vec{F}_{\\text{hl}} \\cdot \\Delta t$.\\nd) Sai. Túi khí không làm giảm độ biến thiên động lượng $\\Delta p$ (vì người vẫn dừng lại từ vận tốc $v$ về $0$), mà làm tăng thời gian va chạm $\\Delta t$, từ đó làm giảm lực tác dụng $F = \\frac{|\\Delta p|}{\\Delta t}$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Trên mặt băng phẳng nhẵn (bỏ qua mọi ma sát), hai xe lăn nhỏ có khối lượng lần lượt là $m_1 = 1\\text{ kg}$ và $m_2 = 3\\text{ kg}$ được nối với nhau bằng một sợi dây mảnh, ở giữa có một lò xo nhẹ bị nén chặt. Ban đầu cả hai xe đứng yên. Sau đó người ta đốt đứt sợi dây để lò xo bung ra đẩy hai xe chuyển động về hai phía ngược nhau.",
+    "dsYCon": [
+      "Hệ gồm hai xe và lò xo trên mặt băng ngang được xem là một hệ kín.",
+      "Ngay sau khi lò xo bung hết, động lượng của hai xe có độ lớn bằng nhau và ngược hướng nhau.",
+      "Tỉ số tốc độ của xe 1 và xe 2 ngay sau khi tách khỏi lò xo là $\\frac{v_1}{v_2} = \\frac{1}{3}$.",
+      "Nếu xe 2 thu được tốc độ $2\\text{ m/s}$ thì xe 1 thu được tốc độ $6\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng. Tổng ngoại lực tác dụng lên hệ theo phương ngang bằng không nên hệ được xem là hệ kín.$\\nb)$ Đúng. Tổng động lượng ban đầu bằng không nên $\\vec{p}_1 + \\vec{p}_2$ = \\$\\vec{0} \\Rightarrow \\vec{p}_1$ = -$\\vec{p}_2$.$\\nc)$ Sai. Vì $m_1v_1 = m_2v_2 \\Rightarrow \\frac{v_1}{v_2} = \\frac{m_2}{m_1} = \\frac{3}{1} = 3$.$\\nd)$ Đúng. Từ $v_1 = 3v_2$, khi $v_2 = 2\\text{ m/s}$ thì $v_1 = 3 \\times 2 = 6\\text{ m/s}$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một viên đạn khối lượng $m=10 g$ bay theo phương ngang với vận tốc $v_0=500 m/s$ đến găm vào một khối gỗ có khối lượng $M=2,49 kg$ đang nằm yên trên mặt sàn nằm ngang. Biết hệ số ma sát trượt giữa khối gỗ và mặt sàn là $\\mu=0,2$. Lấy $g=10 m/s^{2}$.",
+    "dsYCon": [
+      "Trong giai đoạn viên đạn găm vào khối gỗ (thời gian rất ngắn), động lượng của hệ đạn và gỗ được bảo toàn theo phương ngang.",
+      "Vận tốc của hệ (gỗ và đạn) ngay sau khi viên đạn găm vào khối gỗ là $2 m/s$.",
+      "Quãng đường mà khối gỗ trượt được trên mặt sàn cho đến khi dừng lại là $2 m$.",
+      "Nhiệt lượng tỏa ra trong quá trình viên đạn xuyên vào khối gỗ bằng $1245 J$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng. Thời gian tương tác rất ngắn nên nội lực tương tác giữa đạn và gỗ rất lớn so với ngoại lực (lực ma sát), do đó động lượng theo phương ngang được bảo toàn.$\\nb)$ Đúng. Đổi $m=0,01 kg$. Vận tốc hệ ngay sau va chạm: $V=\\frac{mv_0}{m+M}=\\frac{0,01\\cdot 500}{0,01+2,49}=\\frac{5}{2,5}=2 m/s$.$\\nc)$ Sai. Gia tốc trượt chậm dần đều của hệ trên sàn ngang: $a=-mug=-0,2\\cdot 10=-2 m/s^{2}$. Quãng đường trượt được: $s=\\frac{0-V^{2}}{2a}=\\frac{-2^{2}}{2\\cdot (-2)}=1 m$.$\\nd)$ Đúng. Nhiệt lượng tỏa ra khi đạn xuyên gỗ: $Q=\\frac{1}{2}mv_0^{2}-\\frac{1}{2}(m+M)V^{2}=\\frac{1}{2}\\cdot 0,01\\cdot 500^{2}-\\frac{1}{2}\\cdot 2,5\\cdot 2^{2}=1250-5=1245 J$."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Trên mặt phẳng nằm ngang không ma sát, vật $A$ có khối lượng $m_1=2 kg$ chuyển động theo hướng Đông với vận tốc $v_1=3 m/s$, vật $B$ có khối lượng $m_2=2 kg$ chuyển động theo hướng Bắc với vận tốc $v_2=4 m/s$. Hai vật đến va chạm mềm với nhau tại giao điểm quỹ đạo.",
+    "dsYCon": [
+      "Vectơ động lượng của vật $A$ và vật $B$ trước va chạm vuông góc với nhau.",
+      "Độ lớn tổng động lượng của hệ hai vật trước va chạm bằng $14 kg\\cdot m/s$.",
+      "Ngay sau va chạm, hai vật dính vào nhau và chuyển động với tốc độ $2,5 m/s$.",
+      "Động năng của hệ ngay sau va chạm bằng $12,5 J$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng. Hướng Đông và hướng Bắc vuông góc với nhau nên $\\vec{p}_{1}\\perp \\vec{p}_{2}$.$\\nb)$ Sai. Độ lớn động lượng từng vật: $p_{1}=2\\cdot 3=6 kg\\cdot m/s$, $p_{2}=2\\cdot 4=8 kg\\cdot m/s$. Tổng động lượng: $p=\\sqrt{p_{1}^{2}+p_{2}^{2}}=\\sqrt{6^{2}+8^{2}}=10 kg\\cdot m/s$.$\\nc)$ Đúng. Tốc độ chung ngay sau va chạm mềm: $V=\\frac{p}{m_1+m_2}=\\frac{10}{2+2}=2,5 m/s$.$\\nd)$ Đúng. Động năng của hệ ngay sau va chạm: $W_{\\text{đ sau}}=\\frac{1}{2}(m_1+m_2)V^{2}=\\frac{1}{2}\\cdot 4\\cdot (2,5)^{2}=12,5 J$."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một con lắc thử đạn gồm một bao cát khối lượng $M=3,98 kg$ được treo bằng một sợi dây mảnh không dãn dài $l=1,25 m$ ở nơi có gia tốc trọng trường $g=10 m/s^{2}$. Một viên đạn khối lượng $m=20 g$ bay ngang với vận tốc $v$ đến găm vào bao cát. Sau va chạm, bao cát cùng viên đạn chuyển động lên đến vị trí dây treo lệch góc cực đại $\\alpha_{max}=60^\\circ$ so với phương thẳng đứng.",
+    "dsYCon": [
+      "Độ cao cực đại mà bao cát và viên đạn đạt được so với vị trí cân bằng ban đầu là $0,625 m$.",
+      "Vận tốc của hệ (bao cát và đạn) ngay sau khi viên đạn găm vào bao cát là $2,5 m/s$.",
+      "Vận tốc ban đầu của viên đạn trước khi chạm vào bao cát là $v=500 m/s$.",
+      "Khi hệ vừa bắt đầu chuyển động ngay sau va chạm, lực căng của sợi dây treo có độ lớn bằng $60 N$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "giaithich": "a) Đúng. Độ cao cực đại: $h_{max}=l(1-cos\\alpha_{max})=1,25\\cdot (1-cos60^\\circ)=1,25\\cdot 0,5=0,625 m$.$\\nb)$ Sai. Bảo toàn cơ năng từ vị trí cân bằng lên vị trí cao nhất: $V=\\sqrt{2gh_{max}}=\\sqrt{2\\cdot 10\\cdot 0,625}=\\sqrt{12,5}=2,5\\sqrt{2}\\approx 3,54 m/s$.$\\nc)$ Sai. Đổi $m=0,02 kg$. Bảo toàn động lượng khi va chạm mềm: $mv=(m+M)V\\Rightarrow v=\\frac{(0,02+3,98)\\cdot 2,5\\sqrt{2}}{0,02}=200\\cdot 2,5\\sqrt{2}=500\\sqrt{2}\\approx 707,1 m/s$.$\\nd)$ Sai. Tại vị trí cân bằng ngay sau va chạm, áp dụng định luật II Newton theo phương hướng tâm: $T-(m+M)g=\\frac{(m+M)V^{2}}{l}\\Rightarrow T=4\\cdot 10+\\frac{4\\cdot 12,5}{1,25}=40+40=80 N$."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một vật có động lượng $p = 30\\text{ kg}\\cdot\\text{m/s}$ và động năng $W_{\\text{đ}} = 150\\text{ J}$. Khối lượng của vật bằng bao nhiêu $\\text{kg}$? (Nhập đáp số)",
+    "giaithich": "Từ công thức liên hệ $p^2 = 2mW_{\\text{đ}} \\Rightarrow m = \\frac{p^2}{2W_{\\text{đ}}} = \\frac{30^2}{2 \\cdot 150} = 3\\text{ kg}$. Đáp số: 3"
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một viên đạn khối lượng $m = 20\\text{ g}$ bay theo phương ngang với vận tốc $v_0 = 250\\text{ m/s}$ đến găm chặt vào một bao cát khối lượng $M = 2{,}48\\text{ kg}$ đang treo đứng yên. Tốc độ của bao cát (kèm đạn) ngay sau va chạm bằng bao nhiêu $\\text{m/s}$? (Nhập đáp số)",
+    "giaithich": "Đổi $m = 0{,}02\\text{ kg}$. Vận tốc hệ sau va chạm mềm: $V = \\frac{mv_0}{m + M} = \\frac{0{,}02 \\cdot 250}{0{,}02 + 2{,}48} = \\frac{5}{2{,}5} = 2\\text{ m/s}$. Đáp số: 2"
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một viên bi $A$ khối lượng $m_1 = 2\\text{ kg}$ chuyển động với vận tốc $v_1 = 6\\text{ m/s}$ đến va chạm mềm với viên bi $B$ khối lượng $m_2 = 6\\text{ kg}$ đang đứng yên. Tỉ số phần trăm động năng của hệ bị mất đi sau va chạm bằng bao nhiêu %? (Nhập đáp số nguyên)",
+    "giaithich": "Tỉ số động năng còn lại: $\\frac{W_{\\text{đ sau}}}{W_{\\text{đ trước}}} = \\frac{m_1}{m_1 + m_2} = \\frac{2}{2 + 6} = 0{,}25 = 25\\%$. Vậy phần động năng bị mất đi là $100\\% - 25\\% = 75\\%$. Đáp số: 75"
+  }
+]

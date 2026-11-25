@@ -1,0 +1,70 @@
+[
+  {
+    "id": 3,
+    "baiSo": 3,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 3: Chuyển động rơi tự do",
+    "videoYoutubeId": "iJFiqbW2KRs",
+    "fileBaiTapNhanh": "ChuDe2/02BaiTapNhanh2_Bai3.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Khái niệm và đặc điểm của sự rơi tự do",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Sự rơi tự do là gì?",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Sự rơi tự do**} là sự rơi của các vật {highlight|chỉ dưới tác dụng của trọng lực} (bỏ qua hoàn toàn sức cản của không khí). Ở cùng một nơi trên Trái Đất, mọi vật rơi tự do đều **rơi nhanh như nhau** không phụ thuộc vào khối lượng.",
+            "danhSachYCon": [
+              "**Phương chuyển động:** Phương thẳng đứng (phương của dây dọi).",
+              "**Chiều chuyển động:** Chiều từ trên xuống dưới.",
+              "**Bản chất động học:** Là {color:primary|**chuyển động thẳng nhanh dần đều**} với vận tốc ban đầu bằng không ($v_0 = 0$)."
+            ]
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Thí nghiệm rơi tự do của quả trứng và cục đá",
+            "duongDanGlb": "models/ChuDe2/bai3_roi_tu_do_trung_da.glb",
+            "moTaMoHinh3d": "Thí nghiệm rơi tự do: quả trứng và cục đá rơi song song cùng lúc từ cùng độ cao trong môi trường chân không, chạm đất đồng thời bất kể sự chênh lệch khối lượng.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Gia tốc rơi tự do",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Đặc điểm của vectơ gia tốc rơi tự do",
+            "noiDung": "Tại một nơi nhất định trên Trái Đất và ở gần mặt đất, mọi vật đều rơi tự do với cùng một gia tốc gọi là {color:primary|**gia tốc rơi tự do**} (ký hiệu là $g$):",
+            "danhSachYCon": [
+              "**Phương & Chiều:** Phương thẳng đứng, chiều luôn hướng thẳng từ trên xuống dưới.",
+              "**Độ lớn chuẩn:** Phụ thuộc vào vĩ độ địa lý và độ cao. Trong các bài toán thường lấy $g \\approx 9{,}8\\text{ m/s}^2$ hoặc $g \\approx 10\\text{ m/s}^2$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Các công thức của chuyển động rơi tự do",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "HỆ CÔNG THỨC RƠI TỰ DO (VỚI VẬN TỐC ĐẦU BẰNG 0)",
+            "congThuc": "$$v = g \\cdot t  ;  s = h = \\frac{1}{2}g \\cdot t^2  ;  v^2 = 2gh  ;  t = \\sqrt{\\frac{2h}{g}}$$",
+            "mucDich": "Tính vận tốc tức thời $v$, quãng đường rơi $s$ (độ cao $h$) và thời gian rơi chạm đất $t$.",
+            "chuThich": "- **Vận tốc tại thời điểm $t$:** $v = g \\cdot t$ (tỉ lệ thuận với thời gian rơi $t$).\n- **Quãng đường rơi sau thời gian $t$:** $s = h = \\frac{1}{2}g \\cdot t^2$ (tỉ lệ thuận với bình phương thời gian $t^2$).\n- **Hệ thức độc lập thời gian:** $v^2 = 2 \\cdot g \\cdot s = 2gh \\implies v = \\sqrt{2gh}$.\n- **Thời gian từ lúc thả đến khi chạm đất:** $t = \\sqrt{\\frac{2h}{g}}$."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Công thức giải nhanh} Quãng đường vật rơi tự do đi được trong **giây thứ $n$** là hiệu quãng đường đi trong $n$ giây và $(n - 1)$ giây: $\\Delta s_n = s_n - s_{n-1} = \\frac{1}{2}gn^2 - \\frac{1}{2}g(n-1)^2 = g\\left(n - 0{,}5\\right)$."
+          }
+        ]
+      }
+    ]
+  }
+]

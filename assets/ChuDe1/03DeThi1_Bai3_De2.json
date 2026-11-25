@@ -1,0 +1,388 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong hệ tọa độ (d, t), đường biểu diễn độ dịch chuyển của một vật đứng yên tại vị trí cách gốc tọa độ 15 m là",
+    "caccauChon": [
+      "đường thẳng đi qua gốc tọa độ.",
+      "đường thẳng song song trục hoành và cắt trục tung tại d = 15 m.",
+      "đường thẳng song song trục tung và cắt trục hoành tại t = 15 s.",
+      "đường thẳng dốc xuống về gốc tọa độ."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật đứng yên tại d = 15 m nên giá trị d không đổi ở mức 15 m khi t tăng, tạo thành đường thẳng song song trục hoành."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng đều với phương trình x = -15 + 4 $\\cdot$ t (m, s). Vận tốc của chất điểm là",
+    "caccauChon": [
+      "-15 m/s.",
+      "15 m/s.",
+      "4 m/s.",
+      "-4 m/s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "So sánh x = -15 + 4 $\\cdot$ t với x = $x_0$ + v $\\cdot$ t ta thấy hệ số đứng trước t là vận tốc v = 4 m/s."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị d – t, một vật chuyển động thẳng đều đi qua hai điểm M(3 s ; 12 m) và N(8 s ; 42 m). Vận tốc của vật là",
+    "caccauChon": [
+      "4 m/s.",
+      "5,25 m/s.",
+      "6 m/s.",
+      "8,4 m/s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc v = (42 - 12) / (8 - 3) = 30 / 5 = 6 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_m3_12_n8_42.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một tàu hỏa chuyển động thẳng đều trên đường ray. Trên đồ thị d – t, tại $t_1$ = 0,5 h tàu có độ dịch chuyển $d_1$ = 25 km; tại $t_2$ = 2,5 h tàu có độ dịch chuyển $d_2$ = 145 km. Tốc độ của tàu hỏa bằng",
+    "caccauChon": [
+      "50 km/h.",
+      "58 km/h.",
+      "60 km/h.",
+      "72,5 km/h."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tốc độ v = (145 - 25) / (2,5 - 0,5) = 120 / 2 = 60 km/h.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_tau_hoa_25_145.webp"
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị d – t của một vận động viên chạy bộ là đoạn thẳng nối từ (10 s ; 60 m) đến (25 s ; 15 m). Vận tốc của vận động viên trong khoảng thời gian này là",
+    "caccauChon": [
+      "3 m/s.",
+      "-3 m/s.",
+      "4,5 m/s.",
+      "-4,5 m/s."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vận tốc v = (15 - 60) / (25 - 10) = -45 / 15 = -3 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_10s_60m_to_25s_15m.webp"
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng đều, nếu chọn mốc thời gian lúc vật bắt đầu xuất phát tại gốc tọa độ thì đồ thị d – t luôn",
+    "caccauChon": [
+      "đi qua gốc tọa độ O(0 ; 0).",
+      "song song với trục thời gian.",
+      "nằm hoàn toàn phía dưới trục thời gian.",
+      "có độ dốc bằng 0."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tại t = 0 thì d = 0 nên đường biểu diễn luôn đi qua gốc tọa độ O(0 ; 0).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_thang_deu_tong_quat.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai người đi xe đạp I và II chuyển động thẳng đều cùng chiều. Trên cùng một đồ thị x – t, hai đường biểu diễn là hai đường thẳng song song với nhau. Điều này chứng tỏ",
+    "caccauChon": [
+      "hai người xuất phát cùng một vị trí.",
+      "hai người sẽ gặp nhau sau một thời gian.",
+      "hai người có cùng vận tốc.",
+      "một người đứng yên, một người chuyển động."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai đường thẳng song song có cùng hệ số góc (độ dốc), nghĩa là hai người có cùng vận tốc.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_xt_hai_xe_song_song.webp"
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ca nô chạy thẳng đều theo chiều dương với tốc độ 12 m/s. Tại thời điểm t = 2 s, ca nô đang ở tọa độ x = 30 m. Tọa độ ban đầu $x_0$ của ca nô lúc t = 0 là",
+    "caccauChon": [
+      "6 m.",
+      "18 m.",
+      "24 m.",
+      "54 m."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Thay t = 2 s, x = 30 m, v = 12 m/s vào x = $x_0$ + v $\\cdot$ t $\\Rightarrow$ 30 = $x_0$ + 12 $\\cdot$ 2 $\\Rightarrow x_0$ = 30 - 24 = 6 m."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị d – t của một con kiến bò thẳng gồm hai đoạn thẳng liên tiếp: từ 0 s đến 4 s kiến bò từ d = 0 đến d = 12 cm; từ 4 s đến 10 s kiến bò tiếp từ d = 12 cm đến d = 42 cm. Vận tốc của kiến trong giai đoạn sau lớn hơn giai đoạn đầu bao nhiêu?",
+    "caccauChon": [
+      "2 cm/s.",
+      "3 cm/s.",
+      "5 cm/s.",
+      "8 cm/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Giai đoạn đầu: $v_1$ = (12 - 0) / (4 - 0) = 3 cm/s. Giai đoạn sau: $v_2$ = (42 - 12) / (10 - 4) = 30 / 6 = 5 cm/s. Vậy $v_2$ - $v_1$ = 5 - 3 = 2 cm/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_con_kien_2_doan.webp"
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe buýt chạy thẳng đều trên đại lộ. Biết đồ thị x – t của xe cắt trục tung tại $x_0$ = 100 m và đi qua điểm (20 s ; 500 m). Vận tốc của xe buýt là",
+    "caccauChon": [
+      "20 m/s.",
+      "25 m/s.",
+      "30 m/s.",
+      "400 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vận tốc v = (500 - 100) / (20 - 0) = 400 / 20 = 20 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_xt_xe_buyt_100m_500m.webp"
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị d – t, một vật bắt đầu chuyển động từ d = 24 m và đi thẳng đều về gốc tọa độ mất 8 s. Phương trình độ dịch chuyển (tọa độ) của vật là",
+    "caccauChon": [
+      "x = 24 + 3 $\\cdot$ t.",
+      "x = 24 - 3 $\\cdot$ t.",
+      "x = 3 $\\cdot$ t.",
+      "x = -3 $\\cdot$ t."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật đi từ $x_0$ = 24 m về x = 0 m trong 8 s nên v = (0 - 24) / 8 = -3 m/s. Phương trình: x = 24 - 3 $\\cdot$ t.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_24m_ve_0_8s.webp"
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai xe máy xuất phát cùng lúc từ hai địa điểm A và B cách nhau 90 km, đi ngược chiều nhau để gặp nhau. Tốc độ xe A là 40 km/h, tốc độ xe B là 50 km/h. Thời gian từ lúc xuất phát đến lúc hai xe gặp nhau là",
+    "caccauChon": [
+      "0,5 h.",
+      "1 h.",
+      "1,5 h.",
+      "2 h."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thời gian gặp nhau t = S / ($v_1$ + $v_2$) = 90 / (40 + 50) = 90 / 90 = 1 h."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong bài toán ở Câu 12, nếu chọn gốc tọa độ tại A, chiều dương từ A đến B thì vị trí hai xe gặp nhau cách A một khoảng",
+    "caccauChon": [
+      "40 km.",
+      "45 km.",
+      "50 km.",
+      "90 km."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vị trí gặp nhau cách A một đoạn x = $v_A \\cdot$ t = 40 $\\cdot$ 1 = 40 km."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quan sát đồ thị d – t của một vật: từ t = 0 đến t = 5 s, d = 0; từ t = 5 s đến t = 15 s, d tăng đều từ 0 đến 50 m. Tốc độ của vật trong khoảng thời gian từ 5 s đến 15 s là",
+    "caccauChon": [
+      "3,33 m/s.",
+      "5 m/s.",
+      "10 m/s.",
+      "50 m/s."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc độ v = (50 - 0) / (15 - 5) = 50 / 10 = 5 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_dung_yen_5s_tang_50m.webp"
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi bộ từ nhà đến bến xe buýt cách nhà 600 m mất 10 phút, đứng chờ xe 5 phút rồi quay về nhà mất 10 phút. Độ dịch chuyển của người đó trong toàn bộ 25 phút bằng",
+    "caccauChon": [
+      "1200 m.",
+      "600 m.",
+      "0 m.",
+      "48 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Người đó đi từ nhà rồi quay trở về đúng nhà nên điểm đầu trùng điểm cuối, độ dịch chuyển d = 0 m."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị d – t, góc nghiêng $\\alpha$ của đường biểu diễn chuyển động thẳng đều so với trục thời gian càng lớn thì",
+    "caccauChon": [
+      "thời gian chuyển động càng dài.",
+      "tốc độ chuyển động của vật càng lớn.",
+      "vật xuất phát càng xa gốc tọa độ.",
+      "vật chuyển động càng chậm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Góc nghiêng $\\alpha$ càng lớn thì độ dốc càng lớn, suy ra tốc độ chuyển động càng lớn.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_doc_len_he_so_goc.webp"
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương trình tọa độ của một vật chuyển động thẳng có dạng x = 12 - 3 $\\cdot$ t (m, s). Tại thời điểm t = 6 s, tọa độ của vật là",
+    "caccauChon": [
+      "30 m.",
+      "6 m.",
+      "-6 m.",
+      "-18 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thay t = 6 s vào phương trình: x = 12 - 3 $\\cdot$ 6 = 12 - 18 = -6 m."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có đồ thị d – t là một đường thẳng đi qua điểm (2 s ; -8 m) và điểm (6 s ; -24 m). Vật đang chuyển động",
+    "caccauChon": [
+      "thẳng đều theo chiều dương với tốc độ 4 m/s.",
+      "thẳng đều theo chiều âm với tốc độ 4 m/s.",
+      "thẳng đều theo chiều âm với tốc độ 6 m/s.",
+      "chậm dần đều về gốc tọa độ."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vận tốc v = [-24 - (-8)] / (6 - 2) = -16 / 4 = -4 m/s (dấu trừ chỉ chiều âm, tốc độ là 4 m/s).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_am8_am24.webp"
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điểm khác biệt cơ bản giữa đồ thị tọa độ – thời gian (x – t) và đồ thị độ dịch chuyển – thời gian (d – t) là",
+    "caccauChon": [
+      "đồ thị d – t luôn bắt đầu từ gốc tọa độ (t = 0 ; d = 0), còn đồ thị x – t có thể bắt đầu tại $x_0 \\neq$ 0.",
+      "đồ thị d – t là đường cong, còn đồ thị x – t là đường thẳng.",
+      "đồ thị d – t không dùng để tính vận tốc.",
+      "hai đồ thị này hoàn toàn không có liên hệ gì với nhau."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ dịch chuyển tính từ vị trí xuất phát tại t = 0 nên $d_0$ = 0, còn tọa độ x phụ thuộc vào vị trí chọn làm gốc tọa độ nên có thể $x_0 \\neq$ 0.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_xt_giao_diem_hai_xe.webp"
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng đều trên trục Ox. Lúc $t_1$ = 1 s vật ở tọa độ $x_1$ = 5 m; lúc $t_2$ = 4 s vật ở tọa độ $x_2$ = 20 m. Phương trình tọa độ của chất điểm là",
+    "caccauChon": [
+      "x = 5 $\\cdot$ t.",
+      "x = 5 + 5 $\\cdot$ t.",
+      "x = 1 + 4 $\\cdot$ t.",
+      "x = 20 - 5 $\\cdot$ t."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vận tốc v = (20 - 5) / (4 - 1) = 15 / 3 = 5 m/s. Tại t = 1 s thì $x_1$ = $x_0$ + 5 $\\cdot$ 1 = 5 $\\Rightarrow x_0$ = 0. Phương trình là x = 5 $\\cdot$ t."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một chất điểm chuyển động thẳng trên trục Ox có phương trình tọa độ x = 15 - 5 $\\cdot$ t (x tính bằng m, t tính bằng s).",
+    "dsYCon": [
+      "Tại thời điểm ban đầu t = 0, chất điểm ở cách gốc tọa độ 15 m về phía chiều dương.",
+      "Chất điểm đang chuyển động thẳng đều theo chiều dương với tốc độ 5 m/s.",
+      "Chất điểm đi qua gốc tọa độ O tại thời điểm t = 3 s.",
+      "Sau 5 s kể từ lúc t = 0, độ dịch chuyển của chất điểm là -25 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Sai | c) Đúng | d) Đúng. Giải thích: (b) Hệ số trước t là -5 nên vật đi theo chiều âm; (c) Khi x = 0 $\\Rightarrow$ 15 - 5 $\\cdot$ t = 0 $\\Rightarrow$ t = 3 s; (d) Sau 5 s, d = v $\\cdot$ t = -5 $\\cdot$ 5 = -25 m."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Trên cùng một hệ trục tọa độ (x, t), đường biểu diễn của xe I đi qua gốc tọa độ O(0 ; 0) và điểm (2 h ; 80 km); đường biểu diễn của xe II đi qua điểm (0 ; 100 km) và điểm (2 h ; 20 km).",
+    "dsYCon": [
+      "Xe I chuyển động thẳng đều theo chiều dương với vận tốc 40 km/h.",
+      "Xe II chuyển động thẳng đều theo chiều âm với vận tốc -40 km/h.",
+      "Hai xe chạy cùng chiều nhau trên đường thẳng.",
+      "Hai xe gặp nhau tại thời điểm t = 1,25 h ở tọa độ x = 50 km."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Đúng | c) Sai | d) Đúng. Giải thích: Xe I có $v_1$ = +40 km/h (chiều dương), xe II có $v_2$ = (20 - 100) / 2 = -40 km/h (chiều âm), nên hai xe đi ngược chiều. Gặp nhau khi 40 $\\cdot$ t = 100 - 40 $\\cdot$ t $\\Rightarrow$ 80 $\\cdot$ t = 100 $\\Rightarrow$ t = 1,25 h, tại x = 40 $\\cdot$ 1,25 = 50 km.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai3_giao_diem_2_xe.webp"
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét đồ thị độ dịch chuyển – thời gian (d – t) của một thang máy đi từ tầng trệt lên tầng cao nhất: từ 0 s đến 5 s thang máy đứng yên ở d = 0; từ 5 s đến 20 s thang máy đi lên đều tới độ cao d = 45 m; từ 20 s đến 30 s thang máy dừng lại tại d = 45 m.",
+    "dsYCon": [
+      "Trong 5 s đầu tiên, vận tốc của thang máy bằng 0.",
+      "Từ giây thứ 5 đến giây thứ 20, thang máy chuyển động thẳng đều với vận tốc 3 m/s.",
+      "Từ giây thứ 20 đến giây thứ 30, đồ thị d – t của thang máy là một đường thẳng xiên góc đi xuống.",
+      "Tốc độ trung bình của thang máy trong toàn bộ 30 s là 1,5 m/s."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Đúng | c) Sai | d) Đúng. Giải thích: (b) v = 45 / (20 - 5) = 3 m/s; (c) Từ 20 s đến 30 s thang máy dừng lại nên đồ thị là đường thẳng nằm ngang; (d) Tốc độ trung bình $v_{tb}$ = 45 / 30 = 1,5 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_thang_may_3_doan.webp"
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Khi phân tích đồ thị độ dịch chuyển – thời gian (d – t) của một vật chuyển động thẳng:",
+    "dsYCon": [
+      "Nếu đường biểu diễn cắt trục thời gian t tại một điểm thì tại thời điểm đó độ dịch chuyển của vật bằng 0.",
+      "Vận tốc của vật luôn có giá trị dương ở mọi đoạn đồ thị.",
+      "Quãng đường vật đi được trong một giai đoạn thẳng đều luôn bằng giá trị tuyệt đối của độ dịch chuyển trong giai đoạn đó.",
+      "Nếu hai đoạn thẳng trên đồ thị d – t có cùng góc nghiêng nhưng một đoạn hướng lên, một đoạn hướng xuống thì hai giai đoạn đó có cùng tốc độ."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Sai | c) Đúng | d) Đúng. Giải thích: (b) Khi vật đi ngược chiều dương thì vận tốc v < 0 (giá trị âm).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_thang_deu_tong_quat.webp"
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Hai người đi xe đạp cùng xuất phát từ một vị trí trên đường thẳng. Người thứ nhất đi với tốc độ 12 km/h, người thứ hai đi cùng chiều với tốc độ 18 km/h nhưng xuất phát muộn hơn người thứ nhất 0,5 h.",
+    "dsYCon": [
+      "Sau 0,5 h kể từ lúc người thứ nhất xuất phát, người thứ nhất đã đi được 6 km.",
+      "Trên đồ thị x – t (chọn gốc thời gian lúc người thứ nhất xuất phát), đường biểu diễn của người thứ hai bắt đầu từ điểm (0,5 h ; 0 km).",
+      "Người thứ hai đuổi kịp người thứ nhất sau 1 h kể từ lúc người thứ hai xuất phát.",
+      "Vị trí hai người gặp nhau cách điểm xuất phát 12 km."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng | b) Đúng | c) Đúng | d) Sai. Giải thích: Phương trình tọa độ $x_1$ = 12 $\\cdot$ t; $x_2$ = 18 $\\cdot$ (t - 0,5). Gặp nhau khi 12 $\\cdot$ t = 18 $\\cdot$ t - 9 $\\Rightarrow$ 6 $\\cdot$ t = 9 $\\Rightarrow$ t = 1,5 h (tức là sau 1 h kể từ lúc người thứ hai xuất phát). Vị trí gặp nhau cách điểm xuất phát x = 12 $\\cdot$ 1,5 = 18 km."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô chuyển động thẳng trên đường có đồ thị vận tốc – thời gian ($v – t$) gồm 3 giai đoạn (1), (2), (3) như hình vẽ (biết độ lớn quãng đường đi được trên đồ thị $v – t$ bằng diện tích hình phẳng giới hạn bởi đường biểu diễn và trục thời gian Ot).\na) Nêu sự thay đổi tốc độ của ô tô trong từng giai đoạn (1), (2), (3).\nb) Tính quãng đường ô tô đi được ở mỗi giai đoạn, tổng quãng đường đi được sau $14\\text{ s}$ và tốc độ trung bình của ô tô trong suốt $14\\text{ s}$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_oto_3_giai_doan_q26.webp",
+    "giaithich": "Lời giải chi tiết:\na) Sự thay đổi tốc độ của ô tô trong từng giai đoạn:\n• Giai đoạn (1) (từ $0\\text{ s}$ đến $4\\text{ s}$): Tốc độ tăng đều từ $0\\text{ m/s}$ lên $12\\text{ m/s}$ (chuyển động nhanh dần đều).\n• Giai đoạn (2) (từ $4\\text{ s}$ đến $10\\text{ s}$): Đồ thị nằm ngang song song trục $Ot$, tốc độ không đổi bằng $12\\text{ m/s}$ (chuyển động thẳng đều).\n• Giai đoạn (3) (từ $10\\text{ s}$ đến $14\\text{ s}$): Tốc độ giảm đều từ $12\\text{ m/s}$ về $0\\text{ m/s}$ (xe dừng lại tại $t = 14\\text{ s}$).\n\nb) Quãng đường từng giai đoạn, tổng quãng đường và tốc độ trung bình:\n• Giai đoạn (1) (diện tích tam giác vuông đáy $4\\text{ s}$, cao $12\\text{ m/s}$): $s_1 = \\frac{1}{2} \\times 4 \\times 12 = 24\\text{ m}$.\n• Giai đoạn (2) (diện tích hình chữ nhật rộng $6\\text{ s}$, cao $12\\text{ m/s}$): $s_2 = (10 - 4) \\times 12 = 6 \\times 12 = 72\\text{ m}$.\n• Giai đoạn (3) (diện tích tam giác vuông đáy $4\\text{ s}$, cao $12\\text{ m/s}$): $s_3 = \\frac{1}{2} \\times (14 - 10) \\times 12 = 24\\text{ m}$.\n• Tổng quãng đường đi được sau $14\\text{ s}$: $s = s_1 + s_2 + s_3 = 24 + 72 + 24 = 120\\text{ m}$.\n• Tốc độ trung bình trong $14\\text{ s}$: $v_{tb} = \\frac{s}{t} = \\frac{120}{14} \\approx 8{,}57\\text{ m/s}$."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một chiếc xe máy chuyển động thẳng trên trục Ox có đồ thị vận tốc – thời gian ($v – t$) như hình bên (đoạn nét đứt từ $4\\text{ s}$ đến $8\\text{ s}$ là giai đoạn đổi chiều chuyển động).\na) Mô tả chuyển động của xe máy trong khoảng thời gian từ $0\\text{ s}$ đến $4\\text{ s}$ và từ $8\\text{ s}$ đến $10\\text{ s}$.\nb) Tính độ dịch chuyển và quãng đường đi được của xe máy trong từng khoảng thời gian từ $0\\text{ s}$ đến $4\\text{ s}$ và từ $8\\text{ s}$ đến $10\\text{ s}$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_xe_may_doi_chieu_q27.webp",
+    "giaithich": "Lời giải chi tiết:\na) Mô tả chuyển động của xe máy trong hai khoảng thời gian:\n• Từ $0\\text{ s}$ đến $4\\text{ s}$: Vận tốc $v = +10\\text{ m/s}$ không đổi $\\Rightarrow$ Xe chuyển động thẳng đều theo chiều dương.\n• Từ $8\\text{ s}$ đến $10\\text{ s}$: Vận tốc $v = -10\\text{ m/s}$ không đổi $\\Rightarrow$ Xe chuyển động thẳng đều ngược chiều dương (theo chiều âm) với tốc độ $10\\text{ m/s}$.\n\nb) Độ dịch chuyển và quãng đường đi được trong từng khoảng thời gian:\n• Khoảng từ $0\\text{ s}$ đến $4\\text{ s}$ (thời gian $\\Delta t_1 = 4\\text{ s}$, vận tốc $v_1 = +10\\text{ m/s}$):\n  - Độ dịch chuyển: $d_1 = v_1 \\times \\Delta t_1 = (+10) \\times 4 = +40\\text{ m}$.\n  - Quãng đường đi được: $s_1 = |d_1| = 40\\text{ m}$.\n• Khoảng từ $8\\text{ s}$ đến $10\\text{ s}$ (thời gian $\\Delta t_2 = 10 - 8 = 2\\text{ s}$, vận tốc $v_2 = -10\\text{ m/s}$):\n  - Độ dịch chuyển: $d_2 = v_2 \\times \\Delta t_2 = (-10) \\times 2 = -20\\text{ m}$.\n  - Quãng đường đi được: $s_2 = |d_2| = 20\\text{ m}$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Hai xe (1) và (2) cùng xuất phát từ một vị trí và chuyển động thẳng cùng chiều trên một đoạn đường. Đồ thị vận tốc – thời gian ($v – t$) của hai xe trong $8\\text{ s}$ đầu được biểu diễn như hình vẽ.\na) Nêu đặc điểm chuyển động của xe (1) và xe (2) trong $8\\text{ s}$ này; xác định thời điểm hai xe có cùng vận tốc.\nb) Tính quãng đường mỗi xe đi được sau $8\\text{ s}$ và nhận xét về khoảng cách giữa hai xe tại thời điểm $t = 8\\text{ s}$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_hai_xe_cat_nhau_q28.webp",
+    "giaithich": "Lời giải chi tiết:\na) Đặc điểm chuyển động và thời điểm hai xe có cùng vận tốc:\n• Xe (1): Đồ thị là đường thẳng nằm ngang ở mức $v_1 = 20\\text{ m/s} \\Rightarrow$ Xe (1) chuyển động thẳng đều với tốc độ không đổi $20\\text{ m/s}$.\n• Xe (2): Đồ thị là đoạn thẳng dốc lên từ $0\\text{ m/s}$ đến $40\\text{ m/s}$ trong $8\\text{ s} \\Rightarrow$ Xe (2) chuyển động thẳng nhanh dần đều.\n• Giao điểm của hai đường biểu diễn có hoành độ $t = 4\\text{ s}$ và tung độ $v = 20\\text{ m/s} \\Rightarrow$ Hai xe có cùng vận tốc ($20\\text{ m/s}$) tại thời điểm $t = 4\\text{ s}$.\n\nb) Quãng đường mỗi xe đi được sau $8\\text{ s}$ và khoảng cách giữa hai xe:\n• Quãng đường xe (1) đi được (diện tích hình chữ nhật $8 \\times 20$): $s_1 = 8 \\times 20 = 160\\text{ m}$.\n• Quãng đường xe (2) đi được (diện tích tam giác vuông đáy $8\\text{ s}$, cao $40\\text{ m/s}$): $s_2 = \\frac{1}{2} \\times 8 \\times 40 = 160\\text{ m}$.\n• Nhận xét: Vì hai xe cùng xuất phát từ một vị trí, chuyển động thẳng cùng chiều và đi được cùng quãng đường $160\\text{ m}$ sau $8\\text{ s}$ nên tại thời điểm $t = 8\\text{ s}$, hai xe ở cùng một vị trí (khoảng cách giữa hai xe bằng $0\\text{ m}$; xe (2) đã đuổi kịp xe (1))."
+  }
+]

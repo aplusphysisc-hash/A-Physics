@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thuật ngữ 'chất lưu' dùng để chỉ những trạng thái nào của vật chất?",
+    "caccauChon": [
+      "Chất rắn và chất lỏng.",
+      "Chất lỏng và chất khí.",
+      "Chất rắn và chất khí.",
+      "Chỉ chất lỏng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chất lưu là thuật ngữ dùng chung để chỉ các chất có khả năng chảy, bao gồm chất lỏng và chất khí."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực cản của chất lưu tác dụng lên một vật chuyển động KHÔNG phụ thuộc vào yếu tố nào?",
+    "caccauChon": [
+      "Hình dạng của vật.",
+      "Tốc độ của vật.",
+      "Khối lượng của vật.",
+      "Bản chất (độ nhớt, mật độ) của chất lưu."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Lực cản của chất lưu phụ thuộc vào hình dạng, kích thước, tốc độ của vật và bản chất chất lưu, không phụ thuộc vào khối lượng $m$ của vật."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi trong không khí từ độ cao rất lớn. Khi vật đạt đến vận tốc giới hạn thì chuyển động của vật là:",
+    "caccauChon": [
+      "Nhanh dần đều.",
+      "Chậm dần đều.",
+      "Thẳng đều.",
+      "Rơi tự do."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi đạt đến vận tốc giới hạn $v_{gh}$, hợp lực tác dụng lên vật bằng $0$ nên vật chuyển động thẳng đều."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ lớn lực đẩy Archimedes tác dụng lên vật nhúng trong chất lưu có khối lượng riêng $\\rho$ là:",
+    "caccauChon": [
+      "$F_A = \\rho \\cdot g \\cdot V$",
+      "$F_A = \\frac{\\rho \\cdot V}{g}$",
+      "$F_A = m \\cdot g \\cdot V$",
+      "$F_A = \\frac{\\rho \\cdot g}{V}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ lớn lực đẩy Archimedes được tính bằng công thức $F_A = \\rho \\cdot g \\cdot V$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong giai đoạn đầu khi một viên bi sắt bắt đầu rơi thẳng đứng từ trạng thái nghỉ trong một ống dầu nhớt dài, đại lượng nào sau đây giảm dần?",
+    "caccauChon": [
+      "Vận tốc của viên bi.",
+      "Lực cản của dầu.",
+      "Gia tốc của viên bi.",
+      "Lực đẩy Archimedes."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi viên bi rơi nhanh dần, vận tốc $v$ tăng làm lực cản $F_c$ tăng, dẫn đến hợp lực $F_{hl} = P - F_A - F_c$ giảm dần nên gia tốc $a$ giảm dần."
+  }
+]

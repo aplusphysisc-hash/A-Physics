@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "tieude": "Bài 1: Làm quen với Vật lý",
+    "noidung": "Đối tượng nghiên cứu, mục tiêu, phương pháp nghiên cứu Vật lý và ảnh hưởng của Vật lý đối với đời sống, kỹ thuật.",
+    "videoYoutubeId": "0_FJwNx0EHU",
+    "fileBaiTapNhanh": "ChuDeMoDau/02BaiTapNhanh1_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Đối tượng nghiên cứu của Vật lý và Mục tiêu của môn Vật lý",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đầu tiên Vật lý là gì?",
+            "noiDung": "Vật lý là ngành khoa học tự nhiên nghiên cứu về vật chất, năng lượng và sự tương tác giữa chúng."
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Đối tượng nghiên cứu và Mục tiêu của môn Vật lý",
+            "noiDung": "Vật lý khám phá các quy luật vận động tổng quát của tự nhiên:",
+            "danhSachYCon": [
+              "**Đối tượng nghiên cứu của Vật lý:** Các dạng vận động của vật chất (như chuyển động cơ học, nhiệt, điện, từ, ánh sáng) và năng lượng.",
+              "**Mục tiêu của môn Vật lý:** Tìm ra các quy luật vận động chung nhất của thế giới tự nhiên, từ đó ứng dụng vào đời sống và tạo ra công nghệ mới."
+            ]
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Phương pháp nghiên cứu Vật lý (2 phương pháp chính)",
+            "noiDung": "Quá trình tìm tòi quy luật vật lý dựa trên sự kết hợp chặt chẽ giữa hai phương pháp:",
+            "danhSachYCon": [
+              "**Phương pháp thực nghiệm:** Tự mình quan sát thực tế, tiến hành làm thí nghiệm để thu thập dữ liệu và rút ra bài học.",
+              "**Phương pháp lý thuyết:** Sử dụng toán học, mô hình giả định và suy luận logic để dự đoán bản chất các hiện tượng trước khi kiểm chứng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Ảnh hưởng của Vật lý đối với đời sống và kỹ thuật",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Ứng dụng trong đời sống và khoa học công nghệ",
+            "noiDung": "Thành tựu của Vật lý hiện diện trong hầu hết các lĩnh vực văn minh nhân loại:",
+            "danhSachYCon": [
+              "**Trong đời sống và sinh hoạt:** Tạo ra điện sinh hoạt, quạt, tủ lạnh, xe máy, điện thoại... giúp nâng cao chất lượng cuộc sống.",
+              "**Trong khoa học kỹ thuật và công nghệ:** Là nền tảng cho công nghệ thông tin, tự động hóa, chế tạo rô-bốt, phát triển năng lượng mặt trời và vật liệu mới."
+            ]
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "TÁC HẠI (nếu không sử dụng đúng cách): Gây ô nhiễm môi trường, sự cố rò rỉ hạt nhân, chế tạo các loại vũ khí hủy diệt hàng loạt."
+          }
+        ]
+      }
+    ]
+  }
+]

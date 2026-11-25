@@ -1,0 +1,97 @@
+﻿[
+  {
+    "id": 2,
+    "tieude": "Bài 2: Tốc độ và Vận tốc",
+    "noidung": "Tốc độ trung bình, tốc độ tức thời, vận tốc trung bình, vận tốc tức thời và công thức cộng vận tốc (tính tương đối của chuyển động).",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai2_tong_hop_van_toc.webp",
+    "videoYoutubeId": "_lOqbdn_mLs",
+    "fileBaiTapNhanh": "ChuDe1/02BaiTapNhanh1_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1.1. Tốc độ trung bình và Tốc độ tức thời",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Tốc độ trung bình và Tốc độ tức thời",
+            "noiDung": "Tốc độ là đại lượng đặc trưng cho sự nhanh hay chậm của chuyển động:",
+            "danhSachYCon": [
+              "**Tốc độ trung bình ($v_{tb}$):** Xác định bằng thương số giữa quãng đường đi được ($s$) và khoảng thời gian đi hết quãng đường đó ($t$). Là đại lượng vô hướng, luôn không âm ($v \\ge 0$).",
+              "**Tốc độ tức thời:** Là tốc độ của vật tại một thời điểm xác định (xét trong khoảng thời gian $\\Delta t$ rất ngắn). Số chỉ trên tốc kế của xe máy, ô tô chính là độ lớn tốc độ tức thời.",
+              "**Ví dụ minh họa 1.1:** Ô tô đi từ A đến B dài $120\\text{ km}$ mất $2\\text{ giờ}$, rồi quay đầu đi từ B về C cách B $30\\text{ km}$ mất $0{,}5\\text{ giờ}$. Tổng quãng đường $s = 120 + 30 = 150\\text{ km}$, tổng thời gian $t = 2 + 0{,}5 = 2{,}5\\text{ giờ} \\Rightarrow v_{tb} = \\frac{s}{t} = \\frac{150}{2{,}5} = 60\\text{ km/h}$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC TÍNH TỐC ĐỘ TRUNG BÌNH & ĐỔI ĐƠN VỊ",
+            "congThuc": "$v_{tb} = \\frac{s}{t}  ; (1\\text{ m/s} = 3{,}6\\text{ km/h})$",
+            "mucDich": "Đánh giá độ nhanh chậm trung bình trên toàn bộ quãng đường đã đi.",
+            "chuThich": "Đơn vị chuẩn hệ SI là $\\text{m/s}$. Đổi từ $\\text{km/h}$ sang $\\text{m/s}$ ta chia cho $3{,}6$."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "1.2. Vận tốc trung bình và Vận tốc tức thời",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Vận tốc trung bình và Vận tốc tức thời",
+            "noiDung": "Vận tốc là đại lượng véc-tơ vừa cho biết mức độ nhanh chậm vừa cho biết hướng chuyển động:",
+            "danhSachYCon": [
+              "**Vận tốc trung bình ($\\vec{v}_{tb}$):** Bằng thương số giữa độ dịch chuyển ($\\vec{d}$) và khoảng thời gian thực hiện độ dịch chuyển đó ($t$). Cùng phương, cùng chiều với $\\vec{d}$.",
+              "**Vận tốc tức thời:** Là vận tốc tại một thời điểm xác định, đặc trưng cho sự nhanh chậm và hướng chuyển động tại thời điểm đó.",
+              "**So sánh độ lớn:** Khi vật chuyển động thẳng không đổi chiều thì $|v| = v_{tb}$. Khi vật có đổi chiều hoặc đi theo đường cong thì $|v| < v_{tb}$.",
+              "**Ví dụ minh họa 1.2:** Với số liệu Ví dụ 1.1 (đi từ A đến B dài $120\\text{ km}$, quay lại C cách B $30\\text{ km}$ trong tổng thời gian $2{,}5\\text{ giờ}$, chiều dương từ A đến B): Độ dịch chuyển $d = 120 - 30 = +90\\text{ km} \\Rightarrow$ Vận tốc trung bình $v_{tb} = \\frac{d}{t} = \\frac{90}{2{,}5} = +36\\text{ km/h}$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BIỂU THỨC VẬN TỐC TRUNG BÌNH TRÊN TRỤC THẲNG",
+            "congThuc": "$\\vec{v}_{tb} = \\frac{\\vec{d}}{t} \\implies v_{tb} = \\frac{\\Delta d}{\\Delta t} = \\frac{x_2 - x_1}{t_2 - t_1}$",
+            "mucDich": "Xác định giá trị đại số và chiều của vận tốc trung bình trên trục tọa độ $Ox$.",
+            "chuThich": "Nếu $v_{tb} > 0$: vật dịch chuyển theo chiều dương; nếu $v_{tb} < 0$: vật dịch chuyển ngược chiều dương."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai2_toc_do_van_toc.webp",
+            "moTaAnh": "Bảng đối chiếu trực quan sự khác biệt giữa tốc độ trung bình (vô hướng) và vận tốc trung bình (vectơ)."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "1.3. Tổng hợp vận tốc (Tính tương đối của chuyển động)",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Tính tương đối của vận tốc và Quy ước ký hiệu",
+            "noiDung": "Vận tốc của một vật đối với các hệ quy chiếu khác nhau thì khác nhau:",
+            "danhSachYCon": [
+              "**Số (1) - Vật chuyển động; Số (2) - Hệ quy chiếu chuyển động; Số (3) - Hệ quy chiếu đứng yên.**",
+              "**Vận tốc tuyệt đối ($\\vec{v}_{13}$):** Vận tốc của vật (1) đối với đất (3).",
+              "**Vận tốc tương đối ($\\vec{v}_{12}$):** Vận tốc của vật (1) đối với hệ quy chiếu chuyển động (2).",
+              "**Vận tốc kéo theo ($\\vec{v}_{23}$):** Vận tốc của hệ quy chiếu chuyển động (2) đối với đất (3).",
+              "**Ví dụ minh họa 1.3:** Ca nô có vận tốc đối với nước $v_{12} = 20\\text{ km/h}$, nước chảy đối với bờ $v_{23} = 4\\text{ km/h}$. Khi chạy xuôi dòng: $v_{13} = 20 + 4 = 24\\text{ km/h}$. Khi chạy ngược dòng: $v_{13} = 20 - 4 = 16\\text{ km/h}$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC CỘNG VẬN TỐC",
+            "congThuc": "$\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$",
+            "mucDich": "Tổng hợp vận tốc tuyệt đối từ vận tốc tương đối và vận tốc kéo theo.",
+            "chuThich": "• Cùng phương, cùng chiều: $v_{13} = v_{12} + v_{23}$ | • Cùng phương, ngược chiều: $v_{13} = |v_{12} - v_{23}|$ | • Vuông góc nhau: $v_{13} = \\sqrt{v_{12}^2 + v_{23}^2}$."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai2_tong_hop_van_toc.webp",
+            "moTaAnh": "Quy tắc hình bình hành tổng hợp vận tốc khi thuyền chạy ngang qua sông vuông góc với dòng nước chảy."
+          }
+        ]
+      }
+    ]
+  }
+]

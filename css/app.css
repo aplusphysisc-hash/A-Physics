@@ -1,0 +1,93 @@
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #070D1F;
+  color: #E2E8F0;
+}
+
+.glass-card {
+  background: rgba(15, 26, 54, 0.82);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(79, 209, 197, 0.2);
+}
+
+.glass-card-hover:hover {
+  border-color: rgba(79, 209, 197, 0.45);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #4FD1C5 0%, #38BDF8 50%, #818CF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* KaTeX overflow protection on small screens */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.4rem 0;
+  max-width: 100%;
+}
+
+.katex {
+  font-size: 1.04em;
+}
+
+/* Rich-text inline badges & highlights */
+.ap-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: 9999px;
+  background: rgba(79, 209, 197, 0.16);
+  color: #4FD1C5;
+  border: 1px solid rgba(79, 209, 197, 0.35);
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+.ap-highlight {
+  background: rgba(251, 191, 36, 0.22);
+  color: #FDE68A;
+  padding: 0.05rem 0.35rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+/* Model Viewer */
+model-viewer {
+  width: 100%;
+  height: 300px;
+  background-color: #0B142C;
+  border-radius: 1rem;
+  --poster-color: transparent;
+}
+
+model-viewer.mv-fullscreen {
+  height: 70vh;
+}
+
+/* Low-end optimization mode */
+body.low-end-mode *,
+body.low-end-mode *::before,
+body.low-end-mode *::after {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+  backdrop-filter: none !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #070D1F;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3C6E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4FD1C5;
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị của công cơ học trong hệ SI là:",
+    "caccauChon": [
+      "Joule ($\\text{J}$)",
+      "Watt ($\\text{W}$)",
+      "Newton ($\\text{N}$)",
+      "Tesla ($\\text{T}$)"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Đơn vị chuẩn của công cơ học và năng lượng là Joule ($\\text{J}$)."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tổng quát tính công cơ học của lực không đổi là:",
+    "caccauChon": [
+      "$A = F \\cdot s \\cdot \\sin\\alpha$",
+      "$A = F \\cdot s \\cdot \\cos\\alpha$",
+      "$A = \\frac{F}{s}$",
+      "$A = F \\cdot v$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công thức chuẩn là $A = F \\cdot s \\cdot \\cos\\alpha$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi lực tác dụng vuông góc với hướng dịch chuyển ($\\alpha = 90^\\circ$) thì công của lực bằng:",
+    "caccauChon": [
+      "$F \\cdot s$",
+      "$-F \\cdot s$",
+      "$0$",
+      "$0{,}5 F \\cdot s$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\cos 90^\\circ = 0$ nên $A = 0$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công cản (công âm) xuất hiện khi góc hợp bởi lực và độ dịch chuyển là:",
+    "caccauChon": [
+      "Góc $0^\\circ$",
+      "Góc nhọn",
+      "Góc vuông",
+      "Góc tù ($90^\\circ < \\alpha \\le 180^\\circ$)"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Khi $90^\\circ < \\alpha \\le 180^\\circ$ thì $\\cos\\alpha < 0 \\implies A < 0$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng đặc trưng cho tốc độ thực hiện công nhanh hay chậm là:",
+    "caccauChon": [
+      "Công suất",
+      "Động năng",
+      "Thế năng",
+      "Hiệu suất"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Công suất $P = \\frac{A}{t}$ đặc trưng cho tốc độ sinh công."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị chuẩn của công suất trong hệ SI là:",
+    "caccauChon": [
+      "Joule ($\\text{J}$)",
+      "Watt ($\\text{W}$)",
+      "Newton ($\\text{N}$)",
+      "$\\text{kW}\\cdot\\text{h}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đơn vị của công suất là Watt ($\\text{W}$), với $1\\text{ W} = 1\\text{ J/s}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ giữa công suất tức thời, lực kéo và vận tốc khi lực cùng hướng chuyển động là:",
+    "caccauChon": [
+      "$P = \\frac{F}{v}$",
+      "$P = F \\cdot v^2$",
+      "$P = F \\cdot v$",
+      "$P = \\frac{v}{F}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi $\\alpha = 0^\\circ$: $P = F \\cdot v$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Giá trị $1\\text{ kW}\\cdot\\text{h}$ tương đương bao nhiêu Joule?",
+    "caccauChon": [
+      "$1000\\text{ J}$",
+      "$3600\\text{ J}$",
+      "$36000\\text{ J}$",
+      "$3{,}6 \\cdot 10^6\\text{ J}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "$1\\text{ kW}\\cdot\\text{h} = 1000\\text{ W} \\cdot 3600\\text{ s} = 3{,}6 \\cdot 10^6\\text{ J}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính hiệu suất $H$ của một động cơ là:",
+    "caccauChon": [
+      "$H = \\frac{A_{ih}}{A_{tp}} \\cdot 100\\%$",
+      "$H = \\frac{A_{tp}}{A_{ih}} \\cdot 100\\%$",
+      "$H = \\frac{A_{hp}}{A_{ih}} \\cdot 100\\%$",
+      "$H = (A_{tp} - A_{ih}) \\cdot 100\\%$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Hiệu suất là tỉ số giữa công hữu ích và công toàn phần."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong thực tế, hiệu suất của mọi máy móc cơ học luôn:",
+    "caccauChon": [
+      "Lớn hơn $100\\%$",
+      "Nhỏ hơn $100\\%$",
+      "Bằng $100\\%$",
+      "Bằng $0\\%$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Do luôn có năng lượng hao phí nên $A_{ih} < A_{tp} \\implies H < 100\\%$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính động năng của vật khối lượng $m$ chuyển động với tốc độ $v$ là:",
+    "caccauChon": [
+      "$W_đ = m \\cdot v$",
+      "$W_đ = m \\cdot v^2$",
+      "$W_đ = \\frac{1}{2} m v^2$",
+      "$W_đ = \\frac{1}{2} m v$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức động năng: $W_đ = \\frac{1}{2}mv^2$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi vận tốc của vật tăng gấp $3$ lần thì động năng của vật tăng:",
+    "caccauChon": [
+      "$3$ lần",
+      "$6$ lần",
+      "$\\sqrt{3}$ lần",
+      "$9$ lần"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "$W_đ \\propto v^2$ nên $v$ tăng $3$ lần thì $W_đ$ tăng $3^2 = 9$ lần."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Theo định lý động năng, độ biến thiên động năng $\\Delta W_đ$ bằng:",
+    "caccauChon": [
+      "Tổng công của các lực tác dụng lên vật.",
+      "Độ biến thiên thế năng.",
+      "Công suất của lực kéo.",
+      "Độ biến thiên vận tốc."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$\\Delta W_đ = W_{đ2} - W_{đ1} = A_{tổng}$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thế năng trọng trường ở độ cao $z$ so với mốc thế năng là:",
+    "caccauChon": [
+      "$W_t = \\frac{1}{2}mgz$",
+      "$W_t = m \\cdot g \\cdot z$",
+      "$W_t = mgz^2$",
+      "$W_t = \\frac{mg}{z}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thế năng trọng trường: $W_t = m \\cdot g \\cdot z$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây KHÔNG phụ thuộc vào việc chọn mốc thế năng?",
+    "caccauChon": [
+      "Thế năng trọng trường.",
+      "Cơ năng của vật.",
+      "Độ biến thiên thế năng.",
+      "Tọa độ độ cao $z$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ biến thiên thế năng (bằng công của trọng lực) độc lập với mốc thế năng."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thế năng đàn hồi của lò xo độ cứng $k$ biến dạng $\\Delta l$ là:",
+    "caccauChon": [
+      "$W_{tđ} = k \\cdot \\Delta l$",
+      "$W_{tđ} = k \\cdot (\\Delta l)^2$",
+      "$W_{tđ} = \\frac{1}{2}k \\cdot \\Delta l$",
+      "$W_{tđ} = \\frac{1}{2}k(\\Delta l)^2$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Thế năng đàn hồi: $W_{tđ} = \\frac{1}{2}k(\\Delta l)^2$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cơ năng của một vật chuyển động trong trọng trường bằng:",
+    "caccauChon": [
+      "Tổng động năng và thế năng.",
+      "Hiệu động năng và thế năng.",
+      "Tích động năng và thế năng.",
+      "Thương động năng và thế năng."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Cơ năng $W = W_đ + W_t$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cơ năng của vật được bảo toàn khi vật chỉ chịu tác dụng của:",
+    "caccauChon": [
+      "Lực ma sát.",
+      "Các lực thế (trọng lực, lực đàn hồi).",
+      "Lực kéo động cơ.",
+      "Lực cản không khí."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi chỉ có trọng lực hoặc lực đàn hồi thực hiện công thì cơ năng bảo toàn."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong quá trình vật rơi tự do từ trên cao xuống đất:",
+    "caccauChon": [
+      "Động năng giảm, thế năng tăng.",
+      "Cả động năng và thế năng đều tăng.",
+      "Động năng tăng, thế năng giảm.",
+      "Cả động năng và thế năng đều giảm."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc tăng nên động năng tăng, độ cao giảm nên thế năng giảm."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi vật trượt có ma sát trên mặt phẳng nghiêng thì cơ năng của vật:",
+    "caccauChon": [
+      "Không đổi.",
+      "Tăng dần.",
+      "Bằng $0$.",
+      "Giảm dần do chuyển thành nhiệt năng."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Lực ma sát sinh công cản làm cơ năng giảm dần."
+  }
+]

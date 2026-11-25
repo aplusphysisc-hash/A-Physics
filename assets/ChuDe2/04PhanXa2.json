@@ -1,0 +1,264 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng đều, đại lượng nào sau đây luôn bằng $0$?",
+    "caccauChon": [
+      "Gia tốc $a$.",
+      "Vận tốc tức thời $v$.",
+      "Quãng đường đi được $s$.",
+      "Độ dịch chuyển $d$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chuyển động thẳng đều có vận tốc $\\vec{v}$ không đổi theo thời gian nên gia tốc $a = 0$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đổi tốc độ $v = 72\\text{ km/h}$ sang đơn vị $\\text{m/s}$ ta được kết quả là:",
+    "caccauChon": [
+      "$15\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$25\\text{ m/s}$",
+      "$30\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chia cho $3{,}6$: $v = \\frac{72}{3{,}6} = 20\\text{ m/s}$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ số góc (độ dốc) của đường thẳng trên đồ thị tọa độ – thời gian $(x - t)$ của chuyển động thẳng đều biểu thị đại lượng nào?",
+    "caccauChon": [
+      "Gia tốc $a$.",
+      "Quãng đường $s$.",
+      "Vận tốc $v$.",
+      "Tọa độ ban đầu $x_0$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trên đồ thị $(x - t)$, độ dốc $\\tan\\alpha = \\frac{\\Delta x}{\\Delta t}$ chính là vận tốc $v$.",
+    "hinhAnh": "images/ChuDe2/baitap/dothi_xt_thang_deu_xien_goc.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị chuẩn của gia tốc $a$ trong hệ đo lường quốc tế SI là:",
+    "caccauChon": [
+      "$\\text{m/s}$",
+      "$\\text{km/h}$",
+      "$\\text{m} \\cdot \\text{s}^2$",
+      "$\\text{m/s}^2$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Gia tốc $a = \\frac{\\Delta v}{\\Delta t}$ có đơn vị chuẩn trong hệ SI là mét trên giây bình phương ($\\text{m/s}^2$)."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều kiện về dấu để một vật chuyển động thẳng chậm dần đều là:",
+    "caccauChon": [
+      "$a \\cdot v < 0$",
+      "$a \\cdot v > 0$",
+      "$a < 0$ trong mọi trường hợp",
+      "$v < 0$ trong mọi trường hợp"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trong chuyển động thẳng chậm dần đều, vectơ gia tốc $\\vec{a}$ ngược chiều với vectơ vận tốc $\\vec{v}$ nên tích $a \\cdot v < 0$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm có phương trình tọa độ $x = 10 + 4t - 3t^2\\text{ (m)}$. Gia tốc $a$ của chất điểm là:",
+    "caccauChon": [
+      "$-3\\text{ m/s}^2$",
+      "$-6\\text{ m/s}^2$",
+      "$3\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đối chiếu với $x = x_0 + v_0 t + \\frac{1}{2}at^2$, ta có $\\frac{1}{2}a = -3 \\implies a = -6\\text{ m/s}^2$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Diện tích phần hình phẳng giới hạn bởi đồ thị vận tốc – thời gian $(v - t)$ và trục hoành $Ot$ (khi $v > 0$) biểu thị:",
+    "caccauChon": [
+      "Gia tốc của vật.",
+      "Vận tốc trung bình.",
+      "Quãng đường vật đi được.",
+      "Thời gian chuyển động."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Diện tích hình phẳng dưới đường biểu diễn $v(t)$ có giá trị bằng độ dịch chuyển (cũng là quãng đường $s$ khi $v > 0$).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_dien_tich_quang_duong.webp"
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thời gian rơi tự do $t$ của một vật thả từ độ cao $h$ là:",
+    "caccauChon": [
+      "$t = \\frac{2h}{g}$",
+      "$t = \\sqrt{2gh}$",
+      "$t = \\sqrt{\\frac{h}{g}}$",
+      "$t = \\sqrt{\\frac{2h}{g}}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Từ công thức $h = \\frac{1}{2}gt^2 \\implies t = \\sqrt{\\frac{2h}{g}}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do tại nơi có $g = 10\\text{ m/s}^2$. Quãng đường vật rơi được trong giây đầu tiên ($t = 1\\text{ s}$) là:",
+    "caccauChon": [
+      "$5\\text{ m}$",
+      "$10\\text{ m}$",
+      "$15\\text{ m}$",
+      "$20\\text{ m}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trong $1\\text{ s}$ đầu tiên: $s_1 = \\frac{1}{2}gt^2 = \\frac{1}{2} \\cdot 10 \\cdot 1^2 = 5\\text{ m}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi tăng độ cao thả vật rơi tự do lên $4$ lần thì vận tốc lúc chạm đất $v = \\sqrt{2gh}$ sẽ:",
+    "caccauChon": [
+      "Tăng $4$ lần.",
+      "Tăng $2$ lần.",
+      "Giảm $2$ lần.",
+      "Không đổi."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vì $v = \\sqrt{2gh} \\propto \\sqrt{h}$ nên khi $h$ tăng $4$ lần thì $v$ tăng $\\sqrt{4} = 2$ lần."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động ném ngang từ độ cao $h$ với vận tốc đầu $v_0$, thời gian rơi chạm đất của vật phụ thuộc vào:",
+    "caccauChon": [
+      "Chỉ vận tốc ban đầu $v_0$.",
+      "Khối lượng $m$ của vật.",
+      "Độ cao ném $h$ và gia tốc trọng trường $g$.",
+      "Cả vận tốc $v_0$ và khối lượng $m$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thời gian rơi $t = \\sqrt{\\frac{2h}{g}}$ chỉ phụ thuộc vào độ cao $h$ và gia tốc $g$, không phụ thuộc vào $v_0$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ lớn vận tốc tổng hợp $v$ của vật ném ngang tại thời điểm $t$ là:",
+    "caccauChon": [
+      "$v = v_0 + gt$",
+      "$v = v_0 - gt$",
+      "$v = \\sqrt{v_0^2 + 2gt}$",
+      "$v = \\sqrt{v_0^2 + (gt ^2 }$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hai thành phần vận tốc vuông góc là $v_x = v_0$ và $v_y = gt$, do đó $v = \\sqrt{v_x^2 + v_y^2} = \\sqrt{v_0^2 + (gt ^2 }$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $90^\\circ$ đổi sang đơn vị ra-đi-ang ($\\text{rad}$) bằng bao nhiêu?",
+    "caccauChon": [
+      "$\\frac{\\pi}{2}\\text{ rad}$",
+      "$\\frac{\\pi}{3}\\text{ rad}$",
+      "$\\frac{\\pi}{4}\\text{ rad}$",
+      "$\\pi\\text{ rad}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Áp dụng $\\alpha(\\text{rad}) = 90^\\circ \\cdot \\frac{\\pi}{180^\\circ} = \\frac{\\pi}{2}\\text{ rad}$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị chuẩn của tốc độ góc $\\omega$ trong hệ đo lường quốc tế SI là:",
+    "caccauChon": [
+      "$\\text{m/s}$",
+      "$\\text{rad/s}$",
+      "$\\text{Hz}$",
+      "$\\text{vòng/phút}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc độ góc $\\omega = \\frac{\\alpha}{t}$ có đơn vị chuẩn trong hệ SI là ra-đi-ang trên giây ($\\text{rad/s}$)."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động tròn đều bán kính $r$, nếu tốc độ góc $\\omega$ tăng lên $2$ lần (giữ nguyên $r$) thì gia tốc hướng tâm $a_{ht}$ sẽ:",
+    "caccauChon": [
+      "Tăng $2$ lần.",
+      "Giảm $2$ lần.",
+      "Tăng $4$ lần.",
+      "Không đổi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Ta có $a_{ht} = \\omega^2 \\cdot r$. Khi $\\omega$ tăng $2$ lần thì $\\omega^2$ tăng $2^2 = 4$ lần."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Vectơ gia tốc hướng tâm $\\vec{a}_{ht}$ trong chuyển động tròn đều luôn có hướng:",
+    "caccauChon": [
+      "Trùng với hướng của vectơ vận tốc dài $\\vec{v}$.",
+      "Ngược với hướng của vectơ vận tốc dài $\\vec{v}$.",
+      "Hướng từ tâm đường tròn ra ngoài.",
+      "Vuông góc với $\\vec{v}$ và hướng thẳng vào tâm quỹ đạo."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Gia tốc hướng tâm luôn vuông góc với tiếp tuyến quỹ đạo và hướng vào tâm đường tròn."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động ném xiên từ mặt đất (bỏ qua sức cản không khí), góc ném $\\alpha$ bằng bao nhiêu để tầm bay xa $L$ đạt giá trị lớn nhất?",
+    "caccauChon": [
+      "$45^\\circ$",
+      "$30^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tầm bay xa $L = \\frac{v_0^2\\sin(2\\alpha)}{g}$ đạt cực đại khi $\\sin(2\\alpha) = 1 \\implies 2\\alpha = 90^\\circ \\implies \\alpha = 45^\\circ$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại đỉnh cao nhất của quỹ đạo chuyển động ném xiên (góc ném $\\alpha$), độ lớn vận tốc của vật bằng:",
+    "caccauChon": [
+      "$0$",
+      "$v_0\\cos\\alpha$",
+      "$v_0\\sin\\alpha$",
+      "$v_0$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tại đỉnh quỹ đạo, thành phần vận tốc thẳng đứng $v_y = 0$, vật chỉ còn thành phần vận tốc ngang $v_x = v_0\\cos\\alpha$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ cao cực đại $h_{\\max}$ của vật ném xiên từ mặt đất với vận tốc đầu $v_0$, góc ném $\\alpha$ là:",
+    "caccauChon": [
+      "$h_{\\max} = \\frac{v_0^2\\cos^2\\alpha}{2g}$",
+      "$h_{\\max} = \\frac{v_0^2\\sin(2\\alpha)}{g}$",
+      "$h_{\\max} = \\frac{v_0^2\\sin^2\\alpha}{2g}$",
+      "$h_{\\max} = \\frac{2v_0\\sin\\alpha}{g}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi đạt độ cao cực đại, $v_y = 0 \\implies h_{\\max} = \\frac{v_{0y}^2}{2g} = \\frac{v_0^2\\sin^2\\alpha}{2g}$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Với cùng vận tốc ban đầu $v_0$, nếu ném xiên một vật dưới góc $\\alpha_1 = 30^\\circ$ thì tầm bay xa sẽ bằng với khi ném dưới góc $\\alpha_2$ nào sau đây?",
+    "caccauChon": [
+      "$15^\\circ$",
+      "$45^\\circ$",
+      "$75^\\circ$",
+      "$60^\\circ$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hai góc ném phụ nhau ($\\alpha_1 + \\alpha_2 = 90^\\circ \\implies 30^\\circ + 60^\\circ = 90^\\circ$) có $\\sin(2\\alpha_1) = \\sin(2\\alpha_2)$ nên cho cùng tầm bay xa."
+  }
+]

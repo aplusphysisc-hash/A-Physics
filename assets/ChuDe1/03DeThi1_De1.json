@@ -1,0 +1,376 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trường hợp nào dưới đây vật có thể được coi là chất điểm?",
+    "caccauChon": [
+      "Trái Đất quay quanh Mặt Trời.",
+      "Xe ô tô di chuyển trong gara hẹp.",
+      "Người nhảy cầu đang rơi xuống nước.",
+      "Vận động viên thể dục dụng cụ đang quay xà."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trái Đất có kích thước rất nhỏ so với quỹ đạo chuyển động của nó quanh Mặt Trời nên Trái Đất được coi là chất điểm."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây là đại lượng vectơ?",
+    "caccauChon": [
+      "Quãng đường.",
+      "Thời gian.",
+      "Độ dịch chuyển.",
+      "Tốc độ."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ dịch chuyển là đại lượng vectơ có cả hướng và độ lớn, trong khi quãng đường, thời gian và tốc độ là đại lượng vô hướng."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính tốc độ trung bình là:",
+    "caccauChon": [
+      "v = s / t",
+      "v = d / t",
+      "v = t / s",
+      "v = a.t"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tốc độ trung bình được tính bằng thương số giữa quãng đường đi được và thời gian đi hết quãng đường đó: v = s / t."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Độ dịch chuyển và quãng đường đi được của một vật có độ lớn bằng nhau khi:",
+    "caccauChon": [
+      "vật chuyển động tròn.",
+      "vật chuyển động thẳng và đổi chiều.",
+      "vật chuyển động thẳng và không đổi chiều.",
+      "vật đứng yên."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi vật chuyển động thẳng mà không đổi chiều thì độ lớn của độ dịch chuyển bằng với quãng đường đi được."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Số chỉ của tốc kế trên xe máy cho biết:",
+    "caccauChon": [
+      "Tốc độ trung bình của xe.",
+      "Tốc độ tức thời của xe tại thời điểm đọc số.",
+      "Quãng đường xe đi được.",
+      "Vận tốc trung bình của xe."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc kế trên phương tiện giao thông luôn hiển thị tốc độ tức thời tại thời điểm quan sát.",
+    "hinhAnh": "images/ChuDe1/reallife/anh_toc_ke_o_to_xemay.webp"
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị độ dịch chuyển - thời gian (d-t) của chuyển động thẳng đều là:",
+    "caccauChon": [
+      "một đường thẳng song song với trục thời gian.",
+      "một đường cong.",
+      "một đường thẳng có độ dốc không đổi.",
+      "một parabol."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong chuyển động thẳng đều, vận tốc không đổi nên đồ thị d-t là một đường thẳng xiên góc (có độ dốc không đổi).",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai3_do_thi_d_t.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Độ dốc của đường biểu diễn độ dịch chuyển - thời gian trong chuyển động thẳng cho biết đại lượng nào?",
+    "caccauChon": [
+      "Gia tốc.",
+      "Quãng đường.",
+      "Vận tốc.",
+      "Thời gian."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ dốc (hệ số góc) của đồ thị d-t chính là giá trị của vận tốc: v = $\\tan\\alpha$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức cộng vận tốc nào sau đây là đúng đối với các vectơ vận tốc cùng phương, cùng chiều?",
+    "caccauChon": [
+      "$v_{13}$ = $v_{12}$ + $v_{23}$",
+      "$v_{13}$ = |$v_{12}$ - $v_{23}$|",
+      "$v_{13}$ = $v_{12}$ - $v_{23}$",
+      "$v_{13}$ = $v_{23}$ - $v_{12}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi các vectơ vận tốc cùng phương, cùng chiều thì vận tốc tuyệt đối bằng tổng vận tốc tương đối và vận tốc kéo theo."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật đi được quãng đường s trong thời gian t. Tốc độ trung bình của vật tính bằng:",
+    "caccauChon": [
+      "s.t",
+      "s / t",
+      "t / s",
+      "s + t"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Theo định nghĩa, tốc độ trung bình bằng quãng đường chia cho thời gian đi (v = s/t)."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn phát biểu đúng về vectơ độ dịch chuyển:",
+    "caccauChon": [
+      "Có gốc là vị trí đầu, ngọn là vị trí cuối.",
+      "Luôn bằng quãng đường đi được.",
+      "Là đại lượng vô hướng.",
+      "Không thể có giá trị âm."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vectơ độ dịch chuyển xuất phát từ điểm đầu và kết thúc tại điểm cuối của chuyển động."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô chạy trên đường thẳng với tốc độ không đổi 60 km/h trong 2 giờ. Quãng đường ô tô đi được là:",
+    "caccauChon": [
+      "30 km.",
+      "120 km.",
+      "60 km.",
+      "240 km."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quãng đường s = v * t = 60 * 2 = 120 km."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ quy chiếu bao gồm những thành phần nào?",
+    "caccauChon": [
+      "Vật mốc, hệ tọa độ.",
+      "Mốc thời gian, đồng hồ.",
+      "Vật mốc, hệ tọa độ, mốc thời gian và đồng hồ.",
+      "Chỉ có vật mốc và đồng hồ."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Một hệ quy chiếu hoàn chỉnh gồm vật mốc, hệ tọa độ gắn với vật mốc, mốc thời gian và đồng hồ đo thời gian."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi một vật rơi tự do gần mặt đất (bỏ qua ma sát), quỹ đạo chuyển động của nó là:",
+    "caccauChon": [
+      "Đường tròn.",
+      "Đường thẳng đứng.",
+      "Đường cong bất kỳ.",
+      "Đường xoắn ốc."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật rơi tự do chuyển động theo phương thẳng đứng chiều từ trên xuống dưới."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây đúng khi nói về vận tốc tức thời?",
+    "caccauChon": [
+      "Là vận tốc tính trong cả quá trình dài.",
+      "Là vận tốc tại một thời điểm xác định.",
+      "Luôn có độ lớn bằng tốc độ trung bình.",
+      "Không thể có giá trị âm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vận tốc tức thời đặc trưng cho sự nhanh chậm của chuyển động tại một thời điểm cụ thể."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe đạp trên đoạn đường thẳng. Nửa thời gian đầu đi với vận tốc 12 km/h, nửa thời gian sau đi với vận tốc 8 km/h. Vận tốc trung bình trên cả đoạn đường là:",
+    "caccauChon": [
+      "10 km/h.",
+      "9.6 km/h.",
+      "11 km/h.",
+      "8.5 km/h."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Vận tốc trung bình khi chia đều thời gian: $v_{tb}$ = ($v_1$ + $v_2$) / 2 = (12 + 8) / 2 = 10 km/h."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một canô chạy xuôi dòng sông với vận tốc 15 km/h đối với nước, nước chảy với vận tốc 3 km/h đối với bờ. Vận tốc của canô đối với bờ là:",
+    "caccauChon": [
+      "12 km/h.",
+      "15 km/h.",
+      "18 km/h.",
+      "45 km/h."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Xuôi dòng nên vận tốc tổng hợp đối với bờ bằng tổng vận tốc canô và dòng nước: 15 + 3 = 18 km/h."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị d-t, đường biểu diễn song song với trục thời gian t chứng tỏ vật đang:",
+    "caccauChon": [
+      "chuyển động thẳng đều.",
+      "đứng yên.",
+      "chuyển động nhanh dần.",
+      "chuyển động chậm dần."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đồ thị d-t song song với trục t nghĩa là độ dịch chuyển không thay đổi theo thời gian, vật đứng yên.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_nam_ngang_dung_yen.webp"
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị của độ dịch chuyển trong hệ SI là:",
+    "caccauChon": [
+      "km.",
+      "m/s.",
+      "m.",
+      "cm."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đơn vị cơ bản trong hệ SI của độ dài và độ dịch chuyển là mét (m)."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng theo một chiều duy nhất từ điểm A đến điểm B cách nhau 50m hết thời gian 5s. Tốc độ trung bình của vật là:",
+    "caccauChon": [
+      "10 m/s.",
+      "250 m/s.",
+      "25 m/s.",
+      "5 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tốc độ trung bình v = s / t = 50 / 5 = 10 m/s."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trường hợp nào sau đây quỹ đạo của vật là đường thẳng?",
+    "caccauChon": [
+      "Hòn đá ném ngang.",
+      "Ô tô chạy trên đoạn đường thẳng.",
+      "Xe đạp chạy vòng quanh sân.",
+      "Mặt trăng quay quanh Trái Đất."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ô tô chạy trên đường thẳng có quỹ đạo là đường thẳng."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về quãng đường và độ dịch chuyển:",
+    "dsYCon": [
+      "Quãng đường là đại lượng vectơ, có hướng rõ ràng.",
+      "Độ dịch chuyển là đại lượng vectơ nối vị trí đầu và vị trí cuối.",
+      "Khi vật chuyển động thẳng không đổi chiều thì độ lớn độ dịch chuyển bằng quãng đường.",
+      "Quãng đường không thể bằng 0 nếu vật đã di chuyển."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "Quãng đường là đại lượng vô hướng; độ dịch chuyển là vectơ nối điểm đầu và điểm cuối; khi không đổi chiều thì d = s; vật di chuyển thì quãng đường > 0."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về đồ thị độ dịch chuyển - thời gian (d-t):",
+    "dsYCon": [
+      "Đồ thị d-t luôn là một đường thẳng nằm ngang.",
+      "Độ dốc của đồ thị d-t cho biết giá trị vận tốc của vật.",
+      "Đồ thị d-t dốc hơn thể hiện vận tốc của vật nhỏ hơn.",
+      "Tung độ của điểm trên đồ thị cho biết vị trí của vật tại thời điểm đó."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "Đồ thị d-t chỉ nằm ngang khi vật đứng yên; độ dốc là vận tốc; đồ thị d-t dốc hơn (góc lớn hơn) thì vận tốc lớn hơn; tung độ là tọa độ/vị trí.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_thang_deu_tong_quat.webp"
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về công thức cộng vận tốc:",
+    "dsYCon": [
+      "Vận tốc tuyệt đối bằng hiệu vận tốc tương đối và vận tốc kéo theo trong mọi trường hợp.",
+      "Khi canô chạy ngược dòng nước, vận tốc tổng hợp đối với bờ bằng hiệu vận tốc canô và dòng nước.",
+      "Vectơ vận tốc tuyệt đối bằng tổng vectơ vận tốc tương đối và vận tốc kéo theo.",
+      "Khi hai xe chạy cùng chiều với vận tốc bằng nhau thì vận tốc tương đối giữa chúng bằng 0."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "Vận tốc tuyệt đối là tổng vectơ vận tốc tương đối và kéo theo; ngược dòng lấy hiệu; cùng chiều bằng nhau thì vận tốc tương đối bằng 0."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về tốc độ và vận tốc tức thời:",
+    "dsYCon": [
+      "Tốc độ tức thời là tốc độ tại một thời điểm xác định.",
+      "Vận tốc tức thời và tốc độ tức thời luôn có độ lớn bằng nhau.",
+      "Tốc kế trên ô tô đo tốc độ tức thời.",
+      "Vận tốc trung bình trong một khoảng thời gian rất nhỏ chính là vận tốc tức thời."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "Tốc độ tức thời là độ lớn của vận tốc tức thời tại thời điểm đó; tốc kế đo tốc độ tức thời; vận tốc trung bình khi khoảng thời gian vô cùng nhỏ xấp xỉ vận tốc tức thời.",
+    "hinhAnh": "images/ChuDe1/reallife/anh_sung_ban_toc_do.webp"
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về hệ quy chiếu trong cơ học:",
+    "dsYCon": [
+      "Hệ quy chiếu gồm vật mốc, hệ tọa độ, mốc thời gian và đồng hồ.",
+      "Việc chọn vật mốc là hoàn toàn tùy ý.",
+      "Mốc thời gian bắt buộc phải là thời điểm vật bắt đầu chuyển động.",
+      "Mô tả chuyển động của một vật phụ thuộc vào việc chọn hệ quy chiếu."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "Hệ quy chiếu gồm 4 thành phần; vật mốc chọn tùy ý; mốc thời gian có thể chọn bất kỳ lúc nào (ví dụ 0h, 7h sáng...) chứ không bắt buộc lúc vật xuất phát; chuyển động có tính tương đối theo hệ quy chiếu."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Phân biệt rõ sự khác nhau giữa quãng đường và độ dịch chuyển trong chuyển động cơ học.",
+    "giaithich": "Quãng đường (s): Là độ dài quỹ đạo mà vật đi được. Là đại lượng vô hướng, luôn lớn hơn hoặc bằng 0, không phụ thuộc vào chiều chuyển động.\nĐộ dịch chuyển (d): Là vectơ nối từ vị trí đầu đến vị trí cuối của vật. Là đại lượng vectơ, có cả hướng và độ lớn, có thể dương, âm hoặc bằng 0."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập): Một ô tô chạy trên một đoạn đường thẳng từ điểm A đến điểm B với tốc độ trung bình 40 km/h trong thời gian 1,5 giờ, sau đó tiếp tục đi từ B đến C với tốc độ trung bình 60 km/h trong thời gian 0,5 giờ. Tính tổng quãng đường ô tô đi được và tốc độ trung bình trên toàn bộ quãng đường AC.",
+    "giaithich": "Lời giải:\n- Quãng đường đoạn AB là: $s_1$ = $v_1$ * $t_1$ = 40 * 1.5 = 60 km.\n- Quãng đường đoạn BC là: $s_2$ = $v_2$ * $t_2$ = 60 * 0.5 = 30 km.\n- Tổng quãng đường s = $s_1$ + $s_2$ = 60 + 30 = 90 km.\n- Tổng thời gian t = $t_1$ + $t_2$ = 1.5 + 0.5 = 2.0 giờ.\n- Tốc độ trung bình trên toàn bộ đoạn đường AC: $v_{tb}$ = s / t = 90 / 2 = 45 km/h."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập): Một chiếc xuồng máy chạy xuôi dòng sông từ bến A đến bến B mất 2 giờ. Biết khoảng cách giữa hai bến là 36 km và vận tốc dòng chảy là 3 km/h. Tính vận tốc của xuồng đối với nước và thời gian xuồng chạy ngược dòng từ B về A.",
+    "giaithich": "Lời giải:\n- Vận tốc của xuồng đối với bờ khi xuôi dòng là: $v_{xb}$ = s / $t_{xuoi}$ = 36 / 2 = 18 km/h.\n- Vận tốc xuồng đối với nước: $v_{xn}$ = $v_{xb}$ - $v_{nc}$ = 18 - 3 = 15 km/h.\n- Khi ngược dòng, vận tốc xuồng đối với bờ là: $v_{nguoc}$ = $v_{xn}$ - $v_{nc}$ = 15 - 3 = 12 km/h.\n- Thời gian xuồng chạy ngược dòng từ B về A là: $t_{nguoc}$ = s / $v_{nguoc}$ = 36 / 12 = 3 giờ.",
+    "hinhAnh": "images/ChuDe1/reallife/anh_thuyen_qua_song.webp"
+  }
+]

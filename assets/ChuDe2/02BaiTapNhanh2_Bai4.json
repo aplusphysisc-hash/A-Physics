@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "baiSo": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quỹ đạo chuyển động của vật ném ngang (bỏ qua sức cản không khí) là hình gì?",
+    "caccauChon": [
+      "Một đường thẳng.",
+      "Một đường tròn.",
+      "Một nhánh parabol.",
+      "Một đường hình sin."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Phương trình quỹ đạo của chuyển động ném ngang là $y = \\frac{g}{2v_0^2} \\cdot x^2$, đây là phương trình của một nhánh parabol."
+  },
+  {
+    "id": 2,
+    "baiSo": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn phát biểu đúng khi phân tích chuyển động ném ngang theo hai phương vuông góc $Ox$ (nằm ngang) và $Oy$ (thẳng đứng):",
+    "caccauChon": [
+      "Theo phương ngang $Ox$ vật chuyển động thẳng nhanh dần đều.",
+      "Theo phương thẳng đứng $Oy$ vật chuyển động rơi tự do.",
+      "Theo phương thẳng đứng $Oy$ vật chuyển động thẳng đều.",
+      "Cả hai phương vật đều chuyển động thẳng đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chuyển động ném ngang được phân tích thành: chuyển động thẳng đều theo phương ngang $Ox$ và chuyển động rơi tự do theo phương thẳng đứng $Oy$."
+  },
+  {
+    "id": 3,
+    "baiSo": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thời gian rơi $t$ của vật bị ném ngang từ độ cao $h$ (với $g$ là gia tốc rơi tự do) là:",
+    "caccauChon": [
+      "$t = \\sqrt{\\frac{h}{g}}$",
+      "$t = \\sqrt{\\frac{2h}{g}}$",
+      "$t = \\frac{2h}{g}$",
+      "$t = \\frac{v_0}{g}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Từ công thức chuyển động theo phương thẳng đứng $y = h = \\frac{1}{2}g \\cdot t^2 \\implies t = \\sqrt{\\frac{2h}{g}}$."
+  },
+  {
+    "id": 4,
+    "baiSo": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném ngang từ độ cao $h = 20\\text{ m}$ với vận tốc ban đầu $v_0 = 10\\text{ m/s}$. Lấy $g = 10\\text{ m/s}^2$. Thời gian rơi của vật từ lúc ném đến khi chạm đất là:",
+    "caccauChon": [
+      "$1\\text{ s}$",
+      "$2\\text{ s}$",
+      "$4\\text{ s}$",
+      "$0{,}5\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức tính thời gian rơi: $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\cdot 20}{10}} = \\sqrt{4} = 2\\text{ s}$."
+  },
+  {
+    "id": 5,
+    "baiSo": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Từ độ cao $h = 20\\text{ m}$, một vật được ném ngang với vận tốc ban đầu $v_0 = 10\\text{ m/s}$ (lấy $g = 10\\text{ m/s}^2$). Tầm bay xa $L$ của vật là bao nhiêu?",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$20\\text{ m}$",
+      "$40\\text{ m}$",
+      "$100\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thời gian rơi là $t = \\sqrt{\\frac{2h}{g}} = 2\\text{ s}$. Tầm bay xa của vật là: $L = v_0 \\cdot t = 10 \\cdot 2 = 20\\text{ m}$."
+  }
+]

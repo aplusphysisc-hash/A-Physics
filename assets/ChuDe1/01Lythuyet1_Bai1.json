@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "tieude": "Bài 1: Độ dịch chuyển và Quãng đường đi được",
+    "noidung": "Hệ quy chiếu, vị trí của vật trong không gian, phân biệt quãng đường đi được (s) và độ dịch chuyển (d), tổng hợp độ dịch chuyển.",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai1_quang_duong_do_dich_chuyen.webp",
+    "videoYoutubeId": "r7WKF9JkoOU",
+    "fileBaiTapNhanh": "ChuDe1/02BaiTapNhanh1_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1.1. Vị trí của vật trong không gian và Hệ quy chiếu",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Hệ quy chiếu là gì?",
+            "noiDung": "Để xác định vị trí của một vật tại một thời điểm, ta cần chọn một vật làm mốc, gắn vào đó một hệ tọa độ (thường dùng trục $Ox$ cho chuyển động thẳng) và chọn một mốc thời gian kèm đồng hồ đo.",
+            "danhSachYCon": [
+              "**Cấu tạo:** Hệ quy chiếu = Vật làm mốc + Hệ tọa độ + Mốc thời gian + Đồng hồ.",
+              "**Ví dụ minh họa:** Khi nói một ô tô cách cột cây số $10\\text{ km}$ về phía Bắc lúc $8$ giờ sáng, thì cột cây số là vật làm mốc, chiều Bắc là chiều dương hệ tọa độ và $0$ giờ là mốc thời gian."
+            ]
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai1_he_quy_chieu.webp",
+            "moTaAnh": "Minh họa hệ quy chiếu chuyển động thẳng gồm vật làm mốc O, trục tọa độ Ox và độ dịch chuyển trên trục Ox."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "1.2. Quãng đường đi được (s)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm và đặc điểm của quãng đường (s)",
+            "noiDung": "Quãng đường đi được là tổng độ dài quỹ đạo mà vật vạch ra trong suốt quá trình chuyển động.",
+            "danhSachYCon": [
+              "**Đặc điểm:** Là đại lượng vô hướng, luôn có giá trị dương ($s > 0$) khi vật có chuyển động. Đơn vị chuẩn trong hệ SI là mét ($\\text{m}$).",
+              "**Ví dụ minh họa:** Một người đi bộ từ nhà ra chợ cách nhà $400\\text{ m}$, sau đó quay về nhà. Tổng quãng đường người đó đã đi là: $s = 400 + 400 = 800\\text{ m}$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "1.3. Độ dịch chuyển (d)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm độ dịch chuyển",
+            "noiDung": "Độ dịch chuyển là đại lượng véc-tơ ($\\vec{d}$) vừa cho biết độ dài vừa cho biết hướng của sự thay đổi vị trí của vật, được biểu diễn bằng một mũi tên nối thẳng từ điểm đầu đến điểm cuối của chuyển động.",
+            "danhSachYCon": [
+              "**Đặc điểm dấu:** Có thể nhận giá trị dương ($d > 0$ khi đi cùng chiều dương), giá trị âm ($d < 0$ khi đi ngược chiều dương) hoặc bằng không ($d = 0$ khi vật quay về đúng vị trí xuất phát).",
+              "**Ví dụ minh họa:** Người đi từ nhà ra chợ (cách $400\\text{ m}$ về hướng Đông) rồi quay lại đúng nhà. Vì điểm đầu và điểm cuối trùng nhau nên độ dịch chuyển của cả hành trình là: $d = 0\\text{ m}$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC ĐỘ DỊCH CHUYỂN TRÊN TRỤC TỌA ĐỘ THẲNG",
+            "congThuc": "$d = x_2 - x_1 = \\Delta x$",
+            "mucDich": "Xác định độ lớn và chiều dịch chuyển của vật dọc theo trục tọa độ $Ox$.",
+            "chuThich": "Trong đó: $x_1$ là tọa độ ban đầu ($\\text{m}$), $x_2$ là tọa độ lúc sau ($\\text{m}$)."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai1_quang_duong_do_dich_chuyen.webp",
+            "moTaAnh": "Phân biệt trực quan giữa quãng đường đi được s (độ dài quỹ đạo) và vectơ độ dịch chuyển d nối điểm đầu A tới điểm cuối B."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "soThuTu": 4,
+        "tieuDeMuc": "1.4. Tổng hợp độ dịch chuyển và Liên hệ với quãng đường",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "QUY TẮC TỔNG HỢP ĐỘ DỊCH CHUYỂN",
+            "congThuc": "$\\vec{d} = \\vec{d}_1 + \\vec{d}_2$",
+            "mucDich": "Tìm độ dịch chuyển tổng hợp khi vật thực hiện liên tiếp nhiều độ dịch chuyển thành phần.",
+            "chuThich": "• Cùng hướng: $d = d_1 + d_2$ | • Ngược hướng: $d = |d_1 - d_2|$ | • Vuông góc nhau: $d = \\sqrt{d_1^2 + d_2^2}$."
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "So sánh độ lớn độ dịch chuyển (d) và quãng đường (s)",
+            "noiDung": "Mối quan hệ tổng quát luôn thỏa mãn $|d| \\le s$:",
+            "danhSachYCon": [
+              "**Khi vật chuyển động thẳng và không đổi chiều:** Độ lớn độ dịch chuyển bằng quãng đường đi được ($d = s$).",
+              "**Khi vật chuyển động thẳng có đổi chiều hoặc đi theo đường cong:** Độ lớn độ dịch chuyển luôn nhỏ hơn quãng đường đi được ($|d| < s$).",
+              "**Ví dụ minh họa:** Một con kiến bò thẳng về phía Đông $3\\text{ cm}$, sau đó rẽ vuông góc bò về phía Bắc $4\\text{ cm}$. Quãng đường đi được là $s = 3 + 4 = 7\\text{ cm}$. Độ lớn độ dịch chuyển là $d = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5\\text{ cm}$."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

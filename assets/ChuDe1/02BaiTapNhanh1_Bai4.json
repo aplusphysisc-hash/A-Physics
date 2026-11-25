@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động biến đổi là chuyển động có đặc điểm nào sau đây?",
+    "caccauChon": [
+      "Vận tốc của vật luôn bằng không.",
+      "Vận tốc có độ lớn không đổi theo thời gian.",
+      "Vận tốc thay đổi (tăng lên hoặc giảm đi) theo thời gian.",
+      "Quãng đường đi được của vật luôn luôn bằng không."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chuyển động có vận tốc thay đổi theo thời gian ($\\Delta \\vec{v} \\neq \\vec{0}$) là chuyển động biến đổi."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong hệ SI, đơn vị đo của gia tốc là:",
+    "caccauChon": [
+      "$\\text{m/s}$",
+      "$\\text{m}^2/\\text{s}$",
+      "$\\text{m/s}^2$",
+      "$\\text{km/h}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đơn vị chuẩn của gia tốc trong hệ SI là $\\text{m/s}^2$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức nào sau đây là công thức tính gia tốc trung bình của một vật?",
+    "caccauChon": [
+      "$a = \\frac{v - v_0}{t - t_0}$",
+      "$a = \\frac{t - t_0}{v - v_0}$",
+      "$a = (v - v_0) \\cdot (t - t_0)$",
+      "$a = \\frac{s}{t}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Gia tốc trung bình bằng độ biến thiên vận tốc chia cho khoảng thời gian: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{v - v_0}{t - t_0}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng nhanh dần đều, véc-tơ gia tốc $\\vec{a}$ và véc-tơ vận tốc $\\vec{v}$ có mối quan hệ về chiều như thế nào?",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai4_gia_toc_bien_doi.webp",
+    "caccauChon": [
+      "Luôn cùng chiều với nhau ($a \\cdot v > 0$).",
+      "Luôn ngược chiều với nhau ($a \\cdot v < 0$).",
+      "Luôn vuông góc với nhau.",
+      "Luôn bằng nhau và triệt tiêu lẫn nhau."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chuyển động thẳng nhanh dần đều có véc-tơ gia tốc cùng chiều với véc-tơ vận tốc nên $a \\cdot v > 0$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chuyển động với vận tốc $10\\text{ m/s}$ thì tăng tốc. Sau $5\\text{ s}$, ô tô đạt vận tốc $20\\text{ m/s}$. Gia tốc trung bình của ô tô là bao nhiêu?",
+    "caccauChon": [
+      "$1\\text{ m/s}^2$",
+      "$2\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$",
+      "$10\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức $a = \\frac{v - v_0}{\\Delta t} = \\frac{20 - 10}{5} = 2\\text{ m/s}^2$."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Động lượng của một vật khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ được xác định bằng công thức nào sau đây?",
+    "caccauChon": [
+      "$\\vec{p} = m\\vec{v}$",
+      "p = $m v^2$",
+      "$\\vec{p} = \\frac{1}{2}$m$\\vec{v}$",
+      "p = $\\frac{m}{v}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Theo định nghĩa, động lượng $\\vec{p} = m\\vec{v}$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $2\\text{ kg}$ chuyển động thẳng đều với tốc độ $5\\text{ m/s}$. Độ lớn động lượng của vật là:",
+    "caccauChon": [
+      "$2,5\\text{ kg}\\cdot \\text{m/s}$",
+      "$10\\text{ kg}\\cdot \\text{m/s}$",
+      "$25\\text{ kg}\\cdot \\text{m/s}$",
+      "$50\\text{ kg}\\cdot \\text{m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ lớn động lượng: $p = m \\cdot v = 2  \\cdot  5 = 10\\text{ kg}\\cdot \\text{m/s}$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực không đổi có độ lớn $20\\text{ N}$ tác dụng lên một vật trong khoảng thời gian $0,5\\text{ s}$. Độ lớn xung lượng của lực trong khoảng thời gian này là:",
+    "caccauChon": [
+      "$40\\text{ N}\\cdot \\text{s}$",
+      "$10\\text{ N}\\cdot \\text{s}$",
+      "$20,5\\text{ N}\\cdot \\text{s}$",
+      "$100\\text{ N}\\cdot \\text{s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Xung lượng của lực: $F \\cdot \\Delta$t$= 20 \\cdot 0$,5 = $10\\text{ N}\\cdot \\text{s}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ gồm hai vật chuyển động với động lượng lần lượt có độ lớn $p_1 = 3\\text{ kg}\\cdot \\text{m/s}$ và $p_2 = 4\\text{ kg}\\cdot \\text{m/s}$ theo hai hướng vuông góc với nhau. Tổng động lượng của hệ có độ lớn bằng:",
+    "caccauChon": [
+      "$7\\text{ kg}\\cdot \\text{m/s}$",
+      "$1\\text{ kg}\\cdot \\text{m/s}$",
+      "$5\\text{ kg}\\cdot \\text{m/s}$",
+      "$12\\text{ kg}\\cdot \\text{m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\vec{p}_1 \\perp \\vec{p}_2$ nên $p = \\sqrt{p_1^2 + p_2^2} = \\sqrt{3^2 + 4^2} = 5\\text{ kg}\\cdot \\text{m/s}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một khẩu súng có khối lượng $4\\text{ kg}$ bắn ra một viên đạn khối lượng $20\\text{ g}$ theo phương ngang với vận tốc $600\\text{ m/s}$. Tốc độ giật lùi của súng ngay sau khi bắn là:",
+    "caccauChon": [
+      "$3\\text{ m/s}$",
+      "$30\\text{ m/s}$",
+      "$0,3\\text{ m/s}$",
+      "$12\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Đổi $m_1 = 20\\text{ g} = 0$,$02\\text{ kg}$. Theo định luật bảo toàn động lượng: $m_1 v_1 = m_2 v_2 \\Rightarrow v_2 = \\frac{0,02 \\cdot 600}{4} = 3\\text{ m/s}$."
+  }
+]

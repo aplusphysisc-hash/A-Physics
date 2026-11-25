@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực đàn hồi xuất hiện khi nào?",
+    "caccauChon": [
+      "Khi một vật đứng yên trên mặt đất phẳng.",
+      "Khi một vật bị biến dạng đàn hồi và có xu hướng chống lại lực gây biến dạng.",
+      "Khi vật chuyển động thẳng đều với vận tốc không đổi.",
+      "Khi vật chịu tác dụng của trọng lực."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực đàn hồi là lực sinh ra khi một vật bị biến dạng (kéo, nén, uốn, xoắn) và có xu hướng đưa vật trở lại hình dạng ban đầu."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây đúng khi nói về định luật Hooke đối với lò xo?",
+    "caccauChon": [
+      "Trong giới hạn đàn hồi, độ lớn lực đàn hồi tỉ lệ thuận với chiều dài của lò xo.",
+      "Trong giới hạn đàn hồi, độ lớn lực đàn hồi tỉ lệ nghịch với độ biến dạng của lò xo.",
+      "Trong giới hạn đàn hồi, độ lớn lực đàn hồi tỉ lệ thuận với độ biến dạng của lò xo.",
+      "Lực đàn hồi luôn luôn có hướng cùng chiều với lực kéo lò xo."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo định luật Hooke, trong giới hạn đàn hồi, độ lớn lực đàn hồi $F_{đh} = k \\cdot \\left| \\Delta l \\right|$, nghĩa là tỉ lệ thuận với độ biến dạng của lò xo."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lò xo có độ cứng $k = 100\\text{ N/m}$ được treo thẳng đứng, một đầu cố định, đầu còn lại gắn vật nặng làm lò xo giãn ra một đoạn $\\Delta l = 4\\text{ cm}$. Độ lớn lực đàn hồi của lò xo lúc này là bao nhiêu?",
+    "caccauChon": [
+      "$4\\text{ N}$",
+      "$40\\text{ N}$",
+      "$0,25\\text{ N}$",
+      "$25\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Đổi đơn vị $\\Delta l = 4\\text{ cm} = 0,04\\text{ m}$. Độ lớn lực đàn hồi là: $F_{đh} = k \\cdot \\Delta l = 100 \\cdot 0,04 = 4\\text{ N}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị của độ cứng lò xo (k) trong hệ SI là gì?",
+    "caccauChon": [
+      "$\\text{N}\\cdot\\text{m}$",
+      "N/m",
+      "m/N",
+      "$\\text{N/m}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Từ công thức $F = k \\cdot \\left| \\Delta l \\right|$ suy ra $k = \\frac{F}{\\left| \\Delta l \\right|}$, đơn vị của lực $F$ là Newton (N) và độ biến dạng $\\Delta l$ là mét (m), nên đơn vị của độ cứng $k$ là N/m."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lò xo có chiều dài tự nhiên $l_0 = 20\\text{ cm}$. Khi chịu tác dụng của lực kéo, lò xo giãn ra và có chiều dài $l = 26\\text{ cm}$. Độ biến dạng (độ giãn) $\\Delta l$ của lò xo là:",
+    "caccauChon": [
+      "$6\\text{ cm}$",
+      "$46\\text{ cm}$",
+      "$23\\text{ cm}$",
+      "$20\\text{ cm}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ giãn của lò xo là $\\Delta l = l - l_0 = 26 - 20 = 6\\text{ cm}$."
+  }
+]

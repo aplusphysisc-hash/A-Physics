@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng đặc trưng cho tác dụng làm quay của lực quanh một trục cố định là:",
+    "caccauChon": [
+      "Moment lực.",
+      "Xung lượng của lực.",
+      "Công suất cơ học.",
+      "Động lượng."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Moment lực ($M = F \\cdot d$) đặc trưng cho tác dụng làm quay của lực."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ lớn moment lực đối với một trục quay là:",
+    "caccauChon": [
+      "$M = \\frac{F}{d}$",
+      "$M = F \\cdot d$",
+      "$M = F + d$",
+      "$M = F \\cdot d^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ lớn moment lực bằng tích độ lớn lực $F$ với cánh tay đòn $d$: $M = F \\cdot d$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị chuẩn của moment lực trong hệ SI là:",
+    "caccauChon": [
+      "$\\text{N/m}$",
+      "$\\text{N}\\cdot\\text{s}$",
+      "$\\text{N}\\cdot\\text{m}$",
+      "$\\text{J/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Lực đơn vị $\\text{N}$, cánh tay đòn đơn vị $\\text{m}$ nên moment lực có đơn vị $\\text{N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cánh tay đòn $d$ của lực $\\vec{F}$ là khoảng cách:",
+    "caccauChon": [
+      "Từ trục quay đến điểm đặt của lực.",
+      "Từ điểm đặt lực đến trọng tâm vật.",
+      "Giữa hai đầu của vật rắn.",
+      "Vuông góc từ trục quay đến giá của lực."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Cánh tay đòn $d$ là khoảng cách vuông góc hạ từ trục quay $O$ xuống giá của lực $\\vec{F}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi giá của lực đi qua trục quay ($d = 0$) thì moment lực có giá trị bằng:",
+    "caccauChon": [
+      "$0$.",
+      "$F$.",
+      "$2F$.",
+      "Cực đại."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi $d = 0$ thì $M = F \\cdot 0 = 0$, lực không làm vật quay."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực $F = 10\\text{ N}$ có cánh tay đòn $d = 0{,}5\\text{ m}$ tạo ra moment lực bằng:",
+    "caccauChon": [
+      "$20\\text{ N}\\cdot\\text{m}$",
+      "$5\\text{ N}\\cdot\\text{m}$",
+      "$50\\text{ N}\\cdot\\text{m}$",
+      "$0{,}5\\text{ N}\\cdot\\text{m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng $M = F \\cdot d = 10 \\cdot 0{,}5 = 5\\text{ N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều kiện cân bằng của một vật có trục quay cố định được gọi là:",
+    "caccauChon": [
+      "Quy tắc hình bình hành.",
+      "Định luật III Newton.",
+      "Quy tắc moment lực.",
+      "Định luật bảo toàn cơ năng."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Điều kiện cân bằng của vật có trục quay cố định là quy tắc moment lực ($\\sum M_{\\text{thuận}} = \\sum M_{\\text{ngược}}$)."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ hai lực song song, ngược chiều, có độ lớn bằng nhau cùng tác dụng vào một vật là:",
+    "caccauChon": [
+      "Hai lực cân bằng.",
+      "Hai lực trực đối.",
+      "Lực hướng tâm.",
+      "Ngẫu lực."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hệ hai lực song song, ngược chiều, cùng độ lớn và khác giá tác dụng vào một vật được gọi là ngẫu lực."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hợp lực của một cặp ngẫu lực tác dụng lên vật rắn có độ lớn bằng:",
+    "caccauChon": [
+      "$0$.",
+      "$F$.",
+      "$2F$.",
+      "$\\frac{F}{2}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Hai lực của ngẫu lực ngược chiều và cùng độ lớn nên hợp lực $\\vec{F}_1 + \\vec{F}_2 = \\vec{0}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đối với vật rắn tự do không có trục quay cố định, ngẫu lực làm vật quay quanh trục đi qua:",
+    "caccauChon": [
+      "Mép ngoài cùng của vật.",
+      "Trọng tâm của vật.",
+      "Điểm đặt của lực thứ nhất.",
+      "Điểm bất kỳ ngoài vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật không có trục quay cố định, ngẫu lực làm vật quay quanh trục đi qua trọng tâm $G$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính moment của ngẫu lực gồm hai lực độ lớn $F$ có khoảng cách giữa hai giá là $d$:",
+    "caccauChon": [
+      "$M = 2F \\cdot d$",
+      "$M = \\frac{F \\cdot d}{2}$",
+      "$M = F \\cdot d$",
+      "$M = F^2 \\cdot d$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Moment của ngẫu lực được xác định bởi $M = F \\cdot d$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi dùng búa nhổ đinh, điểm tì của đầu búa lên mặt gỗ đóng vai trò là:",
+    "caccauChon": [
+      "Trọng tâm của đinh.",
+      "Điểm đặt lực kéo.",
+      "Cánh tay đòn.",
+      "Trục quay tạm thời."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Điểm tiếp xúc giữa đầu búa và mặt gỗ là trục quay tạm thời khi nhổ đinh."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại sao tay nắm cửa luôn được lắp ở mép ngoài xa bản lề nhất?",
+    "caccauChon": [
+      "Để tăng cánh tay đòn $d$, giúp mở cửa dễ dàng với lực nhỏ.",
+      "Để giảm cánh tay đòn $d$ của lực đẩy.",
+      "Để làm giảm trọng lượng của cánh cửa.",
+      "Để giá của lực đi qua trục bản lề."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Lắp tay nắm xa bản lề giúp cánh tay đòn $d$ lớn nhất, tạo moment quay lớn với lực nhỏ."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực tác dụng vào đầu thanh $OA = l$ hợp với thanh góc $\\alpha$. Moment lực đạt cực đại khi góc $\\alpha$ bằng:",
+    "caccauChon": [
+      "$0^\\circ$",
+      "$90^\\circ$",
+      "$30^\\circ$",
+      "$45^\\circ$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vì $M = F \\cdot l \\cdot \\sin\\alpha$, khi $\\alpha = 90^\\circ$ thì $\\sin 90^\\circ = 1$ đạt cực đại."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu trượt điểm đặt của lực dọc theo chính giá của nó thì moment lực đối với trục quay $O$ sẽ:",
+    "caccauChon": [
+      "Tăng lên.",
+      "Giảm xuống.",
+      "Không thay đổi.",
+      "Bằng $0$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trượt lực trên giá không làm thay đổi $F$ và khoảng cách $d$ từ trục quay đến giá lực nên $M$ không đổi."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ngẫu lực có $F = 20\\text{ N}$ và khoảng cách giữa hai giá lực $d = 0{,}2\\text{ m}$. Moment ngẫu lực là:",
+    "caccauChon": [
+      "$8\\text{ N}\\cdot\\text{m}$",
+      "$2\\text{ N}\\cdot\\text{m}$",
+      "$40\\text{ N}\\cdot\\text{m}$",
+      "$4\\text{ N}\\cdot\\text{m}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Ta có $M = F \\cdot d = 20 \\cdot 0{,}2 = 4\\text{ N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai người khiêng vật nặng bằng đòn gánh. Nếu vật treo gần vai người thứ nhất hơn thì:",
+    "caccauChon": [
+      "Vai người thứ nhất chịu lực lớn hơn vai người thứ hai.",
+      "Vai người thứ hai chịu lực lớn hơn vai người thứ nhất.",
+      "Hai người chịu lực bằng nhau.",
+      "Vai người thứ nhất không chịu lực nào."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Theo quy tắc chia trong $\\frac{F_1}{F_2} = \\frac{d_2}{d_1}$, vật gần vai ai hơn ($d_1 < d_2$) thì người đó chịu lực lớn hơn ($F_1 > F_2$)."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trọng tâm của một thanh thẳng đồng chất, tiết diện đều nằm ở vị trí nào?",
+    "caccauChon": [
+      "Ở một trong hai đầu mút của thanh.",
+      "Ở chính giữa (trung điểm) của thanh.",
+      "Cách đầu thanh một phần tư chiều dài.",
+      "Bên ngoài thanh."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thanh đồng chất tiết diện đều có tính đối xứng nên trọng tâm $G$ nằm tại trung điểm của thanh."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi một vật rắn có trục quay cố định đang quay đều thì tổng đại số các moment lực tác dụng lên vật bằng:",
+    "caccauChon": [
+      "Một số dương rất lớn.",
+      "Trọng lượng của vật.",
+      "$0$.",
+      "Tốc độ góc của vật."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi vật đứng yên hoặc quay đều quanh trục cố định thì $\\sum M_{\\text{thuận}} = \\sum M_{\\text{ngược}} \\iff \\sum M = 0$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Để một vật rắn chịu tác dụng của 3 lực không song song ở trạng thái cân bằng thì giá của 3 lực phải:",
+    "caccauChon": [
+      "Song song và cách đều nhau.",
+      "Đôi một vuông góc với nhau.",
+      "Nằm trên ba mặt phẳng vuông góc.",
+      "Đồng phẳng, đồng quy và có hợp lực bằng $\\vec{0}$."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Điều kiện cân bằng của vật chịu 3 lực không song song là 3 lực phải đồng phẳng, đồng quy và $\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$."
+  }
+]

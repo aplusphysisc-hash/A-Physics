@@ -1,0 +1,74 @@
+[
+  {
+    "id": 3,
+    "baiSo": 3,
+    "loai": "cong_thuc",
+    "laCongThucTongHop": true,
+    "tieude": "Bài 3: Tổng hợp công thức Chủ đề 5",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "I. Công cơ học",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG CỦA LỰC KHÔNG ĐỔI",
+            "congThuc": "$A = F \\cdot s \\cdot \\cos\\alpha$",
+            "mucDich": "Tính công cơ học khi lực $F$ làm vật dịch chuyển quãng đường $s$.",
+            "chuThich": "- $F$: Độ lớn lực tác dụng ($\\text{N}$); $s$: Quãng đường ($\\text{m}$); $\\alpha$: Góc hợp bởi $\\vec{F}$ và hướng dịch chuyển.\\n- $0^\\circ \\le \\alpha < 90^\\circ \\implies A > 0$ (công phát động).\\n- $\\alpha = 90^\\circ \\implies A = 0$ (lực vuông góc không sinh công).\\n- $90^\\circ < \\alpha \\le 180^\\circ \\implies A < 0$ (công cản)."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "II. Công suất & III. Hiệu suất",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG SUẤT ($P$)",
+            "congThuc": "$P = \\frac{A}{t} = F \\cdot v \\cdot \\cos\\alpha$",
+            "mucDich": "Đo tốc độ thực hiện công trong một đơn vị thời gian.",
+            "chuThich": "- Đơn vị: Watt ($\\text{W}$ hoặc $\\text{J/s}$), $1\\text{ kW} = 1000\\text{ W}$."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "HIỆU SUẤT ($H$)",
+            "congThuc": "$H = \\frac{A_{ích}}{A_{tp}} \\cdot 100\\% = \\frac{P_{ích}}{P_{tp}} \\cdot 100\\%$",
+            "mucDich": "Đánh giá tỉ lệ công có ích so với công toàn phần.",
+            "chuThich": "- Năng lượng hao phí: $A_{hp} = A_{tp} - A_{ích}$."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "IV. Năng lượng — Cơ năng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "1. ĐỘNG NĂNG & ĐỊNH LÝ ĐỘNG NĂNG",
+            "congThuc": "$W_đ = \\frac{1}{2}mv^2$ ; $A = W_{đ2} - W_{đ1} = \\frac{1}{2}mv_2^2 - \\frac{1}{2}mv_1^2$",
+            "mucDich": "Tính năng lượng chuyển động và độ biến thiên động năng.",
+            "chuThich": "- Đơn vị động năng là Joule ($\\text{J}$)."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "2. THẾ NĂNG TRỌNG TRƯỜNG & 3. THẾ NĂNG ĐÀN HỒI",
+            "congThuc": "$W_t = m \\cdot g \\cdot z$ ; $W_{tđ} = \\frac{1}{2} k (\\Delta l)^2$",
+            "mucDich": "Tính thế năng trọng trường ở độ cao $z$ và thế năng đàn hồi khi lò xo biến dạng $\\Delta l$.",
+            "chuThich": "- $g$: Gia tốc trọng trường ($\\text{m/s}^2$); $k$: Độ cứng lò xo ($\\text{N/m}$)."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "4. CƠ NĂNG VÀ ĐỊNH LUẬT BẢO TOÀN CƠ NĂNG",
+            "congThuc": "$W = W_đ + W_t = \\frac{1}{2}mv^2 + m \\cdot g \\cdot z = \\text{const}$",
+            "mucDich": "Áp dụng $W_1 = W_2$ khi vật chỉ chịu tác dụng của trọng lực và lực đàn hồi.",
+            "chuThich": "- Khi có ma sát: Cơ năng giảm dần theo thời gian."
+          }
+        ]
+      }
+    ]
+  }
+]

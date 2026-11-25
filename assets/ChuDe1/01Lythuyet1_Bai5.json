@@ -1,0 +1,58 @@
+﻿[
+  {
+    "id": 5,
+    "tieude": "Bảng tóm tắt công thức & Kiến thức trọng tâm Chương 1",
+    "noidung": "Hệ thống hóa toàn bộ công thức trọng tâm Chương 1: Độ dịch chuyển, Tốc độ & Vận tốc, Đồ thị (d – t), Cộng vận tốc và Chuyển động thẳng biến đổi đều.",
+    "hinhAnh": "images/ChuDe1/lythuyet/tong_hop_cong_thuc_chuong1.webp",
+    "fileBaiTapNhanh": "ChuDe1/02BaiTapNhanh1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Bảng tổng hợp Công thức Chương 1: Mô tả chuyển động",
+        "noiDungBlocks": [
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/tong_hop_cong_thuc_chuong1.webp",
+            "moTaAnh": "Sơ đồ tóm tắt toàn bộ hệ thống công thức trọng tâm Chương 1: Mô tả chuyển động."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "1. ĐỘ DỊCH CHUYỂN & QUÃNG ĐƯỜNG ĐI ĐƯỢC",
+            "congThuc": "$d = x_2 - x_1 = \\Delta x  ; (|d| \\le s)$",
+            "mucDich": "Khi vật chuyển động thẳng không đổi chiều thì $d = s = x_2 - x_1$.",
+            "chuThich": "Quãng đường $s > 0$ là đại lượng vô hướng; độ dịch chuyển $\\vec{d}$ là đại lượng vectơ."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "2. TỐC ĐỘ TRUNG BÌNH & VẬN TỐC TRUNG BÌNH",
+            "congThuc": "$v_{tb} = \\frac{s}{t}  ;  \\vec{v}_{tb} = \\frac{\\vec{d}}{t} = \\frac{x_2 - x_1}{t}$",
+            "mucDich": "Phân biệt tốc độ trung bình (theo quãng đường $s$) và vận tốc trung bình (theo độ dịch chuyển $d$).",
+            "chuThich": "Vận tốc tức thời $v = \\frac{\\Delta d}{\\Delta t}$ (khi $\\Delta t$ rất nhỏ) đo tốc độ và hướng tại một thời điểm."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "3. ĐỘ DỐC ĐỒ THỊ ĐỘ DỊCH CHUYỂN – THỜI GIAN (d – t)",
+            "congThuc": "$v = \\tan\\alpha = \\frac{d_2 - d_1}{t_2 - t_1}$",
+            "mucDich": "Tìm vận tốc chuyển động thẳng đều từ hệ số góc của đường biểu diễn $(d - t)$.",
+            "chuThich": "Đồ thị $(d - t)$ càng dốc ($\\alpha$ càng lớn) thì tốc độ chuyển động càng lớn."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "4. CÔNG THỨC CỘNG VẬN TỐC",
+            "congThuc": "$\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$",
+            "mucDich": "Liên hệ vận tốc tuyệt đối $\\vec{v}_{13}$, vận tốc tương đối $\\vec{v}_{12}$ và vận tốc kéo theo $\\vec{v}_{23}$.",
+            "chuThich": "• Cùng chiều: $v_{13} = v_{12} + v_{23}$ | • Ngược chiều: $v_{13} = |v_{12} - v_{23}|$ | • Vuông góc: $v_{13} = \\sqrt{v_{12}^2 + v_{23}^2}$."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "5. CHUYỂN ĐỘNG THẲNG BIẾN ĐỔI ĐỀU & GIA TỐC",
+            "congThuc": "$a = \\frac{v - v_0}{t - t_0} \\ ; \\ v = v_0 + a t \\ ; \\ d = v_0 t + \\frac{1}{2}a t^2 \\ ; \\ v^2 - v_0^2 = 2 a d$",
+            "mucDich": "Giải quyết toàn diện các bài toán chuyển động thẳng nhanh dần đều ($a \\cdot v > 0$) và chậm dần đều ($a \\cdot v < 0$).",
+            "chuThich": "Diện tích dưới đồ thị $(v - t)$ biểu diễn độ dịch chuyển $d$; độ dốc đồ thị $(v - t)$ biểu diễn gia tốc $a$."
+          }
+        ]
+      }
+    ]
+  }
+]

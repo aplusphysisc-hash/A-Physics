@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một hệ quy chiếu đầy đủ bao gồm những thành phần nào?",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai1_he_quy_chieu.webp",
+    "caccauChon": [
+      "Chỉ gồm vật làm mốc và thước đo chiều dài.",
+      "Chỉ gồm mốc thời gian và đồng hồ bấm giây.",
+      "Vật làm mốc, hệ tọa độ, mốc thời gian và đồng hồ.",
+      "Quỹ đạo chuyển động và tốc kế của xe."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hệ quy chiếu = Vật làm mốc + Hệ tọa độ gắn với vật mốc + Mốc thời gian + Đồng hồ."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây vừa cho biết độ dài vừa cho biết hướng của sự thay đổi vị trí của vật?",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai1_quang_duong_do_dich_chuyen.webp",
+    "caccauChon": [
+      "Tốc độ trung bình ($v_{tb}$).",
+      "Độ dịch chuyển ($\\vec{d}$).",
+      "Khoảng thời gian chuyển động ($\\Delta t$).",
+      "Quãng đường đi được ($s$)."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ dịch chuyển $\\vec{d}$ là đại lượng vectơ nối thẳng từ vị trí đầu đến vị trí cuối của chuyển động."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong trường hợp nào độ lớn độ dịch chuyển ($d$) bằng quãng đường đi được ($s$)?",
+    "caccauChon": [
+      "Vật chuyển động theo quỹ đạo parabol.",
+      "Vật chuyển động thẳng nhưng có đổi chiều.",
+      "Vật chuyển động tròn đều hết một vòng.",
+      "Vật chuyển động thẳng và không đổi chiều."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Khi vật chuyển động thẳng và không đổi chiều thì độ lớn độ dịch chuyển bằng quãng đường đi được ($d = s$)."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên trục tọa độ $Ox$, vật đi từ tọa độ $x_1$ đến tọa độ $x_2$. Độ dịch chuyển của vật được tính bằng:",
+    "caccauChon": [
+      "$d = x_2 - x_1$",
+      "$d = x_1 + x_2$",
+      "$d = \\frac{x_1 + x_2}{2}$",
+      "$d = x_1 - x_2$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ dịch chuyển trên trục $Ox$ bằng hiệu tọa độ lúc sau và tọa độ ban đầu: $d = x_2 - x_1 = \\Delta x$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu một vật chuyển động khép kín và quay trở về đúng vị trí xuất phát ban đầu thì:",
+    "caccauChon": [
+      "Cả độ dịch chuyển $d$ và quãng đường $s$ đều bằng $0$.",
+      "Quãng đường $s = 0$, còn độ dịch chuyển $d > 0$.",
+      "Độ dịch chuyển $d = 0$, còn quãng đường $s > 0$.",
+      "Độ dịch chuyển $d$ bằng hai lần quãng đường $s$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi điểm đầu trùng điểm cuối ($x_2 = x_1$) thì độ dịch chuyển $d = 0$, nhưng vật đã chuyển động nên quãng đường $s > 0$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi về hướng Đông $3\\text{ km}$ rồi rẽ vuông góc về hướng Bắc $4\\text{ km}$. Độ lớn độ dịch chuyển tổng hợp là:",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai1_pytago_dong_bac.webp",
+    "caccauChon": [
+      "$1\\text{ km}$",
+      "$12\\text{ km}$",
+      "$7\\text{ km}$",
+      "$5\\text{ km}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hai độ dịch chuyển vuông góc nhau nên $d = \\sqrt{d_1^2 + d_2^2} = \\sqrt{3^2 + 4^2} = 5\\text{ km}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Số chỉ trên tốc kế của xe máy hay ô tô đang chạy cho biết đại lượng nào?",
+    "caccauChon": [
+      "Gia tốc trung bình của xe.",
+      "Độ lớn tốc độ tức thời tại thời điểm đó.",
+      "Tốc độ trung bình trên cả hành trình.",
+      "Độ dịch chuyển của xe từ lúc xuất phát."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc kế hiển thị độ lớn tốc độ tức thời của phương tiện tại ngay thời điểm quan sát."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đổi tốc độ $36\\text{ km/h}$ sang đơn vị chuẩn hệ SI ($\\text{m/s}$) ta được:",
+    "caccauChon": [
+      "$15\\text{ m/s}$",
+      "$129{,}6\\text{ m/s}$",
+      "$10\\text{ m/s}$",
+      "$20\\text{ m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Áp dụng quy tắc đổi đơn vị: $1\\text{ m/s} = 3{,}6\\text{ km/h} \\implies 36\\text{ km/h} = \\frac{36}{3{,}6} = 10\\text{ m/s}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức phân biệt đúng giữa tốc độ trung bình ($v_{tb}$) và vận tốc trung bình ($\\vec{v}_{tb}$) là:",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai2_toc_do_van_toc.webp",
+    "caccauChon": [
+      "$v_{tb} = \\frac{s}{t}$ và $\\vec{v}_{tb} = \\frac{\\vec{d}}{t}$",
+      "$v_{tb} = \\frac{d}{t}$ và $\\vec{v}_{tb} = \\frac{s}{t}$",
+      "$v_{tb} = s \\cdot t$ và $\\vec{v}_{tb} = \\vec{d} \\cdot t$",
+      "$v_{tb} = \\frac{v_0 + v}{2}$ cho mọi chuyển động"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tốc độ trung bình tính theo quãng đường ($v_{tb} = \\frac{s}{t}$), còn vận tốc trung bình tính theo độ dịch chuyển ($\\vec{v}_{tb} = \\frac{\\vec{d}}{t}$)."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức cộng vận tốc tổng quát dưới dạng véc-tơ là:",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai2_tong_hop_van_toc.webp",
+    "caccauChon": [
+      "$\\vec{v}_{12} = \\vec{v}_{13} + \\vec{v}_{23}$",
+      "$v_{13} = v_{12} \\cdot v_{23}$",
+      "$\\vec{v}_{13} = \\vec{v}_{12} - \\vec{v}_{23}$",
+      "$\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Vận tốc tuyệt đối $\\vec{v}_{13}$ bằng tổng véc-tơ của vận tốc tương đối $\\vec{v}_{12}$ và vận tốc kéo theo $\\vec{v}_{23}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi thuyền chạy ngược dòng nước, độ lớn vận tốc của thuyền so với bờ ($v_{13}$) được tính bằng:",
+    "caccauChon": [
+      "$v_{13} = \\frac{v_{12}}{v_{23}}$",
+      "$v_{13} = v_{12} - v_{23}$ (với $v_{12} > v_{23}$)",
+      "$v_{13} = v_{12} + v_{23}$",
+      "$v_{13} = \\sqrt{v_{12}^2 + v_{23}^2}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi chạy ngược dòng, $\\vec{v}_{12}$ ngược chiều $\\vec{v}_{23}$ nên độ lớn vận tốc so với bờ là $v_{13} = v_{12} - v_{23}$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị độ dịch chuyển – thời gian $(d - t)$, đường biểu diễn là đoạn thẳng nằm ngang song song trục thời gian $Ot$ cho biết:",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai3_do_thi_d_t.webp",
+    "caccauChon": [
+      "Vật đang chuyển động thẳng đều theo chiều dương.",
+      "Vật đang chuyển động ngược chiều dương.",
+      "Vật đang đứng yên ($v = 0$).",
+      "Vật đang chuyển động thẳng nhanh dần đều."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đường nằm ngang trên đồ thị $(d - t)$ cho thấy độ dịch chuyển $d$ không đổi theo thời gian, tức vật đứng yên ($v = 0$)."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ số góc (độ dốc) của đường thẳng trên đồ thị độ dịch chuyển – thời gian $(d - t)$ biểu diễn đại lượng nào?",
+    "caccauChon": [
+      "Gia tốc $a$ của vật.",
+      "Quãng đường tổng cộng vật đi được.",
+      "Thời điểm vật xuất phát.",
+      "Vận tốc $v = \\frac{\\Delta d}{\\Delta t}$ của vật."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Độ dốc của đồ thị $(d - t)$ bằng $\\tan\\alpha = \\frac{d_2 - d_1}{t_2 - t_1} = v$ (vận tốc của vật).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_doc_len_he_so_goc.webp"
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Giao điểm của hai đường biểu diễn trên cùng một đồ thị tọa độ – thời gian $(x - t)$ cho biết điều gì?",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai3_giao_diem_2_xe.webp",
+    "caccauChon": [
+      "Hai vật bắt đầu dừng lại.",
+      "Thời điểm và vị trí hai vật gặp nhau.",
+      "Khoảng cách xa nhất giữa hai vật.",
+      "Hai vật có cùng vận tốc."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tại giao điểm trên đồ thị $(x - t)$, hai vật có cùng tọa độ $x$ vào cùng thời điểm $t$, nghĩa là hai vật gặp nhau."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Gia tốc là đại lượng vật lí đặc trưng cho tính chất nào của chuyển động?",
+    "caccauChon": [
+      "Sự biến thiên nhanh hay chậm của vận tốc theo thời gian ($a = \\frac{\\Delta v}{\\Delta t}$).",
+      "Thời gian vật thực hiện hết một vòng quay.",
+      "Sự thay đổi vị trí nhanh hay chậm của vật.",
+      "Tổng độ dài quỹ đạo vật đi được."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Gia tốc $a = \\frac{\\Delta v}{\\Delta t} = \\frac{v - v_0}{t - t_0}$ đặc trưng cho tốc độ biến thiên của vận tốc."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị chuẩn của gia tốc $a$ trong hệ đo lường quốc tế SI là:",
+    "caccauChon": [
+      "$\\text{m/s}$",
+      "$\\text{m} \\cdot \\text{s}$",
+      "$\\text{m/s}^2$",
+      "$\\text{km/h}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $a = \\frac{\\Delta v}{\\Delta t}$ nên đơn vị gia tốc trong hệ SI là $\\frac{\\text{m/s}}{\\text{s}} = \\text{m/s}^2$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều kiện về dấu của gia tốc $a$ và vận tốc $v$ trong chuyển động thẳng CHẬM DẦN ĐỀU là:",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai4_gia_toc_bien_doi.webp",
+    "caccauChon": [
+      "$a \\cdot v > 0$ ($\\vec{a}$ cùng chiều $\\vec{v}$).",
+      "$a \\cdot v < 0$ ($\\vec{a}$ ngược chiều $\\vec{v}$).",
+      "$a = 0$ và $v > 0$.",
+      "$a > 0$ trong mọi trường hợp."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong chuyển động thẳng chậm dần đều, véc-tơ gia tốc $\\vec{a}$ luôn ngược chiều với véc-tơ vận tốc $\\vec{v}$ nên $a$ và $v$ trái dấu ($a \\cdot v < 0$)."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ độc lập với thời gian trong chuyển động thẳng biến đổi đều là:",
+    "caccauChon": [
+      "$v^2 + v_0^2 = 2 \\cdot a \\cdot d$",
+      "$v^2 - v_0^2 = a \\cdot d$",
+      "$v - v_0 = 2 \\cdot a \\cdot d$",
+      "$v^2 - v_0^2 = 2 \\cdot a \\cdot d$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hệ thức độc lập với thời gian của chuyển động thẳng biến đổi đều là $v^2 - v_0^2 = 2 \\cdot a \\cdot d$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị vận tốc – thời gian $(v - t)$, độ dốc của đường biểu diễn và diện tích hình phẳng dưới đồ thị lần lượt cho biết:",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai4_do_thi_v_t.webp",
+    "caccauChon": [
+      "Gia tốc $a$ và độ lớn độ dịch chuyển $d$.",
+      "Độ dịch chuyển $d$ và gia tốc $a$.",
+      "Vận tốc $v$ và gia tốc $a$.",
+      "Tọa độ ban đầu $x_0$ và thời gian $t$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trên đồ thị $(v - t)$, độ dốc $\\frac{\\Delta v}{\\Delta t}$ bằng gia tốc $a$, còn diện tích giới hạn dưới đồ thị bằng độ lớn độ dịch chuyển $d$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng biến đổi đều có phương trình tọa độ $x = 10 + 4t - 2t^2$ ($\\text{m}, \\text{s}$). Vận tốc ban đầu $v_0$ và gia tốc $a$ của vật là:",
+    "caccauChon": [
+      "$v_0 = 4\\text{ m/s}$ và $a = -2\\text{ m/s}^2$",
+      "$v_0 = 4\\text{ m/s}$ và $a = -4\\text{ m/s}^2$",
+      "$v_0 = -2\\text{ m/s}$ và $a = 4\\text{ m/s}^2$",
+      "$v_0 = 10\\text{ m/s}$ và $a = 4\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đối chiếu với $x = x_0 + v_0 t + \\frac{1}{2}a t^2$, ta có $v_0 = 4\\text{ m/s}$ và $\\frac{1}{2}a = -2 \\implies a = -4\\text{ m/s}^2$."
+  }
+]

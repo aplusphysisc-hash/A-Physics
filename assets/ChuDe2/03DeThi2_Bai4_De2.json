@@ -1,0 +1,426 @@
+[
+  {
+    "id": 1,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động của một vật bị ném ngang có quỹ đạo là:",
+    "caccauChon": [
+      "Đoạn thẳng.",
+      "Nhánh parabol.",
+      "Đường tròn.",
+      "Đường thẳng xiên góc."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quỹ đạo của vật ném ngang luôn là một nhánh parabol."
+  },
+  {
+    "id": 2,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây là SAI khi nói về chuyển động ném ngang?",
+    "caccauChon": [
+      "Gia tốc của vật trong quá trình chuyển động là gia tốc rơi tự do $g$.",
+      "Theo phương ngang, vật chuyển động thẳng đều.",
+      "Thời gian rơi của vật phụ thuộc vào vận tốc ban đầu $v_0$.",
+      "Theo phương thẳng đứng, vật rơi tự do."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thời gian rơi $t = \\sqrt{\\frac{2h}{g}}$ không phụ thuộc vào vận tốc ban đầu $v_0$, do đó phát biểu C là sai."
+  },
+  {
+    "id": 3,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thành phần vận tốc theo phương ngang $v_x$ của vật ném ngang có đặc điểm:",
+    "caccauChon": [
+      "Tăng đều theo thời gian.",
+      "Giảm đều theo thời gian.",
+      "Không đổi và luôn bằng $v_0$.",
+      "Bằng 0."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo phương ngang không có lực tác dụng nên $v_x = v_0$ không đổi."
+  },
+  {
+    "id": 4,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thành phần vận tốc theo phương thẳng đứng $v_y$ của vật ném ngang tại thời điểm $t$ là:",
+    "caccauChon": [
+      "$v_y = v_0$",
+      "$v_y = g \\cdot t$",
+      "$v_y = \\frac{1}{2} \\cdot g \\cdot t^2$",
+      "$v_y = \\sqrt{2gh}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Theo phương $Oy$ vật rơi tự do nên $v_y = gt$."
+  },
+  {
+    "id": 5,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính tầm bay xa của vật ném ngang là:",
+    "caccauChon": [
+      "$L = v_0 \\cdot t$",
+      "$L = v_0 \\cdot \\sqrt{\\frac{2h}{g}}$",
+      "Cả A và B đều đúng.",
+      "$L = \\frac{1}{2} \\cdot g \\cdot t^2$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$L = v_0$ t với $t = \\sqrt{\\frac{2h}{g}}$, nên cả hai cách viết đều đúng."
+  },
+  {
+    "id": 6,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu tăng độ cao ném ngang lên 9 lần và giữ nguyên vận tốc ban đầu thì tầm bay xa sẽ:",
+    "caccauChon": [
+      "Tăng 3 lần.",
+      "Tăng 9 lần.",
+      "Giảm 3 lần.",
+      "Không đổi."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$L$ tỉ lệ thuận với $\\sqrt{h}$. Độ cao tăng 9 lần thì tầm bay xa tăng $\\sqrt{9} = 3$ lần."
+  },
+  {
+    "id": 7,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném ngang từ độ cao $h = 80\\text{ m}$, lấy $g = 10\\text{ m/s}^2$. Thời gian rơi của vật là:",
+    "caccauChon": [
+      "$2\\text{ s}$",
+      "$3\\text{ s}$",
+      "$4\\text{ s}$",
+      "$5\\text{ s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$t = \\sqrt{\\frac{2h}{g}} = \\sqrt{160 / 10} = \\sqrt{16} = 4\\text{ s}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném ngang với $v_0 = 10\\text{ m/s}$ từ độ cao $h = 20\\text{ m}$ $(g = 10\\text{ m/s}^2)$. Tầm bay xa của vật là:",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$20\\text{ m}$",
+      "$30\\text{ m}$",
+      "$40\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = \\sqrt{2 \\cdot 20 / 10} = 2\\text{ s} \\implies L = v_0 \\cdot t = 10 \\cdot 2 = 20\\text{ m}$."
+  },
+  {
+    "id": 9,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương trình quỹ đạo của chuyển động ném ngang có dạng tổng quát là:",
+    "caccauChon": [
+      "$y$ = a $\\cdot x^2$",
+      "$y$ = a $\\cdot x$ + b",
+      "$x$ = a $\\cdot y^2$",
+      "$y$ = a / $x$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$y = \\frac{g}{2v_0^2} \\cdot x^2$ có dạng $y = ax^2$ (parabol đi qua gốc tọa độ)."
+  },
+  {
+    "id": 10,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi vật chạm đất trong chuyển động ném ngang, vận tốc theo phương ngang $v_x$ và vận tốc theo phương thẳng đứng $v_y$ liên hệ với vận tốc chạm đất $v$ như thế nào?",
+    "caccauChon": [
+      "$v = v_x + v_y$",
+      "$v$ = |$v_x - v_y$|",
+      "$v = \\sqrt{v_x^2 + v_y^2}$",
+      "$v = v_x \\cdot v_y$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$v = \\sqrt{v_x^2 + v_y^2}$."
+  },
+  {
+    "id": 11,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném ngang từ độ cao $h = 5\\text{ m}$, lấy $g = 10\\text{ m/s}^2$. Thời gian rơi của vật là:",
+    "caccauChon": [
+      "$0,5\\text{ s}$",
+      "$1\\text{ s}$",
+      "$1,5\\text{ s}$",
+      "$2\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = \\sqrt{2 \\cdot 5 / 10} = \\sqrt{1} = 1\\text{ s}$."
+  },
+  {
+    "id": 12,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả bóng được ném ngang với vận tốc ban đầu $v_0$ từ độ cao $h$. Nếu bỏ qua sức cản không khí, đại lượng nào sau đây phụ thuộc vào $v_0$?",
+    "caccauChon": [
+      "Thời gian rơi.",
+      "Gia tốc trọng trường.",
+      "Tầm bay xa.",
+      "Độ cao $h$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tầm bay xa $L = v_0 \\cdot \\sqrt{\\frac{2h}{g}}$ tỉ lệ thuận với $v_0$."
+  },
+  {
+    "id": 13,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném ngang có vận tốc ban đầu $v_0 = 12\\text{ m/s}$. Sau khi rơi có vận tốc theo phương thẳng đứng $v_y = 16\\text{ m/s}$ thì độ lớn vận tốc của vật là:",
+    "caccauChon": [
+      "$20\\text{ m/s}$",
+      "$15\\text{ m/s}$",
+      "$28\\text{ m/s}$",
+      "$10\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$v = \\sqrt{12^2 + 16^2} = \\sqrt{144 + 256} = \\sqrt{400} = 20\\text{ m/s}$."
+  },
+  {
+    "id": 14,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném ngang có vận tốc ban đầu $v_0 = 8\\text{ m/s}$. Tại một thời điểm, vận tốc theo phương thẳng đứng là $v_y = 6\\text{ m/s}$. Độ lớn vận tốc của vật lúc đó là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$14\\text{ m/s}$",
+      "$2\\text{ m/s}$",
+      "$48\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$v = \\sqrt{8^2 + 6^2} = \\sqrt{64 + 36} = \\sqrt{100} = 10\\text{ m/s}$."
+  },
+  {
+    "id": 15,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thời gian rơi của vật ném ngang phụ thuộc vào:",
+    "caccauChon": [
+      "Vận tốc ban đầu $v_0$.",
+      "Khối lượng của vật $m$.",
+      "Độ cao $h$ nơi ném và gia tốc $g$.",
+      "Hình dạng của vật."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$t = \\sqrt{\\frac{2h}{g}}$ chỉ phụ thuộc vào $h$ và $g$."
+  },
+  {
+    "id": 16,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném ngang từ độ cao $20\\text{ m}$. Lấy $g = 10\\text{ m/s}^2$. Vận tốc của vật theo phương thẳng đứng khi chạm đất là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$15\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$25\\text{ m/s}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$t = \\sqrt{2 \\cdot 20 / 10} = 2\\text{ s} \\implies v_y = gt = 10 \\cdot 2 = 20\\text{ m/s}$."
+  },
+  {
+    "id": 17,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném ngang có tầm bay xa $L = 40\\text{ m}$ và thời gian rơi $t = 2\\text{ s}$. Vận tốc ban đầu $v_0$ của vật là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$30\\text{ m/s}$",
+      "$40\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$L = v_0 \\cdot t \\implies v_0 = \\frac{L}{t} = 40 / 2 = 20\\text{ m/s}$."
+  },
+  {
+    "id": 18,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động ném ngang, khi vật ở độ cao $\\frac{h}{2}$ (nửa độ cao) thì vận tốc theo phương thẳng đứng $v_y$ so với vận tốc chạm đất $v_{y\\max}$ là:",
+    "caccauChon": [
+      "Bằng nhau.",
+      "Nhỏ hơn $\\sqrt{2}$ lần.",
+      "Lớn hơn 2 lần.",
+      "Bằng một nửa."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$y = \\frac{h}{2} \\implies t' = \\sqrt{\\frac{h}{g}} = \\frac{t}{\\sqrt{2}} \\implies v_y' = gt' = \\frac{gt}{\\sqrt{2}} = \\frac{v_{y\\max}}{\\sqrt{2}}$."
+  },
+  {
+    "id": 19,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động ném ngang là một ví dụ thực tế về:",
+    "caccauChon": [
+      "Chuyển động thẳng đều.",
+      "Chuyển động cong dưới tác dụng của trọng lực.",
+      "Chuyển động tròn đều.",
+      "Chuyển động thẳng chậm dần đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ném ngang là chuyển động cong phẳng trong trọng trường."
+  },
+  {
+    "id": 20,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu bỏ qua mọi lực cản và coi Trái Đất phẳng, quỹ đạo của vật ném ngang và vật thả rơi tự do từ cùng độ cao chạm đất trong cùng một thời gian vì:",
+    "caccauChon": [
+      "Chúng có cùng vận tốc ban đầu.",
+      "Chuyển động theo phương thẳng đứng của cả hai hoàn toàn giống nhau (rơi tự do).",
+      "Chúng có cùng khối lượng.",
+      "Lực tác dụng như nhau."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thời gian rơi chỉ phụ thuộc vào phương thẳng đứng (rơi tự do), do đó cả hai chạm đất cùng lúc nếu thả và ném đồng thời từ cùng độ cao."
+  },
+  {
+    "id": 21,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về các đặc tính của chuyển động ném ngang.",
+    "dsYCon": [
+      "Chuyển động ném ngang là chuyển động cong.",
+      "Vận tốc ban đầu của vật có phương thẳng đứng.",
+      "Quỹ đạo của vật ném ngang là một nhánh parabol.",
+      "Lực duy nhất tác dụng lên vật (khi bỏ qua cản không khí) là trọng lực."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Vận tốc ban đầu có phương ngang, không phải phương thẳng đứng."
+  },
+  {
+    "id": 22,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật được ném ngang từ độ cao $h = 80\\text{ m}$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian rơi của vật là 4 giây.",
+      "Vận tốc của vật theo phương thẳng đứng khi chạm đất là $40\\text{ m/s}$.",
+      "Nếu vận tốc ban đầu $v_0 = 15\\text{ m/s}$ thì tầm bay xa là $60\\text{ m}$.",
+      "Khi vật cách mặt đất $20\\text{ m}$ thì thời gian vật đã rơi là 3 giây."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "+ $t = \\sqrt{2 \\cdot 80 / 10} = 4\\text{ s}$ (a đúng).\n+ $v_y = gt = 10 \\cdot 4 = 40\\text{ m/s}$ (b đúng).\n+ $L = 15 \\cdot 4 = 60\\text{ m}$ (c đúng).\n+ Sau 3 giây, quãng đường rơi là $45\\text{ m}$, vật cách đất $80 - 45 = 35\\text{ m}$ (d sai)."
+  },
+  {
+    "id": 23,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Khảo sát các công thức thành phần của ném ngang.",
+    "dsYCon": [
+      "Phương trình vận tốc theo trục $Ox$ là $v_x = v_0$.",
+      "Phương trình vận tốc theo trục $Oy$ là $v_y = g \\cdot t^2$.",
+      "Véctơ vận tốc tổng hợp có độ lớn $v = \\sqrt{v_x^2 + v_y^2}$.",
+      "Góc hợp bởi vận tốc chạm đất và phương ngang tính bởi công thức $\\tan\\alpha = \\frac{v_x}{v_y}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "$v_y = gt$ (không có bình phương), và $\\tan\\alpha = \\frac{v_y}{v_x}$, nên b và d đều sai."
+  },
+  {
+    "id": 24,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "So sánh chuyển động ném ngang và rơi tự do từ cùng một độ cao.",
+    "dsYCon": [
+      "Thời gian chạm đất của hai vật hoàn toàn bằng nhau.",
+      "Vận tốc chạm đất của vật ném ngang nhỏ hơn vận tốc chạm đất của vật rơi tự do.",
+      "Cả hai vật đều có cùng gia tốc rơi tự do $g$ trong quá trình chuyển động.",
+      "Quỹ đạo của vật rơi tự do là đường thẳng, còn vật ném ngang là parabol."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Vật ném ngang có thêm vận tốc ban đầu theo phương ngang nên vận tốc chạm đất $v = \\sqrt{v_0^2 + 2gh}$ lớn hơn vật rơi tự do $(v = \\sqrt{2gh})$, do đó ý b là SAI."
+  },
+  {
+    "id": 25,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật ném ngang từ độ cao $h = 45\\text{ m}$ với $v_0 = 10\\text{ m/s}$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian rơi của vật là 3 giây.",
+      "Tầm bay xa của vật là $30\\text{ m}$.",
+      "Vận tốc của vật khi chạm đất là $30\\text{ m/s}$.",
+      "Quãng đường vật đi được trong giây đầu tiên là $5\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "+ $t = \\sqrt{2 \\cdot 45 / 10} = 3\\text{ s}$ (a đúng).\n+ $L = 10 \\cdot 3 = 30\\text{ m}$ (b đúng).\n+ $v_x = 10$, $v_y = 30 \\implies v = \\sqrt{10^2 + 30^2} = \\sqrt{1000} \\approx 31,62\\text{ m/s}$ (c sai).\n+ Quãng đường rơi trong 1s đầu theo phương thẳng đứng là $s_y = 5\\text{ m}$ (d đúng)."
+  },
+  {
+    "id": 26,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Viết các phương trình tọa độ và phương trình quỹ đạo của chuyển động ném ngang.",
+    "giaithich": "- Phương trình tọa độ thành phần (chọn gốc O tại vị trí ném, $Ox$ hướng theo vận tốc ban đầu, $Oy$ hướng thẳng đứng xuống dưới):\n+ Theo phương ngang ($Ox$): $x = v_0 \\cdot t$\n+ Theo phương thẳng đứng ($Oy$): $y = \\frac{1}{2} \\cdot g \\cdot t^2$\n- Phương trình quỹ đạo:\n+ Từ phương trình $Ox$ rút ra $t = x / v_0$, thay vào phương trình $Oy$ ta được:\n$y = \\frac{g}{2v_0^2} \\cdot x^2$\n+ Đây là phương trình của một nhánh parabol."
+  },
+  {
+    "id": 27,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập): Một vật được ném ngang từ độ cao $h = 80\\text{ m}$ so với mặt đất. Lấy $g = 10\\text{ m/s}^2$. Để tầm bay xa của vật đạt $40\\text{ m}$ thì vận tốc ban đầu $v_0$ phải bằng bao nhiêu?",
+    "giaithich": "- Thời gian rơi của vật:\n$t = \\sqrt{\\frac{2h}{g}} = \\sqrt{2 \\cdot 80 / 10} = \\sqrt{16} = 4\\text{ (s)}$.\n- Vận tốc ban đầu $v_0$ tính từ công thức tầm bay xa $L = v_0 \\cdot t$:\n$v_0 = \\frac{L}{t} = 40 / 4 = 10\\text{ (m/s)}$."
+  },
+  {
+    "id": 28,
+    "baiSo": 4,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập): Một máy bay bay theo phương ngang ở độ cao $h = 500\\text{ m}$ với vận tốc $v_0 = 100\\text{ m/s}$ thả một gói hàng cứu trợ xuống đất. Lấy $g = 10\\text{ m/s}^2$. Tính:\na) Thời gian gói hàng rơi chạm đất.\nb) Tầm bay xa của gói hàng (tính theo phương ngang so với điểm thả).",
+    "giaithich": "a) Thời gian gói hàng rơi chạm đất:\n$t = \\sqrt{\\frac{2h}{g}} = \\sqrt{2 \\cdot 500 / 10} = \\sqrt{100} = 10\\text{ (s)}$.\nb) Tầm bay xa của gói hàng:\n$L = v_0 \\cdot t = 100 \\cdot 10 = 1000\\text{ (m)}$ (tức là $1\\text{ km}$)."
+  }
+]

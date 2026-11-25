@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "baiSo": 1,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 1: Chuyển động thẳng đều",
+    "videoYoutubeId": "-Suy4ZaXZH0",
+    "fileBaiTapNhanh": "ChuDe2/02BaiTapNhanh2_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Định nghĩa và đặc điểm của chuyển động thẳng đều",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Chuyển động thẳng đều là gì?",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Chuyển động thẳng đều**} là chuyển động có {highlight|quỹ đạo là một đường thẳng} và có {color:success|**tốc độ trung bình như nhau trên mọi quãng đường**} bất kì.",
+            "danhSachYCon": [
+              "**Đặc điểm vectơ vận tốc:** Vectơ vận tốc tức thời $\\vec{v}$ có phương nằm trên đường thẳng quỹ đạo, chiều không đổi (cùng chiều chuyển động) và độ lớn không đổi theo thời gian ($v = \\text{hằng số}$, $\\vec{a} = \\vec{0}$).",
+              "**Quãng đường đi được:** Trong chuyển động thẳng đều, quãng đường đi được $s$ luôn {color:primary|**tỉ lệ thuận**} với thời gian chuyển động $t$."
+            ]
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Ô tô chuyển động thẳng đều",
+            "duongDanGlb": "models/ChuDe2/bai1_chuyen_dong_thang_deu.glb",
+            "moTaMoHinh3d": "Quan sát ô tô chuyển động thẳng đều trên đường thẳng qua các mốc cách đều nhau trong những khoảng thời gian bằng nhau.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Hệ thống công thức cơ bản",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "TỐC ĐỘ TRUNG BÌNH, QUÃNG ĐƯỜNG & PHƯƠNG TRÌNH CHUYỂN ĐỘNG",
+            "congThuc": "$$v = \\frac{s}{t} = \\frac{\\Delta x}{\\Delta t}  ;  s = v \\cdot t  ;  x = x_0 + v \\cdot (t - t_0)$$",
+            "mucDich": "Xác định tốc độ, quãng đường đi được và vị trí (tọa độ $x$) của chất điểm tại thời điểm $t$ bất kì.",
+            "chuThich": "- Nếu chọn gốc thời gian lúc vật bắt đầu chuyển động ($t_0 = 0$): Phương trình gọn thành {highlight|$x = x_0 + v \\cdot t$}.\n- $x_0$ ($\\text{m}$ hoặc $\\text{km}$): {color:tertiary|Tọa độ ban đầu} của vật tại thời điểm $t_0$.\n- $x$ ($\\text{m}$ hoặc $\\text{km}$): {color:primary|Tọa độ của vật} tại thời điểm $t$.\n- $v$ ($\\text{m/s}$ hoặc $\\text{km/h}$): {color:primary|Vận tốc của vật} ({color:success|$v > 0$} khi vật đi theo chiều dương; {color:error|$v < 0$} khi vật đi ngược chiều dương)."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Mẹo quy đổi đơn vị} Quy tắc đổi nhanh giữa $\\text{m/s}$ và $\\text{km/h}$: $1\\text{ m/s} = 3{,}6\\text{ km/h}$ và $1\\text{ km/h} = \\frac{1}{3{,}6}\\text{ m/s}$ (Từ $\\text{m/s} \\to \\text{km/h}$ nhân $3{,}6$; từ $\\text{km/h} \\to \\text{m/s}$ chia $3{,}6$)."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Đồ thị của chuyển động thẳng đều",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Hai dạng đồ thị đặc trưng",
+            "noiDung": "Dựa vào đồ thị, ta có thể đọc nhanh chiều chuyển động, vận tốc và quãng đường:",
+            "danhSachYCon": [
+              "**Đồ thị tọa độ – thời gian $(x - t)$:** Là một {highlight|đường thẳng xiên góc} (khi $v \\neq 0$). Hệ số góc (độ dốc) của đường thẳng chính là vận tốc $v = \\tan\\alpha = \\frac{x - x_0}{t - t_0}$. Nếu đường thẳng hướng lên thì {color:success|$v > 0$}, nếu đường thẳng hướng xuống thì {color:error|$v < 0$}.",
+              "**Đồ thị vận tốc – thời gian $(v - t)$:** Là một {color:primary|**đường thẳng song song với trục thời gian $Ot$**}. Diện tích hình chữ nhật giới hạn bởi đường biểu diễn $v(t)$ và trục $Ot$ trong khoảng thời gian $\\Delta t$ có giá trị bằng quãng đường đi được: $s = |v| \\cdot \\Delta t$."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

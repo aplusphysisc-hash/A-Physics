@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "tieude": "Bài 1: Công - Công suất - Hiệu suất",
+    "noidung": "",
+    "videoYoutubeId": "M-BzCHtFwEk",
+    "fileBaiTapNhanh": "ChuDe5/02BaiTapNhanh5_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Công cơ học (Khái niệm, Công thức \u0026 Đặc điểm)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm Công cơ học",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Công cơ học**} thực hiện khi lực $\\vec{F}$ tác dụng lên vật và {highlight|làm vật dịch chuyển một quãng đường $s$} theo hướng hợp với lực một góc $\\alpha$.",
+            "danhSachYCon": [
+              "Công cơ học là đại lượng {color:tertiary|**vô hướng**} (đại số), có thể dương, âm hoặc bằng $0$.",
+              "Đơn vị của công trong hệ SI là {color:primary|**Joule**} (ký hiệu: $\\text{J}$), với $1\\text{ J} \u003d 1\\text{ N}\\cdot\\text{m}$."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC TÍNH CÔNG CƠ HỌC TỔNG QUÁT",
+            "congThuc": "$A \u003d F \\cdot s \\cdot \\cos\\alpha$",
+            "mucDich": "Tính công do lực không đổi $F$ thực hiện khi làm vật dịch chuyển quãng đường $s$.",
+            "chuThich": "- $F$: Độ lớn lực tác dụng ($\\text{N}$).\\n- $s$: Quãng đường vật dịch chuyển ($\\text{m}$).\\n- $\\alpha$: Góc hợp bởi hướng của lực $\\vec{F}$ và hướng dịch chuyển $\\vec{s}$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Phân loại công dựa vào góc $\\alpha$",
+            "noiDung": "Tùy thuộc vào giá trị của góc $\\alpha$, công cơ học mang dấu khác nhau:",
+            "danhSachYCon": [
+              "**Góc nhọn ($0^\\circ \\le \\alpha \u003c 90^\\circ$):** $\\cos\\alpha \u003e 0 \\implies A \u003e 0$: Lực thực hiện {color:success|**công phát động**} (công dương). Khi $\\alpha \u003d 0^\\circ$, công phát động đạt cực đại $A \u003d F \\cdot s$.",
+              "**Góc vuông ($\\alpha \u003d 90^\\circ$):** $\\cos\\alpha \u003d 0 \\implies A \u003d 0$: Lực {color:warning|**không thực hiện công**} (lực vuông góc với hướng dịch chuyển, ví dụ trọng lực khi vật đi ngang hoặc lực hướng tâm).",
+              "**Góc tù ($90^\\circ \u003c \\alpha \\le 180^\\circ$):** $\\cos\\alpha \u003c 0 \\implies A \u003c 0$: Lực thực hiện {color:error|**công cản**} (công âm), ví dụ lực ma sát trượt ($\\alpha \u003d 180^\\circ \\implies A \u003d -F \\cdot s$)."
+            ],
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Công suất và Hiệu suất",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Công suất ($P$) và Tốc độ thực hiện công",
+            "noiDung": "{color:primary|**Công suất ($P$)**} là đại lượng đặc trưng cho {highlight|tốc độ thực hiện công}, xác định bằng công thực hiện được trong một đơn vị thời gian.",
+            "danhSachYCon": [
+              "Đơn vị chuẩn: {color:tertiary|**Watt**} ($\\text{W}$), với $1\\text{ W} \u003d 1\\text{ J/s}$.",
+              "Các đơn vị mở rộng thường gặp: $\\text{kW}$ ($1\\text{ kW} \u003d 1000\\text{ W}$), $\\text{MW}$ ($1\\text{ MW} \u003d 10^6\\text{ W}$), Mã lực ($1\\text{ HP} \\approx 746\\text{ W}$ hoặc $735{,}5\\text{ W}$).",
+              "Đổi đơn vị điện năng: $1\\text{ kW}\\cdot\\text{h} \u003d 3{,}6 \\cdot 10^6\\text{ J}$."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC CÔNG SUẤT \u0026 LIÊN HỆ VẬN TỐC",
+            "congThuc": "$P \u003d \\frac{A}{t} \u003d F \\cdot v \\cdot \\cos\\alpha$",
+            "mucDich": "Tính công suất trung bình trong thời gian $t$ hoặc công suất tức thời theo vận tốc $v$.",
+            "chuThich": "- Khi lực $\\vec{F}$ cùng hướng với vận tốc $\\vec{v}$ ($\\alpha \u003d 0^\\circ$): $P \u003d F \\cdot v$.\\n- $A$: Công thực hiện ($\\text{J}$); $t$: Thời gian ($\\text{s}$); $v$: Vận tốc ($\\text{m/s}$).",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC HIỆU SUẤT ($H$)",
+            "congThuc": "$H \u003d \\frac{A_{ích}}{A_{tp}} \\cdot 100\\% \u003d \\frac{P_{ích}}{P_{tp}} \\cdot 100\\%$",
+            "mucDich": "Đánh giá tỉ lệ phần trăm năng lượng có ích thu được so với tổng năng lượng tiêu thụ.",
+            "chuThich": "- $A_{ích}, P_{ích}$: Công và công suất có ích.\\n- $A_{tp}, P_{tp}$: Công và công suất toàn phần.\\n- Năng lượng hao phí: $A_{hp} \u003d A_{tp} - A_{ích}$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Bẫy điểm thi} Trong thực tế, do luôn có lực ma sát và tỏa nhiệt gây hao phí nên công có ích luôn nhỏ hơn công toàn phần, suy ra {color:error|**hiệu suất luôn nhỏ hơn $100\\%$**} ($H \u003c 100\\%$).",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 1,
+    "loai": "ly_thuyet"
+  },
+  {
+    "id": 2,
+    "tieude": "Bài 2: Động năng - Thế năng - Cơ năng",
+    "noidung": "",
+    "videoYoutubeId": "eYMi34us5TU",
+    "fileBaiTapNhanh": "ChuDe5/02BaiTapNhanh5_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Động năng và Định lý động năng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm Động năng ($W_đ$)",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Động năng ($W_đ$)**} là dạng năng lượng mà vật có được {highlight|do nó đang chuyển động}.",
+            "danhSachYCon": [
+              "Động năng là đại lượng {color:tertiary|**vô hướng**}, luôn không âm ($W_đ \\ge 0$) và phụ thuộc vào hệ quy chiếu (vì vận tốc phụ thuộc hệ quy chiếu).",
+              "Đơn vị của động năng trong hệ SI là {color:primary|**Joule**} ($\\text{J}$)."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC ĐỘNG NĂNG \u0026 ĐỊNH LÝ ĐỘNG NĂNG",
+            "congThuc": "$W_đ \u003d \\frac{1}{2} m v^2$ ; $\\Delta W_đ \u003d W_{đ2} - W_{đ1} \u003d \\frac{1}{2}mv_2^2 - \\frac{1}{2}mv_1^2 \u003d A_{tổng}$",
+            "mucDich": "Tính động năng của vật đang chuyển động và liên hệ độ biến thiên động năng với tổng công ngoại lực.",
+            "chuThich": "- Nếu tổng công $A_{tổng} \u003e 0$: động năng tăng (vật tăng tốc).\\n- Nếu tổng công $A_{tổng} \u003c 0$: động năng giảm (vật giảm tốc).",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Thế năng trọng trường \u0026 Định luật bảo toàn cơ năng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Thế năng trọng trường ($W_t$) và Cơ năng ($W$)",
+            "noiDung": "{color:primary|**Thế năng trọng trường ($W_t$)**} là dạng năng lượng tương tác giữa Trái Đất và vật, {highlight|phụ thuộc vào vị trí độ cao $z$ của vật} so với mốc thế năng được chọn.",
+            "danhSachYCon": [
+              "**Cơ năng ($W$):** Là tổng động năng và thế năng của vật: $W \u003d W_đ + W_t$.",
+              "Giá trị của thế năng $W_t$ và cơ năng $W$ phụ thuộc vào cách chọn mốc thế năng (có thể dương, âm hoặc bằng $0$), nhưng {color:success|**độ biến thiên thế năng**} không phụ thuộc vào mốc."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC THẾ NĂNG \u0026 ĐỊNH LUẬT BẢO TOÀN CƠ NĂNG",
+            "congThuc": "$W_t \u003d m \\cdot g \\cdot z$ ; $W \u003d \\frac{1}{2}mv^2 + m \\cdot g \\cdot z \u003d \\text{const}$",
+            "mucDich": "Áp dụng định luật bảo toàn cơ năng khi vật chỉ chịu tác dụng của trọng lực (hoặc lực đàn hồi).",
+            "chuThich": "- Bảo toàn cơ năng: $W_1 \u003d W_2 \\iff W_{đ1} + W_{t1} \u003d W_{đ2} + W_{t2}$.\\n- Khi có lực ma sát hoặc lực cản, cơ năng {color:error|**không bảo toàn**} mà giảm dần (chuyển thành nhiệt năng): $A_{cản} \u003d W_2 - W_1$.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 2,
+    "loai": "ly_thuyet"
+  },
+  {
+    "id": 3,
+    "tieude": "Bài 3: Tổng hợp công thức Chủ đề 5",
+    "noidung": "",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "I. Công cơ học",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG CỦA LỰC KHÔNG ĐỔI",
+            "congThuc": "$A \u003d F \\cdot s \\cdot \\cos\\alpha$",
+            "mucDich": "Tính công cơ học khi lực $F$ làm vật dịch chuyển quãng đường $s$.",
+            "chuThich": "- $F$: Độ lớn lực tác dụng ($\\text{N}$); $s$: Quãng đường ($\\text{m}$); $\\alpha$: Góc hợp bởi $\\vec{F}$ và hướng dịch chuyển.\\n- $0^\\circ \\le \\alpha \u003c 90^\\circ \\implies A \u003e 0$ (công phát động).\\n- $\\alpha \u003d 90^\\circ \\implies A \u003d 0$ (lực vuông góc không sinh công).\\n- $90^\\circ \u003c \\alpha \\le 180^\\circ \\implies A \u003c 0$ (công cản).",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "II. Công suất \u0026 III. Hiệu suất",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG SUẤT ($P$)",
+            "congThuc": "$P \u003d \\frac{A}{t} \u003d F \\cdot v \\cdot \\cos\\alpha$",
+            "mucDich": "Đo tốc độ thực hiện công trong một đơn vị thời gian.",
+            "chuThich": "- Đơn vị: Watt ($\\text{W}$ hoặc $\\text{J/s}$), $1\\text{ kW} \u003d 1000\\text{ W}$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "HIỆU SUẤT ($H$)",
+            "congThuc": "$H \u003d \\frac{A_{ích}}{A_{tp}} \\cdot 100\\% \u003d \\frac{P_{ích}}{P_{tp}} \\cdot 100\\%$",
+            "mucDich": "Đánh giá tỉ lệ công có ích so với công toàn phần.",
+            "chuThich": "- Năng lượng hao phí: $A_{hp} \u003d A_{tp} - A_{ích}$.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "IV. Năng lượng — Cơ năng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "1. ĐỘNG NĂNG \u0026 ĐỊNH LÝ ĐỘNG NĂNG",
+            "congThuc": "$W_đ \u003d \\frac{1}{2}mv^2$ ; $A \u003d W_{đ2} - W_{đ1} \u003d \\frac{1}{2}mv_2^2 - \\frac{1}{2}mv_1^2$",
+            "mucDich": "Tính năng lượng chuyển động và độ biến thiên động năng.",
+            "chuThich": "- Đơn vị động năng là Joule ($\\text{J}$).",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "2. THẾ NĂNG TRỌNG TRƯỜNG \u0026 3. THẾ NĂNG ĐÀN HỒI",
+            "congThuc": "$W_t \u003d m \\cdot g \\cdot z$ ; $W_{tđ} \u003d \\frac{1}{2} k (\\Delta l)^2$",
+            "mucDich": "Tính thế năng trọng trường ở độ cao $z$ và thế năng đàn hồi khi lò xo biến dạng $\\Delta l$.",
+            "chuThich": "- $g$: Gia tốc trọng trường ($\\text{m/s}^2$); $k$: Độ cứng lò xo ($\\text{N/m}$).",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "4. CƠ NĂNG VÀ ĐỊNH LUẬT BẢO TOÀN CƠ NĂNG",
+            "congThuc": "$W \u003d W_đ + W_t \u003d \\frac{1}{2}mv^2 + m \\cdot g \\cdot z \u003d \\text{const}$",
+            "mucDich": "Áp dụng $W_1 \u003d W_2$ khi vật chỉ chịu tác dụng của trọng lực và lực đàn hồi.",
+            "chuThich": "- Khi có ma sát: Cơ năng giảm dần theo thời gian.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 3,
+    "loai": "cong_thuc",
+    "laCongThucTongHop": true
+  }
+]

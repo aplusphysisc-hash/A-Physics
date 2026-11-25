@@ -1,0 +1,115 @@
+﻿[
+  {
+    "id": 4,
+    "tieude": "Bài 4: Chuyển động biến đổi và Gia tốc",
+    "noidung": "Chuyển động thẳng biến đổi đều (nhanh dần đều, chậm dần đều), khái niệm và công thức gia tốc, 4 công thức chuyển động thẳng biến đổi đều và đồ thị vận tốc – thời gian (v – t).",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai4_do_thi_v_t.webp",
+    "videoYoutubeId": "1Eu6D6B8m58",
+    "fileBaiTapNhanh": "ChuDe1/02BaiTapNhanh1_Bai4.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1.1. Chuyển động biến đổi và Chuyển động thẳng biến đổi đều",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm và Phân loại",
+            "noiDung": "Chuyển động có vận tốc thay đổi theo thời gian (về độ lớn, về hướng hoặc cả hai) được gọi là chuyển động biến đổi.",
+            "danhSachYCon": [
+              "**Chuyển động thẳng biến đổi đều:** Có quỹ đạo là đường thẳng và độ lớn vận tốc tức thời tăng đều hoặc giảm đều theo thời gian.",
+              "**Chuyển động thẳng nhanh dần đều:** Độ lớn vận tốc tăng đều theo thời gian.",
+              "**Chuyển động thẳng chậm dần đều:** Độ lớn vận tốc giảm đều theo thời gian."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "1.2. Gia tốc của chuyển động",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Định nghĩa và Đơn vị của Gia tốc",
+            "noiDung": "Gia tốc ($\\vec{a}$) là đại lượng vật lí véc-tơ đặc trưng cho độ biến thiên nhanh hay chậm của vận tốc theo thời gian. Đơn vị của gia tốc trong hệ SI là mét trên giây bình phương ($\\text{m/s}^2$)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC TÍNH GIA TỐC TRONG CHUYỂN ĐỘNG THẲNG",
+            "congThuc": "$a = \\frac{\\Delta v}{\\Delta t} = \\frac{v - v_0}{t - t_0}  ; (\\text{Đơn vị: } \\text{m/s}^2)$",
+            "mucDich": "Tính độ biến thiên vận tốc trong một đơn vị thời gian.",
+            "chuThich": "$v_0$: vận tốc tại thời điểm ban đầu $t_0$; $v$: vận tốc tại thời điểm $t$; $\\Delta v = v - v_0$: độ biến thiên vận tốc."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "QUY TẮC DẤU CỦA GIA TỐC VÀ VẬN TỐC:\n• Chuyển động thẳng NHANH DẦN ĐỀU: $\\vec{a}$ cùng hướng với $\\vec{v} \\implies a \\cdot v > 0$ ($a$ và $v$ cùng dấu).\n• Chuyển động thẳng CHẬM DẦN ĐỀU: $\\vec{a}$ ngược hướng với $\\vec{v} \\implies a \\cdot v < 0$ ($a$ và $v$ trái dấu)."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai4_gia_toc_bien_doi.webp",
+            "moTaAnh": "So sánh hướng của vectơ gia tốc a và vectơ vận tốc v trong chuyển động nhanh dần đều và chậm dần đều."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "1.3. Các công thức của chuyển động thẳng biến đổi đều",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC 1: VẬN TỐC TỨC THỜI THEO THỜI GIAN",
+            "congThuc": "$v = v_0 + a \\cdot t$",
+            "mucDich": "Xác định vận tốc tức thời $v$ của vật tại thời điểm $t$ (khi chọn $t_0 = 0$).",
+            "chuThich": "$v_0$ là vận tốc ban đầu ($\\text{m/s}$); $a$ là gia tốc không đổi ($\\text{m/s}^2$)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC 2: ĐỘ DỊCH CHUYỂN THEO THỜI GIAN",
+            "congThuc": "$d = v_0 \\cdot t + \\frac{1}{2} a \\cdot t^2$",
+            "mucDich": "Tính độ dịch chuyển $d$ (hoặc quãng đường $s$ khi vật không đổi chiều) sau thời gian $t$.",
+            "chuThich": "Khi vật xuất phát từ trạng thái nghỉ ($v_0 = 0$) thì $d = \\frac{1}{2} a \\cdot t^2$ (tỉ lệ thuận với bình phương thời gian)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC 3: PHƯƠNG TRÌNH TỌA ĐỘ THEO THỜI GIAN",
+            "congThuc": "$x = x_0 + v_0 \\cdot t + \\frac{1}{2} a \\cdot t^2$",
+            "mucDich": "Xác định tọa độ $x$ của chất điểm trên trục $Ox$ tại thời điểm $t$ bất kì.",
+            "chuThich": "Phương trình có dạng hàm bậc hai theo thời gian $t$, trong đó $x_0$ là tọa độ lúc $t = 0$."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "CÔNG THỨC 4: HỆ THỨC ĐỘC LẬP VỚI THỜI GIAN",
+            "congThuc": "$v^2 - v_0^2 = 2 \\cdot a \\cdot d$",
+            "mucDich": "Giải nhanh các bài toán liên hệ giữa vận tốc $v$, gia tốc $a$ và độ dịch chuyển $d$ khi không biết thời gian $t$.",
+            "chuThich": "Khi vật hãm phanh cho đến lúc dừng hẳn thì vận tốc cuối $v = 0 \\implies -v_0^2 = 2 \\cdot a \\cdot d$."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "soThuTu": 4,
+        "tieuDeMuc": "1.4. Đồ thị vận tốc – thời gian (Đồ thị v – t)",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Đặc điểm và Ý nghĩa của đồ thị (v – t)",
+            "noiDung": "Đồ thị biểu diễn sự phụ thuộc của vận tốc $v$ theo thời gian $t$:",
+            "danhSachYCon": [
+              "**Chuyển động thẳng đều ($a = 0$):** Đồ thị $(v - t)$ là đường thẳng nằm ngang song song với trục thời gian $Ot$.",
+              "**Chuyển động thẳng biến đổi đều ($a = \\text{hằng số} \\neq 0$):** Đồ thị $(v - t)$ là một đường thẳng xiên góc.",
+              "**Ý nghĩa độ dốc:** Hệ số góc (độ dốc) của đồ thị $(v - t)$ bằng giá trị của gia tốc: $a = \\frac{v_2 - v_1}{t_2 - t_1}$.",
+              "**Ý nghĩa diện tích:** Diện tích hình phẳng giới hạn bởi đồ thị $(v - t)$ và trục hoành từ $t_1$ đến $t_2$ bằng độ lớn độ dịch chuyển $d$ (hoặc quãng đường đi được khi không đổi chiều)."
+            ]
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai4_do_thi_v_t.webp",
+            "moTaAnh": "Đồ thị vận tốc – thời gian (v – t): độ dốc biểu diễn gia tốc a và phần diện tích tô màu biểu diễn độ dịch chuyển d."
+          }
+        ]
+      }
+    ]
+  }
+]

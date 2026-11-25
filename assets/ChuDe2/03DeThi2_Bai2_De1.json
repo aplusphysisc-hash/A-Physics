@@ -1,0 +1,429 @@
+[
+  {
+    "id": 1,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động thẳng biến đổi đều là chuyển động có quỹ đạo là đường thẳng và có",
+    "caccauChon": [
+      "vận tốc không đổi theo thời gian.",
+      "gia tốc không đổi theo thời gian.",
+      "quãng đường tỉ lệ thuận với thời gian.",
+      "gia tốc tăng đều theo thời gian."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Theo định nghĩa, chuyển động thẳng biến đổi đều có quỹ đạo là đường thẳng và vectơ gia tốc không đổi theo thời gian ($\\vec{a} = \\text{hằng số}$)."
+  },
+  {
+    "id": 2,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong hệ đơn vị đo lường quốc tế SI, đơn vị của gia tốc là",
+    "caccauChon": [
+      "m/s.",
+      "$\\text{m/s}^2$.",
+      "km/h.",
+      "$\\text{m} \\cdot \\text{s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Từ công thức $a = \\frac{\\Delta v}{\\Delta t}$, đơn vị của vận tốc là $\\text{m/s}$ và thời gian là $\\text{s}$ nên đơn vị chuẩn của gia tốc là $\\text{m/s}^2$."
+  },
+  {
+    "id": 3,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức xác định gia tốc của vật chuyển động thẳng biến đổi đều từ vận tốc $v_0$ đến vận tốc $v$ trong khoảng thời gian $\\Delta t$ là",
+    "caccauChon": [
+      "$a = \\frac{v - v_0}{\\Delta t}$.",
+      "$a = \\frac{v + v_0}{\\Delta t}$.",
+      "$a = (v - v_0) \\cdot \\Delta t$.",
+      "$a = \\frac{v_0 - v}{\\Delta t}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Công thức định nghĩa gia tốc: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{v - v_0}{\\Delta t}$."
+  },
+  {
+    "id": 4,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng nhanh dần đều theo chiều dương của trục tọa độ thì",
+    "caccauChon": [
+      "$v_0 > 0$ và $a < 0$.",
+      "$v_0 < 0$ và $a > 0$.",
+      "$v_0 > 0$ và $a > 0$.",
+      "$a = 0$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Chuyển động theo chiều dương nên $v > 0$; chuyển động nhanh dần đều nên gia tốc cùng dấu với vận tốc, suy ra $a > 0$."
+  },
+  {
+    "id": 5,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đặc điểm nào sau đây đúng với chuyển động thẳng chậm dần đều?",
+    "caccauChon": [
+      "Tích số $a \\cdot v > 0$.",
+      "Tích số $a \\cdot v < 0$.",
+      "Gia tốc $a$ luôn có giá trị âm.",
+      "Vận tốc $v$ luôn có giá trị âm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Trong chuyển động thẳng chậm dần đều, vectơ gia tốc ngược chiều với vectơ vận tốc nên tích đại số $a \\cdot v < 0$."
+  },
+  {
+    "id": 6,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính vận tốc tức thời của vật chuyển động thẳng biến đổi đều tại thời điểm $t$ (với $t_0 = 0$) là",
+    "caccauChon": [
+      "$v = v_0 + a \\cdot t^2$.",
+      "$v = v_0 + \\frac{1}{2} a \\cdot t^2$.",
+      "$v = v_0 + a \\cdot t$.",
+      "$v = v_0 - a \\cdot t^2$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Công thức vận tốc tức thời chuẩn là $v = v_0 + a \\cdot t$."
+  },
+  {
+    "id": 7,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức nào sau đây liên hệ đúng giữa vận tốc $v$, gia tốc $a$ và độ dịch chuyển $d$ trong chuyển động thẳng biến đổi đều?",
+    "caccauChon": [
+      "$v - v_0 = 2ad$.",
+      "$v^2 - v_0^2 = 2ad$.",
+      "$v^2 + v_0^2 = 2ad$.",
+      "$v^2 - v_0^2 = ad$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Hệ thức độc lập với thời gian trong chuyển động thẳng biến đổi đều là $v^2 - v_0^2 = 2ad$."
+  },
+  {
+    "id": 8,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc $10\\text{ m/s}$ thì tăng tốc đều đặn, sau $5\\text{ s}$ đạt vận tốc $20\\text{ m/s}$. Gia tốc của ô tô là",
+    "caccauChon": [
+      "$2\\text{ m/s}^2$.",
+      "$4\\text{ m/s}^2$.",
+      "$6\\text{ m/s}^2$.",
+      "$1\\text{ m/s}^2$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Áp dụng công thức gia tốc: $a = \\frac{v - v_0}{t} = \\frac{20 - 10}{5} = 2\\text{ m/s}^2$."
+  },
+  {
+    "id": 9,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe máy bắt đầu khởi hành (từ trạng thái đứng yên) chuyển động thẳng nhanh dần đều với gia tốc $1,5\\text{ m/s}^2$. Vận tốc của xe sau $4\\text{ s}$ là",
+    "caccauChon": [
+      "$4\\text{ m/s}$.",
+      "$6\\text{ m/s}$.",
+      "$8\\text{ m/s}$.",
+      "$12\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Xe khởi hành từ trạng thái nghỉ nên $v_0 = 0$. Vận tốc sau $4\\text{ s}$: $v = v_0 + a \\cdot t = 0 + 1,5 \\cdot 4 = 6\\text{ m/s}$."
+  },
+  {
+    "id": 10,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đoàn tàu đang chạy với vận tốc $15\\text{ m/s}$ thì hãm phanh chuyển động thẳng chậm dần đều với gia tốc có độ lớn $0,5\\text{ m/s}^2$. Thời gian từ lúc hãm phanh đến khi tàu dừng hẳn là",
+    "caccauChon": [
+      "$15\\text{ s}$.",
+      "$20\\text{ s}$.",
+      "$30\\text{ s}$.",
+      "$7,5\\text{ s}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Chọn chiều dương là chiều chuyển động: $v_0 = 15\\text{ m/s}$, $a = -0,5\\text{ m/s}^2$, khi dừng hẳn $v = 0$. Thời gian: $t = \\frac{v - v_0}{a} = \\frac{0 - 15}{-0,5} = 30\\text{ s}$."
+  },
+  {
+    "id": 11,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương trình tọa độ của một vật chuyển động thẳng biến đổi đều dọc theo trục $Ox$ có dạng tổng quát là",
+    "caccauChon": [
+      "$x = x_0 + v_0 t + a t^2$.",
+      "$x = x_0 + v_0 t + \\frac{1}{2} a t^2$.",
+      "$x = x_0 + v t$.",
+      "$x = v_0 t + \\frac{1}{2} a t^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Phương trình tọa độ tổng quát là $x = x_0 + v_0 t + \\frac{1}{2} a t^2$."
+  },
+  {
+    "id": 12,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật bắt đầu chuyển động thẳng nhanh dần đều từ trạng thái nghỉ với gia tốc $2\\text{ m/s}^2$. Quãng đường vật đi được trong $5\\text{ s}$ đầu tiên là",
+    "caccauChon": [
+      "$10\\text{ m}$.",
+      "$20\\text{ m}$.",
+      "$25\\text{ m}$.",
+      "$50\\text{ m}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Với $v_0 = 0$, $a = 2\\text{ m/s}^2$, $t = 5\\text{ s}$: $s = v_0 t + \\frac{1}{2} a t^2 = 0 + \\frac{1}{2} \\cdot 2 \\cdot 5^2 = 25\\text{ m}$."
+  },
+  {
+    "id": 13,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị vận tốc – thời gian ($v - t$) của chuyển động thẳng biến đổi đều có dạng là",
+    "caccauChon": [
+      "một đường thẳng song song với trục thời gian.",
+      "một đường thẳng xiên góc.",
+      "một đường parabol.",
+      "một đường tròn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Vì $v = v_0 + a \\cdot t$ là hàm bậc nhất theo thời gian $t$ với $a \\neq 0$ nên đồ thị $(v - t)$ là đường thẳng xiên góc.",
+    "hinhAnh": "images/ChuDe2/baitap/dothi_vt_bien_doi_deu_nhanh_dan.webp"
+  },
+  {
+    "id": 14,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng với phương trình tọa độ $x = 5 + 4t + 2t^2$ (trong đó $x$ tính bằng mét, $t$ tính bằng giây). Gia tốc của vật là",
+    "caccauChon": [
+      "$2\\text{ m/s}^2$.",
+      "$4\\text{ m/s}^2$.",
+      "$5\\text{ m/s}^2$.",
+      "$1\\text{ m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Đối chiếu với $x = x_0 + v_0 t + \\frac{1}{2} a t^2$, ta có $\\frac{1}{2} a = 2 \\Rightarrow a = 4\\text{ m/s}^2$."
+  },
+  {
+    "id": 15,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng với phương trình vận tốc $v = 12 - 3t$ ($v$ tính bằng $\\text{m/s}$, $t$ tính bằng $\\text{s}$). Vận tốc ban đầu và gia tốc của chất điểm lần lượt là",
+    "caccauChon": [
+      "$12\\text{ m/s}$ và $3\\text{ m/s}^2$.",
+      "$12\\text{ m/s}$ và $-3\\text{ m/s}^2$.",
+      "$-3\\text{ m/s}$ và $12\\text{ m/s}^2$.",
+      "$12\\text{ m/s}$ và $-1,5\\text{ m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Đối chiếu với $v = v_0 + a \\cdot t$, ta xác định được $v_0 = 12\\text{ m/s}$ và $a = -3\\text{ m/s}^2$."
+  },
+  {
+    "id": 16,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc $20\\text{ m/s}$ thì hãm phanh chuyển động thẳng chậm dần đều với gia tốc $a = -4\\text{ m/s}^2$. Quãng đường ô tô đi được từ lúc hãm phanh đến khi dừng hẳn là",
+    "caccauChon": [
+      "$50\\text{ m}$.",
+      "$100\\text{ m}$.",
+      "$40\\text{ m}$.",
+      "$25\\text{ m}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Áp dụng hệ thức $v^2 - v_0^2 = 2as$ với $v = 0$, $v_0 = 20\\text{ m/s}$, $a = -4\\text{ m/s}^2$: $s = \\frac{0^2 - 20^2}{2 \\cdot (-4)} = \\frac{-400}{-8} = 50\\text{ m}$."
+  },
+  {
+    "id": 17,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng nhanh dần đều không vận tốc đầu, đi được quãng đường $36\\text{ m}$ trong $6\\text{ s}$. Gia tốc của vật là",
+    "caccauChon": [
+      "$1\\text{ m/s}^2$.",
+      "$2\\text{ m/s}^2$.",
+      "$3\\text{ m/s}^2$.",
+      "$6\\text{ m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Từ $s = \\frac{1}{2} a t^2 \\Rightarrow a = \\frac{2s}{t^2} = \\frac{2 \\cdot 36}{6^2} = \\frac{72}{36} = 2\\text{ m/s}^2$."
+  },
+  {
+    "id": 18,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe đạp đang chuyển động với vận tốc $3\\text{ m/s}$ thì xuống dốc chuyển động thẳng nhanh dần đều với gia tốc $0,4\\text{ m/s}^2$. Vận tốc của xe ở cuối dốc sau $10\\text{ s}$ là",
+    "caccauChon": [
+      "$4\\text{ m/s}$.",
+      "$7\\text{ m/s}$.",
+      "$10\\text{ m/s}$.",
+      "$34\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Áp dụng công thức vận tốc: $v = v_0 + a \\cdot t = 3 + 0,4 \\cdot 10 = 7\\text{ m/s}$."
+  },
+  {
+    "id": 19,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị vận tốc – thời gian $(v - t)$ của một vật chuyển động thẳng một chiều, đại lượng nào được xác định bằng diện tích phần hình phẳng nằm dưới đường biểu diễn vận tốc?",
+    "caccauChon": [
+      "Gia tốc của vật.",
+      "Quãng đường vật đi được.",
+      "Vận tốc trung bình.",
+      "Tọa độ ban đầu của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Diện tích hình phẳng giới hạn bởi đồ thị $(v - t)$ và trục thời gian biểu thị độ dịch chuyển, cũng chính là quãng đường đi được khi vật không đổi chiều.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_dien_tich_quang_duong.webp"
+  },
+  {
+    "id": 20,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi lăn nhanh dần đều từ đỉnh một máng nghiêng không vận tốc đầu với gia tốc $0,5\\text{ m/s}^2$. Khi đạt vận tốc $2\\text{ m/s}$ thì viên bi đã đi được quãng đường bằng",
+    "caccauChon": [
+      "$2\\text{ m}$.",
+      "$4\\text{ m}$.",
+      "$8\\text{ m}$.",
+      "$1\\text{ m}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Từ $v^2 - v_0^2 = 2as \\Rightarrow s = \\frac{v^2 - v_0^2}{2a} = \\frac{2^2 - 0^2}{2 \\cdot 0,5} = \\frac{4}{1} = 4\\text{ m}$."
+  },
+  {
+    "id": 21,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét một ô tô bắt đầu khởi hành từ trạng thái đứng yên trên đường thẳng, chuyển động nhanh dần đều với gia tốc không đổi $a = 2\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Vận tốc ban đầu của ô tô bằng $0\\text{ m/s}$.",
+      "Sau $4\\text{ s}$ kể từ lúc khởi hành, vận tốc của ô tô là $6\\text{ m/s}$.",
+      "Quãng đường ô tô đi được trong $5\\text{ s}$ đầu tiên là $25\\text{ m}$.",
+      "Khi ô tô đạt vận tốc $10\\text{ m/s}$ thì xe đã đi được quãng đường $50\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Ô tô khởi hành từ trạng thái đứng yên nên $v_0 = 0\\text{ m/s}$.\n- Ý b) SAI: Vận tốc sau $4\\text{ s}$ là $v = v_0 + a \\cdot t = 0 + 2 \\cdot 4 = 8\\text{ m/s} \\neq 6\\text{ m/s}$.\n- Ý c) ĐÚNG: Quãng đường đi được: $s = \\frac{1}{2} a t^2 = \\frac{1}{2} \\cdot 2 \\cdot 5^2 = 25\\text{ m}$.\n- Ý d) SAI: Quãng đường khi đạt $10\\text{ m/s}$ là $s = \\frac{v^2 - v_0^2}{2a} = \\frac{10^2 - 0}{2 \\cdot 2} = 25\\text{ m} \\neq 50\\text{ m}$."
+  },
+  {
+    "id": 22,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một đoàn tàu đang chạy thẳng đều với vận tốc $72\\text{ km/h}$ ($20\\text{ m/s}$) thì hãm phanh chuyển động thẳng chậm dần đều với gia tốc có độ lớn $2\\text{ m/s}^2$. Chọn chiều dương là chiều chuyển động của tàu.",
+    "dsYCon": [
+      "Gia tốc của đoàn tàu có giá trị đại số là $a = -2\\text{ m/s}^2$.",
+      "Sau $5\\text{ s}$ kể từ lúc hãm phanh, vận tốc của tàu còn lại là $10\\text{ m/s}$.",
+      "Thời gian từ lúc hãm phanh cho đến khi tàu dừng hẳn là $20\\text{ s}$.",
+      "Tổng quãng đường tàu đi được từ lúc hãm phanh đến khi dừng hẳn là $100\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Tàu chuyển động chậm dần đều theo chiều dương nên $a$ trái dấu với $v_0$, tức $a = -2\\text{ m/s}^2$.\n- Ý b) ĐÚNG: Áp dụng $v = v_0 + a \\cdot t = 20 + (-2) \\cdot 5 = 10\\text{ m/s}$.\n- Ý c) SAI: Khi tàu dừng hẳn $v = 0 \\Rightarrow t = \\frac{0 - 20}{-2} = 10\\text{ s} \\neq 20\\text{ s}$.\n- Ý d) ĐÚNG: Quãng đường hãm phanh: $s = \\frac{v^2 - v_0^2}{2a} = \\frac{0 - 20^2}{2 \\cdot (-2)} = 100\\text{ m}$."
+  },
+  {
+    "id": 23,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một chất điểm chuyển động dọc theo trục $Ox$ có phương trình tọa độ $x = 10 + 6t - t^2$ (trong đó $x$ tính bằng mét, $t$ tính bằng giây).",
+    "dsYCon": [
+      "Tọa độ ban đầu của chất điểm là $x_0 = 10\\text{ m}$.",
+      "Vận tốc ban đầu của chất điểm là $v_0 = 6\\text{ m/s}$.",
+      "Gia tốc của chất điểm có giá trị là $a = -1\\text{ m/s}^2$.",
+      "Tại thời điểm $t = 3\\text{ s}$, chất điểm dừng lại tức thời."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Đối chiếu phương trình $x = x_0 + v_0 t + \\frac{1}{2} a t^2$, ta thấy $x_0 = 10\\text{ m}$.\n- Ý b) ĐÚNG: Hệ số đi với $t$ là $v_0 = 6\\text{ m/s}$.\n- Ý c) SAI: Ta có $\\frac{1}{2} a = -1 \\Rightarrow a = -2\\text{ m/s}^2 \\neq -1\\text{ m/s}^2$.\n- Ý d) ĐÚNG: Phương trình vận tốc $v = 6 - 2t$. Tại $t = 3\\text{ s}$, $v = 6 - 2 \\cdot 3 = 0\\text{ m/s}$."
+  },
+  {
+    "id": 24,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Về tính chất của gia tốc và vận tốc trong chuyển động thẳng biến đổi đều:",
+    "dsYCon": [
+      "Trong chuyển động thẳng nhanh dần đều, vận tốc và gia tốc luôn cùng dấu.",
+      "Gia tốc của chuyển động thẳng chậm dần đều luôn mang dấu âm.",
+      "Độ lớn gia tốc càng lớn thì vận tốc biến thiên càng nhanh.",
+      "Trong chuyển động thẳng biến đổi đều, quãng đường đi được luôn tỉ lệ thuận với thời gian."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Do vectơ gia tốc cùng hướng với vectơ vận tốc nên $a$ và $v$ luôn cùng dấu.\n- Ý b) SAI: Nếu vật chuyển động chậm dần đều theo chiều âm ($v < 0$) thì gia tốc $a > 0$ (vẫn đảm bảo $a \\cdot v < 0$).\n- Ý c) ĐÚNG: Gia tốc đặc trưng cho tốc độ biến thiên của vận tốc theo thời gian.\n- Ý d) SAI: Quãng đường là hàm bậc hai theo thời gian: $s = v_0 t + \\frac{1}{2} a t^2$."
+  },
+  {
+    "id": 25,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật chuyển động thẳng biến đổi đều có đồ thị vận tốc – thời gian $(v - t)$ là một đoạn thẳng đi qua điểm $A(0; 4)$ và điểm $B(4; 12)$ (với $t$ tính bằng giây, $v$ tính bằng $\\text{m/s}$).",
+    "dsYCon": [
+      "Vận tốc ban đầu của vật tại thời điểm $t = 0$ là $4\\text{ m/s}$.",
+      "Gia tốc của vật bằng $2\\text{ m/s}^2$.",
+      "Vật đang chuyển động thẳng chậm dần đều.",
+      "Quãng đường vật đi được trong $4\\text{ s}$ này là $32\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Tại $t = 0$, tung độ trên đồ thị là $v_0 = 4\\text{ m/s}$.\n- Ý b) ĐÚNG: Gia tốc $a = \\frac{v_2 - v_1}{t_2 - t_1} = \\frac{12 - 4}{4 - 0} = 2\\text{ m/s}^2$.\n- Ý c) SAI: Vì $v_0 = 4 > 0$ và $a = 2 > 0$ (vận tốc tăng từ $4\\text{ m/s}$ lên $12\\text{ m/s}$) nên vật chuyển động nhanh dần đều.\n- Ý d) ĐÚNG: Diện tích hình thang dưới đồ thị: $s = \\frac{(v_0 + v) \\cdot t}{2} = \\frac{(4 + 12) \\cdot 4}{2} = 32\\text{ m}$.",
+    "hinhAnh": "images/ChuDe2/baitap/dothi_vt_a0_4_b4_12.webp"
+  },
+  {
+    "id": 26,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Định nghĩa chuyển động thẳng biến đổi đều. Phân biệt điều kiện về dấu của tích $a \\cdot v$ trong chuyển động thẳng nhanh dần đều và chậm dần đều.",
+    "giaithich": "- **Định nghĩa:** Chuyển động thẳng biến đổi đều là chuyển động có quỹ đạo là đường thẳng và có độ lớn vận tốc tức thời tăng đều hoặc giảm đều theo thời gian (gia tốc $\\vec{a} = \\text{hằng số}$).\n- **Phân biệt dấu:**\n  + **Nhanh dần đều:** Vectơ gia tốc $\\vec{a}$ cùng chiều với vectơ vận tốc $\\vec{v}$ nên $a$ và $v$ luôn cùng dấu ($a \\cdot v > 0$).\n  + **Chậm dần đều:** Vectơ gia tốc $\\vec{a}$ ngược chiều với vectơ vận tốc $\\vec{v}$ nên $a$ và $v$ luôn trái dấu ($a \\cdot v < 0$)."
+  },
+  {
+    "id": 27,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập tăng tốc): Một đoàn tàu bắt đầu rời ga chuyển động thẳng nhanh dần đều. Sau $20\\text{ s}$ tàu đạt vận tốc $36\\text{ km/h}$. Tính gia tốc của đoàn tàu và quãng đường tàu đi được trong $20\\text{ s}$ đầu tiên.",
+    "giaithich": "- Đổi đơn vị: $v = 36\\text{ km/h} = \\frac{36}{3{,}6} = 10\\text{ m/s}$; vận tốc ban đầu $v_0 = 0$.\n- **Gia tốc của đoàn tàu:** $a = \\frac{v - v_0}{t} = \\frac{10 - 0}{20} = 0{,}5\\text{ m/s}^2$.\n- **Quãng đường tàu đi được trong $20\\text{ s}$:** $s = v_0 t + \\frac{1}{2}at^2 = 0 + \\frac{1}{2} \\cdot 0{,}5 \\cdot 20^2 = 100\\text{ m}$. Đáp số: 100"
+  },
+  {
+    "id": 28,
+    "baiSo": 2,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập hãm phanh): Một ô tô đang chạy thẳng đều với tốc độ $72\\text{ km/h}$ thì người lái xe thấy chướng ngại vật và đạp phanh để xe chuyển động thẳng chậm dần đều với gia tốc có độ lớn $4\\text{ m/s}^2$. Tính quãng đường ô tô đi được từ lúc hãm phanh đến khi dừng hẳn.",
+    "giaithich": "- Chọn chiều dương là chiều chuyển động: $v_0 = 72\\text{ km/h} = 20\\text{ m/s}$, gia tốc $a = -4\\text{ m/s}^2$, khi dừng hẳn $v = 0$.\n- Áp dụng công thức độc lập với thời gian $v^2 - v_0^2 = 2as$:\n  $s = \\frac{v^2 - v_0^2}{2a} = \\frac{0^2 - 20^2}{2 \\cdot (-4)} = \\frac{-400}{-8} = 50\\text{ m}$. Đáp số: 50"
+  }
+]

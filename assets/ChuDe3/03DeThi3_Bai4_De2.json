@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu nhỏ có khối lượng $m = 20\\text{ g}$ ($0,02\\text{ kg}$) rơi thẳng đứng trong không khí. Lực cản của không khí tỉ lệ thuận với vận tốc theo công thức $F_c = k \\cdot v$, với k = $0,04\\text{ N}\\cdot\\text{s/m}$. Bỏ qua lực đẩy Archimedes, lấy g = $10\\text{ m/s}^2$. Vận tốc giới hạn của quả cầu là:",
+    "caccauChon": [
+      "$5\\text{ m/s}$",
+      "$2\\text{ m/s}$",
+      "$10\\text{ m/s}$",
+      "$0,5\\text{ m/s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khi đạt vận tốc giới hạn: $F_c = P \\iff k \\cdot v_{gh} = m \\cdot g \\implies v_{gh} = \\frac{0,02 \\cdot 10}{0,04} = 5\\text{ m/s}$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 1, tại thời điểm quả cầu đạt tốc độ $v = 2\\text{ m/s}$ thì gia tốc rơi của quả cầu có độ lớn là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$6\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$",
+      "$8\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tại $v = 2\\text{ m/s}$, $F_c = 0,04 \\cdot 2 = 0,08\\text{ N} \\implies a = \\frac{P - F_c}{m} = \\frac{0,2 - 0,08}{0,02} = 6\\text{ m/s}^2$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi có khối lượng riêng $\\rho_v = 2500\\text{ kg/m}^3$ rơi thẳng đứng trong một chất lỏng có khối lượng riêng $\\rho_l = 1000\\text{ kg/m}^3$. Bỏ qua lực cản ở thời điểm ban đầu vừa thả, lấy g = $10\\text{ m/s}^2$. Gia tốc ban đầu của viên bi ngay khi vừa thả là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$6\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$",
+      "$2,5\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$a_0 = \\frac{P - F_A}{m} = \\frac{\\rho_v V g - \\rho_l V g}{\\rho_v V} = g\\left(1 - \\frac{\\rho_l}{\\rho_v}\\right) = 10 \\cdot \\left(1 - \\frac{1000}{2500}\\right) = 6\\text{ m/s}^2$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi tốc độ chuyển động của một chiếc ô tô tăng lên gấp đôi (ở vùng tốc độ cao), lực cản khí động học của không khí tỉ lệ với bình phương tốc độ ($F_c \\propto v^2$) sẽ:",
+    "caccauChon": [
+      "Tăng gấp đôi.",
+      "Tăng gấp 4 lần.",
+      "Tăng gấp 8 lần.",
+      "Giảm một nửa."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vì $F_c$ tỉ lệ thuận với $v^2$ nên khi $v$ tăng $2$ lần thì $F_c$ tăng $2^2 = 4$ lần."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 4, công suất tối thiểu của động cơ dùng để thắng lực cản không khí ($P = F_c \\cdot v$) khi tốc độ tăng gấp đôi sẽ:",
+    "caccauChon": [
+      "Tăng gấp 2 lần.",
+      "Tăng gấp 4 lần.",
+      "Tăng gấp 8 lần.",
+      "Không đổi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công suất $P = F_c \\cdot v$. Vì $F_c$ tỉ lệ với $v^2$ nên $P$ tỉ lệ với $v^3 \\implies$ khi $v$ tăng $2$ lần thì $P$ tăng $2^3 = 8$ lần."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả bóng bàn rỗng có khối lượng $m = 2,7\\text{ g}$, thể tích $V = 30\\text{ cm}^3$ ($3 \\cdot 10^{-5}\\text{ m}^3$) bị nhấn chìm hoàn toàn dưới đáy một bể nước ($\\rho = 1000\\text{ kg/m}^3$) rồi thả nhẹ cho nổi lên. Bỏ qua lực cản của nước ngay lúc vừa thả, lấy g = $10\\text{ m/s}^2$. Gia tốc hướng lên của quả bóng bàn ngay lúc vừa thả xấp xỉ là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$101,1\\text{ m/s}^2$",
+      "$91,1\\text{ m/s}^2$",
+      "$111,1\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$P = 0,0027 \\cdot 10 = 0,027\\text{ N}$; $F_A = 1000 \\cdot 10 \\cdot 3 \\cdot 10^{-5} = 0,3\\text{ N} \\implies a_0 = \\frac{F_A - P}{m} = \\frac{0,3 - 0,027}{0,0027} = 101,1\\text{ m/s}^2$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một giọt nước hình cầu bán kính $R$ rơi trong không khí đạt vận tốc giới hạn $v_{gh}$. Biết lực cản không khí tỉ lệ với diện tích tiết diện ngang ($S = \\pi R^2$) và bình phương vận tốc ($F_c = c \\cdot S \\cdot v^2$). Nếu bán kính giọt nước tăng gấp 4 lần thì vận tốc giới hạn của nó sẽ:",
+    "caccauChon": [
+      "Tăng 2 lần.",
+      "Tăng 4 lần.",
+      "Tăng 16 lần.",
+      "Giảm 2 lần."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Cân bằng: $P = F_c \\iff \\rho \\cdot \\frac{4}{3}\\pi R^3 \\cdot g = c \\cdot \\pi R^2 \\cdot v_{gh}^2 \\implies v_{gh}^2 \\propto R \\implies v_{gh} \\propto \\sqrt{R}$. R tăng 4 lần thì $v_{gh}$ tăng 2 lần."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc phà chở hàng nổi trên sông ($\\rho_{nước} = 1000\\text{ kg/m}^3$). Khi chất thêm hàng lên phà, phần chìm của phà trong nước tăng thêm một thể tích $\\Delta V = 5\\text{ m}^3$. Lấy g = $10\\text{ m/s}^2$. Khối lượng hàng hóa đã chất thêm lên phà là:",
+    "caccauChon": [
+      "$500\\text{ kg}$",
+      "$5000\\text{ kg}$",
+      "$50000\\text{ kg}$",
+      "$50\\text{ kg}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trọng lượng hàng thêm bằng lực đẩy Archimedes tăng thêm: $m_{hàng} \\cdot g = \\rho_{nước} \\cdot g \\cdot \\Delta V \\implies m_{hàng} = 1000 \\cdot 5 = 5000\\text{ kg}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $m = 1\\text{ kg}$ được ném thẳng đứng lên cao với vận tốc đầu $v_0 = 20\\text{ m/s}$. Giả sử trong suốt quá trình chuyển động, lực cản của không khí có độ lớn không đổi $F_c = 2\\text{ N}$. Lấy g = $10\\text{ m/s}^2$. Gia tốc của vật khi đang bay lên có độ lớn là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$12\\text{ m/s}^2$",
+      "$8\\text{ m/s}^2$",
+      "$2\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi bay lên, cả trọng lực $P$ và lực cản $F_c$ đều hướng xuống: $a = \\frac{P + F_c}{m} = \\frac{10 + 2}{1} = 12\\text{ m/s}^2$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 9, độ cao cực đại mà vật đạt được so với vị trí ném là:",
+    "caccauChon": [
+      "$20\\text{ m}$",
+      "$16,67\\text{ m}$",
+      "$25\\text{ m}$",
+      "$15\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ cao cực đại: $H = \\frac{v_0^2}{2a} = \\frac{20^2}{2 \\cdot 12} = \\frac{400}{24} \\approx 16,67\\text{ m}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 9, khi vật rơi từ độ cao cực đại trở xuống, độ lớn gia tốc của vật là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$12\\text{ m/s}^2$",
+      "$8\\text{ m/s}^2$",
+      "$6\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi rơi xuống, P hướng xuống còn $F_c$ hướng lên: $a' = \\frac{P - F_c}{m} = \\frac{10 - 2}{1} = 8\\text{ m/s}^2$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một tàu thủy chạy thẳng đều trên biển với vận tốc $36\\text{ km/h}$ ($10\\text{ m/s}$). Công suất của động cơ tàu là $2\\text{ MW}$ ($2 \\cdot 10^6\\text{ W}$). Hiệu suất truyền động là 80%. Độ lớn lực cản của nước tác dụng lên tàu thủy là:",
+    "caccauChon": [
+      "$200000\\text{ N}$",
+      "$160000\\text{ N}$",
+      "$250000\\text{ N}$",
+      "$16000\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công suất có ích: $P_{ích} = H \\cdot P_{tp} = 0,8 \\cdot 2 \\cdot 10^6 = 1,6 \\cdot 10^6\\text{ W}$. Tàu chạy đều nên $F_c = F_k = \\frac{P_{ích}}{v} = \\frac{1,6 \\cdot 10^6}{10} = 160000\\text{ N}$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một khối nước đá hình lập phương cạnh $a = 10\\text{ cm}$ nổi trên mặt nước trong một bình thủy tinh. Biết khối lượng riêng của nước đá là $900\\text{ kg/m}^3$, của nước là $1000\\text{ kg/m}^3$. Chiều cao phần nước đá nhô lên khỏi mặt nước là:",
+    "caccauChon": [
+      "$9\\text{ cm}$",
+      "$1\\text{ cm}$",
+      "$5\\text{ cm}$",
+      "$2\\text{ cm}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật nổi cân bằng: $\\rho_{đá} \\cdot V = \\rho_{nước} \\cdot V_{chìm} \\iff 900 \\cdot a^3 = 1000 \\cdot a^2 \\cdot h_{chìm} \\implies h_{chìm} = 9\\text{ cm} \\implies h_{nhô} = 10 - 9 = 1\\text{ cm}$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vận động viên nhảy dù có tổng khối lượng (cả dù) là $m = 80\\text{ kg}$. Khi mở dù, lực cản không khí có độ lớn $F_c = 12,8v^2$ (v tính bằng m/s). Lấy g = $10\\text{ m/s}^2$. Vận tốc tiếp đất an toàn (vận tốc giới hạn) của vận động viên là:",
+    "caccauChon": [
+      "$6,25\\text{ m/s}$",
+      "$7,9\\text{ m/s}$",
+      "$62,5\\text{ m/s}$",
+      "$10\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Cân bằng: $F_c = P \\iff 12,8 \\cdot v_{gh}^2 = 80 \\cdot 10 = 800 \\implies v_{gh}^2 = 62,5 \\implies v_{gh} = \\sqrt{62,5} \\approx 7,9\\text{ m/s}$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu bằng đồng có trọng lượng ngoài không khí là $17,8\\text{ N}$. Khi nhúng chìm hoàn toàn quả cầu vào nước ($\\rho_{nước} = 1000\\text{ kg/m}^3$) thì lực kế chỉ $14,8\\text{ N}$. Biết khối lượng riêng của đồng nguyên chất là $8900\\text{ kg/m}^3$ và g = $10\\text{ m/s}^2$. Kết luận nào sau đây là ĐÚNG?",
+    "caccauChon": [
+      "Quả cầu đặc hoàn toàn.",
+      "Quả cầu rỗng bên trong với thể tích phần rỗng là $100\\text{ cm}^3$.",
+      "Quả cầu rỗng bên trong với thể tích phần rỗng là $200\\text{ cm}^3$.",
+      "Quả cầu rỗng bên trong với thể tích phần rỗng là $300\\text{ cm}^3$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$F_A = 17,8 - 14,8 = 3\\text{ N} \\implies V_{tp} = \\frac{3}{1000 \\cdot 10} = 300\\text{ cm}^3$. Thể tích phần đồng đặc là $V_{đồng} = \\frac{m}{\\rho_{đồng}} = \\frac{1,78}{8900} = 200\\text{ cm}^3 \\implies V_{rỗng} = 300 - 200 = 100\\text{ cm}^3$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ca nô khối lượng $500\\text{ kg}$ đang chạy trên sông với vận tốc $10\\text{ m/s}$ thì tắt máy. Lực cản của nước tác dụng lên ca nô được coi là không đổi và bằng $250\\text{ N}$. Quãng đường ca nô trôi thêm được kể từ lúc tắt máy đến khi dừng hẳn là:",
+    "caccauChon": [
+      "$100\\text{ m}$",
+      "$50\\text{ m}$",
+      "$200\\text{ m}$",
+      "$20\\text{ m}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Gia tốc hãm: $a = -\\frac{F_c}{m} = -\\frac{250}{500} = -0,5\\text{ m/s}^2 \\implies s = \\frac{0 - 10^2}{2 \\cdot (-0,5)} = 100\\text{ m}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại sao khi một con tàu vũ trụ quay trở về Trái Đất xuyên qua bầu khí quyển, lớp vỏ bên ngoài của tàu lại nóng đỏ lên hàng nghìn độ C?",
+    "caccauChon": [
+      "Do lực hấp dẫn của Trái Đất sinh nhiệt.",
+      "Do lực cản và ma sát cực lớn với không khí ở tốc độ siêu thanh chuyển hóa động năng thành nhiệt năng.",
+      "Do lực đẩy Archimedes quá lớn.",
+      "Do bức xạ từ Mặt Trời chiếu trực tiếp."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ma sát và lực cản khí động học cực lớn ở vận tốc siêu thanh chuyển hóa cơ năng thành nhiệt năng làm nóng đỏ vỏ tàu."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu nhỏ khối lượng $m$ rơi trong chất lỏng nhớt chịu lực cản tuân theo định luật Stokes: $F_c = 6\\pi\\eta r v$ (trong đó $\\eta$ là độ nhớt, r là bán kính quả cầu, v là vận tốc). Nếu giữ nguyên khối lượng riêng chất liệu làm cầu nhưng tăng bán kính $r$ lên gấp đôi thì vận tốc giới hạn $v_{gh}$ của quả cầu sẽ:",
+    "caccauChon": [
+      "Tăng 2 lần.",
+      "Tăng 4 lần.",
+      "Tăng 8 lần.",
+      "Giảm 2 lần."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Cân bằng: $P = F_c \\iff \\rho \\cdot \\frac{4}{3}\\pi r^3 \\cdot g = 6\\pi\\eta r v_{gh} \\implies v_{gh} \\propto r^2 \\implies$ khi $r$ tăng $2$ lần thì $v_{gh}$ tăng $2^2 = 4$ lần."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi từ độ cao $h$ xuống đất. Nếu có lực cản không khí thì so với trường hợp rơi tự do không có lực cản:",
+    "caccauChon": [
+      "Thời gian rơi ngắn hơn và vận tốc chạm đất lớn hơn.",
+      "Thời gian rơi dài hơn và vận tốc chạm đất nhỏ hơn.",
+      "Thời gian rơi bằng nhau nhưng vận tốc chạm đất nhỏ hơn.",
+      "Thời gian rơi dài hơn nhưng vận tốc chạm đất bằng nhau."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực cản làm giảm gia tốc rơi nên thời gian rơi dài hơn và vận tốc chạm đất nhỏ hơn so với rơi tự do."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi thả một đồng xu và một chiếc lông chim trong một ống thủy tinh đã hút hết không khí (ống Newton) đặt thẳng đứng thì:",
+    "caccauChon": [
+      "Đồng xu rơi chạm đáy ống trước.",
+      "Lông chim rơi chạm đáy ống trước.",
+      "Cả hai vật rơi nhanh như nhau và chạm đáy ống cùng một lúc.",
+      "Cả hai vật đều lơ lửng không rơi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong chân không (không có lực cản không khí), mọi vật rơi tự do với cùng gia tốc $g$ nên chạm đáy cùng lúc."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một quả cầu kim loại có khối lượng $m = 0,5\\text{ kg}$, thể tích $V = 100\\text{ cm}^3$ ($10^{-4}\\text{ m}^3$) được thả rơi thẳng đứng từ trạng thái nghỉ trong một bể chứa dầu có khối lượng riêng $\\rho = 800\\text{ kg/m}^3$. Lực cản của dầu tỉ lệ với vận tốc theo biểu thức $F_c = 2,1v\\text{ (N)}$. Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Độ lớn lực đẩy Archimedes tác dụng lên quả cầu khi ngập trong dầu là $F_A = 0,8\\text{ N}$.",
+      "Gia tốc rơi ban đầu của quả cầu ngay tại thời điểm vừa thả ($v = 0$) là $a_0 = 8,4\\text{ m/s}^2$.",
+      "Vận tốc giới hạn của quả cầu khi rơi trong bể dầu này là $v_{gh} = 2\\text{ m/s}$.",
+      "Tại thời điểm quả cầu đạt vận tốc $v = 1\\text{ m/s}$ thì gia tốc của nó là a = $4,2\\text{ m/s}^2$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $F_A = \\rho \\cdot g \\cdot V = 800 \\cdot 10 \\cdot 10^{-4} = 0,8\\text{ N}$.\n- **Ý b) ĐÚNG:** $a_0 = \\frac{P - F_A}{m} = \\frac{5 - 0,8}{0,5} = \\frac{4,2}{0,5} = 8,4\\text{ m/s}^2$.\n- **Ý c) ĐÚNG:** $P = F_A + F_c \\iff 5 = 0,8 + 2,1 \\cdot v_{gh} \\implies v_{gh} = \\frac{4,2}{2,1} = 2\\text{ m/s}$.\n- **Ý d) ĐÚNG:** $F_c = 2,1 \\cdot 1 = 2,1\\text{ N} \\implies a = \\frac{5 - 0,8 - 2,1}{0,5} = \\frac{2,1}{0,5} = 4,2\\text{ m/s}^2$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vận động viên nhảy dù có khối lượng tổng cộng (người và dù) $m = 75\\text{ kg}$ nhảy ra khỏi máy bay ở độ cao lớn. Sau khi mở dù và ổn định chuyển động, người đó rơi thẳng đều với vận tốc giới hạn $v_{gh} = 5\\text{ m/s}$. Bỏ qua lực đẩy Archimedes của không khí, lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Khi rơi thẳng đều với vận tốc $5\\text{ m/s}$, độ lớn lực cản không khí tác dụng lên hệ người và dù là $750\\text{ N}$.",
+      "Biết lực cản không khí tỉ lệ với bình phương vận tốc ($F_c = k \\cdot v^2$), hệ số cản k có giá trị là $30\\text{ kg}$/m.",
+      "Ở giai đoạn trước đó, khi vận tốc rơi sau khi bung dù đang là $v = 10\\text{ m/s}$ thì độ lớn lực cản không khí là $3000\\text{ N}$.",
+      "Tại thời điểm vận tốc bằng $10\\text{ m/s}$ ở ý c), vận động viên đang chuyển động chậm dần với độ lớn gia tốc bằng $30\\text{ m/s}^2$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $F_c = P = m \\cdot g = 75 \\cdot 10 = 750\\text{ N}$.\n- **Ý b) ĐÚNG:** $k = \\frac{F_c}{v_{gh}^2} = \\frac{750}{5^2} = \\frac{750}{25} = 30\\text{ kg/m}$.\n- **Ý c) ĐÚNG:** $F_c = k \\cdot v^2 = 30 \\cdot 10^2 = 3000\\text{ N}$.\n- **Ý d) ĐÚNG:** $a = \\frac{F_c - P}{m} = \\frac{3000 - 750}{75} = \\frac{2250}{75} = 30\\text{ m/s}^2$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một viên bi khối lượng $m = 0,2\\text{ kg}$ được ném thẳng đứng lên cao từ mặt đất với vận tốc ban đầu $v_0 = 15\\text{ m/s}$. Trong suốt quá trình bay lên và rơi xuống, viên bi luôn chịu lực cản của không khí có độ lớn không đổi $F_c = 0,5\\text{ N}$. Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Khi viên bi đang chuyển động đi lên, hợp lực tác dụng lên bi hướng thẳng đứng xuống dưới và có độ lớn bằng $2,5\\text{ N}$.",
+      "Gia tốc của viên bi trong giai đoạn đi lên có độ lớn là $12,5\\text{ m/s}^2$.",
+      "Độ cao cực đại mà viên bi đạt được là $H_{max} = 9\\text{ m}$.",
+      "Khi viên bi rơi từ độ cao cực đại trở lại mặt đất, vận tốc của bi ngay trước khi chạm đất bằng đúng $15\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $P = 2\\text{ N}$ và $F_c = 0,5\\text{ N}$ cùng hướng xuống $\\implies F_{hl} = 2 + 0,5 = 2,5\\text{ N}$.\n- **Ý b) ĐÚNG:** $a_{lên} = \\frac{F_{hl}}{m} = \\frac{2,5}{0,2} = 12,5\\text{ m/s}^2$.\n- **Ý c) ĐÚNG:** $H_{max} = \\frac{v_0^2}{2 \\cdot a_{lên}} = \\frac{15^2}{2 \\cdot 12,5} = \\frac{225}{25} = 9\\text{ m}$.\n- **Ý d) SAI:** Do lực cản sinh công âm tiêu hao cơ năng nên vận tốc chạm đất nhỏ hơn $15\\text{ m/s}$ ($v_{đất} = \\sqrt{2 \\cdot a_{xuống} \\cdot H} = \\sqrt{2 \\cdot 7,5 \\cdot 9} \\approx 11,62\\text{ m/s}$)."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một khối gỗ hình lập phương cạnh $a = 20\\text{ cm}$ (V = $8 \\cdot 10^{-3}\\text{ m}^3$) có khối lượng riêng $\\rho_{gỗ} = 600\\text{ kg/m}^3$ được thả nổi trên mặt nước ($\\rho_{nước} = 1000\\text{ kg/m}^3$). Lấy g = $10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Khối lượng của khối gỗ là $m = 4,8\\text{ kg}$.",
+      "Khi nổi cân bằng trên mặt nước, chiều cao phần gỗ chìm trong nước là $h_{chìm} = 12\\text{ cm}$.",
+      "Để nhấn chìm hoàn toàn khối gỗ xuống dưới mặt nước, cần tác dụng một lực ép thẳng đứng hướng xuống có độ lớn tối thiểu là $32\\text{ N}$.",
+      "Nếu đổ thêm một lớp dầu nhẹ ($\\rho_{dầu} = 800\\text{ kg/m}^3$) phủ ngập hoàn toàn khối gỗ ở phía trên mặt nước thì phần gỗ chìm trong nước sẽ tăng lên."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $m = \\rho_{gỗ} \\cdot V = 600 \\cdot 8 \\cdot 10^{-3} = 4,8\\text{ kg}$.\n- **Ý b) ĐÚNG:** $\\frac{h_{chìm}}{a} = \\frac{\\rho_{gỗ}}{\\rho_{nước}} = \\frac{600}{1000} = 0,6 \\implies h_{chìm} = 0,6 \\cdot 20 = 12\\text{ cm}$.\n- **Ý c) ĐÚNG:** $F_{ép} = F_{A(tp)} - P = 1000 \\cdot 10 \\cdot 8 \\cdot 10^{-3} - 48 = 80 - 48 = 32\\text{ N}$.\n- **Ý d) SAI:** Khi có thêm lực đẩy Archimedes của lớp dầu bên trên, phần thể tích cần chiếm chỗ trong nước GIẢM ĐI."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô có khối lượng $m = 1000\\text{ kg}$ chạy trên đường nằm ngang. Lực cản tổng cộng tác dụng lên ô tô (gồm ma sát lăn và lực cản không khí) phụ thuộc vào tốc độ theo biểu thức $F_c = 200 + 0,5v^2$ (trong đó $F_c$ tính bằng N, v tính bằng m/s).",
+    "dsYCon": [
+      "Khi ô tô chạy đều với tốc độ $20\\text{ m/s}$ ($72\\text{ km/h}$), lực cản tác dụng lên ô tô có độ lớn là $400\\text{ N}$.",
+      "Công suất của động cơ ô tô khi chạy đều với tốc độ $20\\text{ m/s}$ là $8\\text{ kW}$.",
+      "Nếu động cơ ô tô phát ra lực kéo không đổi $F_k = 1400\\text{ N}$ thì khi xe đạt tốc độ $20\\text{ m/s}$, gia tốc của xe là $1\\text{ m/s}^2$.",
+      "Với lực kéo không đổi $F_k = 1400\\text{ N}$, tốc độ tối đa (vận tốc giới hạn) mà ô tô có thể đạt được trên đường ngang là $40\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $F_c = 200 + 0,5 \\cdot 20^2 = 200 + 200 = 400\\text{ N}$.\n- **Ý b) ĐÚNG:** $P = F_c \\cdot v = 400 \\cdot 20 = 8000\\text{ W} = 8\\text{ kW}$.\n- **Ý c) ĐÚNG:** $a = \\frac{F_k - F_c}{m} = \\frac{1400 - 400}{1000} = 1\\text{ m/s}^2$.\n- **Ý d) SAI:** Đạt $v_{max}$ khi $F_c = F_k \\iff 200 + 0,5 \\cdot v_{max}^2 = 1400 \\iff 0,5 \\cdot v_{max}^2 = 1200 \\implies v_{max} = \\sqrt{2400} \\approx 49\\text{ m/s}$."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Nghiên cứu về lực cản của chất lưu và lực đẩy Archimedes có rất nhiều ứng dụng trong kỹ thuật hàng hải, hàng không và đời sống.\na) Nêu các yếu tố ảnh hưởng đến độ lớn của lực cản chất lưu tác dụng lên một vật chuyển động trong đó.\nb) Giải thích tại sao các giọt nước mưa rơi từ những đám mây ở độ cao từ $1000\\text{ m}$ đến $2000\\text{ m}$ xuống đất lại không gây nguy hiểm cho tính mạng con người và các công trình xây dựng.\nc) Khi một chiếc phà chở khách di chuyển từ vùng nước ngọt ở một cửa sông ra vùng nước mặn ngoài biển khơi (tải trọng của phà không đổi), hãy giải thích phần thân phà chìm trong nước sẽ tăng lên hay giảm đi.",
+    "giaithich": "Lời giải chi tiết:\na) Các yếu tố ảnh hưởng đến lực cản chất lưu:\n• Độ lớn lực cản của chất lưu phụ thuộc vào:\n  1. Tốc độ chuyển động của vật (tốc độ càng lớn, lực cản càng lớn).\n  2. Hình dạng khí động học và kích thước (diện tích tiết diện ngang cản gió/nước) của vật.\n  3. Tính chất của chất lưu (khối lượng riêng, độ nhớt của chất lưu).\n\nb) Giải thích vì sao giọt mưa không gây nguy hiểm:\n• Khi giọt mưa bắt đầu rơi trong không khí, tốc độ của nó tăng dần làm lực cản không khí tăng nhanh chóng (tỉ lệ với $v^2$).\n• Chỉ sau một đoạn đường rơi ngắn, lực cản không khí tăng lên cân bằng với trọng lực của giọt mưa. Kể từ thời điểm đó, giọt mưa rơi thẳng đều với tốc độ giới hạn khá nhỏ (chỉ khoảng vài mét trên giây) chứ không tăng tốc mãi như rơi tự do trong chân không. Do đó, động năng khi chạm đất rất nhỏ và hoàn toàn không gây nguy hiểm.\n\nc) Giải thích sự thay đổi phần thân phà chìm trong nước:\n• Do tải trọng không đổi nên trọng lượng $P$ của phà không đổi. Khi phà nổi cân bằng trên mặt nước: $F_A = P$ (không đổi).\n• Mặt khác: $F_A = \\rho \\cdot g \\cdot V_{chìm} \\Rightarrow V_{chìm} = \\frac{P}{\\rho \\cdot g}$.\n• Nước biển (nước mặn) có khối lượng riêng $\\rho$ lớn hơn nước ngọt trong sông, do đó thể tích phần chìm $V_{chìm}$ sẽ giảm đi. Kết luận: Phần thân phà chìm trong nước sẽ giảm đi (phà nổi cao hơn một chút so với mặt nước)."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một tàu ngầm mini nghiên cứu đại dương có khối lượng tổng cộng (khi các khoang dằn rỗng) là $M = 4800\\text{ kg}$ và thể tích ngoài toàn phần của thân tàu là $V = 5\\text{ m}^3$. Nước biển có khối lượng riêng $\\rho = 1030\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$.\na) Tính độ lớn lực đẩy Archimedes tác dụng lên tàu ngầm khi tàu lặn hoàn toàn trong nước biển.\nb) Để tàu ngầm có thể lơ lửng đứng yên ở một độ sâu xác định dưới biển, người ta phải bơm thêm vào các khoang dằn một khối lượng nước biển bằng bao nhiêu?\nc) Khi hoàn thành nhiệm vụ, tàu dùng khí nén đẩy toàn bộ khối lượng nước dằn nói trên ra ngoài để nổi lên. Cho biết khi nổi thẳng đứng lên trên, lực cản của nước biển tác dụng lên tàu có độ lớn trung bình là $F_c = 1500\\text{ N}$. Tính gia tốc trung bình của tàu khi nổi lên.",
+    "giaithich": "Lời giải chi tiết:\na) Lực đẩy Archimedes khi tàu lặn hoàn toàn:\n• $F_A = \\rho \\cdot g \\cdot V = 1030 \\times 10 \\times 5 = 51500\\text{ N}$.\n\nb) Khối lượng nước dằn cần bơm thêm để tàu lơ lửng:\n• Trọng lượng của tàu khi khoang dằn rỗng: $P_0 = M \\cdot g = 4800 \\times 10 = 48000\\text{ N}$.\n• Để tàu lơ lửng cân bằng trong lòng biển, tổng trọng lượng phải bằng lực đẩy Archimedes:\n  $P_0 + P_{nước} = F_A \\Leftrightarrow 48000 + 10 \\cdot m_{nước} = 51500$.\n• Suy ra: $10 \\cdot m_{nước} = 3500 \\Rightarrow m_{nước} = 350\\text{ kg}$.\n\nc) Gia tốc trung bình của tàu khi nổi lên:\n• Khi đã xả hết nước dằn, khối lượng và trọng lượng của tàu trở về $M = 4800\\text{ kg}, P_0 = 48000\\text{ N}$.\n• Khi nổi thẳng đứng lên trên, lực đẩy Archimedes $\\vec{F}_A$ hướng lên, trọng lực $\\vec{P}_0$ và lực cản $\\vec{F}_c$ đều hướng xuống dưới.\n• Chọn chiều dương thẳng đứng hướng lên. Theo Định luật II Newton:\n  $F_A - P_0 - F_c = M \\cdot a \\Leftrightarrow 51500 - 48000 - 1500 = 4800 \\cdot a$\n  $\\Leftrightarrow 2000 = 4800 \\cdot a \\Rightarrow a = \\frac{2000}{4800} \\approx 0{,}42\\text{ m/s}^2$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một viên đạn chì nhỏ hình cầu có khối lượng $m = 20\\text{ g}$ được bắn thẳng đứng từ dưới lên trên trong một bể nước sâu với vận tốc ban đầu $v_0 = 8\\text{ m/s}$. Thể tích của viên đạn là $V = 1{,}8\\text{ cm}^3$. Khối lượng riêng của nước là $\\rho = 1000\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$. Coi lực cản của nước tác dụng lên viên đạn trong suốt quá trình đi lên là không đổi và có độ lớn $F_c = 0{,}218\\text{ N}$.\na) Nêu tên, phương và chiều của các lực tác dụng lên viên đạn ngay sau khi rời nòng súng (lúc viên đạn đang chuyển động đi lên).\nb) Tính gia tốc của viên đạn và độ cao cực đại $h_{max}$ mà viên đạn có thể đi lên được trong nước (tính từ vị trí bắn).",
+    "giaithich": "Lời giải chi tiết:\nĐổi đơn vị: $m = 20\\text{ g} = 0{,}02\\text{ kg}$; $V = 1{,}8\\text{ cm}^3 = 1{,}8 \\times 10^{-6}\\text{ m}^3$.\n\na) Các lực tác dụng lên viên đạn khi đang chuyển động đi lên:\n• Trọng lực $\\vec{P}$: Phương thẳng đứng, chiều hướng xuống dưới.\n• Lực cản của nước $\\vec{F}_c$: Phương thẳng đứng, chiều hướng xuống dưới (ngược chiều chuyển động đi lên).\n• Lực đẩy Archimedes $\\vec{F}_A$: Phương thẳng đứng, chiều hướng lên trên.\n\nb) Gia tốc và độ cao cực đại $h_{max}$:\n• Độ lớn trọng lực: $P = m \\cdot g = 0{,}02 \\times 10 = 0{,}2\\text{ N}$.\n• Lực đẩy Archimedes: $F_A = \\rho \\cdot g \\cdot V = 1000 \\times 10 \\times 1{,}8 \\times 10^{-6} = 0{,}018\\text{ N}$.\n• Chọn chiều dương thẳng đứng hướng lên (chiều chuyển động). Theo Định luật II Newton:\n  $F_A - P - F_c = m \\cdot a \\Leftrightarrow 0{,}018 - 0{,}2 - 0{,}218 = 0{,}02 \\cdot a$\n  $\\Leftrightarrow -0{,}4 = 0{,}02 \\cdot a \\Rightarrow a = -20\\text{ m/s}^2$.\n  (Dấu trừ chứng tỏ viên đạn chuyển động thẳng chậm dần đều với gia tốc có độ lớn $20\\text{ m/s}^2$).\n• Khi lên đến độ cao cực đại $h_{max}$, vận tốc cuối $v = 0$. Áp dụng công thức độc lập với thời gian:\n  $v^2 - v_0^2 = 2a \\cdot h_{max} \\Leftrightarrow 0^2 - 8^2 = 2 \\times (-20) \\cdot h_{max}$\n  $\\Leftrightarrow -64 = -40 \\cdot h_{max} \\Rightarrow h_{max} = \\frac{64}{40} = 1{,}6\\text{ m}$."
+  }
+]

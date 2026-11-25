@@ -1,0 +1,75 @@
+[
+  {
+    "id": 4,
+    "baiSo": 4,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 4: Chuyển động của vật trong chất lưu",
+    "videoYoutubeId": "7iQ5kON-4yA",
+    "fileBaiTapNhanh": "ChuDe3/02BaiTapNhanh3_Bai4.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Chất lưu và Lực cản của chất lưu",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Chất lưu và Lực cản chất lưu ($\\vec{F}_c$)",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Chất lưu**} là thuật ngữ dùng chung để chỉ **chất lỏng và chất khí**. Mọi vật chuyển động trong chất lưu đều chịu tác dụng của {highlight|lực cản $\\vec{F}_c$ luôn ngược hướng chuyển động tương đối} của vật so với chất lưu.",
+            "danhSachYCon": [
+              "**Phụ thuộc hình dạng & kích thước (tiết diện cản):** Vật có hình dạng thuôn nhọn (khí động học) chịu lực cản nhỏ hơn nhiều so với vật có bề mặt phẳng, cồng kềnh.",
+              "**Phụ thuộc tốc độ chuyển động ($v$):** Khi tốc độ $v$ của vật tăng lên thì độ lớn lực cản $F_c$ cũng {color:warning|tăng lên} (với vận tốc nhỏ $F_c = k \\cdot v$; với vận tốc lớn $F_c \\propto v^2$).",
+              "**Phụ thuộc bản chất chất lưu:** Chuyển động trong môi trường có khối lượng riêng và độ nhớt lớn (như nước, dầu nhớt) chịu lực cản lớn hơn nhiều so với trong không khí."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Lực đẩy Archimedes và Chuyển động rơi trong chất lưu",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "LỰC ĐẨY ARCHIMEDES TRONG CHẤT LƯU",
+            "congThuc": "$F_A = \\rho \\cdot g \\cdot V$",
+            "mucDich": "Tính độ lớn lực đẩy hướng thẳng đứng từ dưới lên trên của chất lưu tác dụng lên vật.",
+            "chuThich": "- $\\rho$: Khối lượng riêng của chất lưu (đơn vị $\\text{kg/m}^3$).\n- $g$: Gia tốc rơi tự do (đơn vị $\\text{m/s}^2$).\n- $V$: Thể tích phần chất lưu bị vật chiếm chỗ (đơn vị $\\text{m}^3$)."
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Hai giai đoạn rơi thẳng đứng trong chất lưu (Vận tốc giới hạn)",
+            "noiDung": "Khi một vật rơi thẳng đứng trong chất lưu dưới tác dụng của 3 lực: Trọng lực $\\vec{P}$ (hướng xuống), lực đẩy Archimedes $\\vec{F}_A$ (hướng lên) và lực cản $\\vec{F}_c$ (hướng lên):",
+            "danhSachYCon": [
+              "**Giai đoạn 1 — Rơi nhanh dần có gia tốc giảm dần:** Lúc vừa thả ($v = 0$), lực cản $F_c = 0$, gia tốc ban đầu là $a_0 = \\frac{P - F_A}{m}$. Khi vật rơi xuống, tốc độ $v$ tăng làm lực cản $F_c$ tăng theo, khiến hợp lực $F_{hl} = P - F_A - F_c$ giảm dần và {color:warning|gia tốc $a$ giảm dần về $0$}.",
+              "**Giai đoạn 2 — Chuyển động thẳng đều (Đạt vận tốc giới hạn $v_{gh}$):** Khi tốc độ tăng đến giá trị mà tổng lực hướng lên cân bằng với trọng lực ($P = F_A + F_c$), hợp lực bằng $0$, gia tốc $a = 0$, vật {color:success|**chuyển động thẳng đều**} với vận tốc không đổi gọi là {color:primary|**vận tốc giới hạn $v_{gh}$**}."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "ĐIỀU KIỆN ĐẠT VẬN TỐC GIỚI HẠN ($v_{gh}$)",
+            "congThuc": "$P = F_A + F_c \\iff m \\cdot g = \\rho \\cdot g \\cdot V + F_c(v_{gh})$",
+            "mucDich": "Xác định độ lớn lực cản hoặc tính vận tốc giới hạn $v_{gh}$ khi vật rơi ổn định thẳng đều.",
+            "chuThich": "- Nếu bỏ qua lực đẩy Archimedes trong không khí ($F_A \\approx 0$) và $F_c = k \\cdot v$ thì $v_{gh} = \\frac{m \\cdot g}{k}$.\n- Nếu lực cản tỉ lệ với bình phương vận tốc $F_c = k \\cdot v^2$ thì $v_{gh} = \\sqrt{\\frac{m \\cdot g}{k}}$."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe3/lythuyet/bai4_van_toc_gioi_han.webp",
+            "moTaAnh": "Sơ đồ 3 lực tác dụng lên viên bi rơi trong chất lưu và đồ thị vận tốc $v(t)$ tiến dần tới vận tốc giới hạn $v_{gh}$."
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Chuyển động của viên bi trong chất lưu",
+            "duongDanGlb": "models/ChuDe3/bai4_luc_can_chat_luu.glb",
+            "moTaMoHinh3d": "Lực cản chất lưu: viên bi rơi qua không khí rồi chìm chậm dần trong nước dưới tác dụng của lực cản và lực đẩy Archimedes.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Bẫy điểm thi} Lực cản của chất lưu {color:error|**KHÔNG phụ thuộc vào khối lượng của vật**}, mà chỉ phụ thuộc vào hình dạng, kích thước tiết diện cản, tốc độ chuyển động của vật và bản chất (độ nhớt, khối lượng riêng) của chất lưu."
+          }
+        ]
+      }
+    ]
+  }
+]

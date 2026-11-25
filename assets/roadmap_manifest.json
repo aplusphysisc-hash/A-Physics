@@ -1,0 +1,1321 @@
+{
+    "stats":  {
+                  "totalLessons":  28,
+                  "totalStandaloneQuestions":  1594,
+                  "totalModels3D":  19
+              },
+    "topics":  [
+                   {
+                       "id":  "ChuDeMoDau",
+                       "num":  0,
+                       "ten":  "Chủ đề Mở đầu: Nhập môn \u0026 Sai số",
+                       "moTa":  "Đối tượng Vật lý, quy tắc an toàn phòng thí nghiệm, biển báo \u0026 6 bước tính sai số phép đo.",
+                       "color":  "#4FD1C5",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDeMoDau_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Làm quen với Vật lý",
+                                         "filePath":  "ChuDeMoDau/01Lythuyet1_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Vấn đề an toàn trong Vật lý",
+                                         "filePath":  "ChuDeMoDau/01Lythuyet1_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_Bai3",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Thực hành tính sai số phép đo. Ghi kết quả đo",
+                                         "filePath":  "ChuDeMoDau/01Lythuyet1_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_BaiTapNhanh_Bai3",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 3",
+                                         "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai3.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_DeBai3_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
+                                         "filePath":  "ChuDeMoDau/03DeThi1_Bai3_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDeMoDau/03DeThi1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDeMoDau_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDeMoDau/03DeThi1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe1",
+                       "num":  1,
+                       "ten":  "Chủ đề 1: Mô tả chuyển động",
+                       "moTa":  "Độ dịch chuyển, quãng đường, tốc độ, vận tốc, cộng vận tốc, đồ thị (d-t) \u0026 gia tốc.",
+                       "color":  "#38BDF8",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe1_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Độ dịch chuyển và Quãng đường đi được",
+                                         "filePath":  "ChuDe1/01Lythuyet1_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  4
+                                     },
+                                     {
+                                         "id":  "ChuDe1_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe1/02BaiTapNhanh1_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Tốc độ và Vận tốc",
+                                         "filePath":  "ChuDe1/01Lythuyet1_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe1_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDe1/02BaiTapNhanh1_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai2_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai2_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai2_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai2_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_Bai3",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Đồ thị độ dịch chuyển – thời gian (Đồ thị d – t)",
+                                         "filePath":  "ChuDe1/01Lythuyet1_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe1_BaiTapNhanh_Bai3",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 3",
+                                         "filePath":  "ChuDe1/02BaiTapNhanh1_Bai3.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai3_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai3_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai3_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 2",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai3_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_Bai4",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 4: Chuyển động biến đổi và Gia tốc",
+                                         "filePath":  "ChuDe1/01Lythuyet1_Bai4.json",
+                                         "durationMin":  0,
+                                         "count":  4
+                                     },
+                                     {
+                                         "id":  "ChuDe1_BaiTapNhanh_Bai4",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 4",
+                                         "filePath":  "ChuDe1/02BaiTapNhanh1_Bai4.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai4_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 1",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai4_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeBai4_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 2",
+                                         "filePath":  "ChuDe1/03DeThi1_Bai4_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_CongThuc_Bai5",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  5,
+                                         "thuTuDe":  0,
+                                         "title":  "Bảng tóm tắt công thức \u0026 Kiến thức trọng tâm Chương 1",
+                                         "filePath":  "ChuDe1/01Lythuyet1_Bai5.json",
+                                         "durationMin":  0,
+                                         "count":  1
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe1/03DeThi1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe1_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe1/03DeThi1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe2",
+                       "num":  2,
+                       "ten":  "Chủ đề 2: Chuyển động biến đổi",
+                       "moTa":  "Chuyển động thẳng đều, biến đổi đều, rơi tự do, ném ngang, tròn đều \u0026 ném xiên.",
+                       "color":  "#818CF8",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe2_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Chuyển động thẳng đều",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Chuyển động thẳng biến đổi đều",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai2_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai2_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai2_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai2_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_Bai3",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Chuyển động rơi tự do",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai3",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 3",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai3.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai3_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai3_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai3_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai3_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_Bai4",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 4: Chuyển động ném ngang",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai4.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai4",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 4",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai4.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai4_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai4_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai4_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai4_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_Bai5",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  5,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 5: Chuyển động tròn đều",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai5.json",
+                                         "durationMin":  0,
+                                         "count":  4
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai5",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  5,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 5",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai5.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai5_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  5,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 5 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai5_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai5_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  5,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 5 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai5_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_Bai6",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  6,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 6: Chuyển động ném xiên (Nâng cao)",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai6.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_BaiTapNhanh_Bai6",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  6,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 6",
+                                         "filePath":  "ChuDe2/02BaiTapNhanh2_Bai6.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai6_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  6,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 6 - Đề 1",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai6_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeBai6_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  6,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 6 - Đề 2",
+                                         "filePath":  "ChuDe2/03DeThi2_Bai6_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_CongThuc_Bai7",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  7,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 7: Bảng tổng hợp công thức trọng tâm Chủ đề 2",
+                                         "filePath":  "ChuDe2/01Lythuyet2_Bai7.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe2/03DeTongChuong2_1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe2_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe2/03DeTongChuong2_2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe3",
+                       "num":  3,
+                       "ten":  "Chủ đề 3: Ba định luật Newton",
+                       "moTa":  "Ba định luật Newton, tổng hợp lực, lực đàn hồi Hooke, ma sát, Archimedes \u0026 chất lưu.",
+                       "color":  "#34D399",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe3_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Ba định luật Newton",
+                                         "filePath":  "ChuDe3/01Lythuyet3_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe3_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe3/02BaiTapNhanh3_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Lực - Tổng hợp và phân tích lực - Các lực trong thực tiễn",
+                                         "filePath":  "ChuDe3/01Lythuyet3_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe3_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDe3/02BaiTapNhanh3_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai2_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai2_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai2_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai2_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_Bai3",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Lực đàn hồi — Định luật Hooke",
+                                         "filePath":  "ChuDe3/01Lythuyet3_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe3_BaiTapNhanh_Bai3",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 3",
+                                         "filePath":  "ChuDe3/02BaiTapNhanh3_Bai3.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai3_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai3_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai3_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  3,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 3 - Đề 2",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai3_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_Bai4",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 4: Chuyển động của vật trong chất lưu",
+                                         "filePath":  "ChuDe3/01Lythuyet3_Bai4.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe3_BaiTapNhanh_Bai4",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 4",
+                                         "filePath":  "ChuDe3/02BaiTapNhanh3_Bai4.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai4_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 1",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai4_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeBai4_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  4,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 4 - Đề 2",
+                                         "filePath":  "ChuDe3/03DeThi3_Bai4_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_CongThuc_Bai5",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  5,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 5: Bảng tóm tắt công thức trọng tâm Chủ đề 3",
+                                         "filePath":  "ChuDe3/01Lythuyet3_Bai5.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe3/03DeTongChuong3_1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe3_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe3/03DeTongChuong3_2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe4",
+                       "num":  4,
+                       "ten":  "Chủ đề 4: Moment lực \u0026 Cân bằng",
+                       "moTa":  "Moment lực, cánh tay đòn, quy tắc moment, đòn bẩy, ngẫu lực \u0026 cân bằng vật rắn.",
+                       "color":  "#FBBF24",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe4_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Moment lực - Cân bằng của vật rắn",
+                                         "filePath":  "ChuDe4/01Lythuyet4_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe4_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe4/02BaiTapNhanh4_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe4_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe4/03DeThi4_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe4_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe4/03DeThi4_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe4_CongThuc_Bai2",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Bảng tổng hợp công thức \u0026 Trọng tâm Chủ đề 4 (Moment lực)",
+                                         "filePath":  "ChuDe4/01Lythuyet4_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe4_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe4/03DeTongChuong4_1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe4_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe4/03DeTongChuong4_2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe5",
+                       "num":  5,
+                       "ten":  "Chủ đề 5: Năng lượng \u0026 Công cơ học",
+                       "moTa":  "Công cơ học, công suất, hiệu suất, động năng, thế năng \u0026 định luật bảo toàn cơ năng.",
+                       "color":  "#F472B6",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe5_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Công - Công suất - Hiệu suất",
+                                         "filePath":  "ChuDe5/01Lythuyet5_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe5_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe5/02BaiTapNhanh5_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe5/03DeThi5_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe5/03DeThi5_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe5_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Động năng - Thế năng - Cơ năng",
+                                         "filePath":  "ChuDe5/01Lythuyet5_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe5_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDe5/02BaiTapNhanh5_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeBai2_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
+                                         "filePath":  "ChuDe5/03DeThi5_Bai2_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeBai2_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
+                                         "filePath":  "ChuDe5/03DeThi5_Bai2_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe5_CongThuc_Bai3",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Tổng hợp công thức Chủ đề 5",
+                                         "filePath":  "ChuDe5/01Lythuyet5_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe5/03DeTongChuong5_1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe5_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe5/03DeTongChuong5_2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   },
+                   {
+                       "id":  "ChuDe6",
+                       "num":  6,
+                       "ten":  "Chủ đề 6: Động lượng \u0026 Va chạm",
+                       "moTa":  "Động lượng, xung lượng của lực, bảo toàn động lượng, va chạm đàn hồi \u0026 va chạm mềm.",
+                       "color":  "#22D3EE",
+                       "tasks":  [
+                                     {
+                                         "id":  "ChuDe6_Bai1",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 1: Động lượng và Định luật bảo toàn động lượng",
+                                         "filePath":  "ChuDe6/01Lythuyet6_Bai1.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe6_BaiTapNhanh_Bai1",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 1",
+                                         "filePath":  "ChuDe6/02BaiTapNhanh6_Bai1.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeBai1_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
+                                         "filePath":  "ChuDe6/03DeThi6_Bai1_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeBai1_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  1,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
+                                         "filePath":  "ChuDe6/03DeThi6_Bai1_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe6_Bai2",
+                                         "tier":  1,
+                                         "kind":  "LyThuyetBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 2: Các dạng va chạm",
+                                         "filePath":  "ChuDe6/01Lythuyet6_Bai2.json",
+                                         "durationMin":  0,
+                                         "count":  3
+                                     },
+                                     {
+                                         "id":  "ChuDe6_BaiTapNhanh_Bai2",
+                                         "tier":  1,
+                                         "kind":  "BaiTapNhanhBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài tập nhanh - Bài 2",
+                                         "filePath":  "ChuDe6/02BaiTapNhanh6_Bai2.json",
+                                         "durationMin":  10,
+                                         "count":  5
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeBai2_1",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
+                                         "filePath":  "ChuDe6/03DeThi6_Bai2_De1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeBai2_2",
+                                         "tier":  1,
+                                         "kind":  "DeLuyenTapBai",
+                                         "baiSo":  2,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
+                                         "filePath":  "ChuDe6/03DeThi6_Bai2_De2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe6_CongThuc_Bai3",
+                                         "tier":  2,
+                                         "kind":  "LyThuyetCongThuc",
+                                         "baiSo":  3,
+                                         "thuTuDe":  0,
+                                         "title":  "Bài 3: Tổng hợp công thức Chủ đề 6",
+                                         "filePath":  "ChuDe6/01Lythuyet6_Bai3.json",
+                                         "durationMin":  0,
+                                         "count":  2
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeTongChuong_1",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  1,
+                                         "title":  "Đề tổng kết chương - Đề 1",
+                                         "filePath":  "ChuDe6/03DeTongChuong6_1.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     },
+                                     {
+                                         "id":  "ChuDe6_DeTongChuong_2",
+                                         "tier":  3,
+                                         "kind":  "DeTongChuong",
+                                         "baiSo":  999,
+                                         "thuTuDe":  2,
+                                         "title":  "Đề tổng kết chương - Đề 2",
+                                         "filePath":  "ChuDe6/03DeTongChuong6_2.json",
+                                         "durationMin":  45,
+                                         "count":  28
+                                     }
+                                 ]
+                   }
+               ],
+    "models3D":  [
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai1_chuyen_dong_thang_deu.glb",
+                         "path":  "assets/models/ChuDe2/bai1_chuyen_dong_thang_deu.glb",
+                         "title":  "Chuyển động thẳng đều"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai2_cham_dan_deu.glb",
+                         "path":  "assets/models/ChuDe2/bai2_cham_dan_deu.glb",
+                         "title":  "Chuyển động chậm dần đều"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai2_nhanh_dan_deu.glb",
+                         "path":  "assets/models/ChuDe2/bai2_nhanh_dan_deu.glb",
+                         "title":  "Chuyển động nhanh dần đều"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai3_roi_tu_do.glb",
+                         "path":  "assets/models/ChuDe2/bai3_roi_tu_do.glb",
+                         "title":  "Rơi tự do"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai3_roi_tu_do_trung_da.glb",
+                         "path":  "assets/models/ChuDe2/bai3_roi_tu_do_trung_da.glb",
+                         "title":  "Thí nghiệm rơi tự do (Trứng \u0026 Đá)"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai4_nem_ngang.glb",
+                         "path":  "assets/models/ChuDe2/bai4_nem_ngang.glb",
+                         "title":  "Chuyển động ném ngang"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai4_nem_ngang_vien_bi.glb",
+                         "path":  "assets/models/ChuDe2/bai4_nem_ngang_vien_bi.glb",
+                         "title":  "Ném ngang viên bi rời mặt bàn"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai5_chuyen_dong_tron.glb",
+                         "path":  "assets/models/ChuDe2/bai5_chuyen_dong_tron.glb",
+                         "title":  "Chuyển động tròn đều"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai5_chuyen_dong_tron_deu_quat.glb",
+                         "path":  "assets/models/ChuDe2/bai5_chuyen_dong_tron_deu_quat.glb",
+                         "title":  "Chuyển động tròn đều (Cánh quạt)"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai6_nem_xien.glb",
+                         "path":  "assets/models/ChuDe2/bai6_nem_xien.glb",
+                         "title":  "Chuyển động ném xiên"
+                     },
+                     {
+                         "topic":  "ChuDe2",
+                         "file":  "bai6_nem_xien_khau_phao.glb",
+                         "path":  "assets/models/ChuDe2/bai6_nem_xien_khau_phao.glb",
+                         "title":  "Ném xiên khẩu pháo"
+                     },
+                     {
+                         "topic":  "ChuDe3",
+                         "file":  "bai1_ba_dinh_luat_newton.glb",
+                         "path":  "assets/models/ChuDe3/bai1_ba_dinh_luat_newton.glb",
+                         "title":  "Ba định luật Newton"
+                     },
+                     {
+                         "topic":  "ChuDe3",
+                         "file":  "bai4_chuyen_dong_trong_chat_luu.glb",
+                         "path":  "assets/models/ChuDe3/bai4_chuyen_dong_trong_chat_luu.glb",
+                         "title":  "Chuyển động trong chất lưu"
+                     },
+                     {
+                         "topic":  "ChuDe3",
+                         "file":  "bai4_luc_can_chat_luu.glb",
+                         "path":  "assets/models/ChuDe3/bai4_luc_can_chat_luu.glb",
+                         "title":  "Lực cản chất lưu"
+                     },
+                     {
+                         "topic":  "ChuDe4",
+                         "file":  "bai1_can_bang_bap_benh.glb",
+                         "path":  "assets/models/ChuDe4/bai1_can_bang_bap_benh.glb",
+                         "title":  "Cân bằng bập bênh \u0026 Moment lực"
+                     },
+                     {
+                         "topic":  "ChuDe4",
+                         "file":  "bai1_moment_canh_cua.glb",
+                         "path":  "assets/models/ChuDe4/bai1_moment_canh_cua.glb",
+                         "title":  "Moment lực mở cánh cửa"
+                     },
+                     {
+                         "topic":  "ChuDe4",
+                         "file":  "bai1_ngau_luc_vo_lang.glb",
+                         "path":  "assets/models/ChuDe4/bai1_ngau_luc_vo_lang.glb",
+                         "title":  "Ngẫu lực vô lăng"
+                     },
+                     {
+                         "topic":  "ChuDe6",
+                         "file":  "bai2_va_cham_dan_hoi.glb",
+                         "path":  "assets/models/ChuDe6/bai2_va_cham_dan_hoi.glb",
+                         "title":  "Va chạm đàn hồi"
+                     },
+                     {
+                         "topic":  "ChuDe6",
+                         "file":  "bai2_va_cham_mem.glb",
+                         "path":  "assets/models/ChuDe6/bai2_va_cham_mem.glb",
+                         "title":  "Va chạm mềm"
+                     }
+                 ]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biển báo có hình tròn, viền đỏ, nền trắng, hình vẽ màu đen trong phòng thực hành Vật lý có ý nghĩa gì?",
+    "caccauChon": [
+      "Biển cảnh báo nguy hiểm.",
+      "Biển bắt buộc thực hiện.",
+      "Biển cấm.",
+      "Biển chỉ dẫn lối thoát hiểm."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo quy chuẩn an toàn: Hình tròn viền đỏ, nền trắng, hình vẽ đen là {color:error|**biển cấm**} (ví dụ: cấm lửa, cấm sờ).",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_cam.webp"
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biển báo có hình tam giác đều màu vàng, viền đen, hình vẽ bên trong màu đen thuộc nhóm biển báo nào?",
+    "caccauChon": [
+      "Biển cấm.",
+      "Biển cảnh báo nguy hiểm.",
+      "Biển bắt buộc / lệnh.",
+      "Biển chỉ dẫn thiết bị y tế."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hình tam giác vàng viền đen là {color:warning|**biển cảnh báo nguy hiểm**} (ví dụ: cảnh báo điện cao thế, tia laser, chất độc).",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp"
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hành động nào sau đây vi phạm quy tắc an toàn trong phòng thực hành Vật lý?",
+    "caccauChon": [
+      "Đọc kỹ hướng dẫn trước khi làm thí nghiệm.",
+      "Tự ý cắm nguồn điện và tiến hành thí nghiệm khi chưa có sự cho phép của giáo viên.",
+      "Tắt hết công tắc nguồn thiết bị điện sau khi hoàn thành thí nghiệm.",
+      "Rửa tay sạch bằng xà phòng sau khi tiếp xúc với thiết bị thí nghiệm."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "{color:error|Tự ý cắm nguồn điện} khi chưa kiểm tra mạch và chưa được giáo viên cho phép dễ gây chập cháy hoặc điện giật.",
+    "hinhAnh": "images/ChuDeMoDau/reallife/anh_phong_thuc_hanh.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi làm thí nghiệm với nguồn phát tia laser trong phòng thực hành quang học, nguy cơ mất an toàn lớn nhất cần phòng tránh là gì?",
+    "caccauChon": [
+      "Gây nổ bình chứa khí.",
+      "Tia laser chiếu thẳng vào mắt gây tổn thương võng mạc.",
+      "Làm rò rỉ hóa chất ăn mòn da tay.",
+      "Gây giật điện cao thế."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tia laser có năng lượng tập trung rất cao; {color:error|chiếu trực tiếp hoặc phản xạ vào mắt sẽ làm hỏng võng mạc}.",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/nguy_co_laser_buc_xa.webp"
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trước khi bắt đầu tiến hành một bài thực hành Vật lý có sử dụng điện, học sinh cần làm gì đầu tiên?",
+    "caccauChon": [
+      "Bật ngay công tắc nguồn điện để kiểm tra xem máy có sáng đèn không.",
+      "Kiểm tra kỹ dây dẫn điện, các chốt cắm và đọc kỹ hướng dẫn thực hành.",
+      "Tự ý tháo vỏ thiết bị điện để xem cấu tạo bên trong.",
+      "Mang nước uống đặt ngay bên cạnh bộ nguồn điện."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Học sinh cần {highlight|đọc kỹ hướng dẫn và kiểm tra dây dẫn, dụng cụ} xem có bị hở hay hư hỏng không trước khi xin phép giáo viên cấp điện.",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/nguy_co_dien.webp"
+  }
+]

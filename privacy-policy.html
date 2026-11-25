@@ -25,7 +25,7 @@
             <section>
                 <h2 class="text-lg font-bold text-white mb-2">2. Dữ liệu thu thập và Mục đích sử dụng</h2>
                 <ul class="list-disc pl-5 space-y-1.5">
-                    <li><strong>Không thu thập dữ liệu cá nhân nhạy cảm:</strong> Ứng dụng không yêu cầu và không truy cập vào danh bạ, định vị GPS, micro, cuộc gọi hoặc máy ảnh của bạn.</li>
+                    <li><strong>Không thu thập dữ liệu cá nhân nhạy cảm:</strong> Ứng dụng không yêu cầu quyền truy cập danh bạ, định vị GPS, micro, lịch sử cuộc gọi và không xin quyền camera chạy nền. Chỉ khi học sinh chủ động chọn tính năng chụp ảnh bài làm tự luận (<code>TU_LUAN</code>), ứng dụng mới gọi trình chụp ảnh hệ thống để lưu ảnh trên máy hoặc tải lên Google Drive cá nhân của chính học sinh.</li>
                     <li><strong>Hồ sơ người dùng cục bộ:</strong> Bạn chỉ cần cung cấp một biệt danh/tên học tập để hiển thị bảng điểm và lộ trình rèn luyện trên máy cá nhân.</li>
                     <li><strong>Liên kết tài khoản Google (Tùy chọn):</strong> Nếu bạn sử dụng tính năng liên kết Google, ứng dụng chỉ dùng để hiển thị ảnh đại diện và lưu bảng kết quả học tập vào Google Drive của chính bạn hoặc đồng bộ ẩn danh phục vụ thống kê nghiên cứu học tập. Chúng tôi không thu thập hoặc lưu trữ mật khẩu Google của bạn.</li>
                 </ul>
@@ -33,7 +33,7 @@
 
             <section>
                 <h2 class="text-lg font-bold text-white mb-2">3. Lưu trữ ngoại tuyến (Offline-First) & An toàn dữ liệu</h2>
-                <p>Toàn bộ dữ liệu điểm số, câu hỏi đã lưu, lịch sử làm bài và chuỗi ngày học liên tục được lưu trữ ngay trên bộ nhớ cục bộ thiết bị của bạn (SharedPreferences / DataStore). Chúng tôi không lưu trữ dữ liệu người dùng trên máy chủ trung gian.</p>
+                <p>Toàn bộ dữ liệu điểm số, câu hỏi đã lưu, lịch sử làm bài và chuỗi ngày học liên tục được lưu trữ ngay trên bộ nhớ cục bộ thiết bị của bạn (SharedPreferences / DataStore trên Android, hoặc <code>localStorage</code> / Cache PWA trên trình duyệt Web). Chúng tôi không lưu trữ dữ liệu người dùng trên máy chủ trung gian.</p>
             </section>
 
             <section>

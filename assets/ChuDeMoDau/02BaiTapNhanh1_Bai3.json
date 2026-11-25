@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phép đo nào sau đây là phép đo gián tiếp?",
+    "caccauChon": [
+      "Đo chiều dài quyển sách bằng thước kẻ.",
+      "Đo khối lượng hộp bút bằng cân điện tử.",
+      "Đo thời gian rơi của viên bi bằng đồng hồ bấm giây.",
+      "Đo tốc độ trung bình của xe qua công thức $v = \\frac{s}{t}$."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "**Phép đo gián tiếp** xác định đại lượng thông qua công thức liên hệ với các đại lượng đo trực tiếp (đo $s$ và $t$ rồi tính $v = \\frac{s}{t}$)."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nguyên nhân gây ra sai số dụng cụ (sai số hệ thống) là do:",
+    "caccauChon": [
+      "Mắt người đọc kết quả bị nhìn nghiêng góc.",
+      "Tay bấm đồng hồ phản xạ nhanh chậm khác nhau qua từng lần đo.",
+      "Đặc điểm cấu tạo của dụng cụ đo hoặc kim chỉ thị bị lệch vạch số $0$ ban đầu.",
+      "Gió thổi làm thiết bị rung lắc ngẫu nhiên."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "**Sai số hệ thống** xuất phát từ lỗi của bản thân dụng cụ đo (vạch chia không đều, kim lệch vạch số $0$ ban đầu)."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thước đo chiều dài có độ chia nhỏ nhất là $1\\text{ mm}$. Nếu lấy sai số dụng cụ bằng một nửa độ chia nhỏ nhất thì sai số dụng cụ $\\Delta l_{dc}$ là:",
+    "caccauChon": [
+      "$1\\text{ mm}$",
+      "$0{,}5\\text{ mm}$",
+      "$0{,}1\\text{ mm}$",
+      "$2\\text{ mm}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số dụng cụ: $\\Delta l_{dc} = \\frac{1}{2} \\cdot 1\\text{ mm} = 0{,}5\\text{ mm}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đo chiều dài một chiếc bút $3$ lần thu được các giá trị lần lượt là $15{,}1\\text{ cm}$; $15{,}3\\text{ cm}$; $15{,}2\\text{ cm}$. Giá trị trung bình của chiều dài chiếc bút là:",
+    "caccauChon": [
+      "$15{,}1\\text{ cm}$",
+      "$15{,}2\\text{ cm}$",
+      "$15{,}3\\text{ cm}$",
+      "$15{,}25\\text{ cm}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Giá trị trung bình: $l_{tb} = \\frac{15{,}1 + 15{,}3 + 15{,}2}{3} = \\frac{45{,}6}{3} = 15{,}2\\text{ cm}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một phép đo thời gian cho kết quả $t = (2{,}00 \\pm 0{,}04)\\text{ s}$. Sai số tỉ đối của phép đo này là:",
+    "caccauChon": [
+      "$2\\%$",
+      "$4\\%$",
+      "$0{,}02\\%$",
+      "$8\\%$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Sai số tỉ đối: $\\delta t = \\frac{\\Delta t}{t_{tb}} \\cdot 100\\% = \\frac{0{,}04}{2{,}00} \\cdot 100\\% = 2\\%$."
+  }
+]

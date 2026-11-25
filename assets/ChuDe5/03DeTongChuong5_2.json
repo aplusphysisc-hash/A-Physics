@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức tính công của lực $F$ không đổi khi vật dịch chuyển một đoạn $s$ theo hướng hợp với lực góc $\\alpha$ là:",
+    "caccauChon": [
+      "$A = F \\cdot s \\cdot \\sin\\alpha$",
+      "$A = F \\cdot s \\cdot \\cos\\alpha$",
+      "$A = \\frac{F}{s}$",
+      "$A = F \\cdot v \\cdot t$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công thức tính công: $A = F \\cdot s \\cdot \\cos\\alpha$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công cơ học có giá trị âm (công cản) khi góc $\\alpha$ hợp bởi lực và độ dịch chuyển thỏa mãn điều kiện:",
+    "caccauChon": [
+      "$0^\\circ \\le \\alpha < 90^\\circ$",
+      "$\\alpha = 90^\\circ$",
+      "$90^\\circ < \\alpha \\le 180^\\circ$",
+      "$\\alpha = 0^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi $90^\\circ < \\alpha \\le 180^\\circ$ thì $\\cos\\alpha < 0$ nên $A < 0$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây đặc trưng cho tốc độ sinh công của lực?",
+    "caccauChon": [
+      "Công cơ học",
+      "Công suất",
+      "Động năng",
+      "Hiệu suất"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công suất đặc trưng cho tốc độ sinh công."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính công suất trung bình khi lực $F$ sinh công $A$ trong thời gian $t$ là:",
+    "caccauChon": [
+      "$P = A \\cdot t$",
+      "$P = \\frac{A}{t}$",
+      "$P = F \\cdot t$",
+      "$P = \\frac{t}{A}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công suất trung bình: $P = \\frac{A}{t}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một máy bơm nước có công suất tiêu thụ $1\\text{ kW}$ hoạt động trong $1\\text{ giờ}$. Công mà máy bơm thực hiện được là:",
+    "caccauChon": [
+      "$1000\\text{ J}$",
+      "$3600\\text{ J}$",
+      "$3\\,600\\,000\\text{ J}$",
+      "$60\\,000\\text{ J}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$A = P \\cdot t = 1000 \\cdot 3600 = 3\\,600\\,000\\text{ J}$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hiệu suất $H$ của một động cơ được tính bằng tỉ số giữa:",
+    "caccauChon": [
+      "Công toàn phần và công hữu ích.",
+      "Công hữu ích và công toàn phần.",
+      "Công hao phí và công hữu ích.",
+      "Công toàn phần và công hao phí."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hiệu suất $H = \\frac{A_{ih}}{A_{tp}} \\cdot 100\\%$.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nhan_nang_luong_hieu_suat.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Động năng của một vật sẽ thay đổi như thế nào nếu khối lượng của vật giảm một nửa và vận tốc tăng gấp đôi?",
+    "caccauChon": [
+      "Tăng gấp đôi",
+      "Không đổi",
+      "Tăng gấp bốn",
+      "Giảm một nửa"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$m$ giảm $2$ lần ($0{,}5m$), $v$ tăng $2$ lần ($v^2$ tăng $4$ lần) $\\implies W_đ$ tăng $0{,}5 \\cdot 4 = 2$ lần."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 2\\text{ kg}$ đang chuyển động với vận tốc $v = 3\\text{ m/s}$. Động năng của vật là:",
+    "caccauChon": [
+      "$6\\text{ J}$",
+      "$9\\text{ J}$",
+      "$18\\text{ J}$",
+      "$3\\text{ J}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$W_đ = \\frac{1}{2} \\cdot 2 \\cdot 3^2 = 9\\text{ J}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thế năng trọng trường của một vật KHÔNG phụ thuộc vào yếu tố nào sau đây?",
+    "caccauChon": [
+      "Khối lượng của vật.",
+      "Gia tốc trọng trường tại nơi đặt vật.",
+      "Vận tốc chuyển động của vật.",
+      "Độ cao của vật so với mốc thế năng."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thế năng trọng trường $W_t = mgz$ không phụ thuộc vận tốc."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thế năng đàn hồi của lò xo có độ cứng $k = 200\\text{ N/m}$ khi bị nén một đoạn $5\\text{ cm}$ ($0{,}05\\text{ m}$) là:",
+    "caccauChon": [
+      "$0{,}25\\text{ J}$",
+      "$0{,}5\\text{ J}$",
+      "$2{,}5\\text{ J}$",
+      "$5\\text{ J}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$W_{tđ} = 0{,}5 \\cdot 200 \\cdot (0{,}05)^2 = 0{,}25\\text{ J}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức tính cơ năng của một vật ở độ cao $z$ trong trọng trường có vận tốc $v$ là:",
+    "caccauChon": [
+      "$W = 0{,}5mv^2 - mgz$",
+      "$W = 0{,}5mv^2 + mgz$",
+      "$W = mgz - 0{,}5mv^2$",
+      "$W = mv + mgz$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Cơ năng: $W = \\frac{1}{2}mv^2 + mgz$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong quá trình vật chuyển động ném vật lên cao theo phương thẳng đứng (bỏ qua sức cản không khí), đại lượng nào sau đây được bảo toàn?",
+    "caccauChon": [
+      "Động năng",
+      "Thế năng",
+      "Cơ năng",
+      "Vận tốc"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Bỏ qua sức cản nên cơ năng được bảo toàn."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do từ độ cao $h$ xuống đất. Trong quá trình rơi:",
+    "caccauChon": [
+      "Động năng tăng, thế năng giảm, cơ năng không đổi.",
+      "Động năng giảm, thế năng tăng, cơ năng không đổi.",
+      "Động năng tăng, thế năng tăng, cơ năng tăng.",
+      "Động năng giảm, thế năng giảm, cơ năng giảm."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Rơi tự do: động năng tăng, thế năng giảm, cơ năng bảo toàn."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công của lực ma sát tác dụng lên vật trượt trên mặt phẳng ngang là:",
+    "caccauChon": [
+      "Công phát động (dương).",
+      "Công cản (âm).",
+      "Bằng không.",
+      "Bằng độ tăng động năng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực ma sát ngược chiều chuyển động nên sinh công cản (âm)."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây là SAI khi nói về năng lượng?",
+    "caccauChon": [
+      "Năng lượng là đại lượng vô hướng.",
+      "Năng lượng có thể chuyển hóa từ dạng này sang dạng khác.",
+      "Đơn vị của năng lượng trong hệ SI là Jun ($\\text{J}$).",
+      "Năng lượng cơ học của một hệ luôn luôn được bảo toàn tuyệt đối trong thực tế."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Cơ năng không bảo toàn tuyệt đối ngoài thực tế do luôn có lực cản và ma sát."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một động cơ có công suất hữu ích $P_{ih} = 3\\text{ kW}$ và hiệu suất $H = 75\\%$. Công suất toàn phần của động cơ là:",
+    "caccauChon": [
+      "$2{,}25\\text{ kW}$",
+      "$4\\text{ kW}$",
+      "$3{,}75\\text{ kW}$",
+      "$4{,}5\\text{ kW}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$P_{tp} = \\frac{P_{ih}}{H} = \\frac{3}{0{,}75} = 4\\text{ kW}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 500\\text{ g}$ rơi tự do từ độ cao $h = 10\\text{ m}$ xuống đất (lấy $g = 10\\text{ m/s}^2$). Vận tốc của vật ngay trước khi chạm đất là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$14{,}14\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$100\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$v = \\sqrt{2gh} = \\sqrt{2 \\cdot 10 \\cdot 10} = \\sqrt{200} \\approx 14{,}14\\text{ m/s}$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực kéo có phương ngang làm ô tô khối lượng $1\\text{ tấn}$ tăng tốc từ trạng thái nghỉ đạt vận tốc $72\\text{ km/h}$ ($20\\text{ m/s}$) trên quãng đường $100\\text{ m}$ (bỏ qua ma sát). Công của lực kéo là:",
+    "caccauChon": [
+      "$200\\text{ kJ}$",
+      "$50\\text{ kJ}$",
+      "$100\\text{ kJ}$",
+      "$400\\text{ kJ}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$A = \\Delta W_đ = \\frac{1}{2} \\cdot 1000 \\cdot 20^2 = 200\\,000\\text{ J} = 200\\text{ kJ}$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lò xo có độ cứng $k = 100\\text{ N/m}$. Khi giữ cho lò xo dãn ra $4\\text{ cm}$ thì thế năng đàn hồi của lò xo là:",
+    "caccauChon": [
+      "$0{,}08\\text{ J}$",
+      "$0{,}16\\text{ J}$",
+      "$8\\text{ J}$",
+      "$16\\text{ J}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$W_{tđ} = 0{,}5 \\cdot 100 \\cdot (0{,}04)^2 = 0{,}08\\text{ J}$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính công suất tức thời khi vật chuyển động với vận tốc $v$ dưới tác dụng của lực $F$ hợp với vận tốc góc $\\alpha$ là:",
+    "caccauChon": [
+      "$P = F \\cdot v$",
+      "$P = F \\cdot v \\cdot \\cos\\alpha$",
+      "$P = \\frac{A}{v}$",
+      "$P = \\frac{F}{v}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công suất tức thời: $P = F \\cdot v \\cdot \\cos\\alpha$."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về công cơ học và các trường hợp sinh công:",
+    "dsYCon": [
+      "Vật dịch chuyển theo phương vuông góc với lực tác dụng thì công của lực đó bằng không.",
+      "Công của lực ma sát luôn là công âm vì ngược hướng với độ dịch chuyển.",
+      "Đơn vị của công cơ học là Oát ($\\text{W}$).",
+      "Lực kéo vật chuyển động cùng chiều chuyển động sinh công dương."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a, b, d) Đúng.\\n- Ý c) Sai: Oát là đơn vị công suất, đơn vị công là Jun ($\\text{J}$)."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về công suất và hiệu suất:",
+    "dsYCon": [
+      "Công suất là công thực hiện trong một đơn vị thời gian.",
+      "Thiết bị có công suất lớn hơn thì thực hiện công nhanh hơn thiết bị có công suất nhỏ hơn.",
+      "Hiệu suất phản ánh mức độ hao phí năng lượng của thiết bị.",
+      "Công toàn phần luôn nhỏ hơn công hữu ích trong mọi thiết bị thực tế."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) Đúng.\\n- Ý b) Đúng: Theo định nghĩa Vật lý 10, công suất đặc trưng cho tốc độ sinh công (công thực hiện trong $1$ giây), nên thiết bị có công suất lớn hơn thực hiện công nhanh hơn.\\n- Ý c) Đúng.\\n- Ý d) Sai: Công toàn phần luôn lớn hơn công hữu ích trong thực tế."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về động năng và thế năng:",
+    "dsYCon": [
+      "Động năng của vật chỉ phụ thuộc vào khối lượng và vận tốc của vật đó.",
+      "Thế năng trọng trường tại một điểm có giá trị tuyệt đối không phụ thuộc vào cách chọn mốc thế năng.",
+      "Thế năng đàn hồi tỉ lệ thuận với bình phương độ biến dạng của lò xo.",
+      "Khi vận tốc của vật giảm một nửa thì động năng của vật giảm đi $4$ lần."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a, c, d) Đúng.\\n- Ý b) Sai: Thế năng phụ thuộc vào mốc thế năng được chọn."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về định luật bảo toàn cơ năng:",
+    "dsYCon": [
+      "Cơ năng của một vật được bảo toàn khi vật chỉ chịu tác dụng của các lực thế như trọng lực, lực đàn hồi.",
+      "Sự rơi tự do là quá trình bảo toàn cơ năng.",
+      "Khi có lực ma sát tác dụng, cơ năng của vật chuyển hóa thành nhiệt năng và không được bảo toàn.",
+      "Thế năng trọng trường không bao giờ có thể nhận giá trị âm."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a, b, c) Đúng.\\n- Ý d) Sai: Thế năng có thể âm nếu vật nằm dưới mốc thế năng.",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nhay_sao_nang_luong.webp"
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về các bài toán năng lượng cơ học:",
+    "dsYCon": [
+      "Định lý động năng khẳng định độ biến thiên động năng bằng tổng công của các lực tác dụng lên vật.",
+      "Một vật được ném lên cao thì thế năng tăng dần và động năng giảm dần.",
+      "Tại đỉnh của quỹ đạo ném lên thẳng đứng, vận tốc của vật bằng không và cơ năng đạt giá trị cực tiểu.",
+      "Hiệu suất của một máy móc phụ thuộc vào lượng năng lượng hao phí trong quá trình hoạt động."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a, b, d) Đúng.\\n- Ý c) Sai: Tại đỉnh vận tốc bằng $0$ nhưng thế năng cực đại, cơ năng vẫn bảo toàn không đổi."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô có khối lượng $m = 1\\text{ tấn}$ chuyển động đều trên đoạn đường thẳng nằm ngang dài $2\\text{ km}$ với vận tốc không đổi $v = 54\\text{ km/h}$ ($15\\text{ m/s}$). Biết lực ma sát cản trở chuyển động bằng $0{,}05$ lần trọng lượng của xe. Tính công suất của động cơ ô tô trên quãng đường đó (lấy $g = 10\\text{ m/s}^2$, đơn vị $\\text{W}$).",
+    "giaithich": "- Trọng lượng của xe: $P = m \\cdot g = 1000 \\cdot 10 = 10000\\text{ N}$.\\n- Lực ma sát cản trở: $F_{ms} = 0{,}05 \\cdot 10000 = 500\\text{ N}$.\\n- Xe chuyển động đều nên $F_k = F_{ms} = 500\\text{ N}$.\\n- Công của động cơ trên $s = 2000\\text{ m}$: $A = F_k \\cdot s = 500 \\cdot 2000 = 1\\,000\\,000\\text{ J} = 1\\text{ MJ}$.\\n- Công suất động cơ: $P = F_k \\cdot v = 500 \\cdot 15 = 7500\\text{ W} = 7{,}5\\text{ kW}$.\\nĐáp số: 7500"
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một hệ thống máy bơm nước có công suất tiêu thụ toàn phần $P_{tp} = 5\\text{ kW}$ bơm được $V = 2{,}4\\text{ m}^3$ nước lên cao $h = 10\\text{ m}$ trong thời gian $t = 1\\text{ phút}$. Cho biết khối lượng riêng của nước là $D = 1000\\text{ kg/m}^3$ và lấy $g = 10\\text{ m/s}^2$. Tính hiệu suất của máy bơm (theo đơn vị $\\%$).",
+    "giaithich": "- Thời gian bơm: $t = 1\\text{ phút} = 60\\text{ s}$.\\n- Công toàn phần tiêu thụ: $A_{tp} = P_{tp} \\cdot t = 5000 \\cdot 60 = 300\\,000\\text{ J} = 300\\text{ kJ}$.\\n- Khối lượng nước bơm được: $m = D \\cdot V = 1000 \\cdot 2{,}4 = 2400\\text{ kg}$.\\n- Công hữu ích đưa nước lên cao: $A_{ih} = m \\cdot g \\cdot h = 2400 \\cdot 10 \\cdot 10 = 240\\,000\\text{ J} = 240\\text{ kJ}$.\\n- Hiệu suất của máy bơm: $H = \\frac{A_{ih}}{A_{tp}} \\cdot 100\\% = \\frac{240}{300} \\cdot 100\\% = 80\\%$.\\nĐáp số: 80",
+    "hinhAnh": "images/ChuDe5/reallife/anh_nha_may_thuy_dien.webp"
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một vật nhỏ khối lượng $m = 100\\text{ g}$ được ném thẳng đứng lên cao từ mặt đất với vận tốc ban đầu $v_0 = 10\\text{ m/s}$. Bỏ qua sức cản không khí, lấy $g = 10\\text{ m/s}^2$, chọn mốc thế năng tại mặt đất. Sử dụng định luật bảo toàn cơ năng, tính vận tốc của vật khi vật ở độ cao bằng một nửa độ cao cực đại (làm tròn 2 chữ số thập phân, đơn vị $\\text{m/s}$).",
+    "giaithich": "- Cơ năng ban đầu: $W = \\frac{1}{2}mv_0^2 = 0{,}5 \\cdot 0{,}1 \\cdot 10^2 = 5\\text{ J}$.\\n- Độ cao cực đại: $h_{max} = \\frac{W}{mg} = \\frac{5}{0{,}1 \\cdot 10} = 5\\text{ m}$.\\n- Tại độ cao $z = \\frac{h_{max}}{2} = 2{,}5\\text{ m}$: $W_t = mgz = 0{,}1 \\cdot 10 \\cdot 2{,}5 = 2{,}5\\text{ J}$.\\n- Động năng tại đó: $W_đ = W - W_t = 5 - 2{,}5 = 2{,}5\\text{ J} \\implies v = \\sqrt{\\frac{2 \\cdot 2{,}5}{0{,}1}} = \\sqrt{50} \\approx 7{,}07\\text{ m/s}$.\\nĐáp số: 7,07"
+  }
+]

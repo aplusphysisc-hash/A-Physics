@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng đặc trưng cho tính chất nhanh hay chậm của chuyển động trên một quãng đường là",
+    "caccauChon": [
+      "độ dịch chuyển.",
+      "tốc độ trung bình.",
+      "tọa độ của vật.",
+      "thời gian chuyển động."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc độ trung bình đặc trưng cho mức độ nhanh hay chậm của chuyển động dựa trên quãng đường đi được."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị đo của tốc độ và vận tốc trong hệ đo lường chuẩn SI là",
+    "caccauChon": [
+      "km/h.",
+      "cm/s.",
+      "m/s.",
+      "m/phút."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trong hệ SI, đơn vị độ dài là mét (m) và thời gian là giây (s), nên đơn vị vận tốc và tốc độ là m/s."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Số chỉ hiển thị trên tốc kế (đồng hồ đo tốc độ) gắn ở đầu xe máy cho biết giá trị nào sau đây?",
+    "caccauChon": [
+      "Tốc độ trung bình của xe từ lúc khởi hành.",
+      "Độ lớn vận tốc trung bình của xe.",
+      "Độ lớn tốc độ tức thời của xe tại thời điểm đó.",
+      "Quãng đường xe đã đi được."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tốc kế đo tốc độ của phương tiện trong một khoảng thời gian cực ngắn tại thời điểm quan sát, gọi là tốc độ tức thời.",
+    "hinhAnh": "images/ChuDe1/reallife/anh_toc_ke_o_to_xemay.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây là đúng khi nói về vận tốc trung bình?",
+    "caccauChon": [
+      "Vận tốc trung bình luôn có giá trị dương.",
+      "Vận tốc trung bình là đại lượng vô hướng.",
+      "Vận tốc trung bình bằng thương số của độ dịch chuyển và thời gian.",
+      "Vận tốc trung bình luôn bằng tốc độ trung bình."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo định nghĩa, $\\vec{v}_{tb}$ = $\\vec{d}$ / t (thương số giữa độ dịch chuyển và thời gian thực hiện độ dịch chuyển đó)."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong trường hợp nào dưới đây, độ lớn vận tốc trung bình bằng tốc độ trung bình của vật?",
+    "caccauChon": [
+      "Vật chuyển động tròn đều hết một vòng.",
+      "Vật chuyển động thẳng và không đổi chiều.",
+      "Vật ném thẳng đứng lên cao rồi rơi xuống đất.",
+      "Vật đi từ A đến B rồi quay ngược lại A."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật chuyển động thẳng và không đổi chiều thì độ lớn độ dịch chuyển bằng quãng đường (d = s), suy ra độ lớn vận tốc bằng tốc độ."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe máy chạy với tốc độ 54 km/h. Đổi giá trị tốc độ này sang đơn vị m/s ta được",
+    "caccauChon": [
+      "10 m/s.",
+      "15 m/s.",
+      "20 m/s.",
+      "25 m/s."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng quy tắc đổi đơn vị: 54 / 3,6 = 15 m/s."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vận động viên chạy cự li 100 m hết thời gian 10 s. Tốc độ trung bình của vận động viên này là",
+    "caccauChon": [
+      "10 m/s.",
+      "1000 m/s.",
+      "0,1 m/s.",
+      "36 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Áp dụng công thức $v_{tb}$ = s / t = 100 / 10 = 10 m/s."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đi hết quãng đường dài 180 km với tốc độ trung bình 60 km/h. Thời gian ô tô đi hết quãng đường đó là",
+    "caccauChon": [
+      "2 giờ.",
+      "2,5 giờ.",
+      "3 giờ.",
+      "3,5 giờ."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Thời gian chuyển động t = s / $v_{tb}$ = 180 / 60 = 3 giờ."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe đạp trên đoạn đường thẳng từ A đến B dài 12 km mất 1 giờ, sau đó quay đầu xe đi thẳng từ B về A cũng mất 1 giờ. Vận tốc trung bình của người đó trong cả quá trình đi và về là",
+    "caccauChon": [
+      "12 km/h.",
+      "6 km/h.",
+      "24 km/h.",
+      "0 km/h."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Điểm đầu và điểm cuối đều tại A nên độ dịch chuyển d = 0, suy ra vận tốc trung bình $v_{tb}$ = d / t = 0 / 2 = 0 km/h."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong bài toán ở Câu 9, tốc độ trung bình của người đi xe đạp trong cả quá trình đi và về bằng bao nhiêu?",
+    "caccauChon": [
+      "0 km/h.",
+      "6 km/h.",
+      "12 km/h.",
+      "24 km/h."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tổng quãng đường s = 12 + 12 = 24 km; tổng thời gian t = 1 + 1 = 2 giờ. Tốc độ trung bình $v_{tb}$ = 24 / 2 = 12 km/h."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi bộ về phía Đông được 300 m trong 3 phút, sau đó rẽ sang phía Bắc đi tiếp 400 m trong 2 phút. Độ lớn vận tốc trung bình của người này trong cả hành trình là",
+    "caccauChon": [
+      "1,67 m/s.",
+      "2,33 m/s.",
+      "100 m/s.",
+      "140 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ lớn độ dịch chuyển d = $\\sqrt{300^2 + 400^2}$ = 500 m. Tổng thời gian t = (3 + 2) $\\cdot$ 60 = 300 s. Độ lớn vận tốc trung bình v = 500 / 300 $\\approx$ 1,67 m/s."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đi nửa quãng đường đầu với tốc độ 40 km/h và nửa quãng đường sau với tốc độ 60 km/h. Tốc độ trung bình của ô tô trên cả quãng đường là",
+    "caccauChon": [
+      "50 km/h.",
+      "48 km/h.",
+      "52 km/h.",
+      "45 km/h."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Gọi nửa quãng đường là s. Thời gian đi hai nửa quãng đường: $t_1$ = s / 40; $t_2$ = s / 60. Tốc độ trung bình $v_{tb}$ = 2s / (s / 40 + s / 60) = 48 km/h."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đoàn tàu dài 150 m chạy qua một cây cầu dài 450 m với tốc độ không đổi 15 m/s. Thời gian từ lúc đầu tàu bắt đầu lên cầu đến lúc toa cuối cùng rời khỏi cầu là",
+    "caccauChon": [
+      "30 s.",
+      "10 s.",
+      "40 s.",
+      "20 s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tổng quãng đường tàu phải đi để qua hết cầu là s = 150 + 450 = 600 m. Thời gian t = 600 / 15 = 40 s."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều theo chiều dương trục Ox. Lúc $t_1$ = 2 s vật ở tọa độ $x_1$ = 10 m, lúc $t_2$ = 6 s vật ở tọa độ $x_2$ = 30 m. Vận tốc của vật là",
+    "caccauChon": [
+      "5 m/s.",
+      "7,5 m/s.",
+      "10 m/s.",
+      "4 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Áp dụng công thức v = ($x_2$ - $x_1$) / ($t_2$ - $t_1$) = (30 - 10) / (6 - 2) = 20 / 4 = 5 m/s."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hành khách ngồi trên một toa tàu đang rời ga cảm thấy mình đang đứng yên so với toa tàu nhưng lại đang chuyển động so với sân ga. Hiện tượng này thể hiện tính chất gì của chuyển động?",
+    "caccauChon": [
+      "Tính quán tính.",
+      "Tính bảo toàn.",
+      "Tính tương đối của chuyển động và vận tốc.",
+      "Tính đồng nhất của không gian."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vị trí và vận tốc của vật phụ thuộc vào vật làm mốc (hệ quy chiếu) được chọn, gọi là tính tương đối của chuyển động."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Gọi $\\vec{v}_{13}$ là vận tốc tuyệt đối, $\\vec{v}_{12}$ là vận tốc tương đối, $\\vec{v}_{23}$ là vận tốc kéo theo. Công thức cộng vận tốc đúng là",
+    "caccauChon": [
+      "$\\vec{v}_{13}$ = $\\vec{v}_{12}$ - $\\vec{v}_{23}$.",
+      "$\\vec{v}_{13}$ = $\\vec{v}_{12}$ + $\\vec{v}_{23}$.",
+      "$\\vec{v}_{12}$ = $\\vec{v}_{13}$ + $\\vec{v}_{23}$.",
+      "$\\vec{v}_{23}$ = $\\vec{v}_{12}$ + $\\vec{v}_{13}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Theo định lí cộng vận tốc: Vận tốc tuyệt đối bằng tổng véc-tơ của vận tốc tương đối và vận tốc kéo theo ($\\vec{v}_{13}$ = $\\vec{v}_{12}$ + $\\vec{v}_{23}$)."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một hành khách đi bộ dọc theo lối đi trên một toa tàu hỏa đang chạy thẳng đều với tốc độ 50 km/h. Nếu hành khách đi về phía đầu tàu với tốc độ 4 km/h so với sàn tàu thì tốc độ của hành khách so với mặt đất là",
+    "caccauChon": [
+      "46 km/h.",
+      "50 km/h.",
+      "54 km/h.",
+      "12,5 km/h."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì người đi cùng chiều với chiều chạy của tàu nên $v_1$₃ = $v_1$₂ + $v_2$₃ = 4 + 50 = 54 km/h."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc thuyền chạy ngược dòng sông với vận tốc riêng so với nước là 15 km/h. Biết nước chảy với vận tốc 3 km/h so với bờ. Vận tốc của thuyền so với bờ sông là",
+    "caccauChon": [
+      "18 km/h.",
+      "12 km/h.",
+      "5 km/h.",
+      "15 km/h."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vì thuyền chạy ngược dòng nước nên $v_1$₃ = $v_1$₂ - $v_2$₃ = 15 - 3 = 12 km/h."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai ô tô A và B chạy trên cùng một đường thẳng, ngược chiều nhau với tốc độ lần lượt là 40 km/h và 60 km/h so với mặt đường. Tốc độ của ô tô A so với ô tô B là",
+    "caccauChon": [
+      "20 km/h.",
+      "40 km/h.",
+      "60 km/h.",
+      "100 km/h."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Hai xe chạy ngược chiều nhau nên vận tốc tương đối của xe này so với xe kia bằng tổng hai tốc độ: 40 + 60 = 100 km/h."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc phà chạy ngang qua sông theo hướng vuông góc với bờ với tốc độ 8 m/s so với nước. Nước sông chảy dọc theo bờ với tốc độ 6 m/s so với bờ. Độ lớn vận tốc của phà so với bờ sông là",
+    "caccauChon": [
+      "14 m/s.",
+      "2 m/s.",
+      "10 m/s.",
+      "48 m/s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì vận tốc phà so với nước vuông góc với vận tốc dòng nước nên $v_1$₃ = $\\sqrt{8^2 + 6^2}$ = $\\sqrt{100}$ = 10 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai2_thuyen_qua_song.webp"
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các nhận định về tốc độ và vận tốc của một chất điểm chuyển động:",
+    "dsYCon": [
+      "Tốc độ trung bình luôn là đại lượng vô hướng và không bao giờ nhận giá trị âm.",
+      "Vận tốc trung bình luôn có độ lớn bằng tốc độ trung bình trong mọi chuyển động.",
+      "Khi vật chuyển động theo một đường tròn khép kín và trở về vị trí ban đầu, vận tốc trung bình cả vòng bằng 0.",
+      "Vận tốc tức thời cho biết cả mức độ nhanh chậm và hướng chuyển động của vật tại thời điểm đang xét."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng. Quãng đường và thời gian đều dương nên $v_{tb}$ = s / t luôn dương (hoặc bằng 0 khi đứng yên).\nb) Sai. Chỉ bằng nhau khi vật chuyển động thẳng và không đổi chiều.\nc) Đúng. Khi về lại vị trí cũ, độ dịch chuyển d = 0 nên $v_{tb}$ = d / t = 0.\nd) Đúng. Vận tốc tức thời là đại lượng véc-tơ đặc trưng cho phương, chiều và độ nhanh chậm tại một thời điểm."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô khởi hành từ vị trí A, chạy thẳng về phía Đông đến B cách A 60 km trong 1 giờ. Sau đó ô tô quay đầu chạy thẳng về phía Tây đến C cách B 20 km trong 0,5 giờ. Chọn chiều dương hướng từ Tây sang Đông:",
+    "dsYCon": [
+      "Tổng quãng đường ô tô đã đi được là 80 km.",
+      "Độ dịch chuyển của ô tô trong cả hành trình là +40 km.",
+      "Tốc độ trung bình của ô tô trong cả hành trình là 53,3 km/h.",
+      "Vận tốc trung bình của ô tô trong cả hành trình có độ lớn bằng tốc độ trung bình."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng. Quãng đường s = 60 + 20 = 80 km.\nb) Đúng. Điểm cuối C cách A một đoạn 60 - 20 = 40 km về phía Đông (cùng chiều dương) nên d = +40 km.\nc) Đúng. $v_{tb}$ = s / t = 80 / 1,5 $\\approx$ 53,3 km/h.\nd) Sai. Độ lớn vận tốc trung bình là 40 / 1,5 $\\approx$ 26,7 km/h, nhỏ hơn tốc độ trung bình."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một người đi xe máy trên đoạn đường thẳng từ nhà đến cơ quan dài 18 km. Trong 12 km đầu người đó đi với tốc độ 36 km/h. Đoạn đường còn lại người đó đi hết 15 phút:",
+    "dsYCon": [
+      "Thời gian người đó đi hết 12 km đầu là 20 phút.",
+      "Tốc độ trung bình của người đó trên đoạn đường còn lại là 24 km/h.",
+      "Tổng thời gian người đó đi từ nhà đến cơ quan là 35 phút.",
+      "Tốc độ trung bình của người đó trên cả quãng đường từ nhà đến cơ quan là 30 km/h."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng. $t_1$ = 12 / 36 = 1/3 giờ = 20 phút.\nb) Đúng. Đoạn đường còn lại dài 18 - 12 = 6 km; thời gian 15 phút = 0,25 giờ. Tốc độ $v_2$ = 6 / 0,25 = 24 km/h.\nc) Đúng. t = 20 + 15 = 35 phút.\nd) Sai. $v_{tb}$ = 18 / (35/60) = 18 $\\cdot$ 60 / 35 $\\approx$ 30,86 km/h."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ca nô chạy xuôi dòng từ bến M đến bến N cách nhau 36 km mất thời gian 1,5 giờ. Biết vận tốc dòng nước chảy so với bờ là 4 km/h:",
+    "dsYCon": [
+      "Vận tốc của ca nô đối với bờ sông khi chạy xuôi dòng là 24 km/h.",
+      "Vận tốc riêng của ca nô đối với nước đứng yên là 28 km/h.",
+      "Khi ca nô chạy ngược dòng từ N về M, vận tốc của ca nô đối với bờ sông là 16 km/h.",
+      "Thời gian ca nô chạy ngược dòng từ N về M mất 2,25 giờ."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng. $v_{xuoi}$ = 36 / 1,5 = 24 km/h.\nb) Sai. Khi xuôi dòng: $v_{xuoi}$ = $v_{cano}$ + $v_{nuoc}$ => $v_{cano}$ = 24 - 4 = 20 km/h.\nc) Đúng. $v_{nguoc}$ = $v_{cano}$ - $v_{nuoc}$ = 20 - 4 = 16 km/h.\nd) Đúng. $t_{nguoc}$ = 36 / 16 = 2,25 giờ.",
+    "hinhAnh": "images/ChuDe1/reallife/anh_thuyen_qua_song.webp"
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Hai đoàn tàu A và B chạy trên hai đường ray song song thẳng tắp. Tàu A dài 120 m chạy với tốc độ 20 m/s, tàu B dài 80 m chạy với tốc độ 10 m/s:",
+    "dsYCon": [
+      "Nếu hai tàu chạy ngược chiều nhau, tốc độ tương đối của tàu A so với tàu B là 30 m/s.",
+      "Nếu hai tàu chạy ngược chiều nhau, thời gian để hai tàu vượt qua nhau hoàn toàn là 6,67 s.",
+      "Nếu hai tàu chạy cùng chiều nhau, tốc độ tương đối của tàu A so với tàu B là 10 m/s.",
+      "Nếu hai tàu chạy cùng chiều nhau, thời gian để tàu A vượt qua hoàn toàn tàu B kể từ lúc đầu tàu A ngang đuôi tàu B là 12 s."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng. Chạy ngược chiều nên $v_{AB}$ = 20 + 10 = 30 m/s.\nb) Đúng. Tổng chiều dài hai tàu s = 120 + 80 = 200 m. Thời gian vượt qua nhau t = 200 / 30 $\\approx$ 6,67 s.\nc) Đúng. Chạy cùng chiều nên $v_{AB}$ = 20 - 10 = 10 m/s.\nd) Sai. Quãng đường vượt tương đối phải bằng tổng chiều dài hai tàu là 200 m, nên t = 200 / 10 = 20 s."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô chuyển động thẳng từ địa điểm A đến địa điểm B cách nhau $180\\text{ km}$. Trong $1{,}5\\text{ giờ}$ đầu, xe chạy với tốc độ không đổi $60\\text{ km/h}$. Sau đó, xe chạy tiếp quãng đường còn lại trong $1{,}5\\text{ giờ}$ nữa.\na) Tính quãng đường ô tô đi được trong $1{,}5\\text{ giờ}$ đầu và tốc độ của xe trong $1{,}5\\text{ giờ}$ sau.\nb) Tính tốc độ trung bình của ô tô trên toàn bộ quãng đường AB.",
+    "giaithich": "Lời giải chi tiết:\na) Quãng đường trong $1{,}5\\text{ giờ}$ đầu và tốc độ trong $1{,}5\\text{ giờ}$ sau:\n• Quãng đường ô tô đi được trong $1{,}5\\text{ giờ}$ đầu là:\n  $s_1 = v_1 \\times t_1 = 60 \\times 1{,}5 = 90\\text{ km}$.\n• Quãng đường còn lại ô tô đi trong $1{,}5\\text{ giờ}$ sau là:\n  $s_2 = s_{AB} - s_1 = 180 - 90 = 90\\text{ km}$.\n• Tốc độ của xe trong $1{,}5\\text{ giờ}$ sau là:\n  $v_2 = \\frac{s_2}{t_2} = \\frac{90}{1{,}5} = 60\\text{ km/h}$.\n\nb) Tốc độ trung bình trên toàn bộ quãng đường AB:\n• Tổng thời gian chuyển động: $t = t_1 + t_2 = 1{,}5 + 1{,}5 = 3{,}0\\text{ giờ}$.\n• Tốc độ trung bình của ô tô trên cả quãng đường AB là:\n  $v_{tb} = \\frac{s_{AB}}{t} = \\frac{180}{3{,}0} = 60\\text{ km/h}$."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một người đi xe đạp xuất phát từ điểm A, chạy thẳng theo chiều dương của trục Ox tới điểm B cách A $24\\text{ km}$ trong thời gian $1{,}5\\text{ giờ}$. Sau khi tới B, người đó nghỉ $30\\text{ phút}$ rồi quay ngược lại theo đường thẳng về điểm C (nằm giữa A và B, cách A $9\\text{ km}$) trong thời gian $1{,}0\\text{ giờ}$.\na) Tính tổng quãng đường đi được và độ dịch chuyển tổng hợp của người đi xe đạp sau cả hành trình.\nb) Tính tốc độ trung bình và vận tốc trung bình của người đi xe đạp trong toàn bộ quá trình chuyển động (kể cả thời gian nghỉ).",
+    "giaithich": "Lời giải chi tiết:\nĐổi thời gian nghỉ: $30\\text{ phút} = 0{,}5\\text{ giờ}$.\na) Tổng quãng đường đi được và độ dịch chuyển tổng hợp:\n• Quãng đường đi từ A đến B: $s_1 = 24\\text{ km}$.\n• Quãng đường quay về từ B đến C (cách A $9\\text{ km}$): $s_2 = BC = AB - AC = 24 - 9 = 15\\text{ km}$.\n• Tổng quãng đường đi được: $s = s_1 + s_2 = 24 + 15 = 39\\text{ km}$.\n• Chọn gốc tọa độ tại A, chiều dương từ A đến B. Điểm cuối là C cách A $9\\text{ km}$ theo chiều dương nên độ dịch chuyển tổng hợp là:\n  $d = +9\\text{ km}$.\n\nb) Tốc độ trung bình và vận tốc trung bình trong toàn bộ quá trình:\n• Tổng thời gian của cả quá trình: $t = 1{,}5 + 0{,}5 + 1{,}0 = 3{,}0\\text{ giờ}$.\n• Tốc độ trung bình: $v_{tb} = \\frac{s}{t} = \\frac{39}{3{,}0} = 13\\text{ km/h}$.\n• Vận tốc trung bình: $v = \\frac{d}{t} = \\frac{9}{3{,}0} = +3\\text{ km/h}$ (độ lớn $3\\text{ km/h}$, hướng theo chiều dương từ A đến C)."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một vận động viên chạy bộ trên một đường thẳng. Ban đầu, vận động viên chạy theo hướng Đông với tốc độ $5{,}0\\text{ m/s}$ trong $40\\text{ s}$; sau đó quay đầu chạy ngược lại (theo hướng Tây) với tốc độ $3{,}0\\text{ m/s}$ trong $20\\text{ s}$.\na) Tính quãng đường chạy được và độ dịch chuyển của vận động viên trong từng giai đoạn.\nb) Chọn chiều dương là hướng Đông. Xác định độ dịch chuyển tổng hợp, tốc độ trung bình và vận tốc trung bình của vận động viên trong suốt $60\\text{ s}$.",
+    "giaithich": "Lời giải chi tiết:\na) Quãng đường và độ dịch chuyển trong từng giai đoạn:\n• Chọn gốc tại vị trí xuất phát, chiều dương là hướng Đông:\n  - Giai đoạn 1 (chạy hướng Đông trong $40\\text{ s}$): quãng đường $s_1 = v_1 \\times t_1 = 5{,}0 \\times 40 = 200\\text{ m}$; độ dịch chuyển $d_1 = +200\\text{ m}$.\n  - Giai đoạn 2 (chạy hướng Tây trong $20\\text{ s}$): quãng đường $s_2 = v_2 \\times t_2 = 3{,}0 \\times 20 = 60\\text{ m}$; độ dịch chuyển $d_2 = -60\\text{ m}$.\n\nb) Độ dịch chuyển tổng hợp, tốc độ trung bình và vận tốc trung bình trong $60\\text{ s}$:\n• Độ dịch chuyển tổng hợp: $d = d_1 + d_2 = 200 + (-60) = +140\\text{ m}$.\n• Tổng quãng đường đi được: $s = s_1 + s_2 = 200 + 60 = 260\\text{ m}$.\n• Tổng thời gian chuyển động: $t = t_1 + t_2 = 40 + 20 = 60\\text{ s}$.\n• Tốc độ trung bình: $v_{tb} = \\frac{s}{t} = \\frac{260}{60} \\approx 4{,}33\\text{ m/s}$.\n• Vận tốc trung bình: $v = \\frac{d}{t} = \\frac{140}{60} \\approx +2{,}33\\text{ m/s}$ (độ lớn khoảng $2{,}33\\text{ m/s}$, hướng về phía Đông)."
+  }
+]

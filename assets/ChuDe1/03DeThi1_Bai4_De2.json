@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng biến đổi đều, đại lượng nào sau đây không thay đổi theo thời gian?",
+    "caccauChon": [
+      "Vận tốc tức thời.",
+      "Tọa độ của vật.",
+      "Gia tốc của vật.",
+      "Quãng đường đi được."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chuyển động thẳng biến đổi đều có gia tốc a là hằng số (không thay đổi theo thời gian)."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng nhanh dần đều theo chiều âm của trục tọa độ thì",
+    "caccauChon": [
+      "v > 0 và a > 0.",
+      "v < 0 và a < 0.",
+      "v < 0 và a > 0.",
+      "v > 0 và a < 0."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật đi theo chiều âm nên v < 0. Chuyển động nhanh dần đều nên a cùng dấu với v, suy ra a < 0."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe máy đang chạy với vận tốc 12 m/s thì tăng ga, sau 4 s vận tốc của xe là 20 m/s. Gia tốc của xe máy là",
+    "caccauChon": [
+      "2 $\\text{m/s}^2$.",
+      "5 $\\text{m/s}^2$.",
+      "8 $\\text{m/s}^2$.",
+      "3 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Gia tốc của xe máy: a = (v - $v_0$) / t = (20 - 12) / 4 = 8 / 4 = 2 $\\text{m/s}^2$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ dịch chuyển của vật chuyển động thẳng biến đổi đều không vận tốc đầu là",
+    "caccauChon": [
+      "d = a $\\cdot t^2$.",
+      "d = (1 / 2) $\\cdot$ a $\\cdot$ t.",
+      "d = (1 / 2) $\\cdot$ a $\\cdot t^2$.",
+      "d = 2 $\\cdot$ a $\\cdot t^2$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi $v_0$ = 0, công thức độ dịch chuyển d = $v_0 \\cdot$ t + (1 / 2) $\\cdot$ a $\\cdot t^2$ rút gọn thành d = (1 / 2) $\\cdot$ a $\\cdot t^2$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc 54 km/h thì hãm phanh, chuyển động chậm dần đều và dừng lại sau 5 s. Gia tốc của ô tô có độ lớn bằng",
+    "caccauChon": [
+      "10,8 $\\text{m/s}^2$.",
+      "3 $\\text{m/s}^2$.",
+      "1,5 $\\text{m/s}^2$.",
+      "5 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đổi $v_0$ = 54 km/h = 15 m/s; khi dừng lại v = 0. Gia tốc: a = (0 - 15) / 5 = -3 $\\text{m/s}^2$. Vậy độ lớn gia tốc là 3 $\\text{m/s}^2$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị vận tốc – thời gian (v - t), một đường thẳng xiên góc hướng xuống dưới (ở phía trên trục hoành) biểu diễn",
+    "caccauChon": [
+      "chuyển động thẳng đều.",
+      "chuyển động thẳng nhanh dần đều.",
+      "chuyển động thẳng chậm dần đều.",
+      "vật đang đứng yên."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đường thẳng hướng xuống cho thấy giá trị vận tốc đang giảm dần về 0, biểu diễn chuyển động thẳng chậm dần đều.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_xien_xuong_giam_toc.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một viên bi bắt đầu lăn xuống một máng nghiêng thẳng dài 1,8 m từ trạng thái đứng yên với gia tốc 0,4 $\\text{m/s}^2$. Thời gian để viên bi lăn hết máng nghiêng là",
+    "caccauChon": [
+      "3 s.",
+      "9 s.",
+      "4,5 s.",
+      "2 s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Áp dụng công thức s = (1 / 2) $\\cdot$ a $\\cdot t^2 \\Rightarrow$ 1,8 = 0,5 $\\cdot$ 0,4 $\\cdot t^2$ = 0,2 $\\cdot t^2 \\Rightarrow t^2$ = 9 $\\Rightarrow$ t = 3 s."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đoàn tàu rời ga chuyển động thẳng nhanh dần đều. Sau 1 phút, tàu đạt vận tốc 36 km/h. Gia tốc của đoàn tàu là",
+    "caccauChon": [
+      "0,6 $\\text{m/s}^2$.",
+      "0,17 $\\text{m/s}^2$.",
+      "1,67 $\\text{m/s}^2$.",
+      "6 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đổi t = 1 phút = 60 s; v = 36 km/h = 10 m/s; $v_0$ = 0. Gia tốc: a = (10 - 0) / 60 = 1 / 6 $\\approx$ 0,17 $\\text{m/s}^2$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe ô tô chuyển động thẳng biến đổi đều có phương trình vận tốc v = 15 - 3 $\\cdot$ t (m/s, s). Vận tốc ban đầu và gia tốc của xe lần lượt là",
+    "caccauChon": [
+      "15 m/s và 3 $\\text{m/s}^2$.",
+      "15 m/s và -3 $\\text{m/s}^2$.",
+      "-3 m/s và 15 $\\text{m/s}^2$.",
+      "3 m/s và 15 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "So sánh v = 15 - 3 $\\cdot$ t với phương trình v = $v_0$ + a $\\cdot$ t, ta được $v_0$ = 15 m/s và a = -3 $\\text{m/s}^2$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một canô đang chạy thẳng với vận tốc 8 m/s thì tăng tốc đều với gia tốc 0,5 $\\text{m/s}^2$ trên quãng đường dài 36 m. Vận tốc của canô ở cuối quãng đường này là",
+    "caccauChon": [
+      "10 m/s.",
+      "100 m/s.",
+      "12 m/s.",
+      "14 m/s."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Áp dụng công thức $v^2$ - $v_0$² = 2 $\\cdot$ a $\\cdot$ s: $v^2$ - $8^2$ = 2 $\\cdot$ 0,5 $\\cdot$ 36 $\\Rightarrow v^2$ - 64 = 36 $\\Rightarrow v^2$ = 100 $\\Rightarrow$ v = 10 m/s."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu vận tốc của một vật giảm từ 16 m/s xuống còn 4 m/s trong thời gian 4 s thì gia tốc của vật có giá trị là",
+    "caccauChon": [
+      "3 $\\text{m/s}^2$.",
+      "-3 $\\text{m/s}^2$.",
+      "4 $\\text{m/s}^2$.",
+      "-4 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Gia tốc của vật là: a = (4 - 16) / 4 = (-12) / 4 = -3 $\\text{m/s}^2$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe tải bắt đầu khởi hành thẳng nhanh dần đều với gia tốc 0,8 $\\text{m/s}^2$. Quãng đường xe đi được trong 10 s đầu tiên là",
+    "caccauChon": [
+      "8 m.",
+      "80 m.",
+      "40 m.",
+      "4 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Quãng đường xe đi trong 10 s đầu: s = 0,5 $\\cdot$ a $\\cdot t^2$ = 0,5 $\\cdot$ 0,8 $\\cdot$ 10^2 = 40 m."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng chậm dần đều với vận tốc ban đầu 10 m/s và gia tốc có độ lớn 2 $\\text{m/s}^2$. Vận tốc của vật sau 3 s là",
+    "caccauChon": [
+      "16 m/s.",
+      "4 m/s.",
+      "6 m/s.",
+      "2 m/s."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn chiều dương là chiều chuyển động: $v_0$ = 10 m/s, a = -2 $\\text{m/s}^2$. Vận tốc sau 3 s: v = 10 + (-2) $\\cdot$ 3 = 4 m/s."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương trình tọa độ của một chất điểm chuyển động thẳng biến đổi đều dọc theo trục Ox có dạng x = $x_0$ + $v_0 \\cdot$ t + (1 / 2) $\\cdot$ a $\\cdot t^2$. Đại lượng $x_0$ cho biết",
+    "caccauChon": [
+      "quãng đường vật đi được.",
+      "tọa độ của vật tại thời điểm ban đầu t = 0.",
+      "vận tốc ban đầu của vật.",
+      "gia tốc của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong phương trình tọa độ, $x_0$ là tọa độ ban đầu của vật tại thời điểm t = 0."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một máy bay phản lực hạ cánh xuống đường băng thẳng với vận tốc 80 m/s. Sau khi chạm đất, máy bay chạy chậm dần đều với gia tốc có độ lớn 4 $\\text{m/s}^2$. Quãng đường máy bay chạy trên đường băng cho đến khi dừng hẳn là",
+    "caccauChon": [
+      "800 m.",
+      "1600 m.",
+      "20 m.",
+      "400 m."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn chiều dương là chiều hạ cánh: $v_0$ = 80 m/s, a = -4 $\\text{m/s}^2$, khi dừng hẳn v = 0. Quãng đường chạy trên đường băng: s = $(0^2 - 80^2)$ / (2 $\\cdot$ (-4)) = (-6400) / (-8) = 800 m."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng nhanh dần đều đi được quãng đường 48 m trong 4 s, biết vận tốc ban đầu của vật là 4 m/s. Gia tốc của vật là",
+    "caccauChon": [
+      "2 $\\text{m/s}^2$.",
+      "4 $\\text{m/s}^2$.",
+      "6 $\\text{m/s}^2$.",
+      "8 $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng s = $v_0 \\cdot$ t + (1 / 2) $\\cdot$ a $\\cdot t^2$: 48 = 4 $\\cdot$ 4 + 0,5 $\\cdot$ a $\\cdot 4^2$ $\\Rightarrow$ 48 = 16 + 8 $\\cdot$ a $\\Rightarrow$ 8 $\\cdot$ a = 32 $\\Rightarrow$ a = 4 $\\text{m/s}^2$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị (v - t) của một vật là một đoạn thẳng đi qua gốc tọa độ O(0; 0) và điểm A(5 s; 15 m/s). Độ dịch chuyển của vật trong 5 s này bằng",
+    "caccauChon": [
+      "75 m.",
+      "37,5 m.",
+      "3 m.",
+      "15 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đồ thị (v - t) tạo thành một tam giác vuông có cạnh đáy t = 5 s và chiều cao v = 15 m/s. Độ dịch chuyển bằng diện tích tam giác: d = (5 $\\cdot$ 15) / 2 = 37,5 m.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_tam_giac_5s_15ms.webp"
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe máy đang chạy với vận tốc 10 m/s thì hãm phanh, đi chậm dần đều với gia tốc có độ lớn 2 $\\text{m/s}^2$. Quãng đường xe đi được trong 3 s kể từ lúc hãm phanh là",
+    "caccauChon": [
+      "39 m.",
+      "21 m.",
+      "30 m.",
+      "9 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn chiều dương là chiều chuyển động: $v_0$ = 10 m/s, a = -2 $\\text{m/s}^2$. Quãng đường đi được trong 3 s: s = 10 $\\cdot$ 3 + 0,5 $\\cdot$ (-2) $\\cdot $3^2  = 30 - 9 = 21 m."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chọn câu sai khi nói về gia tốc trong chuyển động thẳng biến đổi đều.",
+    "caccauChon": [
+      "Gia tốc là đại lượng véc-tơ.",
+      "Giá trị gia tốc luôn bằng hằng số.",
+      "Gia tốc cho biết hướng của chuyển động.",
+      "Đơn vị của gia tốc là $\\text{m/s}^2$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Véc-tơ vận tốc mới cho biết hướng của chuyển động, còn gia tốc chỉ cho biết hướng biến thiên của vận tốc (nhanh lên hay chậm lại)."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng nhanh dần đều không vận tốc đầu. Tỉ số giữa quãng đường vật đi được trong 3 s đầu và trong 1 s đầu là",
+    "caccauChon": [
+      "3.",
+      "6.",
+      "9.",
+      "4,5."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì s = 0,5 $\\cdot$ a $\\cdot t^2$ nên quãng đường tỉ lệ thuận với $t^2$. Tỉ số quãng đường trong 3 s đầu và 1 s đầu là: $s_3$ / $s_1$ = $3^2 / 1^2$ = 9."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các đặc điểm của chuyển động thẳng biến đổi đều:",
+    "dsYCon": [
+      "Vận tốc tức thời của vật biến thiên những lượng bằng nhau trong những khoảng thời gian bằng nhau bất kì.",
+      "Gia tốc của vật tăng đều hoặc giảm đều theo thời gian.",
+      "Quỹ đạo chuyển động của vật là một đường thẳng.",
+      "Nếu vận tốc ban đầu bằng 0 thì quãng đường đi được tỉ lệ thuận với bình phương thời gian."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng (Vì a = $\\Delta v$ / $\\Delta t$ = hằng số). | b) Sai (Gia tốc không đổi theo thời gian). | c) Đúng. | d) Đúng (s = 0,5 $\\cdot$ a $\\cdot t^2$)."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một xe đạp bắt đầu khởi hành xuống một con dốc thẳng dài 50 m, chuyển động nhanh dần đều với gia tốc 1 $\\text{m/s}^2$. Chọn chiều dương là chiều chuyển động:",
+    "dsYCon": [
+      "Vận tốc ban đầu của xe đạp bằng 0.",
+      "Thời gian để xe đạp đi hết con dốc là 10 s.",
+      "Vận tốc của xe đạp ở cuối con dốc là 10 m/s.",
+      "Sau 5 s đầu tiên, xe đi được một nửa chiều dài con dốc."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng. | b) Đúng (50 = 0,5 $\\cdot$ 1 $\\cdot t^2 \\Rightarrow t^2$ = 100 $\\Rightarrow$ t = 10 s). | c) Đúng (v = 0 + 1 $\\cdot$ 10 = 10 m/s). | d) Sai (Sau 5 s đi được s = 0,5 $\\cdot$ 1 $\\cdot 5^2 = 12,5$ m, bằng 1/4 con dốc)."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô đang chạy thẳng với vận tốc 14 m/s thì người lái đạp phanh, xe chuyển động chậm dần đều với gia tốc có độ lớn 2 $\\text{m/s}^2$. Chọn chiều dương là chiều chuyển động:",
+    "dsYCon": [
+      "Gia tốc của ô tô có giá trị đại số là a = -2 $\\text{m/s}^2$.",
+      "Sau 4 s kể từ lúc đạp phanh, vận tốc của ô tô là 6 m/s.",
+      "Sau 8 s kể từ lúc đạp phanh, ô tô đang chạy lùi với vận tốc 2 m/s.",
+      "Quãng đường ô tô đi được cho đến khi dừng hẳn là 49 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng. | b) Đúng (v = 14 - 2 $\\cdot$ 4 = 6 m/s). | c) Sai (Xe dừng hẳn ở giây thứ t = 14 / 2 = 7 s, sau khi phanh dừng lại xe đứng yên chứ không tự chạy lùi). | d) Đúng (s = $(0^2 - 14^2)$ / (2 $\\cdot$ (-2)) = 196 / 4 = 49 m)."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật chuyển động thẳng biến đổi đều dọc theo trục Ox có phương trình độ dịch chuyển d = 8 $\\cdot$ t - $t^2$ (trong đó d tính bằng m, t tính bằng s):",
+    "dsYCon": [
+      "Vận tốc ban đầu của vật là 8 m/s.",
+      "Gia tốc của vật là -2 $\\text{m/s}^2$.",
+      "Vật chuyển động thẳng chậm dần đều theo chiều dương trong 4 s đầu tiên.",
+      "Độ dịch chuyển cực đại của vật theo chiều dương là 16 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng. | b) Đúng (0,5 $\\cdot$ a = -1 $\\Rightarrow$ a = -2 $\\text{m/s}^2$). | c) Đúng (Vật dừng lại tại t = 8 / 2 = 4 s). | d) Đúng (Tại t = 4 s thì d = 8 $\\cdot$ 4 -  4^2  = 16 m)."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Đồ thị vận tốc – thời gian (v - t) của một người đi bộ được mô tả như sau: từ t = 0 đến t = 4 s vận tốc tăng đều từ 0 lên 2 m/s; từ t = 4 s đến t = 10 s vận tốc giữ không đổi ở mức 2 m/s:",
+    "dsYCon": [
+      "Trong 4 s đầu tiên, gia tốc của người đi bộ là 0,5 $\\text{m/s}^2$.",
+      "Quãng đường người đó đi được trong 4 s đầu là 8 m.",
+      "Từ giây thứ 4 đến giây thứ 10, người đó chuyển động thẳng đều.",
+      "Tổng quãng đường người đó đi được trong 10 s là 16 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng (a = (2 - 0) / 4 = 0,5 $\\text{m/s}^2$). | b) Sai ($s_1$ = (4 $\\cdot$ 2) / 2 = 4 m). | c) Đúng (Vận tốc giữ nguyên 2 m/s). | d) Đúng (s = $s_1$ + $s_2$ = 4 + 2 $\\cdot$ 6 = 16 m).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_nguoi_di_bo_3_giai_doan.webp"
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một xe buýt đang chạy thẳng trên đường với vận tốc $54\\text{ km/h}$ thì người lái xe đạp phanh cho xe chạy chậm dần đều. Sau $6\\text{ s}$ kể từ lúc phanh, vận tốc của xe giảm còn $36\\text{ km/h}$.\na) Tính gia tốc của xe buýt trong $6\\text{ s}$ hãm phanh.\nb) Nếu giữ nguyên gia tốc như vậy thì sau bao lâu kể từ lúc bắt đầu phanh, xe buýt sẽ dừng hẳn?",
+    "giaithich": "Lời giải chi tiết:\nChọn chiều dương là chiều chuyển động ban đầu của xe buýt.\na) Gia tốc của xe buýt trong $6\\text{ s}$ hãm phanh:\n• Đổi đơn vị: $v_0 = 54\\text{ km/h} = 15\\text{ m/s}$; $v_1 = 36\\text{ km/h} = 10\\text{ m/s}$.\n• Gia tốc của xe trong khoảng thời gian $\\Delta t_1 = 6\\text{ s}$:\n  $a = \\frac{v_1 - v_0}{\\Delta t_1} = \\frac{10 - 15}{6} = -\\frac{5}{6} \\approx -0{,}83\\text{ m/s}^2$.\n\nb) Thời gian kể từ lúc bắt đầu phanh đến khi xe dừng hẳn:\n• Khi xe dừng hẳn, vận tốc cuối là $v = 0\\text{ m/s}$.\n• Thời gian hãm phanh từ lúc bắt đầu phanh đến khi dừng hẳn:\n  $t_{dừng} = \\frac{v - v_0}{a} = \\frac{0 - 15}{-\\frac{5}{6}} = 15 \\times \\frac{6}{5} = 18\\text{ s}$."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một vật chuyển động thẳng có độ lớn gia tốc không đổi là $2{,}5\\text{ m/s}^2$. Tại thời điểm $t_1 = 2\\text{ s}$, vật có vận tốc $v_1 = +5{,}0\\text{ m/s}$ (theo chiều dương).\na) Xét trường hợp vật chuyển động nhanh dần theo chiều dương: tính vận tốc của vật lúc $t = 0$ và lúc $t_2 = 6\\text{ s}$.\nb) Xét trường hợp vật đang chuyển động theo chiều dương nhưng gia tốc ngược chiều dương ($a = -2{,}5\\text{ m/s}^2$): tính vận tốc của vật ở thời điểm $t_2 = 6\\text{ s}$ và cho biết khi đó vật đang chuyển động theo chiều nào?",
+    "giaithich": "Lời giải chi tiết:\na) Trường hợp chuyển động nhanh dần theo chiều dương ($a = +2{,}5\\text{ m/s}^2$):\n• Vì vật chuyển động nhanh dần theo chiều dương nên gia tốc cùng chiều dương: $a = +2{,}5\\text{ m/s}^2$.\n• Vận tốc của vật lúc $t = 0$:\n  Từ $v_1 = v_0 + a \\cdot t_1 \\Rightarrow v_0 = v_1 - a \\cdot t_1 = 5{,}0 - 2{,}5 \\times 2 = 0\\text{ m/s}$.\n• Vận tốc của vật lúc $t_2 = 6\\text{ s}$:\n  $v_2 = v_0 + a \\cdot t_2 = 0 + 2{,}5 \\times 6 = +15{,}0\\text{ m/s}$.\n\nb) Trường hợp gia tốc ngược chiều dương ($a = -2{,}5\\text{ m/s}^2$):\n• Vận tốc của vật tại thời điểm $t_2 = 6\\text{ s}$ (sau thời điểm $t_1 = 2\\text{ s}$ một khoảng $\\Delta t = 6 - 2 = 4\\text{ s}$):\n  $v_2 = v_1 + a \\cdot \\Delta t = 5{,}0 + (-2{,}5) \\times 4 = 5{,}0 - 10{,}0 = -5{,}0\\text{ m/s}$.\n• Vì $v_2 = -5{,}0\\text{ m/s} < 0$ nên tại thời điểm $t_2 = 6\\text{ s}$, vật đang chuyển động ngược chiều dương (theo chiều âm) với tốc độ $5{,}0\\text{ m/s}$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ô tô tăng tốc trên đường thẳng có sự phụ thuộc của gia tốc $a$ vào vận tốc $v$ được mô tả bởi đồ thị ($a – v$) như hình vẽ.\na) Từ đồ thị, xác định gia tốc của ô tô khi vận tốc bằng $0$, khi vận tốc bằng $10\\text{ m/s}$ và cho biết tại giá trị vận tốc nào thì gia tốc của ô tô bằng $0$.\nb) Nhận xét sự thay đổi của gia tốc khi vận tốc tăng từ $0$ đến $20\\text{ m/s}$. Nếu ô tô xuất phát từ trạng thái nghỉ ($v = 0$) với gia tốc ban đầu $4{,}0\\text{ m/s}^2$, hãy giải thích vì sao ô tô không thể tăng tốc mãi không ngừng theo đồ thị này.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_av_giam_dan_deu_q28.webp",
+    "giaithich": "Lời giải chi tiết:\na) Đọc giá trị từ đồ thị ($a – v$):\n• Khi $v = 0$: gia tốc của ô tô là $a = 4{,}0\\text{ m/s}^2$.\n• Khi $v = 10\\text{ m/s}$: gia tốc của ô tô là $a = 2{,}0\\text{ m/s}^2$.\n• Gia tốc của ô tô bằng $0$ ($a = 0$) tại giá trị vận tốc $v = 20\\text{ m/s}$.\n\nb) Nhận xét sự thay đổi gia tốc và giải thích giới hạn tăng tốc:\n• Khi vận tốc tăng từ $0$ lên $20\\text{ m/s}$, gia tốc của ô tô giảm dần đều từ $4{,}0\\text{ m/s}^2$ xuống $0\\text{ m/s}^2$.\n• Khi ô tô xuất phát từ $v = 0$, gia tốc ban đầu lớn nhất ($4{,}0\\text{ m/s}^2$) giúp xe tăng tốc nhanh, nhưng càng chạy nhanh thì gia tốc càng nhỏ lại. Khi vận tốc đạt tới $v = 20\\text{ m/s}$ thì gia tốc giảm về $0$, nghĩa là vận tốc ngừng tăng thêm (ô tô đạt tốc độ tới hạn / chuyển động ổn định ở mức $20\\text{ m/s}$)."
+  }
+]

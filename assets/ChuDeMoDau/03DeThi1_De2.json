@@ -1,0 +1,374 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây thường được xác định bằng phép đo gián tiếp trong phòng thí nghiệm?",
+    "caccauChon": [
+      "Chiều dài của chiếc bút chì đo bằng thước kẻ.",
+      "Thời gian rơi của một viên bi đo bằng đồng hồ bấm giây.",
+      "Khối lượng riêng của một khối kim loại tính qua khối lượng và thể tích.",
+      "Khối lượng của một quyển sách đo bằng cân điện tử."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khối lượng riêng tính qua công thức $\\rho = \\frac{m}{V}$ từ các đại lượng đo trực tiếp $m$ và $V$ nên là phép đo gián tiếp. Các đáp án A, B, D đều đọc trực tiếp kết quả trên dụng cụ đo."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thước đo chiều dài có độ chia nhỏ nhất là $2\\text{ mm}$. Nếu lấy sai số dụng cụ bằng một nửa độ chia nhỏ nhất thì sai số dụng cụ là:",
+    "caccauChon": [
+      "$2\\text{ mm}$.",
+      "$1\\text{ mm}$.",
+      "$0{,}5\\text{ mm}$.",
+      "$4\\text{ mm}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Một nửa độ chia nhỏ nhất bằng $\\frac{2\\text{ mm}}{2} = 1\\text{ mm}$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Sai số hệ thống có đặc điểm nào sau đây?",
+    "caccauChon": [
+      "Thay đổi bất thường qua từng lần đo.",
+      "Không có nguyên nhân rõ ràng.",
+      "Có tính quy luật, lặp lại giống nhau ở mọi lần đo.",
+      "Có thể loại bỏ hoàn toàn bằng cách đo $10$ lần."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Sai số hệ thống thường do cấu tạo dụng cụ hoặc lệch vạch số $0$ ban đầu nên có tính quy luật, lặp lại ở các lần đo."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng vật lý $A$ được đo $4$ lần với các kết quả $A_1, A_2, A_3, A_4$. Công thức tính giá trị trung bình $\\bar{A}$ là:",
+    "caccauChon": [
+      "$\\bar{A} = \\frac{A_1 + A_2 + A_3 + A_4}{2}$",
+      "$\\bar{A} = \\frac{A_1 + A_2 + A_3 + A_4}{4}$",
+      "$\\bar{A} = A_1 + A_2 + A_3 + A_4$",
+      "$\\bar{A} = \\frac{A_1 \\cdot A_2 \\cdot A_3 \\cdot A_4}{4}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Giá trị trung bình của $n$ lần đo bằng tổng giá trị các lần đo chia cho số lần đo $n$ (ở đây $n = 4$)."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho đại lượng $H = X - Y$. Công thức tính sai số tuyệt đối $\\Delta H$ của phép đo gián tiếp này là:",
+    "caccauChon": [
+      "$\\Delta H = \\Delta X - \\Delta Y$",
+      "$\\Delta H = \\Delta X + \\Delta Y$",
+      "$\\Delta H = \\Delta X \\cdot \\Delta Y$",
+      "$\\Delta H = \\frac{\\Delta X}{\\Delta Y}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số tuyệt đối của một tổng hay hiệu đều bằng tổng các sai số tuyệt đối của các số hạng: $\\Delta H = \\Delta X + \\Delta Y$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động có quãng đường đo được là $s = (25{,}0 \\pm 0{,}5)\\text{ m}$. Giá trị thực của quãng đường $s$ chắc chắn nằm trong khoảng:",
+    "caccauChon": [
+      "Từ $24{,}5\\text{ m}$ đến $25{,}5\\text{ m}$.",
+      "Từ $25{,}0\\text{ m}$ đến $25{,}5\\text{ m}$.",
+      "Từ $24{,}5\\text{ m}$ đến $25{,}0\\text{ m}$.",
+      "Từ $24{,}0\\text{ m}$ đến $26{,}0\\text{ m}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khoảng giá trị thực là từ $(\\bar{s} - \\Delta s)$ đến $(\\bar{s} + \\Delta s)$, tức từ $25{,}0 - 0{,}5 = 24{,}5\\text{ m}$ đến $25{,}0 + 0{,}5 = 25{,}5\\text{ m}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng $P$ được xác định qua công thức $P = \\frac{A}{t}$. Sai số tỉ đối $\\delta P$ được tính bằng:",
+    "caccauChon": [
+      "$\\delta P = \\delta A - \\delta t$",
+      "$\\delta P = \\delta A + \\delta t$",
+      "$\\delta P = \\frac{\\delta A}{\\delta t}$",
+      "$\\delta P = \\delta A \\cdot \\delta t$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số tỉ đối của một thương bằng tổng các sai số tỉ đối của các thành phần: $\\delta P = \\delta A + \\delta t$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thể tích hình cầu được tính theo công thức $V = \\frac{4}{3} \\pi R^3$. Nếu sai số tỉ đối của bán kính $R$ là $\\delta R$ thì sai số tỉ đối của thể tích $V$ là:",
+    "caccauChon": [
+      "$\\delta V = \\delta R$",
+      "$\\delta V = 3 \\cdot \\delta R$",
+      "$\\delta V = \\frac{4}{3} \\cdot \\delta R$",
+      "$\\delta V = (\\delta R)^3$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Các hằng số $\\frac{4}{3}$ và $\\pi$ không có sai số. Lũy thừa bậc $3$ của $R$ nên $\\delta V = 3 \\cdot \\delta R$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phép đo cường độ dòng điện cho kết quả $I = (2{,}00 \\pm 0{,}05)\\text{ A}$. Sai số tỉ đối của phép đo là:",
+    "caccauChon": [
+      "$5\\%$",
+      "$2{,}5\\%$",
+      "$0{,}025\\%$",
+      "$1{,}5\\%$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ta có $\\delta I = \\frac{\\Delta I}{\\bar{I}} \\cdot 100\\% = \\frac{0{,}05}{2{,}00} \\cdot 100\\% = 2{,}5\\%$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Kết quả tính toán cho giá trị trung bình $\\bar{t} = 3{,}4567\\text{ s}$ và sai số tuyệt đối $\\Delta t = 0{,}02\\text{ s}$. Cách ghi kết quả chuẩn theo quy tắc làm tròn là:",
+    "caccauChon": [
+      "$t = (3{,}4567 \\pm 0{,}02)\\text{ s}$",
+      "$t = (3{,}46 \\pm 0{,}02)\\text{ s}$",
+      "$t = (3{,}5 \\pm 0{,}02)\\text{ s}$",
+      "$t = (3{,}45 \\pm 0{,}02)\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$\\Delta t = 0{,}02$ lấy đến chữ số hàng phần trăm nên $\\bar{t} = 3{,}4567$ phải làm tròn đến chữ số hàng phần trăm thành $3{,}46$ (vì chữ số thứ $3$ sau dấu phẩy là $6 > 5$)."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hành động nào sau đây giúp hạn chế sai số ngẫu nhiên khi dùng đồng hồ bấm giây?",
+    "caccauChon": [
+      "Chỉ bấm đo đúng $1$ lần duy nhất.",
+      "Tập trung quan sát, thao tác dứt khoát và đo lặp lại nhiều lần.",
+      "Mua đồng hồ có độ chia nhỏ nhất lớn hơn.",
+      "Cộng thêm $1$ giây vào kết quả."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thao tác chuẩn xác và lặp lại phép đo nhiều lần lấy trung bình giúp giảm thiểu sai số ngẫu nhiên do phản xạ người đo."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đo nhiệt độ của một cốc nước $4$ lần thu được các kết quả: $35{,}2^\\circ\\text{C}$; $35{,}4^\\circ\\text{C}$; $35{,}1^\\circ\\text{C}$; $35{,}3^\\circ\\text{C}$. Giá trị trung bình của nhiệt độ là:",
+    "caccauChon": [
+      "$35{,}2^\\circ\\text{C}$",
+      "$35{,}25^\\circ\\text{C}$",
+      "$35{,}3^\\circ\\text{C}$",
+      "$35{,}15^\\circ\\text{C}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ta có $\\bar{t} = \\frac{35{,}2 + 35{,}4 + 35{,}1 + 35{,}3}{4} = \\frac{141{,}0}{4} = 35{,}25^\\circ\\text{C}$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Từ số liệu ở câu 12 ($\\bar{t} = 35{,}25^\\circ\\text{C}$), sai số ngẫu nhiên tuyệt đối của lần đo thứ nhất ($t_1 = 35{,}2^\\circ\\text{C}$) là:",
+    "caccauChon": [
+      "$0{,}05^\\circ\\text{C}$",
+      "$-0{,}05^\\circ\\text{C}$",
+      "$0{,}15^\\circ\\text{C}$",
+      "$0{,}25^\\circ\\text{C}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Ta có $\\Delta t_1 = |\\bar{t} - t_1| = |35{,}25 - 35{,}2| = 0{,}05^\\circ\\text{C}$ (dấu giá trị tuyệt đối luôn cho kết quả dương)."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một học sinh thực hiện hai phép đo độc lập. Phép đo $1$ có sai số tỉ đối $1{,}2\\%$, phép đo $2$ có sai số tỉ đối $0{,}8\\%$. Nhận xét nào sau đây đúng?",
+    "caccauChon": [
+      "Phép đo $1$ chính xác hơn phép đo $2$.",
+      "Phép đo $2$ chính xác hơn phép đo $1$.",
+      "Hai phép đo có độ chính xác bằng nhau.",
+      "Không thể so sánh độ chính xác."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Sai số tỉ đối càng nhỏ thì phép đo càng chính xác ($0{,}8\\% < 1{,}2\\%$)."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho công thức tính động năng $W_d = \\frac{1}{2} m v^2$. Sai số tỉ đối của động năng $\\delta W_d$ là:",
+    "caccauChon": [
+      "$\\delta W_d = \\delta m + \\delta v$",
+      "$\\delta W_d = \\delta m + 2 \\cdot \\delta v$",
+      "$\\delta W_d = \\frac{1}{2} \\cdot \\delta m + 2 \\cdot \\delta v$",
+      "$\\delta W_d = \\delta m + (\\delta v)^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hằng số $\\frac{1}{2}$ không gây sai số. Đại lượng $m$ bậc $1$, $v$ bậc $2$ nên $\\delta W_d = \\delta m + 2 \\cdot \\delta v$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng $Z = \\sqrt{X}$ (tức $X^{1/2}$). Sai số tỉ đối $\\delta Z$ tính theo $\\delta X$ là:",
+    "caccauChon": [
+      "$\\delta Z = 2 \\cdot \\delta X$",
+      "$\\delta Z = \\frac{1}{2} \\cdot \\delta X$",
+      "$\\delta Z = \\sqrt{\\delta X}$",
+      "$\\delta Z = \\delta X$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Căn bậc hai tương ứng lũy thừa $\\frac{1}{2}$, nên $\\delta Z = \\frac{1}{2} \\cdot \\delta X$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Sai số tuyệt đối của một phép đo trực tiếp được tính bằng:",
+    "caccauChon": [
+      "Hiệu giữa sai số ngẫu nhiên trung bình và sai số dụng cụ.",
+      "Tổng giữa sai số ngẫu nhiên trung bình và sai số dụng cụ.",
+      "Tích giữa sai số ngẫu nhiên trung bình và sai số dụng cụ.",
+      "Trung bình cộng của sai số ngẫu nhiên và sai số dụng cụ."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công thức chuẩn: $\\Delta A = \\overline{\\Delta A} + \\Delta A_{dc}$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi sử dụng ampe kế để đo dòng điện, kim chỉ thị ban đầu không chỉ đúng vạch số $0$ mà lệch sang phải $1$ vạch. Đây là nguyên nhân gây ra:",
+    "caccauChon": [
+      "Sai số ngẫu nhiên.",
+      "Sai số hệ thống.",
+      "Sai số tỉ đối bằng $0$.",
+      "Không gây sai số."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lệch điểm $0$ ban đầu của dụng cụ là nguyên nhân gây ra sai số hệ thống."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho hai đoạn thẳng nối tiếp có chiều dài $L_1 = (10{,}0 \\pm 0{,}1)\\text{ cm}$ và $L_2 = (15{,}0 \\pm 0{,}2)\\text{ cm}$. Tổng chiều dài $L = L_1 + L_2$ có sai số tuyệt đối $\\Delta L$ là:",
+    "caccauChon": [
+      "$0{,}1\\text{ cm}$",
+      "$0{,}2\\text{ cm}$",
+      "$0{,}3\\text{ cm}$",
+      "$0{,}15\\text{ cm}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Sai số tuyệt đối của tổng bằng tổng các sai số tuyệt đối: $\\Delta L = \\Delta L_1 + \\Delta L_2 = 0{,}1 + 0{,}2 = 0{,}3\\text{ cm}$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong thí nghiệm thực hành, việc biểu diễn kết quả đo bằng đồ thị giúp ta:",
+    "hinhAnh": "images/ChuDeMoDau/baitap/do_thi_o_sai_so.webp",
+    "caccauChon": [
+      "Loại bỏ hoàn toàn sai số dụng cụ.",
+      "Tìm ra quy luật phụ thuộc của đại lượng này vào đại lượng kia.",
+      "Không cần tính giá trị trung bình.",
+      "Biết được giá trị tuyệt đối chính xác $100\\%$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Theo mục 'Em có biết' trong SGK, phương pháp đồ thị cho phép tìm quy luật sự phụ thuộc của đại lượng $y$ vào đại lượng $x$ và biểu diễn ô sai số."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phát biểu về phép đo trực tiếp và phép đo gián tiếp:",
+    "dsYCon": [
+      "Dùng cân đồng hồ để cân một túi trái cây là phép đo trực tiếp.",
+      "Đo chu vi hình tròn bằng cách đo đường kính $d$ rồi tính $C = \\pi \\cdot d$ là phép đo gián tiếp.",
+      "Phép đo trực tiếp luôn luôn cho kết quả chính xác tuyệt đối, không bao giờ có sai số.",
+      "Khi đo diện tích hình chữ nhật qua chiều dài và chiều rộng, sai số tỉ đối của diện tích bằng tổng sai số tỉ đối của chiều dài và chiều rộng."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì kết quả khối lượng được đọc trực tiếp trên mặt cân.\n- Ý b: ĐÚNG vì chu vi $C$ được xác định thông qua công thức liên hệ với đại lượng đo trực tiếp $d$.\n- Ý c: SAI vì mọi phép đo đều tồn tại sai số do dụng cụ và người đo.\n- Ý d: ĐÚNG vì $S = a \\cdot b$ (dạng tích) nên $\\delta S = \\delta a + \\delta b$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một học sinh dùng đồng hồ bấm giây có độ chia nhỏ nhất là $0{,}01\\text{ s}$ để đo thời gian một vật rơi tự do $3$ lần được các giá trị: $t_1 = 0{,}52\\text{ s}$; $t_2 = 0{,}50\\text{ s}$; $t_3 = 0{,}51\\text{ s}$. Lấy sai số dụng cụ bằng một nửa độ chia nhỏ nhất.",
+    "dsYCon": [
+      "Sai số dụng cụ của đồng hồ bấm giây là $0{,}01\\text{ s}$.",
+      "Giá trị trung bình của thời gian rơi là $\\bar{t} = 0{,}51\\text{ s}$.",
+      "Sai số ngẫu nhiên tuyệt đối trung bình $\\overline{\\Delta t} \\approx 0{,}007\\text{ s}$.",
+      "Sai số tuyệt đối của phép đo là $\\Delta t = 0{,}012\\text{ s}$ (làm tròn $0{,}01\\text{ s}$)."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a: SAI vì một nửa độ chia nhỏ nhất bằng $\\frac{0{,}01\\text{ s}}{2} = 0{,}005\\text{ s}$.\n- Ý b: ĐÚNG vì $\\bar{t} = \\frac{0{,}52 + 0{,}50 + 0{,}51}{3} = 0{,}51\\text{ s}$.\n- Ý c: ĐÚNG vì $\\Delta t_1 = 0{,}01\\text{ s}$; $\\Delta t_2 = 0{,}01\\text{ s}$; $\\Delta t_3 = 0\\text{ s} \\Rightarrow \\overline{\\Delta t} = \\frac{0{,}02}{3} \\approx 0{,}007\\text{ s}$.\n- Ý d: ĐÚNG vì $\\Delta t = \\overline{\\Delta t} + \\Delta t_{dc} = 0{,}007 + 0{,}005 = 0{,}012\\text{ s} \\approx 0{,}01\\text{ s}$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Cho hai đại lượng đo trực tiếp $A = (10{,}0 \\pm 0{,}2)\\text{ m}$ và $B = (4{,}0 \\pm 0{,}1)\\text{ m}$. Xét các đại lượng gián tiếp tạo thành từ $A$ và $B$:",
+    "dsYCon": [
+      "Nếu $C = A + B$ thì giá trị trung bình $\\bar{C} = 14{,}0\\text{ m}$ và sai số tuyệt đối $\\Delta C = 0{,}3\\text{ m}$.",
+      "Nếu $D = A - B$ thì sai số tuyệt đối $\\Delta D = 0{,}2 - 0{,}1 = 0{,}1\\text{ m}$.",
+      "Sai số tỉ đối của đại lượng $A$ là $\\delta A = 2{,}0\\%$.",
+      "Nếu $E = A \\cdot B$ thì sai số tỉ đối $\\delta E = 4{,}5\\%$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì $\\bar{C} = 10{,}0 + 4{,}0 = 14{,}0\\text{ m}$; $\\Delta C = \\Delta A + \\Delta B = 0{,}2 + 0{,}1 = 0{,}3\\text{ m}$.\n- Ý b: SAI vì sai số tuyệt đối của một hiệu vẫn bằng tổng các sai số tuyệt đối: $\\Delta D = \\Delta A + \\Delta B = 0{,}3\\text{ m}$.\n- Ý c: ĐÚNG vì $\\delta A = \\frac{0{,}2}{10{,}0} \\cdot 100\\% = 2{,}0\\%$.\n- Ý d: ĐÚNG vì $\\delta B = \\frac{0{,}1}{4{,}0} \\cdot 100\\% = 2{,}5\\% \\Rightarrow \\delta E = \\delta A + \\delta B = 2{,}0\\% + 2{,}5\\% = 4{,}5\\%$."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét quy tắc biểu diễn sai số trên đồ thị thực nghiệm (Mục 'Em có biết' - SGK Vật lý 10):",
+    "hinhAnh": "images/ChuDeMoDau/baitap/do_thi_o_sai_so.webp",
+    "dsYCon": [
+      "Trên đồ thị $y$ theo $x$, mỗi cặp giá trị thực nghiệm $(x_i, y_i)$ có sai số $\\pm \\Delta x$ và $\\pm \\Delta y$ được biểu diễn bằng một điểm nằm trong một ô chữ nhật.",
+      "Chiều rộng và chiều cao của ô chữ nhật sai số lần lượt là $\\Delta x$ và $\\Delta y$.",
+      "Đường đồ thị lý thuyết chuẩn phải đi qua hoặc nằm gần nhất với tất cả các ô sai số.",
+      "Biểu diễn sai số bằng đồ thị chỉ áp dụng cho chuyển động thẳng đều."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a: ĐÚNG theo quy tắc biểu diễn ô sai số trên đồ thị.\n- Ý b: SAI vì sai số là $\\pm \\Delta x$ và $\\pm \\Delta y$ nên kích thước hai cạnh của ô chữ nhật sai số phải là $2\\Delta x$ và $2\\Delta y$.\n- Ý c: ĐÚNG vì đường biểu diễn quy luật vật lý được vẽ sao cho đi qua vùng các ô sai số này.\n- Ý d: SAI vì phương pháp đồ thị áp dụng cho mọi quy luật phụ thuộc giữa hai đại lượng vật lý bất kỳ."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Trong bài thực hành đo tốc độ trung bình của chiếc xe đồ chơi trên quãng đường $s$ với thời gian $t$:",
+    "dsYCon": [
+      "Dụng cụ cần thiết tối thiểu gồm thước đo chiều dài và đồng hồ đo thời gian.",
+      "Nếu thước có độ chia nhỏ nhất là $1\\text{ mm}$, ta có thể đọc chính xác chiều dài đến từng $0{,}01\\text{ mm}$.",
+      "Việc thả xe không cùng một vạch xuất phát ở các lần đo sẽ làm tăng sai số ngẫu nhiên.",
+      "Công thức tính sai số tuyệt đối của vận tốc là $\\Delta v = (\\delta s + \\delta t) \\cdot \\bar{v}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì cần thước đo quãng đường $s$ và đồng hồ đo thời gian $t$.\n- Ý b: SAI vì thước có độ chia nhỏ nhất $1\\text{ mm}$ chỉ đọc chính xác đến hàng milimét (hoặc nửa milimét).\n- Ý c: ĐÚNG vì thao tác thả xe không chuẩn giữa các lần đo làm kết quả thời gian $t$ bị lệch ngẫu nhiên.\n- Ý d: ĐÚNG vì $\\delta v = \\delta s + \\delta t$ và $\\Delta v = \\delta v \\cdot \\bar{v} \\Rightarrow \\Delta v = (\\delta s + \\delta t) \\cdot \\bar{v}$."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Bài 1 (Đo trực tiếp - Đo chiều dày cuốn sách): Một học sinh dùng thước có độ chia nhỏ nhất là $1\\text{ mm}$ để đo bề dày $h$ của một cuốn sách vật lý $4$ lần và thu được các kết quả sau: Lần 1: $18\\text{ mm}$; Lần 2: $19\\text{ mm}$; Lần 3: $18\\text{ mm}$; Lần 4: $17\\text{ mm}$. Biết sai số dụng cụ lấy bằng một nửa độ chia nhỏ nhất của thước.\n1. Tính giá trị trung bình $\\bar{h}$ và sai số ngẫu nhiên tuyệt đối trung bình $\\overline{\\Delta h}$.\n2. Tính sai số tuyệt đối $\\Delta h$ và viết kết quả phép đo bề dày cuốn sách.\n3. Tính sai số tỉ đối $\\delta h$ của phép đo trên.",
+    "giaithich": "Lời giải chi tiết:\n1. Giá trị trung bình của bề dày cuốn sách:\n$\\bar{h} = \\frac{18 + 19 + 18 + 17}{4} = \\frac{72}{4} = 18\\text{ mm}$.\nSai số ngẫu nhiên ở từng lần đo:\n$\\Delta h_1 = |18 - 18| = 0\\text{ mm}$; $\\Delta h_2 = |18 - 19| = 1\\text{ mm}$; $\\Delta h_3 = |18 - 18| = 0\\text{ mm}$; $\\Delta h_4 = |18 - 17| = 1\\text{ mm}$.\n$\\Rightarrow$ Sai số ngẫu nhiên tuyệt đối trung bình: $\\overline{\\Delta h} = \\frac{0 + 1 + 0 + 1}{4} = 0{,}5\\text{ mm}$.\n2. Sai số tuyệt đối của phép đo:\n- Sai số dụng cụ: $\\Delta h_{dc} = \\frac{1\\text{ mm}}{2} = 0{,}5\\text{ mm}$.\n- Sai số tuyệt đối: $\\Delta h = \\overline{\\Delta h} + \\Delta h_{dc} = 0{,}5 + 0{,}5 = 1{,}0\\text{ mm}$.\n$\\Rightarrow$ Viết kết quả phép đo: $h = (18{,}0 \\pm 1{,}0)\\text{ mm}$ (hoặc $18 \\pm 1\\text{ mm}$).\n3. Sai số tỉ đối:\n$\\delta h = \\frac{\\Delta h}{\\bar{h}} \\cdot 100\\% = \\frac{1{,}0}{18{,}0} \\cdot 100\\% \\approx 5{,}56\\%$. Đáp số: 18",
+    "hinhAnh": "images/ChuDeMoDau/reallife/anh_thuoc_kep_co_khi_panme.webp"
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Bài 2 (Đo gián tiếp - Tính sai số diện tích hình chữ nhật): Để tính diện tích $S$ của một tấm bìa hình chữ nhật ($S = a \\cdot b$), một học sinh đo chiều dài $a$ và chiều rộng $b$ thu được kết quả: Chiều dài $a = (30{,}0 \\pm 0{,}3)\\text{ cm}$; Chiều rộng $b = (20{,}0 \\pm 0{,}2)\\text{ cm}$.\n1. Tính sai số tỉ đối của chiều dài $\\delta a$ và chiều rộng $\\delta b$.\n2. Tính diện tích trung bình $\\bar{S}$ và sai số tỉ đối $\\delta S$ của phép đo diện tích.\n3. Tính sai số tuyệt đối $\\Delta S$ và biểu diễn kết quả phép đo diện tích $S$.",
+    "giaithich": "Lời giải chi tiết:\n1. Sai số tỉ đối thành phần:\n- $\\delta a = \\frac{\\Delta a}{\\bar{a}} \\cdot 100\\% = \\frac{0{,}3}{30{,}0} \\cdot 100\\% = 1{,}0\\%$.\n- $\\delta b = \\frac{\\Delta b}{\\bar{b}} \\cdot 100\\% = \\frac{0{,}2}{20{,}0} \\cdot 100\\% = 1{,}0\\%$.\n2. Diện tích trung bình và sai số tỉ đối $\\delta S$:\n- $\\bar{S} = \\bar{a} \\cdot \\bar{b} = 30{,}0 \\cdot 20{,}0 = 600\\text{ cm}^2$.\n- Vì $S = a \\cdot b$ nên $\\delta S = \\delta a + \\delta b = 1{,}0\\% + 1{,}0\\% = 2{,}0\\%$.\n3. Sai số tuyệt đối $\\Delta S$ và biểu diễn kết quả:\n- $\\Delta S = \\delta S \\cdot \\bar{S} = 2{,}0\\% \\cdot 600 = 0{,}02 \\cdot 600 = 12\\text{ cm}^2$.\n$\\Rightarrow$ Viết kết quả phép đo: $S = (600 \\pm 12)\\text{ cm}^2$. Đáp số: 600"
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Bài 3 (Đo gián tiếp - Xác định gia tốc rơi tự do $g$): Trong bài thực hành đo gia tốc rơi tự do $g$, học sinh thả rơi một vật từ độ cao $h$ và đo thời gian rơi $t$. Gia tốc rơi tự do được tính theo công thức $g = \\frac{2h}{t^2}$. Kết quả đo thu được: Độ cao $h = (0{,}800 \\pm 0{,}004)\\text{ m}$; Thời gian rơi $t = (0{,}40 \\pm 0{,}01)\\text{ s}$.\n1. Tính giá trị trung bình của gia tốc rơi tự do $\\bar{g}$ (đơn vị $\\text{m/s}^2$).\n2. Viết công thức và tính sai số tỉ đối $\\delta g$.\n3. Tính sai số tuyệt đối $\\Delta g$ và ghi kết quả đo gia tốc rơi tự do $g$.",
+    "giaithich": "Lời giải chi tiết:\n1. Giá trị trung bình của gia tốc rơi tự do $\\bar{g}$:\n$\\bar{g} = \\frac{2 \\cdot \\bar{h}}{(\\bar{t})^2} = \\frac{2 \\cdot 0{,}800}{(0{,}40)^2} = \\frac{1{,}600}{0{,}16} = 10{,}0\\text{ m/s}^2$.\n2. Sai số tỉ đối $\\delta g$:\n- Công thức: $\\delta g = \\delta h + 2 \\cdot \\delta t$.\n- $\\delta h = \\frac{0{,}004}{0{,}800} \\cdot 100\\% = 0{,}5\\%$.\n- $\\delta t = \\frac{0{,}01}{0{,}40} \\cdot 100\\% = 2{,}5\\%$.\n$\\Rightarrow \\delta g = 0{,}5\\% + 2 \\cdot 2{,}5\\% = 5{,}5\\%$.\n3. Sai số tuyệt đối $\\Delta g$ và ghi kết quả đo:\n- $\\Delta g = \\delta g \\cdot \\bar{g} = 5{,}5\\% \\cdot 10{,}0 = 0{,}55\\text{ m/s}^2 \\approx 0{,}6\\text{ m/s}^2$.\n$\\Rightarrow$ Viết kết quả phép đo: $g = (10{,}0 \\pm 0{,}6)\\text{ m/s}^2$. Đáp số: 10",
+    "hinhAnh": "images/ChuDeMoDau/reallife/anh_dong_ho_hien_so_cong_quang.webp"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 5,
+    "baiSo": 5,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 5: Chuyển động tròn đều",
+    "videoYoutubeId": "BjS7WqNPpcA",
+    "fileBaiTapNhanh": "ChuDe2/02BaiTapNhanh2_Bai5.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Số đo góc Radian (ra-đi-ang) và quy tắc quy đổi",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đơn vị đo góc Radian (rad)",
+            "noiDung": "{color:primary|**Radian**} (ký hiệu là $\\text{rad}$) là đơn vị chuẩn trong hệ SI dùng để đo góc ở tâm chắn cung tròn có độ dài bằng bán kính ($s = r \\implies \\alpha = 1\\text{ rad}$). Một vòng tròn đầy đủ $360^\\circ$ ứng với góc $2\\pi\\text{ rad}$ ($180^\\circ \\leftrightarrow \\pi\\text{ rad}$).",
+            "danhSachYCon": [
+              "**Giá trị xấp xỉ:** $1\\text{ rad} = \\frac{180^\\circ}{\\pi} \\approx 57{,}29^\\circ \\approx 57{,}3^\\circ$.",
+              "**Đổi từ Độ sang Radian:** $\\alpha(\\text{rad}) = \\alpha(\\text{độ}) \\cdot \\frac{\\pi}{180^\\circ}$ (Ví dụ: $60^\\circ = \\frac{\\pi}{3}\\text{ rad}$; $90^\\circ = \\frac{\\pi}{2}\\text{ rad}$).",
+              "**Đổi từ Radian sang Độ:** $\\alpha(\\text{độ}) = \\alpha(\\text{rad}) \\cdot \\frac{180^\\circ}{\\pi}$."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Khái niệm và đặc điểm của chuyển động tròn đều",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Định nghĩa chuyển động tròn đều",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Chuyển động tròn đều**} là chuyển động có {highlight|quỹ đạo là một đường tròn} và vật đi được những cung tròn bằng nhau trong những khoảng thời gian bằng nhau bất kì ({color:success|**tốc độ dài không đổi**} trên mọi điểm của quỹ đạo).",
+            "danhSachYCon": [
+              "**Ví dụ thực tế:** Một điểm ở đầu cánh quạt trần đang quay ổn định, đầu kim đồng hồ, cabin đu quay, vệ tinh nhân tạo bay quanh Trái Đất theo quỹ đạo tròn."
+            ]
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô phỏng 3D: Chuyển động tròn đều của cánh quạt trần",
+            "duongDanGlb": "models/ChuDe2/bai5_chuyen_dong_tron_deu_quat.glb",
+            "moTaMoHinh3d": "Chuyển động tròn đều: quạt trần quay đều quanh trục với điểm đánh dấu ở đầu cánh quạt vạch nên quỹ đạo đường tròn trong không gian.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Tốc độ dài, tốc độ góc, chu kỳ và tần số",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÁC ĐẠI LƯỢNG ĐẶC TRƯNG CỦA CHUYỂN ĐỘNG TRÒN ĐỀU",
+            "congThuc": "$$v = \\frac{s}{t} = \\frac{2\\pi r}{T}  ;  \\omega = \\frac{\\alpha}{t} = \\frac{2\\pi}{T} = 2\\pi f  ;  v = \\omega \\cdot r$$",
+            "mucDich": "Liên hệ giữa chu kỳ quay $T$, tần số $f$, tốc độ góc $\\omega$ và tốc độ dài $v$ tại bán kính $r$.",
+            "chuThich": "- **Chu kỳ $T$ ($\\text{s}$):** Thời gian để vật quay hết một vòng tròn đầy đủ.\n- **Tần số $f$ ($\\text{Hz}$ hoặc $\\text{vòng/s}$):** Số vòng vật quay được trong $1\\text{ giây}$, liên hệ nghịch đảo với chu kỳ: $f = \\frac{1}{T}$.\n- **Tốc độ dài $v$ ($\\text{m/s}$):** Có độ lớn không đổi nhưng vectơ $\\vec{v}$ luôn tiếp tuyến với quỹ đạo và đổi hướng liên tục.\n- **Tốc độ góc $\\omega$ ($\\text{rad/s}$):** Góc quét được trong một đơn vị thời gian, luôn là hằng số trong chuyển động tròn đều."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "soThuTu": 4,
+        "tieuDeMuc": "4. Gia tốc hướng tâm và lực hướng tâm",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "GIA TỐC HƯỚNG TÂM & LỰC HƯỚNG TÂM",
+            "congThuc": "$$a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r  ;  F_{ht} = m \\cdot a_{ht} = \\frac{m \\cdot v^2}{r} = m \\cdot \\omega^2 \\cdot r$$",
+            "mucDich": "Tính độ lớn gia tốc hướng tâm và hợp lực hướng tâm giữ cho vật chuyển động trên quỹ đạo tròn.",
+            "chuThich": "- **Phương & chiều:** Vectơ $\\vec{a}_{ht}$ và $\\vec{F}_{ht}$ luôn vuông góc với vectơ vận tốc dài ($\\vec{a}_{ht} \\perp \\vec{v}$) và {highlight|luôn hướng thẳng vào tâm quỹ đạo}.\n- **Bản chất lực hướng tâm:** Không phải là một loại lực mới mà là hợp lực của các lực đã biết (như lực hấp dẫn, lực căng dây, lực ma sát nghỉ...) đóng vai trò giữ vật trên đường tròn."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Bẫy điểm thi} Trong chuyển động tròn đều, chỉ có **tốc độ dài $v$**, **tốc độ góc $\\omega$** và **độ lớn gia tốc $a_{ht}$** là không đổi; còn các **vectơ $\\vec{v}$ và $\\vec{a}_{ht}$ luôn thay đổi hướng** theo thời gian!"
+          }
+        ]
+      }
+    ]
+  }
+]

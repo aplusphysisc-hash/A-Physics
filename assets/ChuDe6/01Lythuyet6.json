@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "tieude": "Bài 1: Động lượng và Định luật bảo toàn động lượng",
+    "noidung": "",
+    "videoYoutubeId": "lnTwkZlpSFo",
+    "fileBaiTapNhanh": "ChuDe6/02BaiTapNhanh6_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "Khái niệm Động lượng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Định nghĩa Động lượng",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Động lượng**} của một vật có khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ là đại lượng được xác định bởi {highlight|tích của khối lượng và vectơ vận tốc của vật}.",
+            "danhSachYCon": [
+              "**Đặc điểm:** Động lượng là {color:primary|đại lượng vectơ}, luôn {highlight|cùng hướng với vectơ vận tốc $\\vec{v}$}.",
+              "**Đơn vị đo:** {color:tertiary|$\\text{kg}\\cdot\\text{m/s}$} hoặc {color:tertiary|$\\text{N}\\cdot\\text{s}$}."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC TÍNH ĐỘNG LƯỢNG",
+            "congThuc": "$\\vec{p} \u003d m\\vec{v}$  (Độ lớn: $p \u003d m \\cdot v$)",
+            "mucDich": "Xác định phương, chiều và độ lớn động lượng của vật chuyển động.",
+            "chuThich": "- $m$: {color:tertiary|Khối lượng của vật} ($\\text{kg}$).\\n- $\\vec{v}$: {color:primary|Vectơ vận tốc} ($\\text{m/s}$).\\n- $\\vec{p}$: {color:primary|Vectơ động lượng} ($\\text{kg}\\cdot\\text{m/s}$).",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "Xung lượng của lực và Liên hệ với Động lượng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Xung lượng của lực",
+            "noiDung": "Khi một lực không đổi $\\vec{F}$ tác dụng lên vật trong khoảng thời gian ngắn $\\Delta t$, tích {color:primary|$\\vec{F}\\Delta t$} được gọi là {highlight|xung lượng của lực $\\vec{F}$} trong khoảng thời gian $\\Delta t$ đó.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "ĐỊNH LÝ BIẾN THIÊN ĐỘNG LƯỢNG (DẠNG TỔNG QUÁT ĐỊNH LUẬT II NEWTON)",
+            "congThuc": "$\\Delta\\vec{p} \u003d \\vec{p}_2 - \\vec{p}_1 \u003d \\vec{F} \\cdot \\Delta t \\implies \\vec{F} \u003d \\frac{\\Delta\\vec{p}}{\\Delta t}$",
+            "mucDich": "Tính độ biến thiên động lượng hoặc lực tác dụng trung bình trong thời gian tương tác $\\Delta t$.",
+            "chuThich": "Độ biến thiên động lượng của một vật trong một khoảng thời gian bằng {highlight|xung lượng của tổng các lực} tác dụng lên vật trong khoảng thời gian đó.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Ứng dụng thực tiễn} Túi khí ô tô hay đệm nhảy cao giúp {color:success|**kéo dài thời gian va chạm $\\Delta t$**}, từ đó {color:primary|làm giảm lực tác dụng $F \u003d \\frac{|\\Delta p|}{\\Delta t}$} lên người để giảm chấn thương.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "Định luật Bảo toàn Động lượng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Hệ kín (Hệ cô lập) \u0026 Phát biểu định luật",
+            "noiDung": "**Hệ kín** là hệ gồm nhiều vật chỉ tương tác với nhau mà {highlight|không chịu tác dụng của ngoại lực}, hoặc các ngoại lực cân bằng nhau.",
+            "danhSachYCon": [
+              "**Phát biểu:** {color:primary|Động lượng toàn phần của một hệ kín là một đại lượng bảo toàn} (không đổi cả về hướng và độ lớn).",
+              "**Tổng hợp 2 vectơ động lượng:**\\n- Cùng chiều: $p \u003d p_1 + p_2$\\n- Ngược chiều: $p \u003d |p_1 - p_2|$\\n- Vuông góc: $p \u003d \\sqrt{p_1^2 + p_2^2}$\\n- Hợp góc $\\alpha$: $p \u003d \\sqrt{p_1^2 + p_2^2 + 2p_1p_2\\cos\\alpha}$"
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "BIỂU THỨC BẢO TOÀN ĐỘNG LƯỢNG HỆ HAI VẬT",
+            "congThuc": "$\\vec{p}_1 + \\vec{p}_2 \u003d \\vec{p}_1\u0027 + \\vec{p}_2\u0027 \\Leftrightarrow m_1\\vec{v}_1 + m_2\\vec{v}_2 \u003d m_1\\vec{v}_1\u0027 + m_2\\vec{v}_2\u0027$",
+            "mucDich": "Giải các bài toán tương tác, đạn nổ, súng giật lùi và chuyển động bằng phản lực.",
+            "chuThich": "**Chuyển động phản lực:** Khi vật đứng yên phóng ra khối lượng $m_1$ với vận tốc $\\vec{v}_1$ thì phần còn lại $m_2$ giật lùi với vận tốc $v_2 \u003d \\frac{m_1}{m_2}v_1$ theo hướng ngược lại.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 1,
+    "loai": "ly_thuyet"
+  },
+  {
+    "id": 2,
+    "tieude": "Bài 2: Các dạng va chạm",
+    "noidung": "",
+    "videoYoutubeId": "sFgDIbLd0RM",
+    "fileBaiTapNhanh": "ChuDe6/02BaiTapNhanh6_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "Khái niệm chung về Va chạm",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Bản chất tương tác va chạm",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Va chạm**} là quá trình tương tác rất mạnh giữa hai hay nhiều vật trong một khoảng thời gian cực ngắn ($\\Delta t$ rất nhỏ).",
+            "danhSachYCon": [
+              "**Bảo toàn động lượng:** Trong thời gian va chạm, nội lực rất lớn so với ngoại lực nên hệ vật được coi là {highlight|hệ kín} và tổng động lượng luôn bảo toàn: $m_1\\vec{v}_1 + m_2\\vec{v}_2 \u003d m_1\\vec{v}_1\u0027 + m_2\\vec{v}_2\u0027$.",
+              "**Phân loại:** Dựa vào sự bảo toàn động năng của hệ sau tương tác, chia làm 2 dạng cơ bản là {color:primary|va chạm đàn hồi} và {color:warning|va chạm mềm}."
+            ],
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "Va chạm đàn hồi",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đặc điểm Va chạm đàn hồi",
+            "noiDung": "Sau va chạm, hai vật {highlight|tách rời nhau, không bị biến dạng vĩnh viễn và không tỏa nhiệt}. {color:success|**Cả động lượng và động năng**} của hệ đều được bảo toàn.",
+            "danhSachYCon": [
+              "**Trường hợp đặc biệt ($m_1 \u003d m_2$):** Hai vật cùng khối lượng va chạm đàn hồi xuyên tâm sẽ {color:primary|**trao đổi vận tốc cho nhau**}: $v_1\u0027 \u003d v_2$ và $v_2\u0027 \u003d v_1$."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC VẬN TỐC SAU VA CHẠM ĐÀN HỒI XUYÊN TÂM",
+            "congThuc": "$v_1\u0027 \u003d \\frac{(m_1 - m_2)v_1 + 2m_2v_2}{m_1 + m_2}$ ;  $v_2\u0027 \u003d \\frac{(m_2 - m_1)v_2 + 2m_1v_1}{m_1 + m_2}$",
+            "mucDich": "Tính vận tốc đại số của từng vật ngay sau va chạm đàn hồi trên một đường thẳng.",
+            "chuThich": "Hệ bảo toàn đồng thời động lượng $m_1v_1 + m_2v_2 \u003d m_1v_1\u0027 + m_2v_2\u0027$ và động năng $\\frac{1}{2}m_1v_1^2 + \\frac{1}{2}m_2v_2^2 \u003d \\frac{1}{2}m_1v_1\u0027^2 + \\frac{1}{2}m_2v_2\u0027^2$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "duongDanGlb": "models/ChuDe6/bai2_va_cham_dan_hoi.glb",
+            "tenMoHinh3d": "Mô phỏng 3D: Va chạm đàn hồi giữa hai viên bi",
+            "moTaMoHinh3d": "Va chạm đàn hồi giữa hai viên bi bật nảy ngược chiều sau va chạm xuyên tâm, bảo toàn đồng thời động lượng và động năng của hệ.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "Va chạm mềm (Va chạm không đàn hồi hoàn toàn)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Đặc điểm Va chạm mềm",
+            "noiDung": "Sau va chạm, hai vật {highlight|dính chặt vào nhau và chuyển động cùng một vận tốc chung $\\vec{V}$}. Động lượng được bảo toàn nhưng {color:error|**động năng không bảo toàn**} (giảm đi).",
+            "danhSachYCon": [
+              "**So sánh nhanh:** Va chạm đàn hồi giữ nguyên tổng động năng ($\\Delta W_{\\text{đ}} \u003d 0$, ví dụ hai viên bi-a); va chạm mềm làm giảm động năng ($W_{\\text{đ sau}} \u003c W_{\\text{đ trước}}$, ví dụ viên đạn găm vào bao cát)."
+            ],
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "VẬN TỐC CHUNG \u0026 NHIỆT LƯỢNG TỎA RA",
+            "congThuc": "$V \u003d \\frac{m_1v_1 + m_2v_2}{m_1 + m_2}$ ;  $Q \u003d \\left(\\frac{1}{2}m_1v_1^2 + \\frac{1}{2}m_2v_2^2\\right) - \\frac{1}{2}(m_1 + m_2)V^2$",
+            "mucDich": "Xác định vận tốc chung sau khi dính vào nhau và phần cơ năng chuyển hóa thành nhiệt năng / công biến dạng.",
+            "chuThich": "Trong chuyển động thẳng, nhớ chọn chiều dương và thay đúng dấu đại số của $v_1, v_2$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "duongDanGlb": "models/ChuDe6/bai2_va_cham_mem.glb",
+            "tenMoHinh3d": "Mô phỏng 3D: Va chạm mềm giữa hai vật",
+            "moTaMoHinh3d": "Va chạm mềm giữa hai vật dính vào nhau sau va chạm và chuyển động cùng vận tốc chung, động lượng bảo toàn nhưng động năng bị hao hụt.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 2,
+    "loai": "ly_thuyet"
+  },
+  {
+    "id": 3,
+    "tieude": "Bài 3: Tổng hợp công thức Chủ đề 6",
+    "noidung": "",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "Nhóm công thức Động lượng \u0026 Xung lượng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "1. ĐỘNG LƯỢNG \u0026 XUNG LƯỢNG CỦA LỰC",
+            "congThuc": "$\\vec{p} \u003d m\\vec{v}$ ;  $\\Delta\\vec{p} \u003d \\vec{F}\\cdot\\Delta t$",
+            "mucDich": "Tính động lượng ($\\text{kg}\\cdot\\text{m/s}$) và lực tác dụng trung bình $F \u003d \\frac{|\\Delta p|}{\\Delta t}$ ($\\text{N}$).",
+            "chuThich": "Liên hệ với động năng: $p^2 \u003d 2mW_{\\text{đ}}$. Khi vật đập vuông góc tường rồi bật ngược lại: $\\Delta p \u003d m(v_2 + v_1)$.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "2. ĐỊNH LUẬT BẢO TOÀN ĐỘNG LƯỢNG",
+            "congThuc": "$m_1\\vec{v}_1 + m_2\\vec{v}_2 \u003d m_1\\vec{v}_1\u0027 + m_2\\vec{v}_2\u0027$",
+            "mucDich": "Áp dụng cho hệ kín (đạn nổ, súng giật lùi, người nhảy khỏi thuyền).",
+            "chuThich": "- Nếu $\\vec{p}_1 \\perp \\vec{p}_2$: $p \u003d \\sqrt{p_1^2 + p_2^2}$.\\n- Nếu hợp góc $\\alpha$: $p \u003d \\sqrt{p_1^2 + p_2^2 + 2p_1p_2\\cos\\alpha}$.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "Nhóm công thức Các dạng Va chạm",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "3. VA CHẠM ĐÀN HỒI XUYÊN TÂM",
+            "congThuc": "$v_1\u0027 \u003d \\frac{(m_1 - m_2)v_1 + 2m_2v_2}{m_1 + m_2}$ ;  $v_2\u0027 \u003d \\frac{(m_2 - m_1)v_2 + 2m_1v_1}{m_1 + m_2}$",
+            "mucDich": "Bảo toàn cả động lượng và động năng ($\\Delta W_{\\text{đ}} \u003d 0$).",
+            "chuThich": "Đặc biệt khi $m_1 \u003d m_2$: hai vật trao đổi vận tốc ($v_1\u0027 \u003d v_2, v_2\u0027 \u003d v_1$).",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "4. VA CHẠM MỀM \u0026 ĐỘ HAO HỤT ĐỘNG NĂNG",
+            "congThuc": "$V \u003d \\frac{m_1v_1 + m_2v_2}{m_1 + m_2}$ ;  $Q \u003d W_{\\text{đ trước}} - W_{\\text{đ sau}}$",
+            "mucDich": "Hai vật dính vào nhau chuyển động cùng vận tốc $V$; phần động năng mất đi chuyển thành nhiệt năng $Q$.",
+            "chuThich": "Với con lắc thử đạn đạt độ cao $h_{\\max}$: $V \u003d \\sqrt{2gh_{\\max}}$ và $h_{\\max} \u003d l(1 - \\cos\\alpha_{\\max})$.",
+            "tuDongPhatAnimation": true
+          }
+        ]
+      }
+    ],
+    "baiSo": 3,
+    "loai": "cong_thuc",
+    "laCongThucTongHop": true
+  }
+]

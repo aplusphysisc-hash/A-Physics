@@ -1,0 +1,433 @@
+[
+  {
+    "id": 1,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Yếu tố nào sau đây KHÔNG làm thay đổi độ lớn moment của một lực đối với một trục quay cố định?",
+    "caccauChon": [
+      "Thay đổi độ lớn của lực tác dụng.",
+      "Thay đổi phương của lực tác dụng.",
+      "Dịch chuyển điểm đặt của lực dọc theo giá của nó.",
+      "Thay đổi khoảng cách từ trục quay đến giá của lực."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi trượt điểm đặt của lực dọc theo chính giá của nó thì cả độ lớn lực $F$ và khoảng cách $d$ từ trục quay đến giá lực đều không đổi $\\implies M = F \\cdot d$ không đổi."
+  },
+  {
+    "id": 2,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực $F = 50\\text{ N}$ tác dụng lên một cánh cửa có trục quay cố định. Biết cánh tay đòn $d = 60\\text{ cm}$. Moment lực có độ lớn là:",
+    "caccauChon": [
+      "$3000\\text{ N}\\cdot\\text{m}$",
+      "$30\\text{ N}\\cdot\\text{m}$",
+      "$83{,}3\\text{ N}\\cdot\\text{m}$",
+      "$3\\text{ N}\\cdot\\text{m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đổi $d = 60\\text{ cm} = 0{,}6\\text{ m} \\implies M = F \\cdot d = 50 \\cdot 0{,}6 = 30\\text{ N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 3,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quy tắc moment lực áp dụng được cho:",
+    "caccauChon": [
+      "Chỉ vật rắn có trục quay cố định.",
+      "Cả vật rắn có trục quay cố định và vật rắn có trục quay tạm thời.",
+      "Chỉ các vật có dạng hình tròn.",
+      "Chỉ các vật chuyển động thẳng đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quy tắc moment lực áp dụng cho cả vật có trục quay cố định lẫn trục quay tạm thời (như búa nhổ đinh, xe rùa)."
+  },
+  {
+    "id": 4,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thước thẳng nhẹ dài $100\\text{ cm}$ quay quanh trục $O$ đi qua vạch $40\\text{ cm}$. Tại vạch $10\\text{ cm}$ treo quả cân $300\\text{ g}$. Để thước cân bằng ngang thì phải treo quả cân $450\\text{ g}$ ở vạch:",
+    "caccauChon": [
+      "$60\\text{ cm}$",
+      "$20\\text{ cm}$",
+      "$80\\text{ cm}$",
+      "$70\\text{ cm}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khoảng cách $d_1 = 40 - 10 = 30\\text{ cm}$. Cân bằng moment: $300 \\cdot 30 = 450 \\cdot d_2 \\implies d_2 = 20\\text{ cm}$ về phía bên kia trục $O \\implies$ vạch $40 + 20 = 60\\text{ cm}$."
+  },
+  {
+    "id": 5,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một tấm ván đồng chất dài $2\\text{ m}$, nặng $200\\text{ N}$ bắc qua con mương. Lực đỡ của bờ mương tại hai đầu $A$ và $B$ của tấm ván là:",
+    "caccauChon": [
+      "$F_A = 200\\text{ N}$; $F_B = 200\\text{ N}$",
+      "$F_A = 100\\text{ N}$; $F_B = 100\\text{ N}$",
+      "$F_A = 150\\text{ N}$; $F_B = 50\\text{ N}$",
+      "$F_A = 0\\text{ N}$; $F_B = 200\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Do tấm ván đồng chất, trọng tâm ở chính giữa nên trọng lực $200\\text{ N}$ chia đều cho hai đầu: $F_A = F_B = 100\\text{ N}$."
+  },
+  {
+    "id": 6,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi dùng búa nhổ đinh để nhổ một chiếc đinh cắm sâu vào gỗ, điểm tựa của đầu búa trên mặt gỗ đóng vai trò là:",
+    "caccauChon": [
+      "Trọng tâm của búa.",
+      "Trục quay tạm thời.",
+      "Điểm đặt của lực cản.",
+      "Cánh tay đòn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đầu búa tì lên gỗ làm điểm tựa để búa xoay quanh đó nên gọi là trục quay tạm thời.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_bua_nho_dinh.webp"
+  },
+  {
+    "id": 7,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai lực của một ngẫu lực có độ lớn $F = 12\\text{ N}$. Khoảng cách giữa hai giá của hai lực là $d = 15\\text{ cm}$. Moment của ngẫu lực bằng:",
+    "caccauChon": [
+      "$180\\text{ N}\\cdot\\text{m}$",
+      "$1{,}8\\text{ N}\\cdot\\text{m}$",
+      "$0{,}8\\text{ N}\\cdot\\text{m}$",
+      "$18\\text{ N}\\cdot\\text{m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đổi $d = 15\\text{ cm} = 0{,}15\\text{ m} \\implies M = F \\cdot d = 12 \\cdot 0{,}15 = 1{,}8\\text{ N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thanh $AB$ dài $1\\text{ m}$ có trọng lượng không đáng kể, đầu $A$ gắn bản lề. Đầu $B$ treo vật nặng $10\\text{ N}$. Người ta giữ thanh nằm ngang bằng một sợi dây buộc vào điểm $C$ ($AC = 0{,}5\\text{ m}$) kéo thẳng đứng lên trên. Lực căng dây $T$ bằng:",
+    "caccauChon": [
+      "$10\\text{ N}$",
+      "$20\\text{ N}$",
+      "$5\\text{ N}$",
+      "$15\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lấy trục quay tại $A$: $P \\cdot AB = T \\cdot AC \\implies 10 \\cdot 1 = T \\cdot 0{,}5 \\implies T = 20\\text{ N}$."
+  },
+  {
+    "id": 9,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi xe rùa chở cát đang đứng yên trên mặt đất và người công nhân nâng hai tay cầm lên để bánh xe làm điểm tựa, quy tắc cân bằng áp dụng ở đây là:",
+    "caccauChon": [
+      "Định luật bảo toàn động lượng.",
+      "Quy tắc moment lực đối với trục quay đi qua tâm bánh xe.",
+      "Định luật Hooke.",
+      "Định luật vạn vật hấp dẫn."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trục bánh xe đóng vai trò trục quay tạm thời, moment lực nâng của tay cân bằng với moment trọng lực của thùng cát.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_xe_rua_don_bay.webp"
+  },
+  {
+    "id": 10,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thanh $AB$ đồng chất dài $2\\text{ m}$, nặng $40\\text{ N}$. Người ta đặt thanh lên một giá đỡ tại điểm $O$ cách đầu $A$ một đoạn $0{,}5\\text{ m}$. Để thanh cân bằng nằm ngang, phải tác dụng vào đầu $A$ một lực hướng thẳng đứng xuống dưới có độ lớn bằng:",
+    "caccauChon": [
+      "$40\\text{ N}$",
+      "$20\\text{ N}$",
+      "$80\\text{ N}$",
+      "$10\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trọng tâm $G$ ở chính giữa thanh cách $A$ $1\\text{ m} \\implies$ cách $O$ một đoạn $OG = 1 - 0{,}5 = 0{,}5\\text{ m}$. Cân bằng quanh $O$: $F_A \\cdot OA = P \\cdot OG \\implies F_A \\cdot 0{,}5 = 40 \\cdot 0{,}5 \\implies F_A = 40\\text{ N}$."
+  },
+  {
+    "id": 11,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu tăng đồng thời độ lớn của lực $F$ lên $2$ lần và giảm cánh tay đòn $d$ đi $2$ lần thì độ lớn moment lực $M$ sẽ:",
+    "caccauChon": [
+      "Tăng $4$ lần.",
+      "Giảm $4$ lần.",
+      "Không đổi.",
+      "Tăng $2$ lần."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Ta có $M' = (2F) \\cdot \\left(\\frac{d}{2}\\right) = F \\cdot d = M$ (không đổi)."
+  },
+  {
+    "id": 12,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong các dụng cụ sau, dụng cụ nào hoạt động dựa trên tác dụng của ngẫu lực?",
+    "caccauChon": [
+      "Cái cân đòn.",
+      "Tua-vít vặn ốc vít.",
+      "Ròng rọc cố định.",
+      "Mặt phẳng nghiêng."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi xoay tua-vít, bàn tay tạo ra cặp lực song song ngược chiều ở hai phía cán tua-vít (ngẫu lực).",
+    "hinhAnh": "images/ChuDe4/reallife/anh_vo_lang_ngau_luc.webp"
+  },
+  {
+    "id": 13,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vô-lăng có bán kính $25\\text{ cm}$. Để tạo ra moment ngẫu lực $15\\text{ N}\\cdot\\text{m}$ thì mỗi tay cần tác dụng vào vành vô-lăng một lực tiếp tuyến tối thiểu bằng:",
+    "caccauChon": [
+      "$60\\text{ N}$",
+      "$30\\text{ N}$",
+      "$15\\text{ N}$",
+      "$7{,}5\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khoảng cách giữa hai giá lực là đường kính $d = 2R = 50\\text{ cm} = 0{,}5\\text{ m}$. Từ $M = F \\cdot d \\implies F = \\frac{M}{d} = \\frac{15}{0{,}5} = 30\\text{ N}$.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_vo_lang_ngau_luc.webp"
+  },
+  {
+    "id": 14,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rắn phẳng mỏng chịu tác dụng của 3 lực không song song. Để vật cân bằng thì giá của 3 lực đó phải:",
+    "caccauChon": [
+      "Vuông góc với nhau.",
+      "Đồng quy tại một điểm.",
+      "Trùng nhau.",
+      "Tạo thành tam giác đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Điều kiện cân bằng của vật chịu tác dụng 3 lực không song song là 3 lực đồng phẳng, đồng quy và có hợp lực bằng $\\vec{0}$."
+  },
+  {
+    "id": 15,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thanh $AB$ dài $1\\text{ m}$, trọng lượng $P = 10\\text{ N}$, trọng tâm $G$ cách $A$ đoạn $0{,}3\\text{ m}$. Thanh có thể quay quanh trục đi qua $A$. Để giữ thanh nằm ngang, lực $F$ đặt tại $B$ vuông góc với thanh hướng lên có độ lớn là:",
+    "caccauChon": [
+      "$3\\text{ N}$",
+      "$10\\text{ N}$",
+      "$7\\text{ N}$",
+      "$30\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Cân bằng moment quanh $A$: $P \\cdot AG = F \\cdot AB \\implies 10 \\cdot 0{,}3 = F \\cdot 1 \\implies F = 3\\text{ N}$."
+  },
+  {
+    "id": 16,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị nào sau đây KHÔNG phải là đơn vị của moment lực?",
+    "caccauChon": [
+      "$\\text{N}\\cdot\\text{m}$",
+      "$\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$",
+      "$\\text{N/m}$",
+      "$\\text{J}$ (về mặt thứ nguyên)."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$\\text{N/m}$ là đơn vị của độ cứng lò xo (hoặc hệ số căng bề mặt), không phải đơn vị của moment lực."
+  },
+  {
+    "id": 17,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai người khiêng một thùng hàng nặng $600\\text{ N}$ bằng một đòn tre dài $2\\text{ m}$ (bỏ qua trọng lượng đòn). Thùng hàng treo cách vai người thứ nhất $0{,}8\\text{ m}$. Vai người thứ nhất chịu một lực bằng:",
+    "caccauChon": [
+      "$360\\text{ N}$",
+      "$240\\text{ N}$",
+      "$300\\text{ N}$",
+      "$400\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Lấy trục quay tại vai người thứ hai (cách thùng $2 - 0{,}8 = 1{,}2\\text{ m}$): $F_1 \\cdot 2 = 600 \\cdot 1{,}2 \\implies F_1 = 360\\text{ N}$."
+  },
+  {
+    "id": 18,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong trường hợp nào sau đây lực tác dụng có moment lớn nhất (biết độ lớn lực $F$ và điểm đặt không đổi)?",
+    "caccauChon": [
+      "Lực hợp với thanh đòn góc $30^\\circ$.",
+      "Lực hợp với thanh đòn góc $45^\\circ$.",
+      "Lực hợp với thanh đòn góc $60^\\circ$.",
+      "Lực vuông góc với thanh đòn (góc $90^\\circ$)."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Vì $d = l \\cdot \\sin\\alpha$, khi $\\alpha = 90^\\circ$ thì $\\sin(90^\\circ) = 1$ đạt cực đại nên cánh tay đòn lớn nhất $\\implies$ moment lực lớn nhất."
+  },
+  {
+    "id": 19,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người dùng tay vặn vòi nước. Hai ngón tay tác dụng vào hai đầu tay vặn (cách nhau $6\\text{ cm}$) hai lực song song ngược chiều có độ lớn mỗi lực là $5\\text{ N}$. Moment ngẫu lực tác dụng lên vòi nước là:",
+    "caccauChon": [
+      "$30\\text{ N}\\cdot\\text{m}$",
+      "$0{,}3\\text{ N}\\cdot\\text{m}$",
+      "$3\\text{ N}\\cdot\\text{m}$",
+      "$0{,}03\\text{ N}\\cdot\\text{m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Đổi $d = 6\\text{ cm} = 0{,}06\\text{ m} \\implies M = F \\cdot d = 5 \\cdot 0{,}06 = 0{,}3\\text{ N}\\cdot\\text{m}$."
+  },
+  {
+    "id": 20,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi vật rắn có trục quay cố định đang quay đều quanh trục thì tổng đại số các moment lực tác dụng lên vật đối với trục quay đó bằng:",
+    "caccauChon": [
+      "Một hằng số khác $0$.",
+      "$0$.",
+      "Vô cùng lớn.",
+      "Trọng lượng của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật quay đều (không có gia tốc góc) thì tổng moment làm quay thuận chiều bằng tổng moment làm quay ngược chiều nên tổng đại số moment bằng $0$."
+  },
+  {
+    "id": 21,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một chiếc búa nhổ đinh có chiều dài cán búa tính từ điểm tựa $O$ đến chỗ tay cầm là $d_1 = 30\\text{ cm}$, khoảng cách từ điểm tựa $O$ đến trục của chiếc đinh là $d_2 = 3\\text{ cm}$. Người thợ tác dụng lực $F_1 = 50\\text{ N}$ vuông góc với cán búa:",
+    "dsYCon": [
+      "Điểm tựa $O$ của búa trên mặt gỗ đóng vai trò là trục quay tạm thời.",
+      "Moment lực do tay người thợ tạo ra đối với điểm tựa $O$ là $15\\text{ N}\\cdot\\text{m}$.",
+      "Lực nhổ đinh $F_2$ tác dụng lên chiếc đinh có độ lớn bằng $500\\text{ N}$.",
+      "Búa nhổ đinh giúp ta lợi $10$ lần về lực nhưng thiệt $10$ lần về đường đi."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Đúng bản chất vật lý của búa nhổ đinh.\\n- **Ý b) ĐÚNG:** $M_1 = F_1 \\cdot d_1 = 50 \\cdot 0{,}3 = 15\\text{ N}\\cdot\\text{m}$.\\n- **Ý c) ĐÚNG:** Khi bắt đầu nhổ được đinh: $F_1 \\cdot d_1 = F_2 \\cdot d_2 \\implies 50 \\cdot 30 = F_2 \\cdot 3 \\implies F_2 = 500\\text{ N}$.\\n- **Ý d) ĐÚNG:** Tỉ số cánh tay đòn $\\frac{d_1}{d_2} = \\frac{30}{3} = 10$ nên lợi $10$ lần về lực.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_bua_nho_dinh.webp"
+  },
+  {
+    "id": 22,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Hai người khiêng một chiếc loa nặng $500\\text{ N}$ bằng một thanh tre nhẹ dài $2{,}5\\text{ m}$. Chiếc loa được buộc cách vai người đi trước $1{,}0\\text{ m}$:",
+    "dsYCon": [
+      "Khoảng cách từ chiếc loa đến vai người đi sau là $1{,}5\\text{ m}$.",
+      "Người đi trước chịu một lực nâng lớn hơn người đi sau.",
+      "Lực đè lên vai người đi sau bằng $200\\text{ N}$.",
+      "Lực đè lên vai người đi trước bằng $350\\text{ N}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $2{,}5 - 1{,}0 = 1{,}5\\text{ m}$.\\n- **Ý b) ĐÚNG:** Loa treo gần vai người đi trước hơn nên người đi trước chịu lực lớn hơn.\\n- **Ý c) ĐÚNG:** Lấy trục quay tại vai người đi trước: $P \\cdot 1{,}0 = F_{\\text{sau}} \\cdot 2{,}5 \\implies 500 \\cdot 1 = 2{,}5 \\cdot F_{\\text{sau}} \\implies F_{\\text{sau}} = 200\\text{ N}$.\\n- **Ý d) SAI:** $F_{\\text{trước}} = 500 - 200 = 300\\text{ N}$ (không phải $350\\text{ N}$)."
+  },
+  {
+    "id": 23,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét một vật rắn chịu tác dụng của ngẫu lực $(\\vec{F}_1, \\vec{F}_2)$ nằm trong mặt phẳng vuông góc với trục quay:",
+    "dsYCon": [
+      "Hai lực của ngẫu lực có cùng giá và ngược chiều nhau.",
+      "Ngẫu lực làm vật vừa quay vừa tịnh tiến theo hướng của lực lớn hơn.",
+      "Moment của ngẫu lực phụ thuộc vào khoảng cách $d$ giữa hai giá của hai lực.",
+      "Nếu dời trục quay sang một vị trí khác (vẫn vuông góc mặt phẳng ngẫu lực) thì moment ngẫu lực không đổi."
+    ],
+    "dapAnDungSai": [
+      false,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) SAI:** Hai lực của ngẫu lực có giá **song song** (không trùng nhau), ngược chiều và bằng nhau về độ lớn.\\n- **Ý b) SAI:** Hai lực bằng nhau về độ lớn nên hợp lực bằng $0$, vật chỉ quay chứ không tịnh tiến.\\n- **Ý c) ĐÚNG:** $M = F \\cdot d$ nên tỉ lệ thuận với $d$.\\n- **Ý d) ĐÚNG:** Moment ngẫu lực không phụ thuộc vị trí trục quay."
+  },
+  {
+    "id": 24,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một thanh đồng chất $AB$ dài $2\\text{ m}$, trọng lượng $P = 100\\text{ N}$ có trục quay cố định tại đầu $A$. Người ta giữ thanh cân bằng nằm ngang bằng cách buộc một sợi dây thẳng đứng vào đầu $B$:",
+    "dsYCon": [
+      "Trọng tâm $G$ của thanh cách đầu $A$ một đoạn $1\\text{ m}$.",
+      "Moment của trọng lực $P$ đối với trục quay $A$ là $100\\text{ N}\\cdot\\text{m}$.",
+      "Lực căng sợi dây tại đầu $B$ có độ lớn $100\\text{ N}$.",
+      "Nếu kéo dây tại $B$ nghiêng góc $30^\\circ$ so với phương ngang thì lực căng dây cần thiết phải tăng lên thành $100\\text{ N}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Thanh đồng chất nên $G$ nằm ở trung điểm: $AG = \\frac{2}{2} = 1\\text{ m}$.\\n- **Ý b) ĐÚNG:** $M_P = P \\cdot AG = 100 \\cdot 1 = 100\\text{ N}\\cdot\\text{m}$.\\n- **Ý c) SAI:** Cân bằng quanh $A$: $P \\cdot AG = T \\cdot AB \\implies 100 \\cdot 1 = T \\cdot 2 \\implies T = 50\\text{ N}$.\\n- **Ý d) ĐÚNG:** Khi dây nghiêng góc $30^\\circ$ so với thanh ngang, cánh tay đòn $d_T = AB \\cdot \\sin(30^\\circ) = 2 \\cdot 0{,}5 = 1\\text{ m} \\implies T' \\cdot 1 = 100 \\implies T' = 100\\text{ N}$."
+  },
+  {
+    "id": 25,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Trong đời sống kỹ thuật, quy tắc moment lực và ngẫu lực được ứng dụng rộng rãi:",
+    "dsYCon": [
+      "Tay nắm cửa luôn được lắp ở mép ngoài cùng xa bản lề để tăng cánh tay đòn.",
+      "Vô-lăng xe tải hạng nặng thường có đường kính lớn hơn vô-lăng xe con để tăng moment ngẫu lực.",
+      "Khi vặn ốc vít bằng tua-vít, nếu cán tua-vít càng to (đường kính lớn) thì vặn càng nhẹ tay.",
+      "Cái cân đòn hoạt động sai lệch hoàn toàn với quy tắc moment lực."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Tăng $d$ giúp mở cửa nhẹ nhàng với lực nhỏ.\\n- **Ý b) ĐÚNG:** Đường kính $d$ lớn giúp tài xế tạo ra moment ngẫu lực $M = F \\cdot d$ lớn hơn khi đánh lái.\\n- **Ý c) ĐÚNG:** Đường kính cán tua-vít lớn làm tăng cánh tay đòn của ngẫu lực.\\n- **Ý d) SAI:** Cân đòn hoạt động dựa trực tiếp trên quy tắc cân bằng moment lực.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_kep_gap_thuc_an.webp"
+  },
+  {
+    "id": 26,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Hai người dùng một chiếc đòn tre nhẹ dài $L = 2\\text{ m}$ để khiêng một cỗ máy nặng $P = 800\\text{ N}$. Điểm treo cỗ máy cách vai người thứ nhất $d_1 = 0{,}6\\text{ m}$.\\n1. Tính khoảng cách $d_2$ từ điểm treo cỗ máy đến vai người thứ hai.\\n2. Tính lực đè lên vai của mỗi người khi đòn tre nằm cân bằng ngang.",
+    "giaithich": "💡 **Lời giải chi tiết:**\\n1. **Khoảng cách từ điểm treo máy đến vai người thứ hai:**\\n- $d_2 = L - d_1 = 2 - 0{,}6 = 1{,}4\\text{ m}$.\\n2. **Lực đè lên vai mỗi người:**\\n- Chọn trục quay tại vai người thứ nhất ($A$): Trọng lực $P = 800\\text{ N}$ làm đòn quay thuận chiều kim đồng hồ, lực nâng $F_2$ của vai người thứ hai làm đòn quay ngược chiều kim đồng hồ.\\n- Áp dụng quy tắc moment lực: $P \\cdot d_1 = F_2 \\cdot L \\iff 800 \\cdot 0{,}6 = F_2 \\cdot 2 \\implies F_2 = 240\\text{ N}$.\\n- Lực đè lên vai người thứ nhất: $F_1 = P - F_2 = 800 - 240 = 560\\text{ N}$."
+  },
+  {
+    "id": 27,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một thanh sắt đồng chất $AB$ dài $1{,}6\\text{ m}$, trọng lượng $P = 120\\text{ N}$ có thể quay quanh một trục cố định $O$ cách đầu $A$ một đoạn $OA = 0{,}4\\text{ m}$.\\n1. Xác định vị trí trọng tâm $G$ của thanh và khoảng cách từ $O$ đến $G$.\\n2. Để thanh sắt nằm cân bằng theo phương ngang, người ta phải treo vào đầu $A$ một vật nặng có trọng lượng $P_1$ bằng bao nhiêu?",
+    "giaithich": "💡 **Lời giải chi tiết:**\\n1. **Vị trí trọng tâm $G$ và khoảng cách $OG$:**\\n- Do thanh sắt đồng chất nên trọng tâm $G$ nằm ở chính giữa thanh: $AG = \\frac{AB}{2} = \\frac{1{,}6}{2} = 0{,}8\\text{ m}$.\\n- Khoảng cách từ trục quay $O$ đến trọng tâm $G$: $OG = AG - OA = 0{,}8 - 0{,}4 = 0{,}4\\text{ m}$.\\n2. **Trọng lượng $P_1$ cần treo ở đầu $A$:**\\n- Áp dụng quy tắc moment lực đối với trục quay $O$: $P_1 \\cdot OA = P \\cdot OG \\iff P_1 \\cdot 0{,}4 = 120 \\cdot 0{,}4 \\implies P_1 = 120\\text{ N}$."
+  },
+  {
+    "id": 28,
+    "baiSo": 1,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một người dùng búa nhổ đinh để nhổ một chiếc đinh đóng thẳng đứng vào tấm gỗ. Khoảng cách từ điểm tựa $O$ của đầu búa đến trục của chiếc đinh là $d_2 = 2{,}5\\text{ cm}$. Người thợ đặt tay cách điểm tựa $O$ một khoảng $d_1 = 25\\text{ cm}$ và kéo vuông góc với cán búa một lực $F_1 = 60\\text{ N}$ thì chiếc đinh bắt đầu nhổ lên.\\n1. Tính moment lực do tay người thợ tác dụng đối với điểm tựa $O$.\\n2. Tính lực cản $F_2$ của gỗ tác dụng lên chiếc đinh.",
+    "giaithich": "💡 **Lời giải chi tiết:**\\n1. **Moment lực do tay người thợ tạo ra:**\\n- Đổi đơn vị: $d_1 = 25\\text{ cm} = 0{,}25\\text{ m}$; $d_2 = 2{,}5\\text{ cm} = 0{,}025\\text{ m}$.\\n- Moment lực: $M_1 = F_1 \\cdot d_1 = 60 \\cdot 0{,}25 = 15\\text{ N}\\cdot\\text{m}$.\\n2. **Lực cản $F_2$ của gỗ tác dụng lên đinh:**\\n- Khi đinh bắt đầu nhổ lên, moment lực kéo cân bằng với moment lực cản: $M_1 = M_2 \\iff F_1 \\cdot d_1 = F_2 \\cdot d_2 \\iff 15 = F_2 \\cdot 0{,}025 \\implies F_2 = \\frac{15}{0{,}025} = 600\\text{ N}$.",
+    "hinhAnh": "images/ChuDe4/reallife/anh_bua_nho_dinh.webp"
+  }
+]

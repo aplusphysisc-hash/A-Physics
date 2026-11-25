@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đối tượng nghiên cứu của Vật lý là:",
+    "caccauChon": [
+      "Các dạng vận động của vật chất (cơ, nhiệt, điện, từ, ánh sáng...) và năng lượng.",
+      "Cấu tạo và sự biến đổi của các chất hóa học.",
+      "Sự hình thành và phát triển của các sinh vật sống.",
+      "Các hiện tượng tâm lý và xã hội của con người."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "**Vật lý** là ngành khoa học tự nhiên tập trung nghiên cứu về {highlight|các dạng vận động tổng quát của vật chất (cơ, nhiệt, điện, từ, ánh sáng...) và năng lượng}. Đáp án B thuộc Hóa học, C thuộc Sinh học, D thuộc Khoa học xã hội."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Mục tiêu chính của môn Vật lý là gì?",
+    "caccauChon": [
+      "Tìm hiểu lịch sử phát triển của các nền văn minh cổ đại.",
+      "Khám phá ra quy luật vận động chung nhất của thế giới tự nhiên, từ đó ứng dụng vào đời sống và kỹ thuật.",
+      "Nghiên cứu cách nuôi trồng và lai tạo các giống cây trồng mới.",
+      "Tìm hiểu cấu trúc ngữ pháp của các ngôn ngữ trên thế giới."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Mục tiêu cốt lõi của Vật lý là {highlight|tìm ra các quy luật vận động chung nhất của thế giới tự nhiên} để áp dụng vào thực tiễn đời sống và phát triển công nghệ."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương pháp nghiên cứu Vật lý bao gồm hai phương pháp chính là:",
+    "caccauChon": [
+      "Phương pháp điều tra và phương pháp phỏng vấn.",
+      "Phương pháp thực nghiệm và phương pháp lý thuyết.",
+      "Phương pháp thống kê và phương pháp phân tích.",
+      "Phương pháp mô phỏng và phương pháp khảo sát."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật lý sử dụng hai phương pháp nghiên cứu bổ trợ cho nhau là {color:primary|**Phương pháp thực nghiệm**} và {color:primary|**Phương pháp lý thuyết**}."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hoạt động nào sau đây thuộc về phương pháp thực nghiệm trong nghiên cứu Vật lý?",
+    "caccauChon": [
+      "Dùng công thức toán học để suy luận quỹ đạo chuyển động của hành tinh.",
+      "Xây dựng mô hình giả định trên máy tính trước khi kiểm chứng.",
+      "Trực tiếp quan sát hiện tượng, tiến hành làm thí nghiệm đo đạc để thu thập số liệu.",
+      "Đọc sách giáo khoa để ghi nhớ các định nghĩa có sẵn."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "**Phương pháp thực nghiệm** gắn liền với việc {highlight|trực tiếp quan sát thực tế và làm thí nghiệm đo đạc} để thu thập số liệu và rút ra kết luận."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thành tựu nào sau đây là ứng dụng của Vật lý trong đời sống và khoa học kỹ thuật?",
+    "caccauChon": [
+      "Chế tạo ra động cơ điện, mạng viễn thông, thiết bị y tế chẩn đoán hình ảnh.",
+      "Lai tạo giống lúa cho năng suất cao.",
+      "Tổng hợp các loại phân bón hóa học.",
+      "Phân tích tâm lý hành vi người tiêu dùng."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Động cơ điện, mạng viễn thông và thiết bị y tế (chụp X-quang, siêu âm, MRI...) đều hoạt động dựa trên các nguyên lý {color:primary|điện từ, sóng và bức xạ} của Vật lý."
+  }
+]

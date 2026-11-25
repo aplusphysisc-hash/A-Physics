@@ -1,0 +1,41 @@
+[
+  {
+    "id": 901,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị 'Năm ánh sáng' (Light-year) trong Vật lý thiên văn dùng để đo đại lượng nào?",
+    "caccauChon": [
+      "Thời gian",
+      "Khoảng cách (Chiều dài)",
+      "Khối lượng",
+      "Vận tốc"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Năm ánh sáng là khoảng cách mà ánh sáng truyền đi được trong chân không trong 1 năm (khoảng 9,46 nghìn tỉ km)."
+  },
+  {
+    "id": 902,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nhà bác học nổi tiếng nào được gắn liền với giai thoại quả táo rơi giúp tìm ra Định luật vạn vật hấp dẫn?",
+    "caccauChon": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Sir Isaac Newton",
+      "Nikola Tesla"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Isaac Newton đã phát hiện ra định luật vạn vật hấp dẫn vào thế kỷ 17."
+  },
+  {
+    "id": 903,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây đặc trưng cho mức độ dao động mạnh hay yếu, rộng hay hẹp của một dao động điều hòa?",
+    "caccauChon": [
+      "Biên độ dao động (A)",
+      "Pha ban đầu (phi)",
+      "Tần số góc (omega)",
+      "Thời gian (t)"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Biên độ A là độ lệch cực đại so với vị trí cân bằng, đặc trưng cho độ mạnh yếu của dao động."
+  }
+]

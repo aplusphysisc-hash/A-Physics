@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "baiSo": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động tròn đều là chuyển động có đặc điểm nào sau đây?",
+    "caccauChon": [
+      "Quỹ đạo là đường tròn và tốc độ dài thay đổi theo thời gian.",
+      "Quỹ đạo là đường tròn và vận tốc vectơ $\\vec{v}$ không đổi.",
+      "Quỹ đạo là đường tròn và tốc độ dài không đổi theo thời gian.",
+      "Véctơ gia tốc bằng không vì tốc độ không đổi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chuyển động tròn đều có quỹ đạo là đường tròn và độ lớn của vận tốc (tốc độ dài $v$) không đổi theo thời gian."
+  },
+  {
+    "id": 2,
+    "baiSo": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ giữa tốc độ dài $v$ và tốc độ góc $\\omega$ trong chuyển động tròn đều với bán kính quỹ đạo $r$ là:",
+    "caccauChon": [
+      "$v = \\omega \\cdot r$",
+      "$v = \\frac{\\omega}{r}$",
+      "$v = \\frac{r}{\\omega}$",
+      "$v = \\omega^2 \\cdot r$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Từ định nghĩa tốc độ góc $\\omega = \\frac{v}{r}$, ta suy ra công thức liên hệ tốc độ dài là $v = \\omega \\cdot r$."
+  },
+  {
+    "id": 3,
+    "baiSo": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ lớn gia tốc hướng tâm $a_{ht}$ trong chuyển động tròn đều là:",
+    "caccauChon": [
+      "$a_{ht} = \\frac{v}{r}$",
+      "$a_{ht} = \\frac{v^2}{r}$",
+      "$a_{ht} = \\omega \\cdot r$",
+      "$a_{ht} = v \\cdot r^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Gia tốc hướng tâm trong chuyển động tròn đều được tính bằng công thức $a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r$."
+  },
+  {
+    "id": 4,
+    "baiSo": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vệ tinh nhân tạo quay quanh Trái Đất theo quỹ đạo tròn ở độ cao cách mặt đất một khoảng bằng bán kính Trái Đất $R$. Biết gia tốc trọng trường ở mặt đất là $g = 10\\text{ m/s}^2$. Gia tốc hướng tâm của vệ tinh là:",
+    "caccauChon": [
+      "$10\\text{ m/s}^2$",
+      "$5\\text{ m/s}^2$",
+      "$2{,}5\\text{ m/s}^2$",
+      "$20\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khoảng cách từ tâm Trái Đất đến vệ tinh là $r = R + R = 2R$. Gia tốc hướng tâm bằng gia tốc trọng trường tại độ cao đó và tỉ lệ nghịch với $r^2$: $a_{ht} = \\frac{g}{4} = \\frac{10}{4} = 2{,}5\\text{ m/s}^2$."
+  },
+  {
+    "id": 5,
+    "baiSo": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc quạt máy quay đều với tốc độ $300\\text{ vòng/phút}$. Tần số $f$ và chu kỳ $T$ của cánh quạt lần lượt là:",
+    "caccauChon": [
+      "$f = 5\\text{ Hz}; T = 0{,}2\\text{ s}$",
+      "$f = 300\\text{ Hz}; T = 0{,}02\\text{ s}$",
+      "$f = 50\\text{ Hz}; T = 0{,}02\\text{ s}$",
+      "$f = 60\\text{ Hz}; T = 0{,}1\\text{ s}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Tần số $f = \\frac{300}{60} = 5\\text{ Hz}$ (vòng/s). Chu kỳ $T = \\frac{1}{f} = \\frac{1}{5} = 0{,}2\\text{ s}$."
+  }
+]

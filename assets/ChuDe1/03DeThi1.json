@@ -1,0 +1,373 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Để xác định chính xác vị trí của một vật chuyển động trên một đường thẳng, ta cần chọn yếu tố nào sau đây?",
+    "caccauChon": [
+      "Một vật làm mốc và một chiều dương trên quỹ đạo.",
+      "Một đồng hồ bấm giây để đo thời gian.",
+      "Một thước đo chiều dài bất kì.",
+      "Khối lượng và kích thước của vật chuyển động."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Để xác định vị trí của vật trên một đường thẳng, cần chọn một vật làm mốc và một chiều dương trên quỹ đạo (tạo thành trục tọa độ một chiều $Ox$)."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hệ quy chiếu bao gồm các yếu tố nào sau đây?",
+    "caccauChon": [
+      "Vật làm mốc, hệ tọa độ gắn với vật làm mốc, mốc thời gian và đồng hồ.",
+      "Vật làm mốc, quỹ đạo chuyển động và đồng hồ bấm giây.",
+      "Hệ tọa độ gắn với vật làm mốc và vận tốc của vật.",
+      "Mốc thời gian, đồng hồ và thước đo độ dài."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Hệ quy chiếu bao gồm: Vật làm mốc, hệ tọa độ gắn với vật làm mốc kết hợp với mốc thời gian và đồng hồ đo thời gian."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây là đại lượng vectơ?",
+    "caccauChon": [
+      "Quãng đường đi được.",
+      "Tốc độ trung bình.",
+      "Độ dịch chuyển.",
+      "Thời gian chuyển động."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ dịch chuyển $\\vec{d}$ là đại lượng vectơ (xác định bởi điểm đầu, điểm cuối, phương, chiều và độ lớn). Quãng đường, tốc độ trung bình và thời gian là các đại lượng vô hướng luôn không âm."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi nào thì độ lớn của độ dịch chuyển bằng quãng đường đi được của vật?",
+    "caccauChon": [
+      "Vật chuyển động tròn đều.",
+      "Vật chuyển động thẳng và không đổi chiều.",
+      "Vật chuyển động thẳng và có đổi chiều.",
+      "Vật chuyển động theo quỹ đạo cong bất kì."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật chuyển động thẳng và không đổi chiều, vectơ độ dịch chuyển trùng với quỹ đạo nên độ lớn độ dịch chuyển bằng đúng quãng đường đi được ($d = s$)."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe máy từ nhà (điểm A) đến trường (điểm B) theo đường thẳng dài $3\\text{ km}$, sau đó quay về siêu thị (điểm C) nằm chính giữa đoạn AB. Độ lớn độ dịch chuyển và quãng đường đi được của người đó lần lượt là:",
+    "caccauChon": [
+      "$1{,}5\\text{ km}$ và $4{,}5\\text{ km}$.",
+      "$4{,}5\\text{ km}$ và $1{,}5\\text{ km}$.",
+      "$3{,}0\\text{ km}$ và $4{,}5\\text{ km}$.",
+      "$1{,}5\\text{ km}$ và $3{,}0\\text{ km}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Quãng đường đi được: $s = AB + BC = 3 + 1{,}5 = 4{,}5\\text{ km}$. Độ lớn độ dịch chuyển là khoảng cách thẳng từ điểm đầu A đến điểm cuối C: $d = AC = 3 - 1{,}5 = 1{,}5\\text{ km}$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi bộ $300\\text{ m}$ về hướng Đông, sau đó rẽ sang hướng Bắc đi tiếp $400\\text{ m}$. Độ lớn độ dịch chuyển tổng hợp của người đó là:",
+    "caccauChon": [
+      "$700\\text{ m}$.",
+      "$100\\text{ m}$.",
+      "$500\\text{ m}$.",
+      "$350\\text{ m}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai đoạn dịch chuyển vuông góc nhau (hướng Đông $\\perp$ hướng Bắc), nên áp dụng định lí Pythagore: $d = \\sqrt{300^2 + 400^2} = 500\\text{ m}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính tốc độ trung bình của một chất điểm trên một đoạn đường là:",
+    "caccauChon": [
+      "$v_{tb} = \\frac{d}{t}$",
+      "$v_{tb} = \\frac{s}{t}$",
+      "$v_{tb} = \\frac{\\Delta x}{\\Delta t}$",
+      "$v_{tb} = s \\cdot t$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tốc độ trung bình được xác định bằng thương số giữa quãng đường đi được $s$ và thời gian $t$ đi hết quãng đường đó: $v_{tb} = \\frac{s}{t}$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây đúng khi nói về vận tốc tức thời?",
+    "caccauChon": [
+      "Vận tốc tức thời đặc trưng cho sự nhanh chậm của chuyển động trên cả một quãng đường dài.",
+      "Vectơ vận tốc tức thời luôn ngược hướng với vectơ độ dịch chuyển.",
+      "Độ lớn của vận tốc tức thời chính là tốc độ tức thời tại thời điểm xét.",
+      "Vận tốc tức thời luôn có giá trị dương trong mọi hệ quy chiếu."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc tức thời $\\vec{v}$ là đại lượng vectơ đặc trưng cho chiều và độ nhanh chậm tại một thời điểm; độ lớn của vận tốc tức thời chính là tốc độ tức thời (hiển thị trên tốc kế phương tiện)."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đi từ A đến B cách nhau $120\\text{ km}$. Nửa quãng đường đầu xe đi với tốc độ $40\\text{ km/h}$, nửa quãng đường sau xe đi với tốc độ $60\\text{ km/h}$. Tốc độ trung bình của ô tô trên cả quãng đường AB là:",
+    "caccauChon": [
+      "$50\\text{ km/h}$.",
+      "$48\\text{ km/h}$.",
+      "$52\\text{ km/h}$.",
+      "$45\\text{ km/h}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức tốc độ trung bình trên hai nửa quãng đường bằng nhau: $v_{tb} = \\frac{2 v_1 v_2}{v_1 + v_2} = \\frac{2 \\times 40 \\times 60}{40 + 60} = \\frac{4800}{100} = 48\\text{ km/h}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Độ dốc (hệ số góc) của đồ thị độ dịch chuyển – thời gian ($d – t$) trong chuyển động thẳng đều cho biết đại lượng nào?",
+    "caccauChon": [
+      "Gia tốc của vật.",
+      "Quãng đường vật đi được.",
+      "Vận tốc của vật.",
+      "Thời gian vật chuyển động."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Trên đồ thị độ dịch chuyển – thời gian ($d – t$), hệ số góc của đường biểu diễn: $\\tan\\alpha = \\frac{\\Delta d}{\\Delta t} = v$ chính là vận tốc của chuyển động thẳng đều."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quan sát đồ thị độ dịch chuyển – thời gian ($d – t$) của một chất điểm chuyển động thẳng như hình bên. Trong giai đoạn nào chất điểm đứng yên?",
+    "caccauChon": [
+      "Giai đoạn (I).",
+      "Giai đoạn (II).",
+      "Giai đoạn (III).",
+      "Cả ba giai đoạn (I), (II) và (III)."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ở giai đoạn (II) (từ $t = 4\\text{ s}$ đến $t = 8\\text{ s}$), đường biểu diễn nằm ngang song song với trục $Ot$ chứng tỏ độ dịch chuyển $d = 20\\text{ m}$ không đổi $\\Rightarrow$ chất điểm đang đứng yên ($v = 0$).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_tong_ket_q11.webp"
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho đồ thị độ dịch chuyển – thời gian ($d – t$) của hai xe (1) và (2) chuyển động thẳng như hình vẽ. Hai xe gặp nhau tại thời điểm và vị trí nào?",
+    "caccauChon": [
+      "$t = 2\\text{ h}$, cách gốc tọa độ $20\\text{ km}$.",
+      "$t = 4\\text{ h}$, cách gốc tọa độ $30\\text{ km}$.",
+      "$t = 6\\text{ h}$, cách gốc tọa độ $40\\text{ km}$.",
+      "$t = 2\\text{ h}$, cách gốc tọa độ $10\\text{ km}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Giao điểm của hai đường biểu diễn (1) và (2) trên đồ thị có hoành độ $t = 2\\text{ h}$ và tung độ $d = 20\\text{ km}$, nghĩa là hai xe gặp nhau lúc $t = 2\\text{ h}$ tại vị trí cách gốc tọa độ $20\\text{ km}$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_hai_xe_gap_nhau_q12.webp"
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tính chất tương đối của chuyển động thể hiện ở điểm nào sau đây?",
+    "caccauChon": [
+      "Quỹ đạo và vận tốc của vật phụ thuộc vào hệ quy chiếu được chọn.",
+      "Khối lượng của vật thay đổi khi chọn các vật làm mốc khác nhau.",
+      "Thời gian trôi qua nhanh hay chậm tùy thuộc vào vật làm mốc.",
+      "Mọi vật trong vũ trụ đều đứng yên tuyệt đối."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Cùng một vật nhưng khi xét trong các hệ quy chiếu khác nhau thì hình dạng quỹ đạo và vận tốc của nó sẽ khác nhau — đó chính là tính tương đối của chuyển động."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một hành khách ngồi trên toa tàu hỏa đang chạy thẳng đều với tốc độ $54\\text{ km/h}$. So với toa tàu thì hành khách này:",
+    "caccauChon": [
+      "Đang chuyển động với vận tốc $54\\text{ km/h}$.",
+      "Đang đứng yên.",
+      "Đang chuyển động với vận tốc $15\\text{ m/s}$.",
+      "Đang chuyển động ngược chiều với tàu."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vị trí của hành khách không thay đổi so với toa tàu nên so với toa tàu, hành khách đang đứng yên ($v = 0$)."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Gọi $\\vec{v}_{12}$ là vận tốc của vật (1) đối với vật (2), $\\vec{v}_{23}$ là vận tốc của vật (2) đối với vật (3) và $\\vec{v}_{13}$ là vận tốc của vật (1) đối với vật (3). Công thức cộng vận tốc dạng vectơ là:",
+    "caccauChon": [
+      "$\\vec{v}_{13} = \\vec{v}_{12} - \\vec{v}_{23}$",
+      "$\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$",
+      "$\\vec{v}_{12} = \\vec{v}_{13} + \\vec{v}_{23}$",
+      "$\\vec{v}_{23} = \\vec{v}_{12} + \\vec{v}_{13}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công thức cộng vận tốc dạng véc-tơ: $\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$ (vận tốc tuyệt đối bằng tổng vectơ của vận tốc tương đối và vận tốc kéo theo)."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc thuyền chạy xuôi dòng nước từ bến A đến bến B. Biết vận tốc của thuyền so với nước là $12\\text{ km/h}$ và vận tốc của dòng nước so với bờ là $3\\text{ km/h}$. Vận tốc của thuyền so với bờ là:",
+    "caccauChon": [
+      "$9\\text{ km/h}$.",
+      "$15\\text{ km/h}$.",
+      "$36\\text{ km/h}$.",
+      "$4\\text{ km/h}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi thuyền chạy xuôi dòng, vectơ vận tốc thuyền cùng chiều với dòng nước: $v = v_{thuyền/nước} + v_{nước/bờ} = 12 + 3 = 15\\text{ km/h}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ca nô chạy ngược dòng sông với vận tốc so với nước là $20\\text{ km/h}$, nước chảy với vận tốc $4\\text{ km/h}$ so với bờ. Thời gian để ca nô đi được quãng đường $32\\text{ km}$ ngược dòng là:",
+    "caccauChon": [
+      "$1{,}33\\text{ giờ}$.",
+      "$1{,}60\\text{ giờ}$.",
+      "$2{,}00\\text{ giờ}$.",
+      "$0{,}80\\text{ giờ}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc ca nô khi ngược dòng so với bờ: $v = v_{ca nô/nước} - v_{nước/bờ} = 20 - 4 = 16\\text{ km/h}$. Thời gian chuyển động: $t = \\frac{s}{v} = \\frac{32}{16} = 2{,}00\\text{ giờ}$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người lái xuồng máy dự định hướng mũi xuồng vuông góc với bờ sông để sang bờ bên kia. Biết vận tốc của xuồng so với nước là $4\\text{ m/s}$, vận tốc của dòng nước so với bờ là $3\\text{ m/s}$. Độ lớn vận tốc của xuồng so với bờ sông là:",
+    "caccauChon": [
+      "$7\\text{ m/s}$.",
+      "$1\\text{ m/s}$.",
+      "$5\\text{ m/s}$.",
+      "$3{,}5\\text{ m/s}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\vec{v}_{xuồng/nước} \\perp \\vec{v}_{nước/bờ}$ nên áp dụng định lí Pythagore: $v = \\sqrt{4^2 + 3^2} = 5\\text{ m/s}$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai ô tô chạy cùng chiều trên một đoạn đường thẳng với tốc độ lần lượt là $60\\text{ km/h}$ và $45\\text{ km/h}$. Tốc độ tương đối của ô tô thứ nhất so với ô tô thứ hai là:",
+    "caccauChon": [
+      "$105\\text{ km/h}$.",
+      "$15\\text{ km/h}$.",
+      "$52{,}5\\text{ km/h}$.",
+      "$75\\text{ km/h}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hai xe chạy cùng chiều trên cùng một đường thẳng nên độ lớn vận tốc tương đối giữa hai xe là: $v_{12} = |v_1 - v_2| = |60 - 45| = 15\\text{ km/h}$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong thí nghiệm đo tốc độ của vật chuyển động bằng cổng quang điện và đồng hồ đo thời gian hiện số, đại lượng nào được đo trực tiếp trên đồng hồ khi chọn chế độ đo thích hợp?",
+    "caccauChon": [
+      "Tốc độ tức thời của vật.",
+      "Gia tốc trung bình của vật.",
+      "Thời gian vật đi qua giữa hai cổng quang điện.",
+      "Độ dịch chuyển tổng hợp của vật."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đồng hồ đo thời gian hiện số kết nối với hai cổng quang điện dùng để đo trực tiếp khoảng thời gian $t$ vật di chuyển chắn qua giữa hai cổng quang điện."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các khái niệm cơ bản về chuyển động cơ học, quãng đường và độ dịch chuyển:",
+    "dsYCon": [
+      "Quãng đường đi được của một vật luôn có giá trị không âm, trong khi độ dịch chuyển có thể nhận giá trị dương, âm hoặc bằng không.",
+      "Một vận động viên chạy trọn vẹn 2 vòng quanh sân vận động hình tròn có chu vi $400\\text{ m}$ thì quãng đường đi được là $800\\text{ m}$ và độ dịch chuyển có độ lớn là $800\\text{ m}$.",
+      "Nếu một vật chuyển động thẳng và chỉ đổi chiều một lần thì độ lớn độ dịch chuyển luôn nhỏ hơn quãng đường đi được.",
+      "Tốc độ trung bình được tính bằng thương số giữa độ dịch chuyển và thời gian thực hiện độ dịch chuyển đó."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì quãng đường $s \\ge 0$, còn độ dịch chuyển $d$ là đại lượng vectơ có thể dương, âm hoặc bằng $0$.\n- Ý b: SAI vì khi chạy trọn vẹn 2 vòng, vị trí cuối trùng khít với vị trí đầu nên độ lớn độ dịch chuyển $d = 0$ (quãng đường $s = 800\\text{ m}$).\n- Ý c: ĐÚNG vì khi có đổi chiều chuyển động, chiều dài thực tế của quỹ đạo (quãng đường) luôn lớn hơn khoảng cách nối điểm đầu và điểm cuối ($s > |d|$).\n- Ý d: SAI vì thương số giữa độ dịch chuyển và thời gian là VẬN TỐC trung bình ($v = \\frac{d}{t}$), còn tốc độ trung bình là $v_{tb} = \\frac{s}{t}$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô xuất phát từ điểm O, chuyển động thẳng theo chiều dương của trục Ox. Trong $2\\text{ giờ}$ đầu xe đi được $100\\text{ km}$; sau đó xe dừng lại nghỉ $30\\text{ phút}$; tiếp theo xe quay đầu chạy ngược chiều dương với tốc độ $60\\text{ km/h}$ trong $1\\text{ giờ}$ rồi dừng hẳn.",
+    "dsYCon": [
+      "Tốc độ trung bình của ô tô trong $2\\text{ giờ}$ đầu là $50\\text{ km/h}$.",
+      "Trong khoảng thời gian xe dừng lại nghỉ $30\\text{ phút}$, độ dịch chuyển của xe bằng $0$.",
+      "Tổng quãng đường ô tô đi được trong cả hành trình là $160\\text{ km}$.",
+      "Độ dịch chuyển tổng hợp của ô tô so với điểm xuất phát O khi kết thúc hành trình là $160\\text{ km}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì $v_1 = \\frac{s_1}{t_1} = \\frac{100}{2} = 50\\text{ km/h}$.\n- Ý b: ĐÚNG vì khi xe dừng nghỉ, vị trí không thay đổi nên độ dịch chuyển trong $30\\text{ phút}$ này bằng $0$.\n- Ý c: ĐÚNG vì quãng đường quay đầu: $s_2 = 60 \\times 1 = 60\\text{ km}$. Tổng quãng đường: $s = 100 + 0 + 60 = 160\\text{ km}$.\n- Ý d: SAI vì xe tiến $100\\text{ km}$ theo chiều dương rồi lùi $60\\text{ km}$ theo chiều âm nên độ dịch chuyển tổng hợp là $d = +100 - 60 = +40\\text{ km}$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Cho đồ thị độ dịch chuyển – thời gian ($d – t$) của một người đi xe đạp chuyển động trên một đường thẳng như hình bên:",
+    "dsYCon": [
+      "Trong $10\\text{ s}$ đầu tiên, người đi xe đạp chuyển động thẳng đều theo chiều dương với vận tốc $4\\text{ m/s}$.",
+      "Từ giây thứ $10$ đến giây thứ $15$, người đi xe đạp chuyển động thẳng đều với vận tốc $8\\text{ m/s}$.",
+      "Từ giây thứ $15$ đến giây thứ $25$, người đi xe đạp quay đầu chuyển động ngược chiều dương với vận tốc $-3\\text{ m/s}$.",
+      "Tốc độ trung bình của người đi xe đạp trong suốt $25\\text{ s}$ là $0{,}4\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì trong $10\\text{ s}$ đầu, $d$ tăng đều từ $0$ lên $40\\text{ m}$: $v_1 = \\frac{40 - 0}{10 - 0} = +4\\text{ m/s}$.\n- Ý b: SAI vì từ $10\\text{ s}$ đến $15\\text{ s}$, đoạn đồ thị nằm ngang song song trục hoành ($d = 40\\text{ m}$ không đổi) nên người đi xe đạp đứng yên ($v_2 = 0$).\n- Ý c: ĐÚNG vì từ $15\\text{ s}$ đến $25\\text{ s}$, đồ thị dốc xuống từ $40\\text{ m}$ về $10\\text{ m}$: $v_3 = \\frac{10 - 40}{25 - 15} = \\frac{-30}{10} = -3\\text{ m/s}$.\n- Ý d: SAI vì tổng quãng đường đi được: $s = 40 + 0 + 30 = 70\\text{ m}$. Tốc độ trung bình: $v_{tb} = \\frac{70}{25} = 2{,}8\\text{ m/s}$ (còn $0{,}4\\text{ m/s}$ là vận tốc trung bình: $v = \\frac{10}{25} = 0{,}4\\text{ m/s}$).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_xe_dap_q23.webp"
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Hai đoàn tàu A và B chạy trên hai đường ray song song nhau. Tàu A chạy về hướng Bắc với tốc độ $54\\text{ km/h}$, tàu B chạy về hướng Nam với tốc độ $36\\text{ km/h}$.",
+    "dsYCon": [
+      "Đổi đơn vị: tốc độ của tàu A là $15\\text{ m/s}$ và tàu B là $10\\text{ m/s}$.",
+      "Nếu chọn chiều dương là hướng Bắc thì vận tốc của tàu A là $+15\\text{ m/s}$ và vận tốc của tàu B là $+10\\text{ m/s}$.",
+      "Vận tốc của tàu A đối với một hành khách ngồi yên trên tàu B có độ lớn là $25\\text{ m/s}$.",
+      "Nếu tàu B đổi hướng chạy về hướng Bắc cùng chiều với tàu A (giữ nguyên tốc độ) thì độ lớn vận tốc tương đối giữa hai tàu là $5\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì $54\\text{ km/h} = \\frac{54}{3{,}6} = 15\\text{ m/s}$ và $36\\text{ km/h} = \\frac{36}{3{,}6} = 10\\text{ m/s}$.\n- Ý b: SAI vì chọn chiều dương hướng Bắc thì tàu B chạy hướng Nam ngược chiều dương nên có vận tốc âm: $v_B = -10\\text{ m/s}$.\n- Ý c: ĐÚNG vì hai tàu chạy ngược chiều nên vận tốc tương đối: $v_{AB} = v_A - v_B = 15 - (-10) = 25\\text{ m/s}$.\n- Ý d: ĐÚNG vì khi cùng chạy về hướng Bắc, độ lớn vận tốc tương đối là $|v_A - v_B| = |15 - 10| = 5\\text{ m/s}$."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một nhóm học sinh thực hiện thí nghiệm đo tốc độ của một viên bi chuyển động trên máng ngang bằng hai cổng quang điện A và B đặt cách nhau một khoảng $s = 50{,}0\\text{ cm}$. Đồng hồ đo thời gian hiện số đo được thời gian viên bi đi từ cổng A đến cổng B qua 3 lần đo là: $t_1 = 0{,}250\\text{ s}$; $t_2 = 0{,}252\\text{ s}$; $t_3 = 0{,}248\\text{ s}$.",
+    "dsYCon": [
+      "Cổng quang điện đóng vai trò như một công tắc điện tử tự động đóng/ngắt đồng hồ khi có vật chắn tia hồng ngoại.",
+      "Giá trị trung bình của thời gian viên bi đi từ A đến B là $0{,}250\\text{ s}$.",
+      "Tốc độ trung bình của viên bi trên đoạn đường AB là $2{,}0\\text{ m/s}$.",
+      "Nếu dịch chuyển cổng B ra xa cổng A thêm $25\\text{ cm}$ (giữ nguyên tốc độ của bi) thì thời gian đo được trên đồng hồ sẽ giảm đi một nửa."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a: ĐÚNG vì cổng quang điện cảm biến hồng ngoại điều khiển mạch đếm của đồng hồ tự động và chính xác.\n- Ý b: ĐÚNG vì thời gian trung bình: $\\bar{t} = \\frac{0{,}250 + 0{,}252 + 0{,}248}{3} = 0{,}250\\text{ s}$.\n- Ý c: ĐÚNG vì đổi $s = 50{,}0\\text{ cm} = 0{,}50\\text{ m}$, tốc độ trung bình: $v = \\frac{0{,}50}{0{,}250} = 2{,}0\\text{ m/s}$.\n- Ý d: SAI vì khi dịch cổng B ra xa (quãng đường tăng lên $75\\text{ cm}$), thời gian đo được sẽ tăng lên thành $t' = \\frac{0{,}75}{2{,}0} = 0{,}375\\text{ s}$, chứ không giảm."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Lúc 7 giờ sáng, một người đi xe đạp xuất phát từ địa điểm A đi về phía địa điểm B cách A $36\\text{ km}$ với tốc độ không đổi $12\\text{ km/h}$. Cùng lúc đó, một người đi xe máy xuất phát từ B đi ngược chiều về phía A với tốc độ không đổi $24\\text{ km/h}$. Chọn trục tọa độ Ox trùng với đường thẳng AB, gốc O tại A, chiều dương từ A đến B, gốc thời gian lúc 7 giờ sáng.\na) Viết phương trình độ dịch chuyển theo thời gian của hai xe.\nb) Xác định thời điểm và vị trí hai xe gặp nhau.",
+    "giaithich": "Lời giải chi tiết:\na) Phương trình độ dịch chuyển của hai xe:\n• Chọn hệ quy chiếu: Gốc tọa độ tại A ($d_{01} = 0$), chiều dương từ A đến B, gốc thời gian lúc 7 giờ sáng ($t_0 = 0$).\n• Xe đạp chuyển động theo chiều dương: $v_1 = +12\\text{ km/h}$. Phương trình độ dịch chuyển của xe đạp: $d_1 = 12t\\text{ (km)}$ (với $t$ tính bằng giờ).\n• Xe máy xuất phát từ B cách A $36\\text{ km}$ ($d_{02} = 36\\text{ km}$), chuyển động ngược chiều dương nên $v_2 = -24\\text{ km/h}$. Phương trình độ dịch chuyển của xe máy: $d_2 = 36 - 24t\\text{ (km)}$ (với $t$ tính bằng giờ).\n\nb) Thời điểm và vị trí hai xe gặp nhau:\n• Hai xe gặp nhau khi tọa độ của chúng bằng nhau: $d_1 = d_2$\n  $\\Leftrightarrow 12t = 36 - 24t \\Leftrightarrow 36t = 36 \\Leftrightarrow t = 1\\text{ (giờ)}$.\n• Thời điểm hai xe gặp nhau: $7\\text{ h} + 1\\text{ h} = 8\\text{ giờ sáng}$.\n• Vị trí hai xe gặp nhau: cách vị trí A một khoảng $d = 12 \\times 1 = 12\\text{ km}$ (và cách vị trí B một khoảng $36 - 12 = 24\\text{ km}$)."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một ca nô chạy xuôi dòng sông từ bến M đến bến N cách nhau $48\\text{ km}$ mất thời gian $2\\text{ giờ}$. Khi quay trở về ngược dòng từ N về M, ca nô phải mất thời gian $3\\text{ giờ}$. Biết vận tốc của ca nô đối với nước và vận tốc của dòng nước đối với bờ không đổi trong suốt quá trình chuyển động. Tính vận tốc của ca nô đối với nước và vận tốc của dòng nước đối với bờ.",
+    "giaithich": "Lời giải chi tiết:\n• Gọi (1) là ca nô, (2) là dòng nước, (3) là bờ sông.\n• Vận tốc của ca nô đối với bờ khi xuôi dòng: $v_{xuôi} = \\frac{s}{t_{xuôi}} = \\frac{48}{2} = 24\\text{ km/h}$.\n  Theo công thức cộng vận tốc khi xuôi dòng: $v_{13} = v_{12} + v_{23} = 24\\text{ km/h}$  (1)\n• Vận tốc của ca nô đối với bờ khi ngược dòng: $v_{ngược} = \\frac{s}{t_{ngược}} = \\frac{48}{3} = 16\\text{ km/h}$.\n  Theo công thức cộng vận tốc khi ngược dòng: $v_{13}' = v_{12} - v_{23} = 16\\text{ km/h}$  (2)\n• Giải hệ phương trình (1) và (2):\n  - Cộng vế theo vế (1) và (2): $2v_{12} = 24 + 16 = 40 \\Rightarrow v_{12} = 20\\text{ km/h}$.\n  - Thay vào (1): $v_{23} = 24 - 20 = 4\\text{ km/h}$.\n• Kết luận: Vận tốc của ca nô đối với nước là $20\\text{ km/h}$; vận tốc của dòng nước đối với bờ là $4\\text{ km/h}$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một con sông rộng $120\\text{ m}$ có dòng nước chảy đều theo hướng từ Tây sang Đông với vận tốc $1{,}5\\text{ m/s}$. Một người bơi qua sông xuất phát từ bờ Nam, luôn giữ hướng đầu vuông góc với bờ sông (hướng về bờ Bắc) với vận tốc bơi so với nước là $2{,}0\\text{ m/s}$.\na) Tính độ lớn vận tốc của người đó đối với bờ sông.\nb) Tính thời gian người đó bơi sang đến bờ Bắc và khoảng cách từ điểm người đó cập bờ Bắc đến điểm đối diện trực tiếp với điểm xuất phát bên bờ Nam.",
+    "giaithich": "Lời giải chi tiết:\na) Độ lớn vận tốc của người bơi đối với bờ sông:\n• Gọi (1) là người bơi, (2) là dòng nước, (3) là bờ sông.\n• Vận tốc của người bơi so với nước: $v_{12} = 2{,}0\\text{ m/s}$ (hướng Nam $\\to$ Bắc, vuông góc với bờ sông).\n• Vận tốc của dòng nước so với bờ: $v_{23} = 1{,}5\\text{ m/s}$ (hướng Tây $\\to$ Đông, dọc theo bờ sông).\n• Áp dụng công thức cộng vận tốc: $\\vec{v}_{13} = \\vec{v}_{12} + \\vec{v}_{23}$.\n• Vì $\\vec{v}_{12} \\perp \\vec{v}_{23}$, độ lớn vận tốc của người bơi đối với bờ sông là:\n  $v_{13} = \\sqrt{v_{12}^2 + v_{23}^2} = \\sqrt{2{,}0^2 + 1{,}5^2} = \\sqrt{4 + 2{,}25} = \\sqrt{6{,}25} = 2{,}5\\text{ m/s}$.\n\nb) Thời gian qua sông và độ dạt hạ lưu:\n• Chuyển động sang bờ Bắc (bề rộng sông $L = 120\\text{ m}$) chỉ do thành phần vận tốc $v_{12}$ quyết định. Thời gian bơi qua sông là:\n  $t = \\frac{L}{v_{12}} = \\frac{120}{2{,}0} = 60\\text{ s} = 1\\text{ phút}$.\n• Trong thời gian $60\\text{ s}$, dòng nước đẩy người trôi dạt theo phương ngang (về phía Đông) một đoạn bằng:\n  $x = v_{23} \\times t = 1{,}5 \\times 60 = 90\\text{ m}$."
+  }
+]

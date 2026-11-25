@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây là đại lượng véc-tơ?",
+    "caccauChon": [
+      "Quãng đường đi được.",
+      "Độ dịch chuyển.",
+      "Thời gian chuyển động.",
+      "Tốc độ trung bình."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ dịch chuyển có cả độ lớn và hướng nên là đại lượng véc-tơ."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi bộ về phía Bắc 600 m, sau đó rẽ sang phía Đông đi tiếp 800 m. Độ lớn độ dịch chuyển của người này là:",
+    "caccauChon": [
+      "1400 m.",
+      "200 m.",
+      "1000 m.",
+      "700 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai đoạn đường vuông góc (Bắc và Đông), áp dụng định lí Pytago: d = $\\sqrt{600^2 + 800^2}$ = $\\sqrt{360000 + 640000}$ = $\\sqrt{1000000}$ = 1000 m.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai1_pytago_dong_bac.webp"
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Số chỉ hiển thị trên tốc kế (đồng hồ đo tốc độ) gắn ở đầu xe máy cho biết giá trị nào sau đây?",
+    "caccauChon": [
+      "Tốc độ trung bình của xe từ lúc khởi hành.",
+      "Độ lớn vận tốc trung bình của xe.",
+      "Độ lớn tốc độ tức thời của xe tại thời điểm đó.",
+      "Quãng đường xe đã đi được."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tốc kế đo tốc độ của phương tiện trong một khoảng thời gian cực ngắn tại thời điểm quan sát, gọi là tốc độ tức thời."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc phà chạy ngang qua sông theo hướng vuông góc với bờ với tốc độ 8 m/s so với nước. Nước sông chảy dọc theo bờ với tốc độ 6 m/s so với bờ. Độ lớn vận tốc của phà so với bờ sông là",
+    "caccauChon": [
+      "14 m/s.",
+      "2 m/s.",
+      "10 m/s.",
+      "48 m/s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì vận tốc phà so với nước vuông góc với vận tốc dòng nước nên $v_1$₃ = $\\sqrt{8^2 + 6^2}$ = $\\sqrt{100}$ = 10 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai2_thuyen_qua_song.webp"
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây được xác định bằng độ dốc (hệ số góc) của đường biểu diễn trên đồ thị độ dịch chuyển – thời gian?",
+    "caccauChon": [
+      "Quãng đường.",
+      "Gia tốc.",
+      "Vận tốc.",
+      "Thời gian."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hệ số góc của đường thẳng trên đồ thị $d - t$ là $\\frac{\\Delta d}{\\Delta t} = v$ (vận tốc).",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_doc_len_he_so_goc.webp"
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều có đồ thị d – t đi qua gốc tọa độ O(0 ; 0) và điểm M(4 s ; 20 m). Vận tốc của vật là",
+    "caccauChon": [
+      "80 m/s.",
+      "0,2 m/s.",
+      "5 m/s.",
+      "16 m/s."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vận tốc v = (20 - 0) / (4 - 0) = 20 / 4 = 5 m/s.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_o_den_m_4s_20m.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng chậm dần đều, tích của gia tốc a và vận tốc v luôn thỏa mãn điều kiện nào sau đây?",
+    "caccauChon": [
+      "a $\\cdot$ v > 0.",
+      "a $\\cdot$ v < 0.",
+      "a $\\cdot$ v = 0.",
+      "a = v."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Trong chuyển động thẳng chậm dần đều, véc-tơ gia tốc ngược hướng với véc-tơ vận tốc nên a và v trái dấu, suy ra a $\\cdot$ v < 0."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật bắt đầu chuyển động thẳng nhanh dần đều từ trạng thái nghỉ với gia tốc 2 $\\text{m/s}^2$. Quãng đường vật đi được trong 5 s đầu tiên là",
+    "caccauChon": [
+      "10 m.",
+      "25 m.",
+      "50 m.",
+      "5 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức quãng đường với $v_0$ = 0: s = (1 / 2) $\\cdot$ a $\\cdot t^2$ = 0,5 $\\cdot$ 2 $\\cdot 5^2 = 25$ m."
+  }
+]

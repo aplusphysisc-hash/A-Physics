@@ -1,0 +1,399 @@
+[
+  {
+    "id": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động thẳng đều là chuyển động có",
+    "caccauChon": [
+      "quỹ đạo là đường thẳng và tốc độ trung bình như nhau trên mọi quãng đường.",
+      "quỹ đạo là đường cong và độ lớn vận tốc không đổi theo thời gian.",
+      "quỹ đạo là đường thẳng và vận tốc tăng đều theo thời gian.",
+      "quỹ đạo là đường thẳng và gia tốc luôn khác không."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Theo định nghĩa, chuyển động thẳng đều có quỹ đạo là đường thẳng và tốc độ trung bình như nhau trên mọi quãng đường."
+  },
+  {
+    "id": 2,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô chuyển động thẳng đều với tốc độ $54\\text{ km/h}$. Tốc độ này tính theo đơn vị $\\text{m/s}$ là",
+    "caccauChon": [
+      "$10\\text{ m/s}$.",
+      "$15\\text{ m/s}$.",
+      "$20\\text{ m/s}$.",
+      "$25\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Áp dụng quy đổi đơn vị: $v = \\frac{54}{3,6} = 15\\text{ m/s}$."
+  },
+  {
+    "id": 3,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng đều theo phương trình $x = 10 + 4t$ (trong đó $x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Tọa độ ban đầu và vận tốc của chất điểm là",
+    "caccauChon": [
+      "$x_0 = 4\\text{ m}$; $v = 10\\text{ m/s}$.",
+      "$x_0 = 10\\text{ m}$; $v = 4\\text{ m/s}$.",
+      "$x_0 = -10\\text{ m}$; $v = 4\\text{ m/s}$.",
+      "$x_0 = 10\\text{ m}$; $v = -4\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. So sánh $x = 10 + 4t$ với phương trình chuẩn $x = x_0 + v \\cdot t$, ta được $x_0 = 10\\text{ m}$ và $v = 4\\text{ m/s}$."
+  },
+  {
+    "id": 4,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai ô tô cùng xuất phát tại một địa điểm và chuyển động thẳng đều cùng chiều với tốc độ lần lượt là $40\\text{ km/h}$ và $60\\text{ km/h}$. Sau $2\\text{ giờ}$, khoảng cách giữa hai xe là",
+    "caccauChon": [
+      "$20\\text{ km}$.",
+      "$40\\text{ km}$.",
+      "$100\\text{ km}$.",
+      "$200\\text{ km}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Quãng đường xe 1 đi được: $s_1 = 40 \\times 2 = 80\\text{ km}$. Quãng đường xe 2 đi được: $s_2 = 60 \\times 2 = 120\\text{ km}$. Vì đi cùng chiều từ một điểm nên khoảng cách giữa hai xe là $\\Delta s = |s_2 - s_1| = 120 - 80 = 40\\text{ km}$."
+  },
+  {
+    "id": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động thẳng biến đổi đều là chuyển động có quỹ đạo là đường thẳng và có",
+    "caccauChon": [
+      "vận tốc không đổi theo thời gian.",
+      "gia tốc không đổi theo thời gian.",
+      "quãng đường tỉ lệ thuận với thời gian.",
+      "gia tốc tăng đều theo thời gian."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Theo định nghĩa, chuyển động thẳng biến đổi đều có quỹ đạo là đường thẳng và vectơ gia tốc không đổi theo thời gian ($\\vec{a} = \\text{hằng số}$)."
+  },
+  {
+    "id": 6,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc $10\\text{ m/s}$ thì tăng tốc đều đặn, sau $5\\text{ s}$ đạt vận tốc $20\\text{ m/s}$. Gia tốc của ô tô là",
+    "caccauChon": [
+      "$2\\text{ m/s}^2$.",
+      "$4\\text{ m/s}^2$.",
+      "$6\\text{ m/s}^2$.",
+      "$1\\text{ m/s}^2$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Áp dụng công thức gia tốc: $a = \\frac{v - v_0}{t} = \\frac{20 - 10}{5} = 2\\text{ m/s}^2$."
+  },
+  {
+    "id": 7,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật bắt đầu chuyển động thẳng nhanh dần đều từ trạng thái nghỉ với gia tốc $2\\text{ m/s}^2$. Quãng đường vật đi được trong $5\\text{ s}$ đầu tiên là",
+    "caccauChon": [
+      "$10\\text{ m}$.",
+      "$20\\text{ m}$.",
+      "$25\\text{ m}$.",
+      "$50\\text{ m}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Với $v_0 = 0$, $a = 2\\text{ m/s}^2$, $t = 5\\text{ s}$: $s = v_0 t + \\frac{1}{2} a t^2 = 0 + \\frac{1}{2} \\cdot 2 \\cdot 5^2 = 25\\text{ m}$."
+  },
+  {
+    "id": 8,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô đang chạy với vận tốc $20\\text{ m/s}$ thì hãm phanh chuyển động thẳng chậm dần đều với gia tốc $a = -4\\text{ m/s}^2$. Quãng đường ô tô đi được từ lúc hãm phanh đến khi dừng hẳn là",
+    "caccauChon": [
+      "$50\\text{ m}$.",
+      "$100\\text{ m}$.",
+      "$40\\text{ m}$.",
+      "$25\\text{ m}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Áp dụng hệ thức $v^2 - v_0^2 = 2as$ với $v = 0$, $v_0 = 20\\text{ m/s}$, $a = -4\\text{ m/s}^2$: $s = \\frac{0^2 - 20^2}{2 \\cdot (-4)} = \\frac{-400}{-8} = 50\\text{ m}$."
+  },
+  {
+    "id": 9,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động rơi tự do là:",
+    "caccauChon": [
+      "Chuyển động thẳng đều.",
+      "Chuyển động thẳng nhanh dần đều dưới tác dụng của trọng lực.",
+      "Chuyển động tròn đều.",
+      "Chuyển động chậm dần đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Rơi tự do là chuyển động thẳng nhanh dần đều chỉ dưới tác dụng của trọng lực (bỏ qua sức cản không khí)."
+  },
+  {
+    "id": 10,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lấy $g = 10\\text{ m/s}^2$. Một vật thả rơi tự do từ ngọn cây cao $20\\text{ m}$ xuống đất. Thời gian rơi của vật là:",
+    "caccauChon": [
+      "$1\\text{ s}$",
+      "$2\\text{ s}$",
+      "$3\\text{ s}$",
+      "$4\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$h = \\frac{1}{2} gt^2 \\implies 20 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\implies t^2 = 4 \\implies t = 2\\text{ s}$."
+  },
+  {
+    "id": 11,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật rơi tự do chạm đất với vận tốc $40\\text{ m/s}$ (với $g = 10\\text{ m/s}^2$). Độ cao nơi thả vật là:",
+    "caccauChon": [
+      "$40\\text{ m}$",
+      "$60\\text{ m}$",
+      "$80\\text{ m}$",
+      "$100\\text{ m}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$v^2 = 2gh$  $\\implies 40^2 = 2 \\cdot 10 \\cdot h \\implies 1600 = 20$ h  $\\implies h = 80\\text{ m}$."
+  },
+  {
+    "id": 12,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quỹ đạo của chuyển động ném ngang có dạng là:",
+    "caccauChon": [
+      "Một đường thẳng.",
+      "Một đường tròn.",
+      "Một nhánh parabol.",
+      "Một đường hình sin."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Phương trình quỹ đạo của ném ngang là $y = \\frac{g}{2v_0^2} \\cdot x^2$, đây là phương trình của một nhánh parabol."
+  },
+  {
+    "id": 13,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thời gian rơi $t$ của vật bị ném ngang từ độ cao $h$ là:",
+    "caccauChon": [
+      "$t = \\frac{h}{v_0}$",
+      "$t = \\sqrt{\\frac{2h}{g}}$",
+      "$t = \\frac{2h}{g}$",
+      "$t = \\frac{v_0}{g}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Từ phương trình $y = \\frac{1}{2} gt^2 = h$ suy ra $t = \\sqrt{\\frac{2h}{g}}$."
+  },
+  {
+    "id": 14,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném ngang với vận tốc ban đầu $v_0 = 10\\text{ m/s}$ từ độ cao $20\\text{ m}$ $(g = 10\\text{ m/s}^2)$. Tầm bay xa của vật là:",
+    "caccauChon": [
+      "$10\\text{ m}$",
+      "$20\\text{ m}$",
+      "$30\\text{ m}$",
+      "$40\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = 2\\text{ s} \\implies L = v_0 \\cdot t = 10 \\cdot 2 = 20\\text{ m}$."
+  },
+  {
+    "id": 15,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $\\frac{\\pi}{3}\\text{ rad}$ đổi sang đơn vị độ bằng bao nhiêu?",
+    "caccauChon": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức đổi từ radian sang độ là: $\\alpha(\\text{độ}) = \\alpha(\\text{rad}) \\cdot \\frac{180^\\circ}{\\pi}$. Ta có $\\frac{\\pi}{3} \\cdot \\frac{180^\\circ}{\\pi} = 60^\\circ$."
+  },
+  {
+    "id": 16,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ giữa tốc độ dài $v$ và tốc độ góc $\\omega$ trong chuyển động tròn đều là:",
+    "caccauChon": [
+      "$v = \\frac{\\omega}{r}$",
+      "$v = \\frac{r}{\\omega}$",
+      "$v = \\omega \\cdot r$",
+      "$v = \\omega \\cdot r^2$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tốc độ dài liên hệ với tốc độ góc qua bán kính quỹ đạo $r$: $v = \\omega \\cdot r$."
+  },
+  {
+    "id": 17,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động tròn đều trên quỹ đạo có bán kính $r = 2\\text{ m}$ với tốc độ góc $\\omega = 3\\text{ rad/s}$. Tốc độ dài của chất điểm là:",
+    "caccauChon": [
+      "$1,5\\text{ m/s}$",
+      "$3\\text{ m/s}$",
+      "$5\\text{ m/s}$",
+      "$6\\text{ m/s}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "$v = \\omega \\cdot r = 3 \\cdot 2 = 6\\text{ m/s}$."
+  },
+  {
+    "id": 18,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Quỹ đạo của chuyển động ném xiên (bỏ qua cản không khí) có dạng là:",
+    "caccauChon": [
+      "Một đường thẳng.",
+      "Một đường tròn.",
+      "Một đường parabol.",
+      "Một đường hình sin."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Phương trình quỹ đạo của ném xiên là đường parabol có bề lõm quay xuống dưới.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_quy_dao_nem_xien_bong_ro.webp"
+  },
+  {
+    "id": 19,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tầm bay xa $L$ đạt giá trị lớn nhất khi góc ném $\\alpha$ bằng bao nhiêu?",
+    "caccauChon": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$L$ max khi $\\sin(2\\alpha$) = $1 \\implies 2\\alpha = 90^\\circ \\implies \\alpha = 45^\\circ$."
+  },
+  {
+    "id": 20,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném xiên từ mặt đất với vận tốc ban đầu $v_0 = 20\\text{ m/s}$ dưới góc ném $\\alpha = 30^\\circ$ (lấy $g = 10\\text{ m/s}^2$). Thời gian bay của vật là:",
+    "caccauChon": [
+      "$1\\text{ s}$",
+      "$2\\text{ s}$",
+      "$3\\text{ s}$",
+      "$4\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = \\frac{2v_0\\sin\\alpha}{g} = (2 \\cdot 20 \\cdot \\sin 30^\\circ) / 10 = (40 \\cdot 0,5$) / $10 = 2\\text{ s}$."
+  },
+  {
+    "id": 21,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô chuyển động thẳng đều theo phương trình $x = 15 + 12t$ (trong đó $x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$).",
+    "dsYCon": [
+      "Tại thời điểm ban đầu ($t = 0$), ô tô cách gốc tọa độ $15\\text{ m}$.",
+      "Vận tốc của ô tô là $15\\text{ m/s}$.",
+      "Ô tô đang chuyển động theo chiều dương của trục tọa độ.",
+      "Sau $10\\text{ s}$ kể từ thời điểm ban đầu, tọa độ của ô tô là $120\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Thay $t = 0$ vào phương trình ta được tọa độ ban đầu $x_0 = 15\\text{ m}$.\n- Ý b) SAI: Hệ số đứng trước $t$ là vận tốc nên $v = 12\\text{ m/s}$.\n- Ý c) ĐÚNG: Vì $v = 12\\text{ m/s} > 0$ nên ô tô chuyển động theo chiều dương.\n- Ý d) SAI: Tại $t = 10\\text{ s}$, tọa độ của ô tô là $x = 15 + 12 \\times 10 = 135\\text{ m}$ (quãng đường đi được mới là $120\\text{ m}$)."
+  },
+  {
+    "id": 22,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một đoàn tàu đang chạy thẳng đều với vận tốc $72\\text{ km/h}$ ($20\\text{ m/s}$) thì hãm phanh chuyển động thẳng chậm dần đều với gia tốc có độ lớn $2\\text{ m/s}^2$. Chọn chiều dương là chiều chuyển động của tàu.",
+    "dsYCon": [
+      "Gia tốc của đoàn tàu có giá trị đại số là $a = -2\\text{ m/s}^2$.",
+      "Sau $5\\text{ s}$ kể từ lúc hãm phanh, vận tốc của tàu còn lại là $10\\text{ m/s}$.",
+      "Thời gian từ lúc hãm phanh cho đến khi tàu dừng hẳn là $20\\text{ s}$.",
+      "Tổng quãng đường tàu đi được từ lúc hãm phanh đến khi dừng hẳn là $100\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Tàu chuyển động chậm dần đều theo chiều dương nên $a$ trái dấu với $v_0$, tức $a = -2\\text{ m/s}^2$.\n- Ý b) ĐÚNG: Áp dụng $v = v_0 + a \\cdot t = 20 + (-2) \\cdot 5 = 10\\text{ m/s}$.\n- Ý c) SAI: Khi tàu dừng hẳn $v = 0 \\Rightarrow t = \\frac{0 - 20}{-2} = 10\\text{ s} \\neq 20\\text{ s}$.\n- Ý d) ĐÚNG: Quãng đường hãm phanh: $s = \\frac{v^2 - v_0^2}{2a} = \\frac{0 - 20^2}{2 \\cdot (-2)} = 100\\text{ m}$."
+  },
+  {
+    "id": 23,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật được thả rơi tự do từ độ cao $h = 80\\text{ m}$ xuống đất, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian từ lúc thả đến khi chạm đất là 4 giây.",
+      "Vận tốc của vật khi chạm đất là $30\\text{ m/s}$.",
+      "Quãng đường vật đi được trong giây cuối cùng trước khi chạm đất là $35\\text{ m}$.",
+      "Sau 2 giây kể từ lúc thả, vật cách mặt đất $60\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "+ $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{160/10} = 4\\text{ s}$ (a đúng).\n+ $v = gt = 10 \\cdot 4 = 40\\text{ m/s}$ (b sai, phải là $40\\text{ m/s}$).\n+ Quãng đường giây thứ 4: $s_4 = s(4) - s(3) = 80 - \\frac{1}{2} \\cdot 10 \\cdot 3^2 = 80 - 45 = 35\\text{ m}$ (c đúng).\n+ Sau $2s$, quãng đường rơi $s_2 = \\frac{1}{2} \\cdot 10 \\cdot 2^2 = 20\\text{ m} \\implies$  Khoảng cách đến đất: $80 - 20 = 60\\text{ m}$ (d đúng)."
+  },
+  {
+    "id": 24,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật được ném ngang từ độ cao $h = 45\\text{ m}$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian rơi của vật từ lúc ném đến khi chạm đất là 3 giây.",
+      "Vận tốc của vật theo phương thẳng đứng ngay trước khi chạm đất là $30\\text{ m/s}$.",
+      "Nếu vận tốc ban đầu $v_0 = 20\\text{ m/s}$ thì tầm bay xa của vật là $60\\text{ m}$.",
+      "Khi chạm đất, độ lớn vận tốc theo phương ngang nhỏ hơn độ lớn vận tốc theo phương thẳng đứng."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "+ $t = \\sqrt{2 \\cdot 45 / 10} = 3\\text{ s}$ (a đúng).\n+ $v_y = gt = 10 \\cdot 3 = 30\\text{ m/s}$ (b đúng).\n+ $L = v_0 \\cdot t = 20 \\cdot 3 = 60\\text{ m}$ (c đúng).\n+ $v_x = 20\\text{ m/s}$ nhỏ hơn $v_y = 30\\text{ m/s}$ (d đúng)."
+  },
+  {
+    "id": 25,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Các đại lượng đặc trưng trong chuyển động tròn đều.",
+    "dsYCon": [
+      "Chu kỳ $T$ là thời gian vật đi hết một vòng quỹ đạo.",
+      "Tần số $f$ và chu kỳ $T$ có mối quan hệ $f = T$.",
+      "Tốc độ góc tính bằng công thức $\\omega = 2\\pi f$.",
+      "Đơn vị của tần số $f$ là héc $\\text{ (Hz)}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Tần số $f$ và chu kỳ $T$ liên hệ nghịch đảo $f = \\frac{1}{T}$ chứ không bằng nhau, ý b SAI."
+  },
+  {
+    "id": 26,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Bài tập tăng tốc): Một đoàn tàu bắt đầu rời ga chuyển động thẳng nhanh dần đều. Sau $20\\text{ s}$ tàu đạt vận tốc $36\\text{ km/h}$. Tính gia tốc của đoàn tàu và quãng đường tàu đi được trong $20\\text{ s}$ đầu tiên.",
+    "giaithich": "- Đổi đơn vị: $v = 36\\text{ km/h} = \\frac{36}{3{,}6} = 10\\text{ m/s}$; vận tốc ban đầu $v_0 = 0$.\n- **Gia tốc của đoàn tàu:** $a = \\frac{v - v_0}{t} = \\frac{10 - 0}{20} = 0{,}5\\text{ m/s}^2$.\n- **Quãng đường tàu đi được trong $20\\text{ s}$:** $s = v_0 t + \\frac{1}{2}at^2 = 0 + \\frac{1}{2} \\cdot 0{,}5 \\cdot 20^2 = 100\\text{ m}$. Đáp số: 100"
+  },
+  {
+    "id": 27,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập): Một vật được thả rơi tự do từ độ cao $h = 45\\text{ m}$ xuống đất. Lấy gia tốc rơi tự do $g = 10\\text{ m/s}^2$. Tính:\na) Thời gian từ lúc thả đến khi vật chạm đất.\nb) Vận tốc của vật ngay trước khi chạm đất.",
+    "giaithich": "a) Thời gian rơi:\nÁp dụng công thức: $h = \\frac{1}{2} \\cdot g \\cdot t^2$\n $\\implies 45 = \\frac{1}{2} \\cdot 10 \\cdot t^2 \\implies 45 = 5t^2 \\implies t^2 = 9 \\implies t = 3\\text{ (s)}$.\nb) Vận tốc chạm đất:\nÁp dụng công thức: $v = g \\cdot t = 10 \\cdot 3 = 30\\text{ (m/s)}$."
+  },
+  {
+    "id": 28,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập chuyển động tròn): Một vệ tinh nhân tạo quay đều quanh Trái Đất theo quỹ đạo tròn ở độ cao cách mặt đất một khoảng bằng bán kính Trái Đất ($r = 2$ R với $R = 6400\\text{ km}$). Vệ tinh quay hết một vòng mất 2 giờ. Tính tốc độ dài của vệ tinh.",
+    "giaithich": "- Bán kính quỹ đạo của vệ tinh:\n$r = 2$ R = $2 \\cdot 6400\\text{ km} = 12800\\text{ km} = 12.800$.$000\\text{ m} = 1,28 \\cdot 10^7\\text{ m}$.\n- Chu kỳ quay của vệ tinh:\n$T = 2$ giờ = $2 \\cdot 3600$ giây = $7200\\text{ s}$.\n- Tốc độ dài của vệ tinh:\n$v = \\frac{2\\pi r}{T} = (2 \\cdot 3,14 \\cdot 1,28 \\cdot 10^7$) / $7200 \\approx 11.168\\text{ m/s}$ (hoặc khoảng $11,17\\text{ km/s}$)."
+  }
+]

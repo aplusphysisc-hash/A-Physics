@@ -1,0 +1,58 @@
+[
+  {
+    "id": 2,
+    "baiSo": 2,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 2: Động năng - Thế năng - Cơ năng",
+    "videoYoutubeId": "eYMi34us5TU",
+    "fileBaiTapNhanh": "ChuDe5/02BaiTapNhanh5_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Động năng và Định lý động năng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Khái niệm Động năng ($W_đ$)",
+            "noiDung": "{badge:Khái niệm cốt lõi} {color:primary|**Động năng ($W_đ$)**} là dạng năng lượng mà vật có được {highlight|do nó đang chuyển động}.",
+            "danhSachYCon": [
+              "Động năng là đại lượng {color:tertiary|**vô hướng**}, luôn không âm ($W_đ \\ge 0$) và phụ thuộc vào hệ quy chiếu (vì vận tốc phụ thuộc hệ quy chiếu).",
+              "Đơn vị của động năng trong hệ SI là {color:primary|**Joule**} ($\\text{J}$)."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC ĐỘNG NĂNG & ĐỊNH LÝ ĐỘNG NĂNG",
+            "congThuc": "$W_đ = \\frac{1}{2} m v^2$ ; $\\Delta W_đ = W_{đ2} - W_{đ1} = \\frac{1}{2}mv_2^2 - \\frac{1}{2}mv_1^2 = A_{tổng}$",
+            "mucDich": "Tính động năng của vật đang chuyển động và liên hệ độ biến thiên động năng với tổng công ngoại lực.",
+            "chuThich": "- Nếu tổng công $A_{tổng} > 0$: động năng tăng (vật tăng tốc).\\n- Nếu tổng công $A_{tổng} < 0$: động năng giảm (vật giảm tốc)."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Thế năng trọng trường & Định luật bảo toàn cơ năng",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Thế năng trọng trường ($W_t$) và Cơ năng ($W$)",
+            "noiDung": "{color:primary|**Thế năng trọng trường ($W_t$)**} là dạng năng lượng tương tác giữa Trái Đất và vật, {highlight|phụ thuộc vào vị trí độ cao $z$ của vật} so với mốc thế năng được chọn.",
+            "danhSachYCon": [
+              "**Cơ năng ($W$):** Là tổng động năng và thế năng của vật: $W = W_đ + W_t$.",
+              "Giá trị của thế năng $W_t$ và cơ năng $W$ phụ thuộc vào cách chọn mốc thế năng (có thể dương, âm hoặc bằng $0$), nhưng {color:success|**độ biến thiên thế năng**} không phụ thuộc vào mốc."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "CÔNG THỨC THẾ NĂNG & ĐỊNH LUẬT BẢO TOÀN CƠ NĂNG",
+            "congThuc": "$W_t = m \\cdot g \\cdot z$ ; $W = \\frac{1}{2}mv^2 + m \\cdot g \\cdot z = \\text{const}$",
+            "mucDich": "Áp dụng định luật bảo toàn cơ năng khi vật chỉ chịu tác dụng của trọng lực (hoặc lực đàn hồi).",
+            "chuThich": "- Bảo toàn cơ năng: $W_1 = W_2 \\iff W_{đ1} + W_{t1} = W_{đ2} + W_{t2}$.\\n- Khi có lực ma sát hoặc lực cản, cơ năng {color:error|**không bảo toàn**} mà giảm dần (chuyển thành nhiệt năng): $A_{cản} = W_2 - W_1$."
+          }
+        ]
+      }
+    ]
+  }
+]

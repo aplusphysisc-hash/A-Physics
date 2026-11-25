@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị độ dịch chuyển - thời gian ($d-t$), một đoạn thẳng nằm ngang song song với trục thời gian cho biết vật đang ở trạng thái nào?",
+    "caccauChon": [
+      "Đứng yên (không chuyển động)",
+      "Chuyển động thẳng đều theo chiều dương",
+      "Chuyển động thẳng đều ngược chiều dương",
+      "Chuyển động biến đổi đều"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Độ dịch chuyển không đổi theo thời gian ($\\Delta d = 0$) nên vận tốc $v = 0$, vật đứng yên.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_nam_ngang_dung_yen.webp"
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong đồ thị độ dịch chuyển - thời gian ($d-t$) của chuyển động thẳng đều, độ dốc (hệ số góc) của đường biểu diễn cho biết đại lượng vật lý nào sau đây?",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai3_do_thi_d_t.webp",
+    "caccauChon": [
+      "Gia tốc của chuyển động",
+      "Quãng đường đi được trong $1$ giây",
+      "Vận tốc của chuyển động",
+      "Lực tác dụng lên vật"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hệ số góc của đường biểu diễn trên đồ thị $d-t$ là $\\tan\\alpha = \\frac{\\Delta d}{\\Delta t} = v$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho đồ thị độ dịch chuyển - thời gian của một vật chuyển động thẳng đều. Tại thời điểm $t = 2\\text{ s}$, đồ thị chỉ giá trị độ dịch chuyển $d = 6\\text{ m}$ (với mốc tại vị trí xuất phát $d_0 = 0\\text{ m}$ tại $t_0 = 0\\text{ s}$). Vận tốc của vật là bao nhiêu?",
+    "caccauChon": [
+      "$12\\text{ m/s}$",
+      "$3\\text{ m/s}$",
+      "$6\\text{ m/s}$",
+      "$0{,}33\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức $v = \\frac{d - d_0}{t - t_0} = \\frac{6 - 0}{2 - 0} = 3\\text{ m/s}$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_2s_6m.webp"
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trên đồ thị độ dịch chuyển - thời gian, một đoạn thẳng có độ dốc âm (đường biểu diễn đi xuống từ trái sang phải) thể hiện điều gì về chuyển động của vật?",
+    "caccauChon": [
+      "Vật đang đứng yên tại một vị trí âm.",
+      "Vật chuyển động thẳng đều theo chiều dương của trục tọa độ.",
+      "Vật chuyển động thẳng đều ngược chiều dương của trục tọa độ.",
+      "Vật đang chuyển động chậm dần đều."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ dốc âm nghĩa là vận tốc $v = \\frac{\\Delta d}{\\Delta t} < 0$, vật chuyển động ngược chiều dương.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_dt_doc_am_chieu_am.webp"
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động có đồ thị độ dịch chuyển - thời gian gồm $3$ giai đoạn liên tiếp: đi lên đều (từ $0$ đến $2\\text{ s}$), nằm ngang (từ $2\\text{ s}$ đến $4\\text{ s}$), và đi xuống đều (từ $4\\text{ s}$ đến $6\\text{ s}$). Nhận xét nào sau đây là đúng nhất?",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai3_do_thi_3_giai_doan.webp",
+    "caccauChon": [
+      "Vật đứng yên trong suốt cả $6$ giây.",
+      "Vật chuyển động cùng một hướng trong cả $6$ giây.",
+      "Vật chuyển động theo chiều dương từ $0-2\\text{ s}$, đứng yên từ $2-4\\text{ s}$, và chuyển động ngược chiều dương từ $4-6\\text{ s}$.",
+      "Vật quay trở về điểm xuất phát ngay tại thời điểm $t = 2\\text{ s}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đi lên ứng với $v > 0$, nằm ngang ứng với $v = 0$, đi xuống ứng với $v < 0$."
+  }
+]

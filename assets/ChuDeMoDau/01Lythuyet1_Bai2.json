@@ -1,0 +1,110 @@
+[
+  {
+    "id": 2,
+    "tieude": "Bài 2: Vấn đề an toàn trong Vật lý",
+    "noidung": "Các nguy cơ mất an toàn trong nghiên cứu Vật lý, quy tắc an toàn trong phòng thực hành và các nhóm biển báo an toàn thông dụng.",
+    "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp",
+    "videoYoutubeId": "U07ACxp_gYM",
+    "fileBaiTapNhanh": "ChuDeMoDau/02BaiTapNhanh1_Bai2.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Các nguy cơ mất an toàn trong nghiên cứu và học tập Vật lý",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Bốn nguy cơ mất an toàn chính",
+            "noiDung": "Khi làm việc với các thiết bị thí nghiệm Vật lý, cần đặc biệt lưu ý 4 nhóm nguy cơ sau:",
+            "danhSachYCon": [
+              "**Nguy cơ về điện:** Chập cháy điện, rò rỉ điện gây giật điện nguy hiểm khi chạm vào dây điện hở.",
+              "**Nguy cơ về hóa chất và độc hại:** Hít phải khí độc, hóa chất bị bắn vào da hoặc mắt trong các bài thực hành.",
+              "**Nguy cơ do thiết bị quang học và bức xạ:** Tia laser chiếu thẳng vào mắt làm hỏng võng mạc, tiếp xúc trực tiếp với các nguồn phát tia bức xạ mạnh.",
+              "**Nguy cơ chấn thương cơ học:** Dụng cụ bằng thủy tinh bị vỡ làm cắt tay, vật nặng rơi vỡ trúng người, các thiết bị dao động mạnh gây va chạm."
+            ],
+            "hinhAnh": "images/ChuDeMoDau/lythuyet/nguy_co_mat_an_toan.webp"
+          },
+          {
+            "loai": "nhom_bien_bao",
+            "tieuDePhu": "Hình ảnh 4 nguy cơ nguy hiểm trong phòng thực hành",
+            "noiDung": "Quan sát và nhận diện trực quan 4 nhóm nguy cơ gây tai nạn:",
+            "danhSachAnh": [
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_dien.webp",
+                "tieuDe": "Hình 1: Nguy cơ chập giật điện",
+                "moTa": "Chập cháy điện, rò rỉ điện gây giật điện nguy hiểm khi chạm vào dây điện hở."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_hoa_chat.webp",
+                "tieuDe": "Hình 2: Nguy cơ hóa chất độc hại",
+                "moTa": "Hít phải khí độc, hóa chất bị bắn vào da hoặc mắt trong các bài thực hành."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_laser_buc_xa.webp",
+                "tieuDe": "Hình 3: Nguy cơ tia laser / bức xạ",
+                "moTa": "Tia laser chiếu thẳng vào mắt làm hỏng võng mạc, tiếp xúc nguồn phát bức xạ mạnh."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/nguy_co_co_hoc.webp",
+                "tieuDe": "Hình 4: Nguy cơ chấn thương cơ học / thủy tinh vỡ",
+                "moTa": "Dụng cụ thủy tinh bị vỡ làm cắt tay, vật nặng rơi vỡ trúng người hoặc va chạm thiết bị."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Quy tắc an toàn khi làm việc trong phòng thực hành",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Tuân thủ quy tắc an toàn theo 3 giai đoạn",
+            "noiDung": "Để đảm bảo an toàn tuyệt đối cho bản thân và tập thể, học sinh cần thực hiện:",
+            "danhSachYCon": [
+              "**Trước khi làm thí nghiệm:** Đọc kỹ hướng dẫn thực hành, mặc đồ bảo hộ (nếu được yêu cầu), kiểm tra kỹ dây điện và dụng cụ xem có bị hư hỏng không.",
+              "**Trong khi làm thí nghiệm:** Chỉ tiến hành thí nghiệm hoặc bật nguồn điện khi giáo viên cho phép. Tuyệt đối không ăn uống trong phòng thực hành.",
+              "**Sau khi làm thí nghiệm:** Tắt hết cầu dao điện, lau dọn và xếp dụng cụ gọn gàng, rửa tay sạch bằng xà phòng trước khi rời phòng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Biển báo an toàn và ký hiệu cảnh báo thông dụng",
+        "noiDungBlocks": [
+          {
+            "loai": "nhom_bien_bao",
+            "tieuDePhu": "Bốn nhóm biển báo an toàn tiêu chuẩn",
+            "noiDung": "Phân biệt các nhóm biển báo trong phòng thí nghiệm qua hình dạng và màu sắc:",
+            "hinhAnh": "images/ChuDeMoDau/lythuyet/bien_bao_an_toan.webp",
+            "danhSachAnh": [
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_cam.webp",
+                "tieuDe": "Biển CẤM",
+                "moTa": "Hình tròn, viền đỏ, nền trắng, hình vẽ màu đen: Cấm thực hiện các hành vi gây mất an toàn (ví dụ: cấm lửa, cấm sờ)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_canh_bao.webp",
+                "tieuDe": "Biển CẢNH BÁO",
+                "moTa": "Hình tam giác vàng, viền đen, hình vẽ màu đen: Cảnh báo trước các nguy hiểm (ví dụ: cảnh báo điện cao thế, tia laser, chất độc)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_bat_buoc.webp",
+                "tieuDe": "Biển BẮT BUỘC / LỆNH",
+                "moTa": "Hình tròn xanh lam, hình vẽ màu trắng: Yêu cầu bắt buộc phải làm theo (ví dụ: bắt buộc đeo kính bảo hộ, đeo găng tay)."
+              },
+              {
+                "duongDan": "images/ChuDeMoDau/lythuyet/bien_bao_chi_dan.webp",
+                "tieuDe": "Biển CHỈ DẪN",
+                "moTa": "Hình chữ nhật hoặc hình vuông xanh lá/xanh dương: Chỉ dẫn vị trí thiết bị an toàn, lối thoát hiểm, tủ thuốc y tế."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

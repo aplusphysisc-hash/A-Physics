@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Kí hiệu của độ dịch chuyển là:",
+    "caccauChon": [
+      "s.",
+      "d.",
+      "v.",
+      "t."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ dịch chuyển được kí hiệu là d (hoặc véc-tơ d)."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người chạy bộ trên một đường thẳng, ban đầu ở tọa độ $x_1$ = -10 m, sau một khoảng thời gian người đó ở tọa độ $x_2$ = 25 m. Độ dịch chuyển của người đó là:",
+    "caccauChon": [
+      "15 m.",
+      "35 m.",
+      "-35 m.",
+      "-15 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức: d = $x_2$ - $x_1$ = 25 - (-10) = 35 m."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chiếc xe ô tô chạy vòng quanh một bùng binh hình tròn có bán kính R = 20 m được đúng nửa vòng. Quãng đường đi được của xe là (lấy $\\pi \\approx$ 3,14):",
+    "caccauChon": [
+      "40 m.",
+      "62,8 m.",
+      "125,6 m.",
+      "20 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Nửa chu vi đường tròn: s = $\\pi \\cdot$ R = 3,14 $\\cdot$ 20 = 62,8 m."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Với dữ kiện ở Câu 3, độ lớn độ dịch chuyển của ô tô sau khi đi được nửa vòng bùng binh là:",
+    "caccauChon": [
+      "40 m.",
+      "62,8 m.",
+      "20 m.",
+      "0 m."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Đi được nửa vòng tròn thì điểm đầu và điểm cuối nằm đối diện qua tâm (đường kính): d = 2 $\\cdot$ R = 2 $\\cdot$ 20 = 40 m."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Điều nào sau đây là sai khi nói về độ dịch chuyển?",
+    "caccauChon": [
+      "Độ dịch chuyển là đại lượng véc-tơ.",
+      "Độ dịch chuyển có đơn vị là mét (m).",
+      "Độ dịch chuyển luôn lớn hơn quãng đường đi được.",
+      "Độ dịch chuyển có thể bằng không ngay cả khi vật có chuyển động."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ lớn độ dịch chuyển luôn nhỏ hơn hoặc bằng quãng đường đi được (d $\\le$ s), không bao giờ lớn hơn."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe máy thẳng từ nhà đến công ty theo hướng Bắc dài 4 km, sau đó rẽ sang hướng Đông đi tiếp 3 km đến quán cà phê. Quãng đường người đó đã đi là:",
+    "caccauChon": [
+      "5 km.",
+      "7 km.",
+      "1 km.",
+      "12 km."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Quãng đường là tổng độ dài hai đoạn: s = 4 + 3 = 7 km.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai1_pytago_dong_bac.webp"
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Với dữ kiện ở Câu 6, độ lớn độ dịch chuyển của người đó từ nhà đến quán cà phê là:",
+    "caccauChon": [
+      "7 km.",
+      "5 km.",
+      "1 km.",
+      "3,5 km."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hai đoạn hướng Bắc và Đông vuông góc nhau: d = $\\sqrt{ 4^2  +  3^2 }$ = $\\sqrt{16 + 9}$ = 5 km."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một con ốc sên bò thẳng trên một cành cây theo chiều dương được 15 cm, sau đó bò ngược lại 20 cm. Độ dịch chuyển của con ốc sên là:",
+    "caccauChon": [
+      "35 cm.",
+      "5 cm.",
+      "-5 cm.",
+      "-35 cm."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đi theo chiều dương +15 cm, đi ngược lại -20 cm: d = 15 - 20 = -5 cm."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Với dữ kiện ở Câu 8, quãng đường con ốc sên đã bò được là:",
+    "caccauChon": [
+      "35 cm.",
+      "5 cm.",
+      "-5 cm.",
+      "20 cm."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Quãng đường đi được là tổng độ dài: s = 15 + 20 = 35 cm."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Để xác định thời điểm một chiếc tàu hỏa đi qua ga, người ta cần dùng dụng cụ và mốc nào?",
+    "caccauChon": [
+      "Thước đo và vật làm mốc.",
+      "Đồng hồ và mốc thời gian.",
+      "La bàn và hệ tọa độ.",
+      "Tốc kế và mốc thời gian."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thời điểm được xác định bằng đồng hồ gắn với mốc thời gian đã chọn."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một máy bay bay thẳng về phía Nam 300 km, sau đó gặp gió đổi hướng bay thẳng về phía Bắc 100 km. Chọn chiều dương là hướng Bắc. Độ dịch chuyển của máy bay là:",
+    "caccauChon": [
+      "400 km.",
+      "200 km.",
+      "-200 km.",
+      "-400 km."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chiều dương là hướng Bắc nên bay về Nam là -300 km, bay về Bắc là +100 km. Độ dịch chuyển d = -300 + 100 = -200 km."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều theo chiều âm của trục Ox. Nhận xét nào sau đây đúng?",
+    "caccauChon": [
+      "d > 0 và s > 0.",
+      "d < 0 và s > 0.",
+      "d < 0 và s < 0.",
+      "d = 0 và s > 0."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Vật chuyển động thẳng theo chiều âm thì độ dịch chuyển d < 0, còn quãng đường luôn dương s > 0."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai người xuất phát cùng lúc từ một ngã tư. Người thứ nhất đi về phía Đông 60 m, người thứ hai đi về phía Tây 80 m. Khoảng cách giữa hai người lúc này là:",
+    "caccauChon": [
+      "20 m.",
+      "100 m.",
+      "140 m.",
+      "70 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai người đi hai hướng ngược nhau hoàn toàn (Đông và Tây) nên khoảng cách giữa họ là 60 + 80 = 140 m."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một robot lau nhà di chuyển trong phòng: tiến thẳng 2 m, rẽ phải $90^\\circ$ đi thẳng 2 m, rồi lại rẽ phải $90^\\circ$ đi thẳng 2 m. Độ lớn độ dịch chuyển của robot là:",
+    "caccauChon": [
+      "6 m.",
+      "4 m.",
+      "2 m.",
+      "0 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Quỹ đạo tạo thành 3 cạnh của hình vuông cạnh 2 m, nên điểm cuối cách điểm đầu đúng 1 cạnh là 2 m."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức nào dùng để tính độ dịch chuyển trên trục tọa độ Ox khi vật đi từ vị trí $x_1$ đến $x_2$?",
+    "caccauChon": [
+      "d = $x_1$ + $x_2$.",
+      "d = $x_1$ - $x_2$.",
+      "d = $x_2$ - $x_1$.",
+      "d = |$x_1$ + $x_2$|."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức chuẩn xác định độ dịch chuyển trên trục Ox là d = $x_2$ - $x_1$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một thang máy đi từ tầng hầm B1 (tọa độ -3 m) lên thẳng tầng 4 (tọa độ +12 m). Độ dịch chuyển của thang máy là:",
+    "caccauChon": [
+      "9 m.",
+      "15 m.",
+      "-15 m.",
+      "-9 m."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ dịch chuyển d = $x_2$ - $x_1$ = 12 - (-3) = 15 m."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong các chuyển động sau, chuyển động nào có độ lớn độ dịch chuyển khác không?",
+    "caccauChon": [
+      "Trái Đất quay quanh Mặt Trời đúng 1 năm.",
+      "Kim phút đồng hồ quay đúng 1 giờ.",
+      "Một vận động viên bơi hết 1 chiều dài bể bơi 50 m.",
+      "Một chiếc xe buýt chạy hết một tuyến khứ hồi về bến xuất phát."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Bơi 1 chiều dài bể 50 m thì điểm đầu và cuối cách nhau 50 m (d = 50 m $\\neq$ 0). Các trường hợp còn lại vật đều quay về điểm xuất phát (d = 0)."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người chèo thuyền qua sông rộng 120 m theo phương vuông góc với bờ, nhưng do nước chảy nên thuyền bị trôi xuôi theo dòng một đoạn 50 m. Độ lớn độ dịch chuyển thực tế của thuyền là:",
+    "caccauChon": [
+      "170 m.",
+      "70 m.",
+      "130 m.",
+      "120 m."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai chuyển động vuông góc (ngang sông 120 m và xuôi dòng 50 m): d = $\\sqrt{120^2 + 50^2}$ = $\\sqrt{14400 + 2500}$ = $\\sqrt{16900}$ = 130 m.",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai2_thuyen_qua_song.webp"
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào phụ thuộc vào việc chọn chiều dương của trục tọa độ?",
+    "caccauChon": [
+      "Quãng đường đi được.",
+      "Thời gian chuyển động.",
+      "Dấu của độ dịch chuyển.",
+      "Độ dài quỹ đạo."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đổi chiều dương của trục tọa độ sẽ làm đổi dấu của độ dịch chuyển."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi vật chuyển động theo một đường tròn bán kính R được 1/4 vòng tròn thì độ lớn độ dịch chuyển của vật là:",
+    "caccauChon": [
+      "R.",
+      "2 $\\cdot$ R.",
+      "R $\\cdot \\sqrt{2}$.",
+      "$\\pi \\cdot$ R / 2."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đi được 1/4 vòng tròn tạo thành tam giác vuông cân có hai cạnh góc vuông bằng R, cạnh huyền d = $\\sqrt{R^2 + R^2}$ = R $\\cdot \\sqrt{2}$."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một người đi xe đạp tập thể dục buổi sáng xuất phát từ cổng công viên, đi thẳng về phía Tây 1,5 km, sau đó quay đầu đi thẳng về phía Đông 2,5 km. Chọn chiều dương là hướng Đông, gốc tọa độ tại cổng công viên:",
+    "dsYCon": [
+      "Khi đi về phía Tây 1,5 km, tọa độ của người đó là -1,5 km.",
+      "Tổng quãng đường người đó đã đạp xe là 4,0 km.",
+      "Độ dịch chuyển của người đó trong cả buổi tập là -1,0 km.",
+      "Vị trí kết thúc của người đó nằm ở phía Đông so với cổng công viên."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Đúng (s = 1,5 + 2,5 = 4,0 km) | c) Sai (d = -1,5 + 2,5 = +1,0 km) | d) Đúng (vì d = +1,0 km theo chiều Đông)."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét một chiếc kim giây của đồng hồ treo tường có chiều dài từ trục quay đến đầu kim là 10 cm. Xét chuyển động của đầu kim giây trong 30 giây:",
+    "dsYCon": [
+      "Quãng đường đầu kim giây đi được là một nửa chu vi đường tròn bán kính 10 cm.",
+      "Độ lớn độ dịch chuyển của đầu kim giây sau 30 giây là 20 cm.",
+      "Nếu xét trong 60 giây thì độ lớn độ dịch chuyển của đầu kim giây bằng 0 cm.",
+      "Trong 30 giây, độ lớn độ dịch chuyển bằng quãng đường đi được."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "a) Đúng | b) Đúng (sau 30 giây kim đi được nửa vòng, khoảng cách đầu cuối bằng đường kính 2 $\\cdot$ 10 = 20 cm) | c) Đúng (sau 60 giây kim về vị trí cũ) | d) Sai (d = 20 cm < s = 31,4 cm)."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một người giao hàng đi từ kho hàng (O) thẳng về phía Bắc 400 m đến điểm A, sau đó rẽ sang phía Tây đi thẳng 300 m đến điểm B:",
+    "dsYCon": [
+      "Quãng đường người giao hàng đi từ O đến B là 700 m.",
+      "Khoảng cách đường chim bay từ kho hàng O đến điểm B là 500 m.",
+      "Độ lớn độ dịch chuyển của người đó từ O đến B là 700 m.",
+      "Nếu người đó đi thẳng từ B về lại O thì độ lớn độ dịch chuyển của cả hành trình khép kín là 0 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "a) Đúng (s = 400 + 300 = 700 m) | b) Đúng (d = $\\sqrt{400^2 + 300^2}$ = 500 m) | c) Sai (độ lớn độ dịch chuyển là 500 m) | d) Đúng."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "So sánh hai khái niệm độ dịch chuyển và quãng đường đi được:",
+    "dsYCon": [
+      "Cả hai đại lượng đều có cùng đơn vị đo là mét (m).",
+      "Cả hai đại lượng đều cho biết hướng chuyển động của vật.",
+      "Quãng đường đi được luôn lớn hơn hoặc bằng độ lớn độ dịch chuyển.",
+      "Khi vật đứng yên thì cả quãng đường và độ dịch chuyển đều bằng không."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Sai (chỉ độ dịch chuyển cho biết hướng, quãng đường là đại lượng vô hướng) | c) Đúng | d) Đúng."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một tàu ngầm đang ở độ sâu 200 m dưới mực nước biển. Tàu lặn thẳng đứng xuống sâu thêm 150 m, sau đó nổi thẳng đứng lên 100 m. Chọn trục tọa độ thẳng đứng hướng xuống dưới, gốc tại mặt biển:",
+    "dsYCon": [
+      "Tọa độ ban đầu của tàu ngầm là $x_1$ = +200 m.",
+      "Độ sâu lớn nhất tàu đạt được là 350 m.",
+      "Độ dịch chuyển của tàu ngầm trong cả quá trình là +50 m.",
+      "Tổng quãng đường tàu ngầm đã di chuyển là 250 m."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "a) Đúng | b) Đúng (200 + 150 = 350 m) | c) Đúng (lặn xuống +150 m, nổi lên -100 m nên d = 150 - 100 = +50 m) | d) Đúng (tổng quãng đường s = 150 + 100 = 250 m)."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một chiếc ô tô đồ chơi điều khiển từ xa chuyển động thẳng trên một sàn nhà phẳng. Ban đầu xe ở vị trí cách gốc O $2{,}0\\text{ m}$ về phía chiều dương. Xe chạy thẳng theo chiều dương thêm $5{,}0\\text{ m}$, sau đó quay đầu chạy ngược chiều dương một đoạn $8{,}0\\text{ m}$ rồi dừng lại.\na) Tính tổng quãng đường ô tô đồ chơi đã đi được.\nb) Xác định tọa độ dừng lại và độ dịch chuyển tổng hợp của xe so với vị trí ban đầu.",
+    "giaithich": "Lời giải chi tiết:\na) Tổng quãng đường ô tô đồ chơi đã đi được:\n• Quãng đường xe đi theo chiều dương: $s_1 = 5{,}0\\text{ m}$.\n• Quãng đường xe đi ngược chiều dương: $s_2 = 8{,}0\\text{ m}$.\n• Tổng quãng đường đi được: $s = s_1 + s_2 = 5{,}0 + 8{,}0 = 13{,}0\\text{ m}$.\n\nb) Tọa độ dừng lại và độ dịch chuyển tổng hợp:\n• Tọa độ ban đầu của xe: $x_0 = +2{,}0\\text{ m}$.\n• Tọa độ dừng lại của xe: $x = x_0 + s_1 - s_2 = 2{,}0 + 5{,}0 - 8{,}0 = -1{,}0\\text{ m}$ (cách gốc O $1{,}0\\text{ m}$ về phía chiều âm).\n• Độ dịch chuyển của xe so với vị trí ban đầu: $d = x - x_0 = -1{,}0 - 2{,}0 = -3{,}0\\text{ m}$ (độ lớn $3{,}0\\text{ m}$, hướng ngược chiều dương)."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một người đi bộ rời khỏi cổng trường đi thẳng về hướng Tây $450\\text{ m}$, sau đó rẽ sang hướng Nam đi thẳng $600\\text{ m}$ để tới quán nước.\na) Tính quãng đường người đó đã đi được.\nb) Tính độ lớn độ dịch chuyển của người đó từ cổng trường đến quán nước và góc hợp bởi vectơ độ dịch chuyển so với hướng Tây.",
+    "giaithich": "Lời giải chi tiết:\na) Quãng đường người đó đã đi được:\n• Tổng quãng đường: $s = s_1 + s_2 = 450 + 600 = 1050\\text{ m} = 1{,}05\\text{ km}$.\n\nb) Độ lớn độ dịch chuyển và hướng:\n• Hai đoạn dịch chuyển vuông góc nhau (hướng Tây $\\perp$ hướng Nam), theo định lí Pythagore:\n  $d = \\sqrt{d_1^2 + d_2^2} = \\sqrt{450^2 + 600^2} = \\sqrt{202500 + 360000} = \\sqrt{562500} = 750\\text{ m} = 0{,}75\\text{ km}$.\n• Gọi $\\beta$ là góc hợp bởi vectơ độ dịch chuyển so với hướng Tây:\n  $\\tan\\beta = \\frac{d_2}{d_1} = \\frac{600}{450} = \\frac{4}{3} \\Rightarrow \\beta \\approx 53{,}1^\\circ$.\n• Kết luận: Độ lớn độ dịch chuyển là $750\\text{ m}$, hướng Tây – Nam (lệch $53{,}1^\\circ$ về phía Nam so với hướng Tây)."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một chiếc flycam bay theo đường gấp khúc khép kín gồm ba đoạn tạo thành tam giác vuông ABC vuông tại B, có cạnh $AB = 300\\text{ m}$ và cạnh $BC = 400\\text{ m}$. Flycam xuất phát từ A bay theo lộ trình $A \\to B \\to C \\to A$.\na) Tính quãng đường bay và độ lớn độ dịch chuyển của flycam khi vừa tới điểm C.\nb) Tính quãng đường bay và độ lớn độ dịch chuyển của flycam khi hoàn thành 1 vòng khép kín trở về đúng điểm A.",
+    "giaithich": "Lời giải chi tiết:\na) Khi flycam bay từ A đến C ($A \\to B \\to C$):\n• Quãng đường bay: $s_{AC} = AB + BC = 300 + 400 = 700\\text{ m}$.\n• Độ lớn độ dịch chuyển bằng độ dài cạnh huyền AC của tam giác vuông ABC:\n  $d_{AC} = AC = \\sqrt{AB^2 + BC^2} = \\sqrt{300^2 + 400^2} = \\sqrt{90000 + 160000} = \\sqrt{250000} = 500\\text{ m}$.\n\nb) Khi flycam hoàn thành 1 vòng khép kín trở về điểm A:\n• Chu vi của tam giác vuông ABC: $P = AB + BC + AC = 300 + 400 + 500 = 1200\\text{ m}$.\n• Quãng đường bay được sau 1 vòng: $s = 1200\\text{ m} = 1{,}2\\text{ km}$.\n• Vì điểm cuối trùng với điểm xuất phát A nên độ lớn độ dịch chuyển bằng: $d = 0\\text{ m}$."
+  }
+]

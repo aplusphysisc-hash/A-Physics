@@ -1,0 +1,24 @@
+{
+  "name": "A+ Physics - Học Tập Vật Lý THPT",
+  "short_name": "A+ Physics",
+  "description": "Hệ sinh thái học tập Vật lý THPT trực quan hóa với 19 mô hình 3D, 2.016 câu hỏi chuẩn GDPT 2018 và âm thanh tập trung.",
+  "start_url": "app.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070D1F",
+  "theme_color": "#070D1F",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "assets/ic_logo_loading.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/ic_logo_loading.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

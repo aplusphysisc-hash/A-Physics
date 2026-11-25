@@ -1,0 +1,91 @@
+[
+  {
+    "id": 3,
+    "tieude": "Bài 3: Thực hành tính sai số phép đo. Ghi kết quả đo",
+    "noidung": "Phép đo trực tiếp, phép đo gián tiếp, phân loại sai số và quy trình 6 bước tính sai số, ghi kết quả phép đo.",
+    "videoYoutubeId": "U5cI8oVBifI",
+    "fileBaiTapNhanh": "ChuDeMoDau/02BaiTapNhanh1_Bai3.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Tóm tắt Lý thuyết & Phân loại Phép đo, Sai số",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Phép đo trực tiếp và Phép đo gián tiếp",
+            "noiDung": "Dựa vào cách thức thu nhận kết quả, phép đo các đại lượng vật lý được chia làm hai loại:",
+            "danhSachYCon": [
+              "**Phép đo trực tiếp:** So sánh trực tiếp đại lượng cần đo với dụng cụ đo, đọc ngay kết quả trên thước, cân hay đồng hồ (không cần qua công thức toán học).",
+              "**Phép đo gián tiếp:** Xác định đại lượng cần đo thông qua công thức toán học liên hệ với các đại lượng đo trực tiếp (ví dụ: đo vận tốc $v = \\frac{s}{t}$)."
+            ],
+            "hinhAnh": "images/ChuDeMoDau/lythuyet/thuoc_kep_vien_bi.webp"
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Phân loại sai số phép đo",
+            "noiDung": "Mọi phép đo đều tồn tại sai lệch giữa giá trị đo được và giá trị thực, gồm hai loại sai số:",
+            "hinhAnh": "images/ChuDeMoDau/lythuyet/sai_so_thi_nghiem.webp",
+            "danhSachYCon": [
+              "**Sai số hệ thống:** Do đặc điểm, cấu tạo của dụng cụ đo hoặc do người đo chưa hiệu chỉnh kim về vạch số $0$ ban đầu. Sai số dụng cụ $\\Delta A_{dc}$ thường được lấy bằng một độ chia nhỏ nhất hoặc một nửa độ chia nhỏ nhất ghi trên dụng cụ.",
+              "**Sai số ngẫu nhiên:** Do thao tác đo không chuẩn, mắt nhìn nghiêng hoặc điều kiện môi trường thay đổi ngẫu nhiên. Cách khắc phục: Tiến hành đo nhiều lần rồi tính giá trị trung bình."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Các bước tính sai số và Công thức cần dùng",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 1: TÍNH GIÁ TRỊ TRUNG BÌNH (KHI ĐO ĐẠI LƯỢNG A GỒM n LẦN)",
+            "congThuc": "$\\bar{A} = A_{tb} = \\frac{A_1 + A_2 + \\dots + A_n}{n}$",
+            "mucDich": "Tìm ra giá trị đại diện chuẩn nhất cho đại lượng cần đo.",
+            "chuThich": "$A_1, A_2, \\dots, A_n$ là kết quả ở lần đo $1, 2, \\dots, n$; $n$ là tổng số lần tiến hành đo."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 2: TÍNH SAI SỐ NGẪU NHIÊN TUYỆT ĐỐI CỦA TỪNG LẦN ĐO",
+            "congThuc": "$\\Delta A_1 = |\\bar{A} - A_1|  ;  \\Delta A_2 = |\\bar{A} - A_2|  ;  \\dots  ;  \\Delta A_n = |\\bar{A} - A_n|$",
+            "mucDich": "Dùng để tính mức độ độ lệch (sai lệch) của mỗi lần đo so với giá trị trung bình.",
+            "chuThich": "Dấu $| |$ là dấu giá trị tuyệt đối (kết quả luôn lấy số dương)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 3: TÍNH SAI SỐ NGẪU NHIÊN TUYỆT ĐỐI TRUNG BÌNH",
+            "congThuc": "$\\overline{\\Delta A} = \\Delta A_{tb} = \\frac{\\Delta A_1 + \\Delta A_2 + \\dots + \\Delta A_n}{n}$",
+            "mucDich": "Tính mức độ sai lệch ngẫu nhiên trung bình của tất cả $n$ lần đo.",
+            "chuThich": "Là trung bình cộng các độ lệch tuyệt đối qua $n$ lần đo."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 4: TÍNH SAI SỐ TUYỆT ĐỐI CỦA PHÉP ĐO",
+            "congThuc": "$\\Delta A = \\overline{\\Delta A} + \\Delta A_{dc}$",
+            "mucDich": "Tính tổng sai số toàn phần của phép đo (gồm cả sai số ngẫu nhiên và sai số của thiết bị).",
+            "chuThich": "$\\Delta A_{dc}$ là sai số dụng cụ (lấy bằng một độ chia nhỏ nhất hoặc một nửa độ chia nhỏ nhất ghi trên dụng cụ)."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 5: TÍNH SAI SỐ TỈ ĐỐI",
+            "congThuc": "$\\delta A = \\frac{\\Delta A}{\\bar{A}} \\cdot 100\\%$",
+            "mucDich": "Dùng khi cần đánh giá mức độ chính xác của phép đo. Cho biết sai số chiếm bao nhiêu phần trăm so với giá trị đo.",
+            "chuThich": "Sai số tỉ đối $\\delta A$ càng nhỏ thì phép đo càng chính xác."
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "BƯỚC 6: QUY TẮC GHI KẾT QUẢ ĐO CHUẨN",
+            "congThuc": "$A = \\bar{A} \\pm \\Delta A$",
+            "mucDich": "Biểu diễn khoảng giá trị thực của đại lượng đo: $\\bar{A} - \\Delta A \\le A \\le \\bar{A} + \\Delta A$.",
+            "chuThich": "Sai số tuyệt đối $\\Delta A$ thường được làm tròn đến $1$ hoặc $2$ chữ số có nghĩa."
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "QUY TẮC LÀM TRÒN VÀ SAI SỐ GIÁN TIẾP:\n- Giá trị trung bình $\\bar{A}$ được làm tròn đến bậc thập phân tương ứng với sai số tuyệt đối $\\Delta A$.\n- Sai số tuyệt đối của một tổng hay hiệu bằng tổng các sai số tuyệt đối: Nếu $x = a \\pm b$ thì $\\Delta x = \\Delta a + \\Delta b$.\n- Sai số tỉ đối của một tích hay thương bằng tổng các sai số tỉ đối: Nếu $y = \\frac{a \\cdot b}{c^n}$ thì $\\delta y = \\delta a + \\delta b + n \\cdot \\delta c$."
+          }
+        ]
+      }
+    ]
+  }
+]

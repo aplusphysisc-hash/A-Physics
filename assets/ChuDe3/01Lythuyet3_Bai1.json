@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "baiSo": 1,
+    "loai": "ly_thuyet",
+    "tieude": "Bài 1: Ba định luật Newton",
+    "videoYoutubeId": "LEX14ZYXj78",
+    "fileBaiTapNhanh": "ChuDe3/02BaiTapNhanh3_Bai1.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1. Định luật I Newton (Định luật Quán tính)",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Nội dung Định luật I Newton",
+            "noiDung": "{badge:Định luật cốt lõi} Nếu một vật {highlight|không chịu tác dụng của lực nào} hoặc chịu tác dụng của các lực có {color:primary|**hợp lực bằng không**} ($\\vec{F}_{hl} = \\vec{0}$), thì vật đang đứng yên sẽ tiếp tục đứng yên, đang chuyển động sẽ {color:success|**tiếp tục chuyển động thẳng đều**}.",
+            "danhSachYCon": [
+              "**Quán tính:** Là tính chất của mọi vật có xu hướng {color:primary|bảo toàn vận tốc} cả về hướng và độ lớn.",
+              "**Khối lượng ($m$):** Là đại lượng đặc trưng cho {highlight|mức quán tính của vật}. Vật có khối lượng $m$ càng lớn thì mức quán tính càng lớn, càng khó thay đổi vận tốc.",
+              "**Ý nghĩa vật lý:** Lực không phải là nguyên nhân duy trì chuyển động, mà là nguyên nhân làm {color:warning|thay đổi vận tốc} (gây ra gia tốc) của vật."
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "2. Định luật II Newton",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Phát biểu Định luật II Newton",
+            "noiDung": "{badge:Trọng tâm} Gia tốc $\\vec{a}$ của một vật luôn {color:primary|**cùng hướng với hợp lực**} tác dụng lên vật. Độ lớn của gia tốc {highlight|tỉ lệ thuận với độ lớn của lực và tỉ lệ nghịch với khối lượng} của vật."
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "BIỂU THỨC ĐỊNH LUẬT II NEWTON",
+            "congThuc": "$\\vec{a} = \\frac{\\vec{F}_{hl}}{m} \\iff \\vec{F}_{hl} = m \\cdot \\vec{a}$",
+            "mucDich": "Xác định mối liên hệ định lượng giữa hợp lực tác dụng $\\vec{F}_{hl}$, khối lượng $m$ và gia tốc $\\vec{a}$.",
+            "chuThich": "- $\\vec{F}_{hl} = \\vec{F}_1 + \\vec{F}_2 + \\dots + \\vec{F}_n$: {color:primary|Hợp lực} tác dụng lên vật (đơn vị $\\text{N}$).\n- $m$: {color:tertiary|Khối lượng} của vật (đơn vị $\\text{kg}$).\n- $a = \\frac{F_{hl}}{m}$: {color:success|Độ lớn gia tốc} của vật (đơn vị $\\text{m/s}^2$, với $1\\text{ N} = 1\\text{ kg}\\cdot\\text{m/s}^2$).\n- **Trọng lực:** $\\vec{P} = m \\cdot \\vec{g}$ (độ lớn $P = m \\cdot g$) là lực hấp dẫn do Trái Đất tác dụng lên vật, truyền cho vật gia tốc rơi tự do $\\vec{g}$."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "3. Định luật III Newton",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Tương tác hai chiều và cặp Lực - Phản lực",
+            "noiDung": "{badge:Định luật tương tác} Trong mọi trường hợp, khi vật $A$ tác dụng lên vật $B$ một lực $\\vec{F}_{AB}$, thì vật $B$ cũng tác dụng trở lại vật $A$ một lực $\\vec{F}_{BA}$. Hai lực này {highlight|cùng giá, cùng độ lớn nhưng ngược chiều}.",
+            "danhSachYCon": [
+              "**Xuất hiện đồng thời:** Cặp lực và phản lực luôn xuất hiện và mất đi cùng một lúc.",
+              "**Cùng bản chất:** Cả hai lực cùng thuộc một loại lực (cùng là lực hấp dẫn, lực đàn hồi hoặc lực ma sát...).",
+              "**Đặt vào hai vật khác nhau:** Vì đặt vào {color:error|**hai vật khác nhau**} nên cặp lực và phản lực {color:error|**KHÔNG CÂN BẰNG NHAU**} (không triệt tiêu lẫn nhau)."
+            ]
+          },
+          {
+            "loai": "cong_thuc_trong_tam",
+            "tenBuoc": "BIỂU THỨC ĐỊNH LUẬT III NEWTON",
+            "congThuc": "$\\vec{F}_{AB} = -\\vec{F}_{BA} \\implies F_{AB} = F_{BA}$",
+            "mucDich": "Xác định phương, chiều và độ lớn của cặp lực trực đối khi hai vật tương tác.",
+            "chuThich": "- $\\vec{F}_{AB}$: Lực do vật $A$ tác dụng lên vật $B$ (điểm đặt tại vật $B$).\n- $\\vec{F}_{BA}$: Phản lực do vật $B$ tác dụng lại vật $A$ (điểm đặt tại vật $A$).\n- Tỉ số gia tốc khi hai vật tương tác tự do: $\\frac{a_A}{a_B} = \\frac{m_B}{m_A}$."
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe3/lythuyet/bai1_ba_dinh_luat_newton.webp",
+            "moTaAnh": "Phân biệt cặp lực cân bằng (cùng đặt vào 1 vật) và cặp lực - phản lực theo Định luật III Newton (đặt vào 2 vật khác nhau)."
+          },
+          {
+            "loai": "mo_hinh_3d",
+            "tenMoHinh3d": "Mô hình 3D: Tương tác giữa xe và vật cản dưới góc nhìn của Định luật III Newton.",
+            "duongDanGlb": "models/ChuDe3/bai1_ba_dinh_luat_newton.glb",
+            "moTaMoHinh3d": "Quan sát chiếc xe hơi đang chạy trên đường thì tác dụng vào gốc cây vector lực $\\\\vec{F}$, thì bị cây tác dụng ngược lại vector lực $\\\\vec{F}'$ ngược hướng với vector lực $\\\\vec{F}$ làm đầu xe biến dạng, móp vào trong.",
+            "tuDongPhatAnimation": true
+          },
+          {
+            "loai": "luu_y",
+            "noiDungLuuY": "{badge:Bẫy điểm thi} Cực kỳ lưu ý: Cặp **lực cân bằng** phải {color:success|cùng đặt vào 1 vật} nên tổng hợp lực bằng $\\vec{0}$. Ngược lại, cặp **lực và phản lực** trong Định luật III Newton đặt vào {color:error|**2 vật khác nhau**} nên tuyệt đối không triệt tiêu nhau!"
+          }
+        ]
+      }
+    ]
+  }
+]

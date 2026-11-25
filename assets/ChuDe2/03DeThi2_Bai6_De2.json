@@ -1,0 +1,428 @@
+[
+  {
+    "id": 1,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động ném xiên là chuyển động có quỹ đạo dạng:",
+    "caccauChon": [
+      "Đoạn thẳng.",
+      "Đường tròn.",
+      "Nhánh parabol.",
+      "Đường hình sin."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Quỹ đạo của chuyển động ném xiên là một đường parabol."
+  },
+  {
+    "id": 2,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thành phần vận tốc ban đầu theo phương ngang $v_{0x}$ của vật ném xiên góc $\\alpha$ là:",
+    "caccauChon": [
+      "$v_0 \\cdot \\sin\\alpha$",
+      "$v_0 \\cdot \\cos\\alpha$",
+      "$v_0 \\cdot \\tan\\alpha$",
+      "$v_0$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$v_{0x} = v_0 \\cdot \\cos\\alpha$."
+  },
+  {
+    "id": 3,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Thành phần vận tốc ban đầu theo phương thẳng đứng $v_{0y}$ của vật ném xiên góc $\\alpha$ là:",
+    "caccauChon": [
+      "$v_0 \\cdot \\sin\\alpha$",
+      "$v_0 \\cdot \\cos\\alpha$",
+      "$v_0 \\cdot \\cot\\alpha$",
+      "0"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$v_{0y} = v_0 \\cdot \\sin\\alpha$."
+  },
+  {
+    "id": 4,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Theo phương ngang, vật ném xiên chuyển động với gia tốc bằng bao nhiêu (bỏ qua cản không khí)?",
+    "caccauChon": [
+      "$g$",
+      "$\\frac{g}{2}$",
+      "0",
+      "-$g$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Theo phương ngang không có lực tác dụng nên gia tốc bằng 0 (chuyển động thẳng đều)."
+  },
+  {
+    "id": 5,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại đỉnh quỹ đạo của chuyển động ném xiên, vận tốc theo phương thẳng đứng $v_y$ bằng:",
+    "caccauChon": [
+      "$v_0 \\cdot \\sin\\alpha$",
+      "$v_0 \\cdot \\cos\\alpha$",
+      "0",
+      "$v_0$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tại đỉnh quỹ đạo, vật đổi chiều chuyển động thẳng đứng nên vận tốc $v_y = 0$."
+  },
+  {
+    "id": 6,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính thời gian bay của vật ném xiên từ mặt đất là:",
+    "caccauChon": [
+      "$t = \\frac{v_0\\sin\\alpha}{g}$",
+      "$t = \\frac{2v_0\\sin\\alpha}{g}$",
+      "$t = \\frac{v_0\\cos\\alpha}{g}$",
+      "$t = \\frac{v_0^2}{g}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = \\frac{2v_0\\sin\\alpha}{g}$."
+  },
+  {
+    "id": 7,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính độ cao cực đại $h_{\\max}$ của vật ném xiên là:",
+    "caccauChon": [
+      "$h_{\\max} = \\frac{v_0^2\\sin^2\\alpha}{2g}$",
+      "$h_{\\max} = \\frac{v_0^2\\cos^2\\alpha}{2g}$",
+      "$h_{\\max} = \\frac{v_0\\sin\\alpha}{g}$",
+      "$h_{\\max} = \\frac{v_0^2\\sin\\alpha}{g}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$h_{\\max} = \\frac{v_0^2\\sin^2\\alpha}{2g}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức tính tầm bay xa $L$ của vật ném xiên là:",
+    "caccauChon": [
+      "$L = \\frac{v_0^2\\sin\\alpha}{g}$",
+      "$L = \\frac{v_0^2\\sin(2\\alpha)}{g}$",
+      "$L = \\frac{v_0^2\\cos\\alpha}{g}$",
+      "$L = \\frac{v_0\\sin(2\\alpha)}{g}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$L = \\frac{v_0^2\\sin(2\\alpha)}{g}$."
+  },
+  {
+    "id": 9,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Nếu góc ném $\\alpha = 90^\\circ$ thì tầm bay xa $L$ của vật bằng bao nhiêu?",
+    "caccauChon": [
+      "$L$ đạt giá trị lớn nhất.",
+      "$L$ bằng 0.",
+      "$L$ đạt giá trị trung bình.",
+      "Không xác định."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$\\sin 180^\\circ = 0$ nên $L = 0$ (vật rơi lại chỗ cũ theo phương thẳng đứng)."
+  },
+  {
+    "id": 10,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật được ném xiên với vận tốc $v_0 = 30\\text{ m/s}$, góc ném $\\alpha = 60^\\circ$ $(g = 10\\text{ m/s}^2)$. Thời gian bay của vật là:",
+    "caccauChon": [
+      "$3\\text{ s}$",
+      "$3\\sqrt{3}\\text{ s}$",
+      "$6\\text{ s}$",
+      "$6\\sqrt{3}\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$t = (2 \\cdot 30 \\cdot \\sin 60^\\circ) / 10 = (60 \\cdot \\frac{\\sqrt{3}}{2}$) / $10 = 30\\sqrt{3} / 10 = 3\\sqrt{3}\\text{ s}$.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_quy_dao_nem_xien_bong_ro.webp"
+  },
+  {
+    "id": 11,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Độ cao cực đại của vật trong câu 10 là bao nhiêu?",
+    "caccauChon": [
+      "$33,75\\text{ m}$",
+      "$30\\text{ m}$",
+      "$45\\text{ m}$",
+      "$15\\text{ m}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$h_{\\max} = (30^2 \\cdot \\sin^2 60^\\circ$) / 20 = ($900 \\cdot 0,75$) / $20 = 33,75\\text{ m}$."
+  },
+  {
+    "id": 12,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tầm bay xa của vật trong câu 10 là bao nhiêu?",
+    "caccauChon": [
+      "$45\\text{ m}$",
+      "$45\\sqrt{3}\\text{ m}$",
+      "$90\\text{ m}$",
+      "$30\\sqrt{3}\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$L = (30^2 \\cdot \\sin 120^\\circ$) / 10 = ($900 \\cdot \\frac{\\sqrt{3}}{2}$) / $10 = 45\\sqrt{3}\\text{ m}$."
+  },
+  {
+    "id": 13,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Khi tăng góc ném từ $30^\\circ$ lên $60^\\circ$ (giữ nguyên $v_0$), tầm bay xa của vật sẽ:",
+    "caccauChon": [
+      "Tăng lên.",
+      "Giảm xuống.",
+      "Không đổi.",
+      "Tăng gấp đôi."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Hai góc $30^\\circ$ và $60^\\circ$ phụ nhau ($\\alpha$ và $90^\\circ-\\alpha$) nên có cùng tầm bay xa $L$."
+  },
+  {
+    "id": 14,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật ném xiên có tầm bay xa lớn nhất là $40\\text{ m}$ (với $g = 10\\text{ m/s}^2$). Vận tốc ban đầu $v_0$ của vật là:",
+    "caccauChon": [
+      "$10\\text{ m/s}$",
+      "$20\\text{ m/s}$",
+      "$20\\sqrt{2}\\text{ m/s}$",
+      "$40\\text{ m/s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$L_{\\max} = \\frac{v_0^2}{g} \\implies 40 = v_0^2 / 10 \\implies v_0^2 = 400 \\implies v_0 = 20\\text{ m/s}$."
+  },
+  {
+    "id": 15,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động ném xiên có quỹ đạo đối xứng qua trục đối xứng là đường thẳng đứng đi qua:",
+    "caccauChon": [
+      "Vị trí ném.",
+      "Điểm rơi chạm đất.",
+      "Đỉnh quỹ đạo (độ cao cực đại).",
+      "Trung điểm tầm bay xa."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Quỹ đạo parabol của ném xiên đối xứng qua đường thẳng đứng đi qua đỉnh quỹ đạo."
+  },
+  {
+    "id": 16,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu được ném xiên với $v_0 = 10\\text{ m/s}$ từ mặt đất. Vận tốc của quả cầu tại đỉnh quỹ đạo là $6\\text{ m/s}$. Góc ném $\\alpha$ của quả cầu là:",
+    "caccauChon": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$53^\\circ$ $(\\cos\\alpha = 0,6)$",
+      "$60^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tại đỉnh quỹ đạo $v = v_x = v_0 \\cdot \\cos\\alpha \\implies 6 = 10 \\cdot \\cos\\alpha \\implies \\cos\\alpha = 0,6 \\implies \\alpha \\approx 53^\\circ$."
+  },
+  {
+    "id": 17,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây KHÔNG thay đổi trong suốt quá trình chuyển động của vật ném xiên?",
+    "caccauChon": [
+      "Vận tốc tức thời $v$.",
+      "Thành phần vận tốc theo phương ngang $v_x$.",
+      "Thành phần vận tốc theo phương thẳng đứng $v_y$.",
+      "Tọa độ $y$ của vật."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thành phần ngang $v_x = v_0 \\cdot \\cos\\alpha$ luôn không đổi."
+  },
+  {
+    "id": 18,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Để đạt tầm bay xa lớn nhất khi sút bóng với vận tốc ban đầu không đổi, cầu thủ cần sút bóng hợp với mặt đất một góc:",
+    "caccauChon": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Góc ném tối ưu cho tầm bay xa lớn nhất là $45^\\circ$."
+  },
+  {
+    "id": 19,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phương trình quỹ đạo của vật ném xiên có dạng $y = ax^2 + bx$. Hệ số a mang dấu gì?",
+    "caccauChon": [
+      "Dương (+).",
+      "Âm (-).",
+      "Bằng 0.",
+      "Không xác định."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Hệ số $a = -\\frac{g}{2v_0^2\\cos^2\\alpha}$ mang dấu âm, thể hiện parabol có bề lõm quay xuống dưới."
+  },
+  {
+    "id": 20,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong thực tế, tầm bay xa của vật ném xiên thực tế thường nhỏ hơn tính toán lý thuyết do:",
+    "caccauChon": [
+      "Lực cản của không khí.",
+      "Khối lượng vật quá nhỏ.",
+      "Trái Đất không quay.",
+      "Gia tốc trọng trường quá lớn."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Lực cản không khí tiêu hao cơ năng và làm giảm tầm bay xa thực tế."
+  },
+  {
+    "id": 21,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Nhận định về thành phần chuyển động của vật ném xiên.",
+    "dsYCon": [
+      "Chuyển động ném xiên là chuyển động phẳng.",
+      "Vận tốc ban đầu phân tích thành hai thành phần vuông góc.",
+      "Thành phần chuyển động theo phương ngang là chuyển động thẳng biến đổi đều.",
+      "Thành phần chuyển động theo phương thẳng đứng chịu gia tốc trọng trường $g$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "Theo phương ngang vật chuyển động thẳng đều, nên ý c sai."
+  },
+  {
+    "id": 22,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật được ném xiên từ mặt đất với $v_0 = 30\\text{ m/s}$, góc ném $\\alpha = 60^\\circ$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thành phần vận tốc ban đầu theo phương ngang là $v_{0x} = 15\\text{ m/s}$.",
+      "Thành phần vận tốc ban đầu theo phương thẳng đứng là $v_{0y} = 15\\sqrt{3}\\text{ m/s}$.",
+      "Thời gian bay của vật là $3\\sqrt{3}$ giây.",
+      "Tầm bay xa của vật là $45\\sqrt{3}\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "+ $v_{0x} = 30 \\cdot \\cos 60^\\circ = 15\\text{ m/s}$ (a đúng).\n+ $v_{0y} = 30 \\cdot \\sin 60^\\circ = 15\\sqrt{3}\\text{ m/s}$ (b đúng).\n+ $t = (2 \\cdot 30 \\cdot \\sin 60^\\circ) / 10 = 3\\sqrt{3}\\text{ s}$ (c đúng).\n+ $L = (30^2 \\cdot \\sin 120^\\circ$) / $10 = 45\\sqrt{3}\\text{ m}$ (d đúng)."
+  },
+  {
+    "id": 23,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Các tính chất của quỹ đạo và đỉnh quỹ đạo ném xiên.",
+    "dsYCon": [
+      "Quỹ đạo của chuyển động ném xiên là một đường parabol.",
+      "Tại đỉnh quỹ đạo, vận tốc của vật bằng 0.",
+      "Tại đỉnh quỹ đạo, độ cao đạt giá trị lớn nhất $h_{\\max}$.",
+      "Thời gian vật chuyển động từ lúc ném đến đỉnh quỹ đạo bằng một nửa tổng thời gian bay."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Tại đỉnh quỹ đạo vận tốc thẳng đứng bằng 0 nhưng vận tốc ngang vẫn còn $v_0 \\cdot \\cos\\alpha$ khác 0, nên ý b sai."
+  },
+  {
+    "id": 24,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "So sánh tầm bay xa khi thay đổi góc ném.",
+    "dsYCon": [
+      "Góc ném $30^\\circ$ và $60^\\circ$ cho cùng tầm bay xa.",
+      "Góc ném $45^\\circ$ cho tầm bay xa nhỏ nhất trong số các góc từ $0^\\circ$ đến $90^\\circ$.",
+      "Khi góc ném $\\alpha = 0^\\circ$, vật trở thành chuyển động ném ngang.",
+      "Tầm bay xa phụ thuộc vào bình phương vận tốc ban đầu $v_0^2$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Góc ném $45^\\circ$ cho tầm bay xa LỚN NHẤT chứ không phải nhỏ nhất, ý b sai."
+  },
+  {
+    "id": 25,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một quả bóng đá được sút bay lên từ mặt đất với $v_0 = 20\\text{ m/s}$, $\\alpha = 45^\\circ$, lấy $g = 10\\text{ m/s}^2$.",
+    "dsYCon": [
+      "Thời gian bóng bay trong không khí là $2\\sqrt{2}$ giây.",
+      "Độ cao cực đại quả bóng đạt được là $10\\text{ m}$.",
+      "Tầm bay xa của quả bóng là $40\\text{ m}$.",
+      "Tại đỉnh quỹ đạo, vận tốc của quả bóng là $10\\sqrt{2}\\text{ m/s}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "giaithich": "+ $t = \\frac{2 \\cdot 20 \\cdot \\sin 45^\\circ}{10} = 2\\sqrt{2}\\text{ s}$ (a đúng).\n+ $h_{\\max} = \\frac{20^2 \\cdot \\left(\\frac{\\sqrt{2}}{2}\\right)^2}{20} = \\frac{400 \\cdot 0{,}5}{20} = 10\\text{ m}$ (b đúng).\n+ $L = \\frac{20^2 \\cdot \\sin 90^\\circ}{10} = 40\\text{ m}$ (c đúng).\n+ $v = v_x = 20 \\cdot \\cos 45^\\circ = 10\\sqrt{2}\\text{ m/s}$ (d đúng)."
+  },
+  {
+    "id": 26,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Viết phương trình quỹ đạo của chuyển động ném xiên và nêu ý nghĩa của các đại lượng trong phương trình.",
+    "giaithich": "- Phương trình quỹ đạo ném xiên:\n$y = x\\tan\\alpha - \\frac{g}{2v_0^2\\cos^2\\alpha}x^2$\n- Ý nghĩa các đại lượng:\n+ $x$, $y$: Tọa độ của vật trên quỹ đạo parabol.\n+ $v_0$: Vận tốc ban đầu của vật.\n+ $\\alpha$: Góc ném hợp bởi vận tốc ban đầu và phương ngang.\n+ $g$: Gia tốc trọng trường."
+  },
+  {
+    "id": 27,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập): Một vật được ném xiên từ mặt đất với vận tốc ban đầu $v_0 = 30\\text{ m/s}$ dưới góc ném $\\alpha = 60^\\circ$. Lấy $g = 10\\text{ m/s}^2$. Tính:\na) Độ cao cực đại $h_{\\max}$ của vật.\nb) Tầm bay xa $L$ của vật.",
+    "giaithich": "a) Độ cao cực đại:\n$h_{\\max} = \\frac{v_0^2\\sin^2\\alpha}{2g} = (30^2 \\cdot \\sin^2 60^\\circ$) / ($2 \\cdot 10$)\n$h_{\\max} = (900 \\cdot \\frac{3}{4}$) / $20 = 675 / 20 = 33,75\\text{ (m)}$.\nb) Tầm bay xa:\n$L = \\frac{v_0^2\\sin(2\\alpha)}{g} = (30^2 \\cdot \\sin 120^\\circ$) / 10 = ($900 \\cdot \\frac{\\sqrt{3}}{2}$) / $10 = 45\\sqrt{3}\\text{ (m)} \\approx 77,94\\text{ (m)}$.",
+    "hinhAnh": "images/ChuDe2/lythuyet/so_do_nem_xien.webp"
+  },
+  {
+    "id": 28,
+    "baiSo": 6,
+    "thuTuDe": 2,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập): Một cầu thủ sút một quả bóng bay lên với vận tốc ban đầu $v_0 = 20\\text{ m/s}$ ở góc ném $\\alpha = 45^\\circ$ so với mặt đất. Lấy $g = 10\\text{ m/s}^2$. Tính:\na) Thời gian bóng bay trong không khí.\nb) Tầm bay xa của quả bóng.",
+    "giaithich": "a) Thời gian bóng bay:\n$t = \\frac{2v_0\\sin\\alpha}{g} = (2 \\cdot 20 \\cdot \\sin 45^\\circ) / 10 = (40 \\cdot \\frac{\\sqrt{2}}{2}$) / $10 = 2\\sqrt{2}\\text{ (s)} \\approx 2,83\\text{ (s)}$.\nb) Tầm bay xa:\n$L = \\frac{v_0^2\\sin(2\\alpha)}{g} = (20^2 \\cdot \\sin 90^\\circ$) / 10 = ($400 \\cdot 1$) / $10 = 40\\text{ (m)}$."
+  }
+]

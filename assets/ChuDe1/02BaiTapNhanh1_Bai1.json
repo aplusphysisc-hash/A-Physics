@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đại lượng nào sau đây là đại lượng véc-tơ?",
+    "caccauChon": [
+      "Quãng đường",
+      "Thời gian",
+      "Độ dịch chuyển",
+      "Tốc độ"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ dịch chuyển ($\\vec{d}$) là đại lượng véc-tơ có gốc tại vị trí ban đầu và ngọn tại vị trí cuối."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong trường hợp nào sau đây, độ lớn của độ dịch chuyển bằng với quãng đường đi được của vật?",
+    "caccauChon": [
+      "Vật chuyển động thẳng và có đổi chiều chuyển động.",
+      "Vật chuyển động thẳng và không đổi chiều chuyển động.",
+      "Vật chuyển động tròn đều một vòng.",
+      "Vật chuyển động cong bất kỳ."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Khi vật chuyển động thẳng và không đổi chiều, ta có $|\\Delta \\vec{d}| = s$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi thẳng về phía Đông $10\\text{ m}$, sau đó quay lại đi về phía Tây $4\\text{ m}$. Quãng đường và độ dịch chuyển của người đó lần lượt là:",
+    "caccauChon": [
+      "$14\\text{ m}$ và $6\\text{ m}$ (hướng về phía Đông).",
+      "$6\\text{ m}$ và $14\\text{ m}$ (hướng về phía Đông).",
+      "$14\\text{ m}$ và $6\\text{ m}$ (hướng về phía Tây).",
+      "$6\\text{ m}$ và $6\\text{ m}$ (hướng về phía Đông)."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Quãng đường $s = 10 + 4 = 14\\text{ m}$. Độ dịch chuyển $\\Delta d = 10 - 4 = 6\\text{ m}$ (hướng về phía Đông)."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động từ điểm A đến điểm B, rồi từ B đi vuông góc đến điểm C. Biết $AB = 3\\text{ m}$ và $BC = 4\\text{ m}$. Độ lớn độ dịch chuyển của chất điểm từ A đến C là:",
+    "hinhAnh": "images/ChuDe1/baitap/bt_bai1_pytago_dong_bac.webp",
+    "caccauChon": [
+      "$7\\text{ m}$",
+      "$5\\text{ m}$",
+      "$1\\text{ m}$",
+      "$12\\text{ m}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng định lý Pythagore: $AC = \\sqrt{AB^2 + BC^2} = \\sqrt{3^2 + 4^2} = 5\\text{ m}$."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Phát biểu nào sau đây là sai khi nói về độ dịch chuyển?",
+    "caccauChon": [
+      "Độ dịch chuyển có thể có giá trị dương, âm hoặc bằng không.",
+      "Độ dịch chuyển cho biết độ lớn và hướng thay đổi vị trí của vật.",
+      "Độ dịch chuyển của vật đi một vòng kín (trở về điểm xuất phát) luôn bằng không.",
+      "Độ dịch chuyển luôn luôn lớn hơn hoặc bằng quãng đường đi được."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Độ lớn độ dịch chuyển luôn nhỏ hơn hoặc bằng quãng đường đi được: $|\\Delta \\vec{d}| \\le s$."
+  }
+]

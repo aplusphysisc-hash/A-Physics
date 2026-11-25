@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai lực đồng quy $\\vec{F}_1$ và $\\vec{F}_2$ có độ lớn $F_1 = 8\\text{ N}$ và $F_2 = 15\\text{ N}$ hợp với nhau một góc $\\alpha = 90^\\circ$. Độ lớn của hợp lực $F$ là:",
+    "caccauChon": [
+      "$23\\text{ N}$",
+      "$7\\text{ N}$",
+      "$17\\text{ N}$",
+      "$120\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Vì $\\vec{F}_1 \\perp \\vec{F}_2$ nên $F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17\\text{ N}$."
+  },
+  {
+    "id": 2,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho hai lực đồng quy có độ lớn bằng nhau $F_1 = F_2 = 10\\text{ N}$. Để độ lớn hợp lực của chúng cũng bằng $10\\text{ N}$ thì góc $\\alpha$ hợp bởi hai lực đó phải bằng:",
+    "caccauChon": [
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$",
+      "$180^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Áp dụng công thức $F^2 = F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha \\iff 10^2 = 10^2 + 10^2 + 2 \\cdot 10 \\cdot 10 \\cdot \\cos\\alpha \\implies \\cos\\alpha = -0,5 \\implies \\alpha = 120^\\circ$."
+  },
+  {
+    "id": 3,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm đứng yên dưới tác dụng của ba lực đồng quy $\\vec{F}_1, \\vec{F}_2, \\vec{F}_3$. Biết $F_1 = 12\\text{ N}$, $F_2 = 16\\text{ N}$ và $\\vec{F}_1 \\perp \\vec{F}_2$. Độ lớn của lực $\\vec{F}_3$ là:",
+    "caccauChon": [
+      "$28\\text{ N}$",
+      "$4\\text{ N}$",
+      "$20\\text{ N}$",
+      "$14\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Do chất điểm cân bằng nên $\\vec{F}_3 = -(\\vec{F}_1 + \\vec{F}_2) \\implies F_3 = F_{12} = \\sqrt{F_1^2 + F_2^2} = \\sqrt{12^2 + 16^2} = 20\\text{ N}$."
+  },
+  {
+    "id": 4,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai lực đồng quy có độ lớn $F_1 = 7\\text{ N}$ và $F_2 = 13\\text{ N}$. Hợp lực $F$ của chúng có thể nhận giá trị nào sau đây?",
+    "caccauChon": [
+      "$4\\text{ N}$",
+      "$5\\text{ N}$",
+      "$15\\text{ N}$",
+      "$22\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ lớn hợp lực thỏa mãn điều kiện: $\\left| F_1 - F_2 \\right| \\le F \\le F_1 + F_2 \\iff 6\\text{ N} \\le F \\le 20\\text{ N}$. Vậy $F = 15\\text{ N}$ thỏa mãn."
+  },
+  {
+    "id": 5,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $m = 10\\text{ kg}$ đặt nằm yên trên mặt phẳng nghiêng một góc $\\alpha = 30^\\circ$ so với phương ngang. Lấy $g = 10\\text{ m/s}^2$. Thành phần trọng lực kéo vật trượt xuống theo mặt phẳng nghiêng có độ lớn là:",
+    "caccauChon": [
+      "$100\\text{ N}$",
+      "$50\\text{ N}$",
+      "$50\\sqrt{3}\\text{ N}$",
+      "$25\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Phân tích trọng lực $\\vec{P}$ thành hai thành phần: thành phần song song mặt nghiêng kéo vật xuống là $P_x = P\\sin\\alpha = m \\cdot g \\cdot \\sin 30^\\circ = 10 \\cdot 10 \\cdot 0,5 = 50\\text{ N}$."
+  },
+  {
+    "id": 6,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 5, độ lớn áp lực pháp tuyến $N$ do vật nén vuông góc lên mặt phẳng nghiêng là:",
+    "caccauChon": [
+      "$50\\text{ N}$",
+      "$50\\sqrt{3}\\text{ N}$",
+      "$100\\text{ N}$",
+      "$100\\sqrt{3}\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp lực vuông góc mặt nghiêng cân bằng với thành phần pháp tuyến của trọng lực: $N = P_y = m \\cdot g \\cdot \\cos 30^\\circ = 100 \\cdot \\frac{\\sqrt{3}}{2} = 50\\sqrt{3}\\text{ N}$."
+  },
+  {
+    "id": 7,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Kéo một thùng hàng khối lượng $m = 20\\text{ kg}$ trượt đều trên sàn ngang bằng một lực $\\vec{F}$ có độ lớn $40\\text{ N}$ theo phương ngang. Lấy $g = 10\\text{ m/s}^2$. Hệ số ma sát trượt $\\mu$ giữa thùng hàng và sàn là:",
+    "caccauChon": [
+      "$0,1$",
+      "$0,2$",
+      "$0,4$",
+      "$0,5$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thùng hàng trượt đều nên $F_{mst} = F = 40\\text{ N}$. Mặt khác $N = P = m \\cdot g = 200\\text{ N} \\implies \\mu = \\frac{F_{mst}}{N} = \\frac{40}{200} = 0,2$."
+  },
+  {
+    "id": 8,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có trọng lượng $P = 30\\text{ N}$ được treo vào đầu một sợi dây nhẹ không giãn. Dùng một lực nằm ngang $F = 40\\text{ N}$ kéo vật lệch khỏi phương thẳng đứng cho đến khi vật đứng yên cân bằng. Lực căng $T$ của sợi dây lúc này là:",
+    "caccauChon": [
+      "$30\\text{ N}$",
+      "$40\\text{ N}$",
+      "$50\\text{ N}$",
+      "$70\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Khi vật cân bằng: $\\vec{T} + \\vec{P} + \\vec{F} = \\vec{0}$. Vì $\\vec{P} \\perp \\vec{F}$ nên $T = \\sqrt{P^2 + F^2} = \\sqrt{30^2 + 40^2} = 50\\text{ N}$."
+  },
+  {
+    "id": 9,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong câu 8, góc lệch $\\alpha$ của sợi dây so với phương thẳng đứng khi vật cân bằng thỏa mãn hệ thức nào?",
+    "caccauChon": [
+      "$\\tan\\alpha = \\frac{3}{4}$",
+      "$\\tan\\alpha = \\frac{4}{3}$",
+      "$\\sin\\alpha = \\frac{3}{5}$",
+      "$\\cos\\alpha = \\frac{4}{5}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Từ hình chữ nhật lực ta có $\\tan\\alpha = \\frac{F}{P} = \\frac{40}{30} = \\frac{4}{3}$."
+  },
+  {
+    "id": 10,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một khối nhôm có thể tích $V = 400\\text{ cm}^3$ ($4 \\cdot 10^{-4}\\text{ m}^3$) được nhúng chìm một nửa thể tích vào trong dầu có khối lượng riêng $\\rho = 800\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$. Lực đẩy Archimedes tác dụng lên khối nhôm là:",
+    "caccauChon": [
+      "$3,2\\text{ N}$",
+      "$1,6\\text{ N}$",
+      "$4,0\\text{ N}$",
+      "$2,0\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Thể tích phần dầu bị chiếm chỗ là $V_{chìm} = \\frac{V}{2} = 2 \\cdot 10^{-4}\\text{ m}^3 \\implies F_A = \\rho \\cdot g \\cdot V_{chìm} = 800 \\cdot 10 \\cdot 2 \\cdot 10^{-4} = 1,6\\text{ N}$."
+  },
+  {
+    "id": 11,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho hai lực đồng quy $\\vec{F}_1$ và $\\vec{F}_2$. Biết khi hai lực cùng chiều thì hợp lực có độ lớn $F_{max} = 14\\text{ N}$, khi hai lực ngược chiều thì hợp lực có độ lớn $F_{min} = 2\\text{ N}$ (với $F_1 > F_2$). Độ lớn của hai lực đó là:",
+    "caccauChon": [
+      "$F_1 = 10\\text{ N}, F_2 = 4\\text{ N}$",
+      "$F_1 = 8\\text{ N}, F_2 = 6\\text{ N}$",
+      "$F_1 = 9\\text{ N}, F_2 = 5\\text{ N}$",
+      "$F_1 = 12\\text{ N}, F_2 = 2\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Ta có hệ phương trình: $F_1 + F_2 = 14$ và $F_1 - F_2 = 2 \\implies F_1 = \\frac{14 + 2}{2} = 8\\text{ N}$ và $F_2 = 6\\text{ N}$."
+  },
+  {
+    "id": 12,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật có khối lượng $m = 5\\text{ kg}$ nằm yên trên mặt sàn ngang. Hệ số ma sát nghỉ cực đại giữa vật và sàn là $\\mu_n = 0,4$. Lấy $g = 10\\text{ m/s}^2$. Nếu tác dụng vào vật một lực kéo nằm ngang $F = 15\\text{ N}$ thì lực ma sát nghỉ tác dụng lên vật có độ lớn là:",
+    "caccauChon": [
+      "$20\\text{ N}$",
+      "$15\\text{ N}$",
+      "$5\\text{ N}$",
+      "$0\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực ma sát nghỉ cực đại là $F_{msn(max)} = \\mu_n \\cdot N = 0,4 \\cdot 50 = 20\\text{ N}$. Vì lực kéo $F = 15\\text{ N} < 20\\text{ N}$ nên vật vẫn đứng yên và lực ma sát nghỉ cân bằng với lực kéo: $F_{msn} = F = 15\\text{ N}$."
+  },
+  {
+    "id": 13,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai lực đồng quy có độ lớn $F_1 = 10\\text{ N}$ và $F_2 = 10\\sqrt{3}\\text{ N}$ hợp với nhau một góc $\\alpha = 30^\\circ$. Độ lớn hợp lực $F$ của chúng là:",
+    "caccauChon": [
+      "$20\\text{ N}$",
+      "$10\\sqrt{7}\\text{ N}$",
+      "$10\\sqrt{5}\\text{ N}$",
+      "$30\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp dụng công thức: $F = \\sqrt{10^2 + (10\\sqrt{3})^2 + 2 \\cdot 10 \\cdot 10\\sqrt{3} \\cdot \\cos 30^\\circ} = \\sqrt{100 + 300 + 300} = \\sqrt{700} = 10\\sqrt{7}\\text{ N}$."
+  },
+  {
+    "id": 14,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lò xo có chiều dài tự nhiên $l_0 = 25\\text{ cm}$, độ cứng $k = 80\\text{ N/m}$. Khi tác dụng lực nén dọc trục làm lò xo ngắn đi và có chiều dài $l = 20\\text{ cm}$ thì độ lớn lực đàn hồi của lò xo là:",
+    "caccauChon": [
+      "$400\\text{ N}$",
+      "$4\\text{ N}$",
+      "$16\\text{ N}$",
+      "$20\\text{ N}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ nén của lò xo là $\\left| \\Delta l \\right| = l_0 - l = 25 - 20 = 5\\text{ cm} = 0,05\\text{ m} \\implies F_{đh} = k \\cdot \\left| \\Delta l \\right| = 80 \\cdot 0,05 = 4\\text{ N}$."
+  },
+  {
+    "id": 15,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một lực $\\vec{F}$ có độ lớn $20\\text{ N}$ hợp với trục $Ox$ một góc $\\alpha = 60^\\circ$. Hình chiếu của lực $\\vec{F}$ lên hai trục vuông góc $Ox$ và $Oy$ có độ lớn lần lượt là:",
+    "caccauChon": [
+      "$F_x = 10\\text{ N}; F_y = 10\\sqrt{3}\\text{ N}$",
+      "$F_x = 10\\sqrt{3}\\text{ N}; F_y = 10\\text{ N}$",
+      "$F_x = 10\\text{ N}; F_y = 10\\text{ N}$",
+      "$F_x = 20\\text{ N}; F_y = 0\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Ta có $F_x = F\\cos 60^\\circ = 20 \\cdot 0,5 = 10\\text{ N}$ và $F_y = F\\sin 60^\\circ = 20 \\cdot \\frac{\\sqrt{3}}{2} = 10\\sqrt{3}\\text{ N}$."
+  },
+  {
+    "id": 16,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một quả cầu sắt có trọng lượng ngoài không khí là $P = 7,8\\text{ N}$. Khi nhúng chìm hoàn toàn quả cầu vào trong nước thì số chỉ của lực kế treo quả cầu giảm đi $1\\text{ N}$. Độ lớn lực đẩy Archimedes của nước tác dụng lên quả cầu là:",
+    "caccauChon": [
+      "$7,8\\text{ N}$",
+      "$6,8\\text{ N}$",
+      "$1,0\\text{ N}$",
+      "$8,8\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Độ giảm số chỉ của lực kế khi nhúng vật vào chất lỏng bằng đúng độ lớn lực đẩy Archimedes: $F_A = \\Delta F = 1,0\\text{ N}$."
+  },
+  {
+    "id": 17,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tại nơi có gia tốc trọng trường $g = 9,8\\text{ m/s}^2$, một vật có trọng lượng $P = 19,6\\text{ N}$. Nếu đưa vật này lên Mặt Trăng nơi có gia tốc rơi tự do $g_{MT} = 1,6\\text{ m/s}^2$ thì khối lượng và trọng lượng của vật trên Mặt Trăng là:",
+    "caccauChon": [
+      "$m = 2\\text{ kg}; P_{MT} = 3,2\\text{ N}$",
+      "$m = 2\\text{ kg}; P_{MT} = 19,6\\text{ N}$",
+      "$m = 0,32\\text{ kg}; P_{MT} = 3,2\\text{ N}$",
+      "$m = 12,25\\text{ kg}; P_{MT} = 19,6\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Khối lượng không đổi ở mọi nơi: $m = \\frac{P}{g} = \\frac{19,6}{9,8} = 2\\text{ kg}$. Trọng lượng trên Mặt Trăng: $P_{MT} = m \\cdot g_{MT} = 2 \\cdot 1,6 = 3,2\\text{ N}$."
+  },
+  {
+    "id": 18,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho ba lực đồng quy cùng nằm trong một mặt phẳng có độ lớn bằng nhau $F_1 = F_2 = F_3 = 15\\text{ N}$ và từng đôi một hợp với nhau góc $120^\\circ$. Hợp lực của ba lực này có độ lớn bằng:",
+    "caccauChon": [
+      "$45\\text{ N}$",
+      "$15\\text{ N}$",
+      "$0\\text{ N}$",
+      "$30\\text{ N}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tổng hợp hai lực $\\vec{F}_1$ và $\\vec{F}_2$ hợp góc $120^\\circ$ được $\\vec{F}_{12}$ có độ lớn $15\\text{ N}$ nằm trên phân giác góc $(\\vec{F}_1, \\vec{F}_2)$, ngược hướng với $\\vec{F}_3$. Do đó $\\vec{F}_{hl} = \\vec{F}_{12} + \\vec{F}_3 = \\vec{0} \\implies F_{hl} = 0\\text{ N}$."
+  },
+  {
+    "id": 19,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật khối lượng $m = 2\\text{ kg}$ được ép sát vào một bức tường thẳng đứng nhờ một lực đẩy vuông góc với tường có độ lớn $F = 50\\text{ N}$. Biết vật trượt đều thẳng đứng xuống dưới, lấy $g = 10\\text{ m/s}^2$. Hệ số ma sát trượt $\\mu$ giữa vật và tường là:",
+    "caccauChon": [
+      "$0,2$",
+      "$0,4$",
+      "$0,5$",
+      "$0,25$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Áp lực lên tường là $N = F = 50\\text{ N}$. Do vật trượt đều xuống dưới nên $F_{mst} = P = m \\cdot g = 20\\text{ N} \\implies \\mu = \\frac{F_{mst}}{N} = \\frac{20}{50} = 0,4$."
+  },
+  {
+    "id": 20,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đèn chùm có trọng lượng $P = 100\\sqrt{3}\\text{ N}$ được treo vào trần nhà bằng hai sợi dây nhẹ $OA$ và $OB$ đối xứng nhau, hợp với nhau một góc $60^\\circ$. Độ lớn lực căng trên mỗi sợi dây là:",
+    "caccauChon": [
+      "$100\\text{ N}$",
+      "$50\\sqrt{3}\\text{ N}$",
+      "$100\\sqrt{3}\\text{ N}$",
+      "$200\\text{ N}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Do đối xứng nên $T_1 = T_2 = T$. Hợp lực của hai lực căng dây cân bằng với trọng lượng: $2T\\cos 30^\\circ = P \\iff T\\sqrt{3} = 100\\sqrt{3} \\implies T = 100\\text{ N}$."
+  },
+  {
+    "id": 21,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Cho hai lực đồng quy $\\vec{F}_1$ và $\\vec{F}_2$ có độ lớn lần lượt là $F_1 = 6\\text{ N}$ và $F_2 = 10\\text{ N}$ tác dụng vào cùng một chất điểm $O$:",
+    "dsYCon": [
+      "Khi hai lực cùng chiều ($\\alpha = 0^\\circ$), hợp lực đạt giá trị lớn nhất là $F_{max} = 16\\text{ N}$.",
+      "Khi hai lực ngược chiều ($\\alpha = 180^\\circ$), hợp lực đạt giá trị nhỏ nhất là $F_{min} = 4\\text{ N}$.",
+      "Khi góc hợp bởi hai lực là $\\alpha = 60^\\circ$, độ lớn của hợp lực bằng $14\\text{ N}$.",
+      "Hợp lực của hai lực này có thể nhận giá trị bằng $3\\text{ N}$ nếu góc $\\alpha$ là góc tù."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $F_{max} = F_1 + F_2 = 6 + 10 = 16\\text{ N}$.\n- **Ý b) ĐÚNG:** $F_{min} = \\left| F_1 - F_2 \\right| = \\left| 6 - 10 \\right| = 4\\text{ N}$.\n- **Ý c) ĐÚNG:** $F = \\sqrt{6^2 + 10^2 + 2 \\cdot 6 \\cdot 10 \\cdot \\cos 60^\\circ} = \\sqrt{36 + 100 + 60} = \\sqrt{196} = 14\\text{ N}$.\n- **Ý d) SAI:** Vì $4\\text{ N} \\le F \\le 16\\text{ N}$ nên hợp lực không thể bằng $3\\text{ N}$."
+  },
+  {
+    "id": 22,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một kiện hàng có khối lượng $m = 10\\text{ kg}$ đặt trên mặt sàn nằm ngang. Tác dụng vào kiện hàng lực kéo $F = 40\\text{ N}$ hợp với phương ngang một góc $\\alpha = 30^\\circ$ hướng chếch lên trên. Biết kiện hàng trượt đều trên sàn, lấy $g = 10\\text{ m/s}^2$:",
+    "dsYCon": [
+      "Thành phần lực kéo theo phương thẳng đứng hướng lên có độ lớn là $F_y = 20\\text{ N}$.",
+      "Độ lớn áp lực $N$ của kiện hàng nén lên mặt sàn bằng $100\\text{ N}$.",
+      "Độ lớn lực ma sát trượt tác dụng lên kiện hàng là $F_{mst} = 20\\sqrt{3}\\text{ N}$.",
+      "Hệ số ma sát trượt giữa kiện hàng và mặt sàn xấp xỉ bằng $0,433$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $F_y = F\\sin 30^\\circ = 40 \\cdot 0,5 = 20\\text{ N}$.\n- **Ý b) SAI:** Cân bằng theo phương thẳng đứng: $N = P - F_y = 100 - 20 = 80\\text{ N}$ (khác $100\\text{ N}$).\n- **Ý c) ĐÚNG:** Do trượt đều nên $F_{mst} = F_x = F\\cos 30^\\circ = 40 \\cdot \\frac{\\sqrt{3}}{2} = 20\\sqrt{3}\\text{ N}$.\n- **Ý d) ĐÚNG:** $\\mu = \\frac{F_{mst}}{N} = \\frac{20\\sqrt{3}}{80} = \\frac{\\sqrt{3}}{4} \\approx 0,433$."
+  },
+  {
+    "id": 23,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một khối gỗ hình hộp chữ nhật có thể tích $V = 2000\\text{ cm}^3$ ($2 \\cdot 10^{-3}\\text{ m}^3$) và khối lượng riêng $\\rho_{gỗ} = 600\\text{ kg/m}^3$ được thả vào một bể nước có khối lượng riêng $\\rho_{nước} = 1000\\text{ kg/m}^3$. Lấy $g = 10\\text{ m/s}^2$:",
+    "dsYCon": [
+      "Trọng lượng của khối gỗ là $P = 12\\text{ N}$.",
+      "Khi khối gỗ nổi cân bằng trên mặt nước, độ lớn lực đẩy Archimedes tác dụng lên gỗ bằng $12\\text{ N}$.",
+      "Thể tích phần khối gỗ chìm trong nước khi cân bằng là $1200\\text{ cm}^3$.",
+      "Tỉ số giữa thể tích phần gỗ nhô lên khỏi mặt nước và thể tích toàn phần của khối gỗ là $60\\%$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $m = \\rho_{gỗ} \\cdot V = 600 \\cdot 2 \\cdot 10^{-3} = 1,2\\text{ kg} \\implies P = m \\cdot g = 12\\text{ N}$.\n- **Ý b) ĐÚNG:** Khối gỗ nổi cân bằng nên $F_A = P = 12\\text{ N}$.\n- **Ý c) ĐÚNG:** $V_{chìm} = \\frac{F_A}{\\rho_{nước} \\cdot g} = \\frac{12}{1000 \\cdot 10} = 1,2 \\cdot 10^{-3}\\text{ m}^3 = 1200\\text{ cm}^3$.\n- **Ý d) SAI:** Phần chìm chiếm $\\frac{1200}{2000} = 60\\%$, nên phần nhô lên khỏi mặt nước chiếm $100\\% - 60\\% = 40\\%$."
+  },
+  {
+    "id": 24,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một vật có khối lượng $m = 4\\text{ kg}$ trượt đều từ đỉnh xuống chân một mặt phẳng nghiêng góc $\\alpha = 30^\\circ$ so với phương ngang. Lấy $g = 10\\text{ m/s}^2$:",
+    "dsYCon": [
+      "Trọng lực tác dụng lên vật có độ lớn $P = 40\\text{ N}$ và hướng thẳng đứng xuống dưới.",
+      "Thành phần trọng lực kéo vật trượt dọc theo mặt phẳng nghiêng là $P_x = 20\\text{ N}$.",
+      "Vì vật trượt đều xuống dốc nên độ lớn lực ma sát trượt bằng $20\\text{ N}$.",
+      "Hệ số ma sát trượt giữa vật và mặt phẳng nghiêng bằng $0,5$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** $P = m \\cdot g = 4 \\cdot 10 = 40\\text{ N}$.\n- **Ý b) ĐÚNG:** $P_x = P\\sin 30^\\circ = 40 \\cdot 0,5 = 20\\text{ N}$.\n- **Ý c) ĐÚNG:** Vật trượt đều nên $F_{mst} = P_x = 20\\text{ N}$.\n- **Ý d) SAI:** Áp lực $N = P\\cos 30^\\circ = 20\\sqrt{3}\\text{ N} \\implies \\mu = \\frac{F_{mst}}{N} = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}} \\approx 0,577$ (khác $0,5$)."
+  },
+  {
+    "id": 25,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một quả cầu đồng chất có trọng lượng $P = 40\\text{ N}$ được giữ nằm yên trên một mặt phẳng nghiêng nhẵn (không ma sát) có góc nghiêng $\\alpha = 30^\\circ$ nhờ một sợi dây mảnh song song với mặt phẳng nghiêng:",
+    "dsYCon": [
+      "Quả cầu chịu tác dụng của 3 lực: trọng lực $\\vec{P}$, phản lực $\\vec{N}$ của mặt nghiêng và lực căng dây $\\vec{T}$.",
+      "Phương của phản lực $\\vec{N}$ luôn thẳng đứng hướng từ dưới lên trên.",
+      "Độ lớn của lực căng sợi dây khi quả cầu cân bằng là $T = 20\\text{ N}$.",
+      "Độ lớn áp lực của quả cầu nén lên mặt phẳng nghiêng là $N = 20\\sqrt{3}\\text{ N}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "- **Ý a) ĐÚNG:** Mặt nghiêng nhẵn không có ma sát nên vật chịu 3 lực $\\vec{P}, \\vec{N}, \\vec{T}$.\n- **Ý b) SAI:** Phản lực pháp tuyến $\\vec{N}$ luôn vuông góc với bề mặt tiếp xúc (hợp với phương thẳng đứng góc $30^\\circ$).\n- **Ý c) ĐÚNG:** Chiếu dọc mặt nghiêng: $T = P\\sin 30^\\circ = 40 \\cdot 0,5 = 20\\text{ N}$.\n- **Ý d) ĐÚNG:** Chiếu vuông góc mặt nghiêng: $N = P\\cos 30^\\circ = 40 \\cdot \\frac{\\sqrt{3}}{2} = 20\\sqrt{3}\\text{ N}$."
+  },
+  {
+    "id": 26,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một chất điểm chịu tác dụng đồng thời của ba lực đồng phẳng, đồng quy có độ lớn lần lượt là $F_1 = 15\\text{ N}$, $F_2 = 15\\text{ N}$ và $F_3 = 15\\sqrt{3}\\text{ N}$. Biết góc hợp bởi giữa hai lực $\\vec{F}_1$ và $\\vec{F}_2$ là $60^\\circ$, còn lực $\\vec{F}_3$ hợp với đường phân giác của góc tạo bởi $\\vec{F}_1$ và $\\vec{F}_2$ một góc $90^\\circ$. Hãy xác định độ lớn của hợp lực tác dụng lên chất điểm.",
+    "giaithich": "Lời giải chi tiết:\n1. Tổng hợp hai lực $\\vec{F}_1$ và $\\vec{F}_2$:\n• Gọi $\\vec{F}_{12} = \\vec{F}_1 + \\vec{F}_2$ là hợp lực của hai lực $\\vec{F}_1$ và $\\vec{F}_2$.\n• Áp dụng công thức quy tắc hình bình hành với góc xen giữa $\\alpha = 60^\\circ$:\n  $F_{12} = \\sqrt{F_1^2 + F_2^2 + 2F_1 F_2 \\cos(60^\\circ)} = \\sqrt{15^2 + 15^2 + 2 \\times 15 \\times 15 \\times 0{,}5} = \\sqrt{675} = 15\\sqrt{3}\\text{ N}$.\n• Vì $F_1 = F_2 = 15\\text{ N}$ nên hình bình hành tạo bởi $\\vec{F}_1$ và $\\vec{F}_2$ là hình thoi $\\Rightarrow$ vectơ hợp lực $\\vec{F}_{12}$ nằm dọc theo đường phân giác của góc $(\\vec{F}_1, \\vec{F}_2)$.\n\n2. Tổng hợp $\\vec{F}_{12}$ với lực thứ ba $\\vec{F}_3$:\n• Theo đề bài, $\\vec{F}_3$ hợp với đường phân giác góc $(\\vec{F}_1, \\vec{F}_2)$ một góc $90^\\circ$, suy ra $\\vec{F}_{12} \\perp \\vec{F}_3$.\n• Độ lớn hợp lực toàn phần tác dụng lên chất điểm là:\n  $F = \\sqrt{F_{12}^2 + F_3^2} = \\sqrt{(15\\sqrt{3})^2 + (15\\sqrt{3})^2} = \\sqrt{675 + 675} = \\sqrt{1350} = 15\\sqrt{6}\\text{ N} \\approx 36{,}74\\text{ N}$.\n• Kết luận: Hợp lực tác dụng lên chất điểm có độ lớn là $15\\sqrt{6}\\text{ N}$ (xấp xỉ $36{,}74\\text{ N}$)."
+  },
+  {
+    "id": 27,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một hạt mưa hình cầu có khối lượng $m = 0{,}04\\text{ g}$ rơi thẳng đứng từ đám mây xuống đất. Trong quá trình rơi, hạt mưa chịu tác dụng của trọng lực và lực cản không khí có độ lớn tỉ lệ với bình phương tốc độ theo công thức $F_c = k \\cdot v^2$, với hệ số cản $k = 4{,}0 \\times 10^{-6}\\text{ N}\\cdot\\text{s}^2/\\text{m}^2$. Lấy $g = 10\\text{ m/s}^2$. Bỏ qua lực đẩy Archimedes của không khí.\na) Nêu tên và mô tả phương, chiều của các lực tác dụng lên hạt mưa khi đang rơi.\nb) Khi hạt mưa đạt tới trạng thái rơi thẳng đều (vận tốc giới hạn), tính độ lớn của lực cản không khí và tốc độ rơi cực đại của hạt mưa.",
+    "giaithich": "Lời giải chi tiết:\nĐổi đơn vị: $m = 0{,}04\\text{ g} = 0{,}04 \\times 10^{-3}\\text{ kg} = 4 \\times 10^{-5}\\text{ kg}$.\n\na) Các lực tác dụng lên hạt mưa:\n• Trọng lực $\\vec{P}$: Phương thẳng đứng, chiều hướng từ trên xuống dưới.\n• Lực cản của không khí $\\vec{F}_c$: Phương thẳng đứng, chiều hướng từ dưới lên trên (ngược chiều chuyển động rơi).\n\nb) Lực cản và tốc độ giới hạn khi hạt mưa rơi thẳng đều:\n• Khi hạt mưa rơi thẳng đều (đạt vận tốc giới hạn $v_{max}$), gia tốc $a = 0$, hai lực cân bằng nhau về độ lớn:\n  $F_c = P = m \\cdot g = 4 \\times 10^{-5} \\times 10 = 4 \\times 10^{-4}\\text{ N}$.\n• Mặt khác: $F_c = k \\cdot v_{max}^2$.\n• Tốc độ rơi cực đại của hạt mưa là:\n  $v_{max} = \\sqrt{\\frac{F_c}{k}} = \\sqrt{\\frac{4 \\times 10^{-4}}{4{,}0 \\times 10^{-6}}} = \\sqrt{100} = 10\\text{ m/s}$.\n• Kết luận: Lực cản của không khí là $4 \\times 10^{-4}\\text{ N}$ và tốc độ rơi cực đại là $10\\text{ m/s}$."
+  },
+  {
+    "id": 28,
+    "loai": "TU_LUAN",
+    "cauhoi": "Một quả cầu đồng chất có trọng lượng $P = 40\\text{ N}$ được giữ nằm yên trên một mặt phẳng nghiêng trơn nhẵn (bỏ qua ma sát) hợp với phương ngang một góc $\\alpha = 30^\\circ$ nhờ một sợi dây nhẹ, không dãn buộc vào tâm quả cầu và giữ song song với mặt phẳng nghiêng.\na) Phân tích các lực tác dụng lên quả cầu và viết điều kiện cân bằng của quả cầu.\nb) Tính độ lớn lực căng của sợi dây và áp lực của quả cầu nén lên mặt phẳng nghiêng.",
+    "giaithich": "Lời giải chi tiết:\na) Phân tích lực và điều kiện cân bằng:\n• Quả cầu chịu tác dụng của 3 lực đồng quy tại tâm O của quả cầu:\n  - Trọng lực $\\vec{P}$: Phương thẳng đứng, chiều hướng xuống dưới.\n  - Phản lực pháp tuyến của mặt phẳng nghiêng $\\vec{N}$: Phương vuông góc với mặt phẳng nghiêng, chiều hướng lên trên.\n  - Lực căng dây $\\vec{T}$: Phương song song với mặt phẳng nghiêng, chiều hướng dọc theo dây lên phía trên.\n• Điều kiện cân bằng của quả cầu: $\\vec{P} + \\vec{N} + \\vec{T} = \\vec{0}$.\n\nb) Tính lực căng dây và áp lực lên mặt phẳng nghiêng:\n• Chọn hệ trục tọa độ Oxy với trục Ox song song mặt phẳng nghiêng (hướng lên dốc), trục Oy vuông góc mặt phẳng nghiêng (hướng lên trên).\n• Phân tích trọng lực $\\vec{P}$ thành hai thành phần:\n  $P_x = P \\cdot \\sin\\alpha$ (ngược chiều Ox) và $P_y = P \\cdot \\cos\\alpha$ (ngược chiều Oy).\n• Chiếu phương trình cân bằng lên hai trục tọa độ:\n  - Trên trục Ox: $T - P \\cdot \\sin\\alpha = 0 \\Rightarrow T = P \\cdot \\sin(30^\\circ) = 40 \\times 0{,}5 = 20\\text{ N}$.\n  - Trên trục Oy: $N - P \\cdot \\cos\\alpha = 0 \\Rightarrow N = P \\cdot \\cos(30^\\circ) = 40 \\times \\frac{\\sqrt{3}}{2} = 20\\sqrt{3}\\text{ N} \\approx 34{,}64\\text{ N}$.\n• Theo Định luật III Newton, áp lực $Q$ của quả cầu nén lên mặt phẳng nghiêng có độ lớn bằng phản lực $N$:\n  $Q = N = 20\\sqrt{3}\\text{ N} \\approx 34{,}64\\text{ N}$.\n• Kết luận: Lực căng dây $T = 20\\text{ N}$; áp lực lên mặt phẳng nghiêng $Q = 20\\sqrt{3}\\text{ N} \\approx 34{,}64\\text{ N}$."
+  }
+]

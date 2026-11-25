@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A+ Physics Web App - Học Tập & Luyện Đề Vật Lý THPT</title>
+    <meta name="description" content="Ứng dụng học tập Vật lý THPT trực tuyến A+ Physics: 28 bài lý thuyết KaTeX, 19 mô hình 3D tương tác, 2.016 câu hỏi trắc nghiệm chuẩn GDPT 2018, công cụ đổi đơn vị và máy tính sai số.">
+    <meta name="theme-color" content="#070D1F">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/webp" href="assets/ic_logo_loading.webp">
+
+    <!-- Fonts & Tailwind -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+
+    <!-- Google Model Viewer (local offline fallback + CDN) -->
+    <script type="module" src="assets/js/model-viewer.min.js"></script>
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="min-h-screen flex flex-col pb-20 md:pb-6 selection:bg-[#4FD1C5] selection:text-slate-950">
+
+    <!-- TOP HEADER -->
+    <header class="sticky top-0 z-40 bg-[#070D1F]/90 backdrop-blur-md border-b border-[#2A3C6E]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+            <div class="flex items-center space-x-3">
+                <a href="index.html" title="Về trang giới thiệu" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4FD1C5] to-[#818CF8] flex items-center justify-center font-black text-lg text-slate-950 shadow-md">
+                    A+
+                </a>
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <span class="font-extrabold text-base sm:text-lg text-white">A+ Physics</span>
+                        <span class="hidden sm:inline-block text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#4FD1C5]/15 text-[#4FD1C5] border border-[#4FD1C5]/30">WEB APP</span>
+                    </div>
+                    <span id="header-subtitle" class="text-[11px] text-slate-400 block -mt-0.5">Học trực tuyến &amp; Offline PWA</span>
+                </div>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center space-x-1 bg-[#0F1A36] p-1 rounded-xl border border-[#2A3C6E]">
+                <button data-nav="home" class="nav-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">🏠 Trang chủ</button>
+                <button data-nav="roadmap" class="nav-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">📚 Lộ trình</button>
+                <button data-nav="tools" class="nav-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">🧊 3D &amp; Công cụ</button>
+                <button data-nav="saved" class="nav-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">🔖 Đã lưu</button>
+                <button data-nav="settings" class="nav-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold transition">⚙️ Cài đặt</button>
+            </nav>
+
+            <!-- Right status chips -->
+            <div class="flex items-center space-x-2">
+                <button id="btn-toggle-music-bar" title="Nhạc tập trung sóng não" class="px-2.5 py-1.5 rounded-lg bg-[#162347] border border-[#2A3C6E] hover:border-[#4FD1C5] text-xs font-semibold text-slate-200 flex items-center space-x-1.5 transition">
+                    <span id="music-status-dot" class="w-2 h-2 rounded-full bg-slate-500"></span>
+                    <span class="hidden sm:inline">Nhạc tập trung</span>
+                    <span>🎵</span>
+                </button>
+                <div id="header-streak-chip" class="px-2.5 py-1.5 rounded-lg bg-[#162347] border border-amber-500/30 text-xs font-bold text-amber-300 flex items-center space-x-1">
+                    <span>🔥</span>
+                    <span id="header-streak-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- FLOATING FOCUS MUSIC BAR (hidden by default) -->
+    <div id="focus-music-bar" class="hidden sticky top-16 z-30 bg-[#0F1A36]/95 border-b border-[#4FD1C5]/30 px-4 py-2.5">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs">
+            <div class="flex items-center space-x-3">
+                <span class="font-bold text-[#4FD1C5]">🎧 Âm thanh tập trung:</span>
+                <select id="music-track-select" class="bg-[#070D1F] border border-[#2A3C6E] rounded-lg px-2.5 py-1 text-slate-200 focus:outline-none focus:border-[#4FD1C5]">
+                    <option value="assets/audio/song_nao_alpha.aac">🧠 Sóng não Alpha (Tập trung sâu)</option>
+                    <option value="assets/audio/tieng_mua.aac">🌧️ Tiếng mưa rơi</option>
+                    <option value="assets/audio/song_bien.aac">🌊 Sóng biển vỗ</option>
+                </select>
+                <button id="music-play-btn" class="px-3 py-1 rounded-lg bg-[#4FD1C5] text-slate-950 font-bold hover:opacity-90">▶ Phát</button>
+            </div>
+            <div class="flex items-center space-x-3">
+                <label class="flex items-center space-x-1.5 text-slate-300">
+                    <span>Âm lượng</span>
+                    <input id="music-volume" type="range" min="0" max="1" step="0.05" value="0.5" class="w-20 accent-[#4FD1C5]">
+                </label>
+                <button id="music-close-btn" class="text-slate-400 hover:text-white px-2">✕</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN APP CONTAINER -->
+    <main id="app-main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6">
+        <div class="flex flex-col items-center justify-center py-20 text-center">
+            <img src="assets/ic_logo_loading.webp" alt="A+ Physics" class="w-16 h-16 rounded-2xl mb-4 animate-pulse">
+            <p class="text-sm text-slate-300 font-semibold">Đang tải dữ liệu học tập A+ Physics...</p>
+        </div>
+    </main>
+
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <nav class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#070D1F]/95 backdrop-blur-md border-t border-[#2A3C6E] px-2 py-1.5 grid grid-cols-5 gap-1">
+        <button data-nav="home" class="nav-btn flex flex-col items-center py-1 rounded-lg text-[10px] font-semibold">
+            <span class="text-base">🏠</span><span>Trang chủ</span>
+        </button>
+        <button data-nav="roadmap" class="nav-btn flex flex-col items-center py-1 rounded-lg text-[10px] font-semibold">
+            <span class="text-base">📚</span><span>Lộ trình</span>
+        </button>
+        <button data-nav="tools" class="nav-btn flex flex-col items-center py-1 rounded-lg text-[10px] font-semibold">
+            <span class="text-base">🧊</span><span>3D &amp; Tool</span>
+        </button>
+        <button data-nav="saved" class="nav-btn flex flex-col items-center py-1 rounded-lg text-[10px] font-semibold">
+            <span class="text-base">🔖</span><span>Đã lưu</span>
+        </button>
+        <button data-nav="settings" class="nav-btn flex flex-col items-center py-1 rounded-lg text-[10px] font-semibold">
+            <span class="text-base">⚙️</span><span>Cài đặt</span>
+        </button>
+    </nav>
+
+    <!-- IMAGE LIGHTBOX MODAL -->
+    <div id="modal-lightbox" class="hidden fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-4">
+        <div class="relative max-w-4xl w-full flex flex-col items-center">
+            <button id="lightbox-close" class="self-end mb-2 px-3 py-1 rounded-lg bg-slate-800 text-white text-xs font-bold hover:bg-slate-700">✕ Đóng</button>
+            <img id="lightbox-img" src="" alt="Hình minh họa" class="max-h-[82vh] rounded-xl border border-slate-700 bg-white">
+            <p id="lightbox-caption" class="text-xs text-slate-300 mt-2 text-center"></p>
+        </div>
+    </div>
+
+    <!-- YOUTUBE VIDEO MODAL -->
+    <div id="modal-youtube" class="hidden fixed inset-0 z-50 bg-black/85 flex items-center justify-center p-4">
+        <div class="max-w-4xl w-full bg-[#0F1A36] border border-[#2A3C6E] rounded-2xl overflow-hidden shadow-2xl">
+            <div class="flex items-center justify-between px-4 py-3 border-b border-[#2A3C6E]">
+                <span id="yt-modal-title" class="text-sm font-bold text-white">Video Bài Giảng</span>
+                <div class="flex items-center space-x-3">
+                    <a id="yt-external-link" href="#" target="_blank" rel="noopener noreferrer" class="text-xs text-[#4FD1C5] hover:underline">Mở YouTube ↗</a>
+                    <button id="yt-modal-close" class="px-2.5 py-1 rounded-lg bg-slate-800 text-white text-xs font-bold hover:bg-slate-700">✕ Đóng</button>
+                </div>
+            </div>
+            <div class="aspect-video bg-black">
+                <iframe id="yt-iframe" class="w-full h-full" src="" title="Video bài giảng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN 3D MODAL -->
+    <div id="modal-3d" class="hidden fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
+        <div class="max-w-5xl w-full bg-[#0F1A36] border border-[#2A3C6E] rounded-2xl overflow-hidden shadow-2xl">
+            <div class="flex items-center justify-between px-4 py-3 border-b border-[#2A3C6E]">
+                <span id="mv-modal-title" class="text-sm font-bold text-white">Mô phỏng 3D Tương tác</span>
+                <button id="mv-modal-close" class="px-2.5 py-1 rounded-lg bg-slate-800 text-white text-xs font-bold hover:bg-slate-700">✕ Đóng</button>
+            </div>
+            <div id="mv-modal-body" class="p-4"></div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/storage.js"></script>
+    <script src="js/katex_render.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/tools.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

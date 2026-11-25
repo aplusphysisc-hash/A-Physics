@@ -1,0 +1,46 @@
+{
+  "tenUngDung": "A+ Physics (Vật Lý THPT)",
+  "phienBan": "v1.0.0",
+  "danhSachThongTin": [
+    {
+      "label": "Tên ứng dụng",
+      "value": "A+ Physics (Vật Lý THPT)",
+      "isMuted": false
+    },
+    {
+      "label": "Phiên bản",
+      "value": "v1.0.0 (Tháng 11/2026)",
+      "isMuted": false
+    },
+    {
+      "label": "Đơn vị thực hiện",
+      "value": "Trường THPT Chu Văn An",
+      "isMuted": false
+    },
+    {
+      "label": "Nhóm tác giả",
+      "value": "Nguyễn Tấn Tài, Nguyễn Hoàng Thục Uyên, Hà Xuân Thắng, Lê Bách Vi, Lê Kim Ánh, Trần Uyên Nhã, Nguyễn Ngọc Gia Yến, Vũ Nguyễn Tiến Phát, Nghiêm Quốc Khang, Nguyễn Thái Toàn",
+      "isMuted": false
+    },
+    {
+      "label": "Chương trình",
+      "value": "Bám sát chuẩn GDPT 2018 (Lớp 10, 11, 12)",
+      "isMuted": false
+    },
+    {
+      "label": "Mục tiêu dự án",
+      "value": "Dự thi KHKT & Phát hành phi thương mại",
+      "isMuted": false
+    },
+    {
+      "label": "Bản quyền",
+      "value": "Dự án nghiên cứu phi thương mại (Miễn phí 100%)",
+      "isMuted": true
+    },
+    {
+      "label": "Hỗ trợ & Góp ý",
+      "value": "aplusphysics@gmail.com",
+      "isMuted": false
+    }
+  ]
+}

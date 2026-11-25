@@ -1,0 +1,430 @@
+[
+  {
+    "id": 1,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $180^\\circ$ đổi sang ra-đi-ang bằng bao nhiêu?",
+    "caccauChon": [
+      "$\\frac{\\pi}{2}\\text{ rad}$",
+      "$\\pi\\text{ rad}$",
+      "$2\\pi\\text{ rad}$",
+      "$\\frac{\\pi}{4}\\text{ rad}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Công thức đổi từ độ sang radian là: $\\alpha(\\text{rad}) = \\alpha(\\text{độ}) \\cdot \\frac{\\pi}{180^\\circ}$. Ta có $180^\\circ \\cdot \\frac{\\pi}{180^\\circ} = \\pi\\text{ rad}$."
+  },
+  {
+    "id": 2,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $\\frac{\\pi}{3}\\text{ rad}$ đổi sang đơn vị độ bằng bao nhiêu?",
+    "caccauChon": [
+      "$30^\\circ$",
+      "$45^\\circ$",
+      "$60^\\circ$",
+      "$90^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Công thức đổi từ radian sang độ là: $\\alpha(\\text{độ}) = \\alpha(\\text{rad}) \\cdot \\frac{180^\\circ}{\\pi}$. Ta có $\\frac{\\pi}{3} \\cdot \\frac{180^\\circ}{\\pi} = 60^\\circ$."
+  },
+  {
+    "id": 3,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động tròn đều là chuyển động có quỹ đạo là đường tròn và:",
+    "caccauChon": [
+      "Tốc độ dài thay đổi liên tục.",
+      "Tốc độ dài có độ lớn không đổi theo thời gian.",
+      "Véc-tơ vận tốc không đổi.",
+      "Gia tốc bằng 0."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chuyển động tròn đều là chuyển động có quỹ đạo đường tròn và tốc độ dài (độ lớn vận tốc) không đổi trên mọi điểm.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_dong_ho_kim_chuyen_dong_tron.webp"
+  },
+  {
+    "id": 4,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chu kỳ $T$ của chuyển động tròn đều là:",
+    "caccauChon": [
+      "Số vòng quay được trong một giây.",
+      "Thời gian vật đi hết một vòng tròn quỹ đạo.",
+      "Góc quét được trong một đơn vị thời gian.",
+      "Quãng đường đi được trong một giây."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chu kỳ $T$ là khoảng thời gian để vật thực hiện được một vòng quay đầy đủ, đơn vị là giây $\\text{ (s)}$.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_dong_ho_kim_chuyen_dong_tron.webp"
+  },
+  {
+    "id": 5,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tần số $f$ của chuyển động tròn đều là:",
+    "caccauChon": [
+      "Thời gian đi hết một vòng.",
+      "Số vòng quay vật thực hiện được trong một giây.",
+      "Tốc độ dài của vật.",
+      "Góc quét trong một giây."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tần số $f$ là số vòng quay trong 1 giây, đơn vị là héc $\\text{ (Hz)}$ hoặc $\\text{s}^{-1}$. Mối quan hệ giữa $f$ và $T$ là $f = \\frac{1}{T}$."
+  },
+  {
+    "id": 6,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức liên hệ giữa tốc độ dài $v$ và tốc độ góc $\\omega$ trong chuyển động tròn đều là:",
+    "caccauChon": [
+      "$v = \\frac{\\omega}{r}$",
+      "$v = \\frac{r}{\\omega}$",
+      "$v = \\omega \\cdot r$",
+      "$v = \\omega \\cdot r^2$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tốc độ dài liên hệ với tốc độ góc qua bán kính quỹ đạo $r$: $v = \\omega \\cdot r$."
+  },
+  {
+    "id": 7,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Tốc độ góc $\\omega$ được tính theo chu kỳ $T$ bằng công thức:",
+    "caccauChon": [
+      "$\\omega = \\frac{2\\pi}{T}$",
+      "$\\omega = \\frac{\\pi}{T}$",
+      "$\\omega = 2\\pi \\cdot T$",
+      "$\\omega = \\frac{T}{2\\pi}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Trong một chu kỳ $T$, góc quét là $2\\pi$ ra-đi-ang, do đó tốc độ góc là $\\omega = \\frac{2\\pi}{T}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đơn vị của tốc độ góc $\\omega$ trong hệ SI là:",
+    "caccauChon": [
+      "m/$s$",
+      "vòng/phút",
+      "ra-đi-ang trên giây ($\\text{rad/s}$)",
+      "độ trên giây ($^\\circ\\text{/s}$)"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Đơn vị chuẩn của tốc độ góc trong hệ đo lường quốc tế (SI) là rad/$s$."
+  },
+  {
+    "id": 9,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Gia tốc hướng tâm trong chuyển động tròn đều có độ lớn tính bằng công thức:",
+    "caccauChon": [
+      "$a_{ht} = \\frac{v}{r}$",
+      "$a_{ht} = \\frac{v^2}{r}$",
+      "$a_{ht} = \\frac{\\omega}{r}$",
+      "$a_{ht} = \\frac{r}{v^2}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Độ lớn gia tốc hướng tâm là $a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r$."
+  },
+  {
+    "id": 10,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Véc-tơ gia tốc hướng tâm trong chuyển động tròn đều luôn có đặc điểm:",
+    "caccauChon": [
+      "Hướng theo tiếp tuyến của quỹ đạo.",
+      "Hướng ra xa tâm đường tròn.",
+      "Hướng vào tâm của quỹ đạo tròn.",
+      "Cùng hướng với véc-tơ vận tốc."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Gia tốc hướng tâm luôn vuông góc với vận tốc tức thời và hướng thẳng vào tâm đường tròn."
+  },
+  {
+    "id": 11,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $90^\\circ$ đổi sang ra-đi-ang bằng bao nhiêu?",
+    "caccauChon": [
+      "$\\frac{\\pi}{6}\\text{ rad}$",
+      "$\\frac{\\pi}{4}\\text{ rad}$",
+      "$\\frac{\\pi}{3}\\text{ rad}$",
+      "$\\frac{\\pi}{2}\\text{ rad}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "$90^\\circ \\cdot \\frac{\\pi}{180^\\circ} = \\frac{\\pi}{2}\\text{ rad}$."
+  },
+  {
+    "id": 12,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $30^\\circ$ đổi sang ra-đi-ang bằng bao nhiêu?",
+    "caccauChon": [
+      "$\\frac{\\pi}{6}\\text{ rad}$",
+      "$\\frac{\\pi}{4}\\text{ rad}$",
+      "$\\frac{\\pi}{3}\\text{ rad}$",
+      "$\\pi\\text{ rad}$"
+    ],
+    "dapAnDung": 0,
+    "giaithich": "$30^\\circ \\cdot \\frac{\\pi}{180^\\circ} = \\frac{\\pi}{6}\\text{ rad}$."
+  },
+  {
+    "id": 13,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một đĩa tròn quay đều mỗi vòng hết 0,2 giây. Chu kỳ quay của đĩa là:",
+    "caccauChon": [
+      "$0,1\\text{ s}$",
+      "$0,2\\text{ s}$",
+      "$5\\text{ s}$",
+      "$10\\text{ s}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chu kỳ $T$ chính là thời gian quay hết 1 vòng, $T = 0,2\\text{ s}$.",
+    "hinhAnh": "images/ChuDe2/reallife/anh_dong_ho_kim_chuyen_dong_tron.webp"
+  },
+  {
+    "id": 14,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Từ câu 13, tần số $f$ của đĩa tròn quay đều là:",
+    "caccauChon": [
+      "$0,2\\text{ Hz}$",
+      "$2\\text{ Hz}$",
+      "$5\\text{ Hz}$",
+      "$10\\text{ Hz}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Tần số $f = \\frac{1}{T} = 1 / 0,2 = 5\\text{ Hz}$ (vòng/giây)."
+  },
+  {
+    "id": 15,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động tròn đều trên quỹ đạo có bán kính $r = 2\\text{ m}$ với tốc độ góc $\\omega = 3\\text{ rad/s}$. Tốc độ dài của chất điểm là:",
+    "caccauChon": [
+      "$1,5\\text{ m/s}$",
+      "$3\\text{ m/s}$",
+      "$5\\text{ m/s}$",
+      "$6\\text{ m/s}$"
+    ],
+    "dapAnDung": 3,
+    "giaithich": "$v = \\omega \\cdot r = 3 \\cdot 2 = 6\\text{ m/s}$."
+  },
+  {
+    "id": 16,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vệ tinh nhân tạo quay quanh Trái Đất trên quỹ đạo tròn bán kính $r$ với tốc độ dài $v$. Gia tốc hướng tâm của vệ tinh được tính bằng công thức nào khác ngoài $\\frac{v^2}{r}$?",
+    "caccauChon": [
+      "$\\omega^2 \\cdot r$",
+      "$v \\cdot \\omega$",
+      "Cả A và B đều đúng.",
+      "$\\frac{\\omega}{r}$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r = (\\omega \\cdot$  r)  $\\cdot \\omega = v \\cdot \\omega$, do đó cả A và B đều đúng."
+  },
+  {
+    "id": 17,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Góc $\\frac{2\\pi}{3}\\text{ rad}$ đổi sang đơn vị độ là:",
+    "caccauChon": [
+      "$60^\\circ$",
+      "$90^\\circ$",
+      "$120^\\circ$",
+      "$150^\\circ$"
+    ],
+    "dapAnDung": 2,
+    "giaithich": "$\\frac{2\\pi}{3} \\cdot \\frac{180^\\circ}{\\pi} = 120^\\circ$."
+  },
+  {
+    "id": 18,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lực hướng tâm tác dụng lên vật chuyển động tròn đều có vai trò gì?",
+    "caccauChon": [
+      "Làm thay đổi độ lớn của vận tốc.",
+      "Gây ra gia tốc hướng tâm, làm thay đổi hướng của véc-tơ vận tốc.",
+      "Giữ cho vật đứng yên.",
+      "Làm vật chuyển động thẳng đều."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Lực hướng tâm gây ra gia tốc hướng tâm, có tác dụng uốn cong quỹ đạo, làm thay đổi hướng của vận tốc chứ không đổi độ lớn."
+  },
+  {
+    "id": 19,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô chạy qua một đoạn đường cong tròn bán kính $100\\text{ m}$ với tốc độ không đổi $20\\text{ m/s}$. Gia tốc hướng tâm của ô tô là:",
+    "caccauChon": [
+      "$2\\text{ m/s}^2$",
+      "$4\\text{ m/s}^2$",
+      "$5\\text{ m/s}^2$",
+      "$10\\text{ m/s}^2$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "$a_{ht} = \\frac{v^2}{r} = 20^2 / 100 = 400 / 100 = 4\\text{ m/s}^2$."
+  },
+  {
+    "id": 20,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Biểu thức nào sau đây dùng để tính tần số $f$ khi biết chu kỳ $T$?",
+    "caccauChon": [
+      "$f = 2\\pi T$",
+      "$f = \\frac{1}{T}$",
+      "$f = \\frac{T}{2\\pi}$",
+      "$f = \\frac{\\omega}{2\\pi}$"
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Tần số $f$ và chu kỳ $T$ liên hệ nghịch đảo: $f = \\frac{1}{T}$."
+  },
+  {
+    "id": 21,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét các phép đổi đơn vị góc giữa độ và ra-đi-ang.",
+    "dsYCon": [
+      "Góc $360^\\circ$ tương ứng với $2\\pi$ ra-đi-ang.",
+      "Góc $60^\\circ$ đổi ra radian bằng $\\frac{\\pi}{6}\\text{ rad}$.",
+      "Góc $\\frac{\\pi}{4}\\text{ rad}$ tương ứng với $45^\\circ$.",
+      "Để đổi từ radian sang độ, ta nhân số ra-đi-ang với $180^\\circ$ rồi chia cho $\\pi$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "$60^\\circ$ đổi ra radian là $60 \\cdot \\frac{\\pi}{180^\\circ} = \\frac{\\pi}{3}\\text{ rad}$, do đó ý b SAI (đề ghi $\\frac{\\pi}{6}\\text{ rad}$ là sai)."
+  },
+  {
+    "id": 22,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Các đặc điểm của chuyển động tròn đều.",
+    "dsYCon": [
+      "Quỹ đạo của chuyển động là một đường tròn.",
+      "Tốc độ dài của vật thay đổi liên tục theo thời gian.",
+      "Tốc độ góc của vật là hằng số.",
+      "Véc-tơ vận tốc của vật luôn không đổi trong suốt quá trình chuyển động."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "Trong chuyển động tròn đều tốc độ dài không đổi (ý b sai) và hướng vận tốc luôn thay đổi nên véc-tơ vận tốc không đổi là sai (ý d sai).",
+    "hinhAnh": "images/ChuDe2/reallife/anh_dong_ho_kim_chuyen_dong_tron.webp"
+  },
+  {
+    "id": 23,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Các đại lượng đặc trưng trong chuyển động tròn đều.",
+    "dsYCon": [
+      "Chu kỳ $T$ là thời gian vật đi hết một vòng quỹ đạo.",
+      "Tần số $f$ và chu kỳ $T$ có mối quan hệ $f = T$.",
+      "Tốc độ góc tính bằng công thức $\\omega = 2\\pi f$.",
+      "Đơn vị của tần số $f$ là héc $\\text{ (Hz)}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "giaithich": "Tần số $f$ và chu kỳ $T$ liên hệ nghịch đảo $f = \\frac{1}{T}$ chứ không bằng nhau, ý b SAI."
+  },
+  {
+    "id": 24,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Mối quan hệ giữa tốc độ dài, tốc độ góc và gia tốc hướng tâm.",
+    "dsYCon": [
+      "Tốc độ dài liên hệ với tốc độ góc qua biểu thức $v = \\omega \\cdot r$.",
+      "Độ lớn gia tốc hướng tâm tính bằng $a_{ht} = \\frac{v^2}{r}$.",
+      "Khi bán kính quỹ đạo không đổi, nếu tốc độ góc tăng lên 2 lần thì gia tốc hướng tâm tăng lên 2 lần.",
+      "Véc-tơ gia tốc hướng tâm luôn hướng vào tâm đường tròn quỹ đạo."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "$a_{ht} = \\omega^2 \\cdot r$, khi $\\omega$ tăng 2 lần thì $a_{ht}$ tăng $2^2 = 4$ lần chứ không phải 2 lần, ý c SAI."
+  },
+  {
+    "id": 25,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một chất điểm chuyển động tròn đều trên quỹ đạo bán kính $r = 1\\text{ m}$ với tốc độ góc $\\omega = 10\\text{ rad/s}$.",
+    "dsYCon": [
+      "Tốc độ dài của chất điểm là $10\\text{ m/s}$.",
+      "Chu kỳ quay của chất điểm là $T = 0,2\\pi$ giây.",
+      "Gia tốc hướng tâm của chất điểm là $100\\text{ m/s}^2$.",
+      "Tần số quay của chất điểm là $10\\text{ Hz}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "+ $v = \\omega \\cdot r = 10 \\cdot 1 = 10\\text{ m/s}$ (a đúng).\n+ $T = 2\\pi / \\omega = 2\\pi / 10 = 0,2\\pi\\text{ s}$ (b đúng).\n+ $a_{ht} = \\omega^2 \\cdot r = 10^2 \\cdot 1 = 100\\text{ m/s}^2$ (c đúng).\n+ $f = \\frac{1}{T} = \\frac{1}{0{,}2\\pi} = \\frac{5}{\\pi}\\text{ Hz} \\approx 1,59\\text{ Hz}$ khác $10\\text{ Hz}$, do đó ý d SAI."
+  },
+  {
+    "id": 26,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Trình bày định nghĩa chuyển động tròn đều và viết các công thức tính tốc độ dài, tốc độ góc, gia tốc hướng tâm.",
+    "giaithich": "- Định nghĩa: Chuyển động tròn đều là chuyển động có quỹ đạo là đường tròn và tốc độ trung bình trên mọi cung tròn là như nhau (tốc độ dài không đổi).\n- Các công thức chính:\n+ Tốc độ dài: $v = \\frac{2\\pi r}{T} = \\omega \\cdot r$\n+ Tốc độ góc: $\\omega = \\frac{2\\pi}{T} = 2\\pi f$\n+ Gia tốc hướng tâm: $a_{ht} = \\frac{v^2}{r} = \\omega^2 \\cdot r$"
+  },
+  {
+    "id": 27,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập đổi đơn vị): Đổi các góc sau từ độ sang ra-đi-ang và ngược lại:\na) Góc $150^\\circ$ sang ra-đi-ang.\nb) Góc $\\frac{3\\pi}{4}\\text{ rad}$ sang đơn vị độ.",
+    "giaithich": "a) Đổi $150^\\circ$ sang radian:\nrad = $150^\\circ \\cdot \\frac{\\pi}{180^\\circ} = \\frac{5\\pi}{6}\\text{ rad}$.\nb) Đổi $\\frac{3\\pi}{4}\\text{ rad}$ sang độ:\nđộ = $\\frac{3\\pi}{4} \\cdot \\frac{180^\\circ}{\\pi} = 3 \\cdot 45^\\circ = 135^\\circ$."
+  },
+  {
+    "id": 28,
+    "baiSo": 5,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập chuyển động tròn): Một vệ tinh nhân tạo quay đều quanh Trái Đất theo quỹ đạo tròn ở độ cao cách mặt đất một khoảng bằng bán kính Trái Đất ($r = 2$ R với $R = 6400\\text{ km}$). Vệ tinh quay hết một vòng mất 2 giờ. Tính tốc độ dài của vệ tinh.",
+    "giaithich": "- Bán kính quỹ đạo của vệ tinh:\n$r = 2$ R = $2 \\cdot 6400\\text{ km} = 12800\\text{ km} = 12.800$.$000\\text{ m} = 1,28 \\cdot 10^7\\text{ m}$.\n- Chu kỳ quay của vệ tinh:\n$T = 2$ giờ = $2 \\cdot 3600$ giây = $7200\\text{ s}$.\n- Tốc độ dài của vệ tinh:\n$v = \\frac{2\\pi r}{T} = (2 \\cdot 3,14 \\cdot 1,28 \\cdot 10^7$) / $7200 \\approx 11.168\\text{ m/s}$ (hoặc khoảng $11,17\\text{ km/s}$)."
+  }
+]

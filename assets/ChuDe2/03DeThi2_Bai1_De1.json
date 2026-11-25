@@ -1,0 +1,429 @@
+[
+  {
+    "id": 1,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chuyển động thẳng đều là chuyển động có",
+    "caccauChon": [
+      "quỹ đạo là đường thẳng và tốc độ trung bình như nhau trên mọi quãng đường.",
+      "quỹ đạo là đường cong và độ lớn vận tốc không đổi theo thời gian.",
+      "quỹ đạo là đường thẳng và vận tốc tăng đều theo thời gian.",
+      "quỹ đạo là đường thẳng và gia tốc luôn khác không."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Theo định nghĩa, chuyển động thẳng đều có quỹ đạo là đường thẳng và tốc độ trung bình như nhau trên mọi quãng đường."
+  },
+  {
+    "id": 2,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong chuyển động thẳng đều, quãng đường đi được $s$ tỉ lệ thuận với",
+    "caccauChon": [
+      "bình phương thời gian chuyển động $t^2$.",
+      "thời gian chuyển động $t$.",
+      "căn bậc hai của thời gian $\\sqrt{t}$.",
+      "nghịch đảo thời gian $\\frac{1}{t}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Ta có công thức $s = v \\cdot t$. Vì vận tốc $v$ không đổi nên quãng đường $s$ tỉ lệ thuận với thời gian $t$."
+  },
+  {
+    "id": 3,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Công thức nào sau đây là phương trình chuyển động của vật chuyển động thẳng đều dọc theo trục $Ox$ (chọn gốc thời gian $t_0 = 0$)?",
+    "caccauChon": [
+      "$x = x_0 + v \\cdot t^2$.",
+      "$x = v_0 + x \\cdot t$.",
+      "$x = x_0 + v \\cdot t$.",
+      "$x = x_0 - \\frac{1}{2}v \\cdot t$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Phương trình chuyển động thẳng đều khi $t_0 = 0$ là $x = x_0 + v \\cdot t$."
+  },
+  {
+    "id": 4,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một ô tô chuyển động thẳng đều với tốc độ $54\\text{ km/h}$. Tốc độ này tính theo đơn vị $\\text{m/s}$ là",
+    "caccauChon": [
+      "$10\\text{ m/s}$.",
+      "$15\\text{ m/s}$.",
+      "$20\\text{ m/s}$.",
+      "$25\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Áp dụng quy đổi đơn vị: $v = \\frac{54}{3,6} = 15\\text{ m/s}$."
+  },
+  {
+    "id": 5,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi xe đạp chuyển động thẳng đều với vận tốc $4\\text{ m/s}$. Quãng đường người đó đi được trong thời gian $5\\text{ phút}$ là",
+    "caccauChon": [
+      "$20\\text{ m}$.",
+      "$120\\text{ m}$.",
+      "$1200\\text{ m}$.",
+      "$2000\\text{ m}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Đổi $t = 5\\text{ phút} = 5 \\times 60 = 300\\text{ s}$. Quãng đường đi được: $s = v \\cdot t = 4 \\times 300 = 1200\\text{ m}$."
+  },
+  {
+    "id": 6,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Đồ thị tọa độ - thời gian $(x - t)$ của một vật chuyển động thẳng đều có dạng là",
+    "caccauChon": [
+      "một đường parabol.",
+      "một đường thẳng xiên góc.",
+      "một đường tròn.",
+      "một đường hypebol."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Phương trình $x = x_0 + v \\cdot t$ là hàm bậc nhất theo thời gian $t$ nên đồ thị $(x - t)$ là một đường thẳng xiên góc (với $v \\neq 0$).",
+    "hinhAnh": "images/ChuDe2/baitap/dothi_xt_thang_deu_xien_goc.webp"
+  },
+  {
+    "id": 7,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng đều theo phương trình $x = 10 + 4t$ (trong đó $x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Tọa độ ban đầu và vận tốc của chất điểm là",
+    "caccauChon": [
+      "$x_0 = 4\\text{ m}$; $v = 10\\text{ m/s}$.",
+      "$x_0 = 10\\text{ m}$; $v = 4\\text{ m/s}$.",
+      "$x_0 = -10\\text{ m}$; $v = 4\\text{ m/s}$.",
+      "$x_0 = 10\\text{ m}$; $v = -4\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. So sánh $x = 10 + 4t$ với phương trình chuẩn $x = x_0 + v \\cdot t$, ta được $x_0 = 10\\text{ m}$ và $v = 4\\text{ m/s}$."
+  },
+  {
+    "id": 8,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều có phương trình $x = 20 - 5t$ ($x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Dấu trừ trước số $5$ cho biết",
+    "caccauChon": [
+      "vật chuyển động chậm dần đều.",
+      "vật chuyển động ngược chiều dương của trục tọa độ.",
+      "vật đang đứng yên tại vị trí $x = -5\\text{ m}$.",
+      "vật xuất phát ở phía âm của trục tọa độ."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Vận tốc $v = -5\\text{ m/s} < 0$ chứng tỏ vật chuyển động thẳng đều theo chiều âm (ngược chiều dương của trục $Ox$)."
+  },
+  {
+    "id": 9,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một tàu hỏa chạy thẳng đều trên quãng đường dài $180\\text{ km}$ hết thời gian $3\\text{ giờ}$. Tốc độ của tàu hỏa là",
+    "caccauChon": [
+      "$50\\text{ km/h}$.",
+      "$60\\text{ km/h}$.",
+      "$70\\text{ km/h}$.",
+      "$90\\text{ km/h}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Áp dụng công thức: $v = \\frac{s}{t} = \\frac{180}{3} = 60\\text{ km/h}$."
+  },
+  {
+    "id": 10,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một người đi bộ thẳng đều với tốc độ $5\\text{ km/h}$. Thời gian để người đó đi hết quãng đường $2,5\\text{ km}$ là",
+    "caccauChon": [
+      "$15\\text{ phút}$.",
+      "$20\\text{ phút}$.",
+      "$30\\text{ phút}$.",
+      "$45\\text{ phút}$."
+    ],
+    "dapAnDung": 2,
+    "giaithich": "Chọn đáp án C. Thời gian chuyển động: $t = \\frac{s}{v} = \\frac{2,5}{5} = 0,5\\text{ giờ} = 30\\text{ phút}$."
+  },
+  {
+    "id": 11,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Cho phương trình chuyển động của một vật là $x = -15 + 6t$ ($x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Tọa độ của vật tại thời điểm $t = 5\\text{ s}$ là",
+    "caccauChon": [
+      "$x = 15\\text{ m}$.",
+      "$x = 30\\text{ m}$.",
+      "$x = -45\\text{ m}$.",
+      "$x = 45\\text{ m}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Thay $t = 5\\text{ s}$ vào phương trình: $x = -15 + 6 \\times 5 = -15 + 30 = 15\\text{ m}$."
+  },
+  {
+    "id": 12,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Trong đồ thị vận tốc - thời gian $(v - t)$ của chuyển động thẳng đều, đường biểu diễn có dạng là",
+    "caccauChon": [
+      "một đường thẳng đi qua gốc tọa độ.",
+      "một đường thẳng song song với trục thời gian $Ot$.",
+      "một đường thẳng song song với trục vận tốc $Ov$.",
+      "một đường cong đi xuống."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Vì vận tốc $v$ không đổi theo thời gian nên đồ thị $(v - t)$ là một đường thẳng song song với trục thời gian $Ot$.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_vt_thang_deu_nam_ngang.webp"
+  },
+  {
+    "id": 13,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một xe máy xuất phát từ điểm $A$ cách gốc tọa độ $O$ một khoảng $10\\text{ km}$ theo chiều dương, chuyển động thẳng đều theo chiều dương với tốc độ $40\\text{ km/h}$. Chọn gốc thời gian lúc xe xuất phát. Phương trình chuyển động của xe là",
+    "caccauChon": [
+      "$x = 40t\\text{ (km)}$.",
+      "$x = 10 + 40t\\text{ (km)}$.",
+      "$x = -10 + 40t\\text{ (km)}$.",
+      "$x = 10 - 40t\\text{ (km)}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Ta có $x_0 = +10\\text{ km}$, $v = +40\\text{ km/h}$, $t_0 = 0$. Vậy phương trình chuyển động là $x = 10 + 40t\\text{ (km)}$."
+  },
+  {
+    "id": 14,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều với phương trình $x = 8 + 3t$ ($x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Quãng đường vật đi được sau $10\\text{ s}$ kể từ lúc $t = 0$ là",
+    "caccauChon": [
+      "$38\\text{ m}$.",
+      "$30\\text{ m}$.",
+      "$80\\text{ m}$.",
+      "$22\\text{ m}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Vận tốc của vật là $v = 3\\text{ m/s}$. Quãng đường đi được sau $10\\text{ s}$ là: $s = v \\cdot t = 3 \\times 10 = 30\\text{ m}$."
+  },
+  {
+    "id": 15,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Hai ô tô cùng xuất phát tại một địa điểm và chuyển động thẳng đều cùng chiều với tốc độ lần lượt là $40\\text{ km/h}$ và $60\\text{ km/h}$. Sau $2\\text{ giờ}$, khoảng cách giữa hai xe là",
+    "caccauChon": [
+      "$20\\text{ km}$.",
+      "$40\\text{ km}$.",
+      "$100\\text{ km}$.",
+      "$200\\text{ km}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Quãng đường xe 1 đi được: $s_1 = 40 \\times 2 = 80\\text{ km}$. Quãng đường xe 2 đi được: $s_2 = 60 \\times 2 = 120\\text{ km}$. Vì đi cùng chiều từ một điểm nên khoảng cách giữa hai xe là $\\Delta s = |s_2 - s_1| = 120 - 80 = 40\\text{ km}$."
+  },
+  {
+    "id": 16,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Chỉ ra phát biểu **sai** về chuyển động thẳng đều.",
+    "caccauChon": [
+      "Tốc độ tức thời bằng tốc độ trung bình trên mọi đoạn đường.",
+      "Độ dịch chuyển có độ lớn bằng quãng đường đi được.",
+      "Vectơ vận tốc luôn không đổi cả về hướng và độ lớn.",
+      "Vật đi được những quãng đường bằng nhau trong những khoảng thời gian khác nhau."
+    ],
+    "dapAnDung": 3,
+    "giaithich": "Chọn đáp án D. Trong chuyển động thẳng đều, vật phải đi được những quãng đường bằng nhau trong những khoảng thời gian **bằng nhau** bất kì."
+  },
+  {
+    "id": 17,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vận động viên chạy thẳng đều với tốc độ $10\\text{ m/s}$. Tốc độ của người này tính theo đơn vị $\\text{km/h}$ là",
+    "caccauChon": [
+      "$36\\text{ km/h}$.",
+      "$3,6\\text{ km/h}$.",
+      "$27,8\\text{ km/h}$.",
+      "$10\\text{ km/h}$."
+    ],
+    "dapAnDung": 0,
+    "giaithich": "Chọn đáp án A. Quy đổi đơn vị: $v = 10 \\times 3,6 = 36\\text{ km/h}$."
+  },
+  {
+    "id": 18,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một vật chuyển động thẳng đều theo phương trình $x = 50 - 10t$ ($x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$). Thời điểm vật đi qua gốc tọa độ $O$ ($x = 0$) là",
+    "caccauChon": [
+      "$t = 2\\text{ s}$.",
+      "$t = 5\\text{ s}$.",
+      "$t = 10\\text{ s}$.",
+      "$t = 50\\text{ s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Khi vật đi qua gốc tọa độ thì $x = 0 \\Rightarrow 50 - 10t = 0 \\Rightarrow 10t = 50 \\Rightarrow t = 5\\text{ s}$."
+  },
+  {
+    "id": 19,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Lúc $7\\text{ giờ}$ sáng, một xe khách xuất phát từ bến xe $A$ (chọn làm gốc tọa độ) chuyển động thẳng đều với vận tốc $50\\text{ km/h}$. Chọn gốc thời gian lúc $7\\text{ giờ}$. Tọa độ của xe lúc $9\\text{ giờ}$ sáng là",
+    "caccauChon": [
+      "$50\\text{ km}$.",
+      "$100\\text{ km}$.",
+      "$150\\text{ km}$.",
+      "$450\\text{ km}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Thời gian xe chạy từ $7\\text{ giờ}$ đến $9\\text{ giờ}$ là $t = 9 - 7 = 2\\text{ giờ}$. Tọa độ của xe: $x = x_0 + v \\cdot t = 0 + 50 \\times 2 = 100\\text{ km}$."
+  },
+  {
+    "id": 20,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TRAC_NGHIEM",
+    "cauhoi": "Một chất điểm chuyển động thẳng đều từ vị trí có tọa độ $x_1 = 5\\text{ m}$ lúc $t_1 = 1\\text{ s}$ đến vị trí có tọa độ $x_2 = 25\\text{ m}$ lúc $t_2 = 5\\text{ s}$. Vận tốc của chất điểm là",
+    "caccauChon": [
+      "$4\\text{ m/s}$.",
+      "$5\\text{ m/s}$.",
+      "$6\\text{ m/s}$.",
+      "$20\\text{ m/s}$."
+    ],
+    "dapAnDung": 1,
+    "giaithich": "Chọn đáp án B. Áp dụng công thức vận tốc: $v = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{25 - 5}{5 - 1} = \\frac{20}{4} = 5\\text{ m/s}$."
+  },
+  {
+    "id": 21,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét một vật đang thực hiện chuyển động thẳng đều dọc theo trục tọa độ $Ox$.",
+    "dsYCon": [
+      "Quỹ đạo chuyển động của vật là một đường thẳng.",
+      "Tốc độ của vật tăng đều theo thời gian.",
+      "Trong những khoảng thời gian bằng nhau bất kì, vật đi được những quãng đường bằng nhau.",
+      "Nếu vật chuyển động theo chiều dương của trục $Ox$ thì vận tốc $v$ luôn có giá trị âm."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Theo định nghĩa, chuyển động thẳng đều có quỹ đạo là đường thẳng.\n- Ý b) SAI: Trong chuyển động thẳng đều, tốc độ của vật luôn không đổi theo thời gian.\n- Ý c) ĐÚNG: Vì $s = v \\cdot t$ với $v$ không đổi nên $\\Delta t$ bằng nhau thì $\\Delta s$ bằng nhau.\n- Ý d) SAI: Vật đi theo chiều dương thì $v > 0$; vật đi ngược chiều dương thì $v < 0$."
+  },
+  {
+    "id": 22,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một ô tô chuyển động thẳng đều theo phương trình $x = 15 + 12t$ (trong đó $x$ tính bằng $\\text{m}$, $t$ tính bằng $\\text{s}$).",
+    "dsYCon": [
+      "Tại thời điểm ban đầu ($t = 0$), ô tô cách gốc tọa độ $15\\text{ m}$.",
+      "Vận tốc của ô tô là $15\\text{ m/s}$.",
+      "Ô tô đang chuyển động theo chiều dương của trục tọa độ.",
+      "Sau $10\\text{ s}$ kể từ thời điểm ban đầu, tọa độ của ô tô là $120\\text{ m}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Thay $t = 0$ vào phương trình ta được tọa độ ban đầu $x_0 = 15\\text{ m}$.\n- Ý b) SAI: Hệ số đứng trước $t$ là vận tốc nên $v = 12\\text{ m/s}$.\n- Ý c) ĐÚNG: Vì $v = 12\\text{ m/s} > 0$ nên ô tô chuyển động theo chiều dương.\n- Ý d) SAI: Tại $t = 10\\text{ s}$, tọa độ của ô tô là $x = 15 + 12 \\times 10 = 135\\text{ m}$ (quãng đường đi được mới là $120\\text{ m}$)."
+  },
+  {
+    "id": 23,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Một xe đạp đi thẳng đều trên một đoạn đường dài $3,6\\text{ km}$ hết thời gian $15\\text{ phút}$.",
+    "dsYCon": [
+      "Thời gian chuyển động của xe đạp đổi ra giờ là $0,25\\text{ giờ}$.",
+      "Tốc độ của xe đạp là $14,4\\text{ km/h}$.",
+      "Tốc độ của xe đạp đổi ra đơn vị $\\text{m/s}$ là $4\\text{ m/s}$.",
+      "Nếu giữ nguyên tốc độ này, trong $1\\text{ giờ}$ xe đạp đi được quãng đường $144\\text{ km}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Ta có $t = 15\\text{ phút} = \\frac{15}{60} = 0,25\\text{ giờ}$.\n- Ý b) ĐÚNG: Tốc độ $v = \\frac{s}{t} = \\frac{3,6}{0,25} = 14,4\\text{ km/h}$.\n- Ý c) ĐÚNG: Ta có $v = \\frac{14,4}{3,6} = 4\\text{ m/s}$.\n- Ý d) SAI: Trong $1\\text{ giờ}$ xe đạp đi được $s = 14,4 \\times 1 = 14,4\\text{ km}$."
+  },
+  {
+    "id": 24,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Xét đồ thị tọa độ - thời gian $(x - t)$ và đồ thị vận tốc - thời gian $(v - t)$ của chuyển động thẳng đều.",
+    "dsYCon": [
+      "Đồ thị tọa độ - thời gian $(x - t)$ luôn là đường thẳng đi qua gốc tọa độ $O$.",
+      "Nếu đồ thị $(x - t)$ là đường thẳng hướng lên trên theo chiều tăng của thời gian thì vật đi theo chiều dương.",
+      "Đồ thị vận tốc - thời gian $(v - t)$ là một đường thẳng song song với trục thời gian $Ot$.",
+      "Diện tích hình chữ nhật giới hạn bởi đường đồ thị $v(t)$ và trục $Ot$ trong khoảng thời gian $\\Delta t$ biểu thị gia tốc của vật."
+    ],
+    "dapAnDungSai": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "giaithich": "- Ý a) SAI: Đồ thị $(x - t)$ chỉ đi qua gốc tọa độ khi $x_0 = 0$. Nếu $x_0 \\neq 0$, đường thẳng cắt trục tung tại điểm $(0; x_0)$.\n- Ý b) ĐÚNG: Đường thẳng đi lên chứng tỏ tọa độ $x$ tăng theo thời gian $t$, tức là $v > 0$.\n- Ý c) ĐÚNG: Do vận tốc $v$ không đổi theo thời gian nên đồ thị $(v - t)$ song song với trục $Ot$.\n- Ý d) SAI: Diện tích này có giá trị bằng $s = |v| \\cdot \\Delta t$, biểu thị quãng đường vật đi được.",
+    "hinhAnh": "images/ChuDe1/baitap/dothi_so_sanh_dt_va_vt.webp"
+  },
+  {
+    "id": 25,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "DUNG_SAI",
+    "cauhoi": "Hai xe máy $A$ và $B$ cùng xuất phát lúc $8\\text{ giờ}$ sáng từ hai vị trí cách nhau $20\\text{ km}$ trên cùng một đường thẳng, chuyển động thẳng đều cùng chiều theo chiều dương với tốc độ lần lượt là $v_A = 50\\text{ km/h}$ và $v_B = 40\\text{ km/h}$. Chọn gốc tọa độ tại vị trí xuất phát của xe $A$, gốc thời gian lúc $8\\text{ giờ}$ sáng.",
+    "dsYCon": [
+      "Phương trình chuyển động của xe $A$ là $x_A = 50t\\text{ (km)}$.",
+      "Phương trình chuyển động của xe $B$ là $x_B = 20 + 40t\\text{ (km)}$.",
+      "Sau $1\\text{ giờ}$ chuyển động, hai xe gặp nhau.",
+      "Vị trí hai xe gặp nhau cách điểm xuất phát của xe $A$ một khoảng $100\\text{ km}$."
+    ],
+    "dapAnDungSai": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "giaithich": "- Ý a) ĐÚNG: Xe $A$ xuất phát tại gốc tọa độ ($x_{0A} = 0$) với $v_A = 50\\text{ km/h}$ nên $x_A = 50t$.\n- Ý b) ĐÚNG: Xe $B$ xuất phát phía trước xe $A$ một đoạn $20\\text{ km}$ ($x_{0B} = 20\\text{ km}$) với $v_B = 40\\text{ km/h}$ nên $x_B = 20 + 40t$.\n- Ý c) SAI: Khi gặp nhau: $x_A = x_B \\Leftrightarrow 50t = 20 + 40t \\Leftrightarrow 10t = 20 \\Leftrightarrow t = 2\\text{ giờ}$.\n- Ý d) ĐÚNG: Thay $t = 2\\text{ giờ}$ vào $x_A$: $x_A = 50 \\times 2 = 100\\text{ km}$."
+  },
+  {
+    "id": 26,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 1 (Lý thuyết): Phát biểu định nghĩa chuyển động thẳng đều và viết công thức tính quãng đường, phương trình chuyển động thẳng đều (nêu rõ ý nghĩa và đơn vị các đại lượng).",
+    "giaithich": "- **Định nghĩa:** Chuyển động thẳng đều là chuyển động có quỹ đạo là đường thẳng và có tốc độ trung bình như nhau trên mọi quãng đường.\n- **Công thức quãng đường:** $s = v \\cdot t$ (trong đó $v$ là tốc độ không đổi, $t$ là thời gian chuyển động).\n- **Phương trình chuyển động:** $x = x_0 + v \\cdot (t - t_0)$ (nếu $t_0 = 0$ thì $x = x_0 + v \\cdot t$), với $x_0$ là tọa độ ban đầu ($\\text{m}$ hoặc $\\text{km}$), $x$ là tọa độ ở thời điểm $t$, $v > 0$ khi đi theo chiều dương và $v < 0$ khi đi ngược chiều dương."
+  },
+  {
+    "id": 27,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 2 (Bài tập phương trình chuyển động): Lúc $7\\text{ giờ}$ sáng, một ô tô xuất phát từ điểm $A$ cách bến xe $O$ một đoạn $15\\text{ km}$ về phía chiều dương, chuyển động thẳng đều theo chiều dương với tốc độ $v = 60\\text{ km/h}$. Chọn gốc tọa độ tại $O$, gốc thời gian lúc $7\\text{ giờ}$. Viết phương trình chuyển động và xác định tọa độ của ô tô lúc $9\\text{ giờ } 30\\text{ phút}$.",
+    "giaithich": "- Tại $t_0 = 0$ (lúc $7\\text{ giờ}$), xe có tọa độ đầu $x_0 = 15\\text{ km}$ và vận tốc $v = +60\\text{ km/h}$.\n- **Phương trình chuyển động:** $x = x_0 + v \\cdot t = 15 + 60t\\text{ (km)}$ ($t$ tính bằng giờ).\n- Lúc $9\\text{ giờ } 30\\text{ phút}$, thời gian xe đã chạy là $t = 9{,}5 - 7 = 2{,}5\\text{ giờ}$.\n- **Tọa độ của ô tô:** $x = 15 + 60 \\cdot 2{,}5 = 15 + 150 = 165\\text{ km}$. Đáp số: 165"
+  },
+  {
+    "id": 28,
+    "baiSo": 1,
+    "thuTuDe": 1,
+    "loai": "TU_LUAN",
+    "cauhoi": "Câu 3 (Bài tập hai xe gặp nhau): Hai địa điểm $A$ và $B$ cách nhau $120\\text{ km}$ trên một đường thẳng. Cùng một lúc, xe thứ nhất khởi hành từ $A$ đi về $B$ với tốc độ không đổi $v_1 = 45\\text{ km/h}$, xe thứ hai khởi hành từ $B$ đi ngược chiều về $A$ với tốc độ không đổi $v_2 = 35\\text{ km/h}$. Sau bao lâu hai xe gặp nhau và vị trí gặp nhau cách $A$ bao nhiêu km?",
+    "giaithich": "- Chọn gốc tọa độ tại $A$ ($x_{01} = 0$), chiều dương từ $A$ đến $B$, gốc thời gian lúc hai xe xuất phát ($t_0 = 0$).\n- Phương trình chuyển động của hai xe: $x_1 = 45t\\text{ (km)}$ và $x_2 = 120 - 35t\\text{ (km)}$.\n- Khi hai xe gặp nhau: $x_1 = x_2 \\Leftrightarrow 45t = 120 - 35t \\Leftrightarrow 80t = 120 \\implies t = 1{,}5\\text{ giờ}$.\n- Vị trí gặp nhau cách $A$: $x = 45 \\cdot 1{,}5 = 67{,}5\\text{ km}$. Đáp số: 67,5"
+  }
+]

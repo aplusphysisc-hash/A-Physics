@@ -1,0 +1,77 @@
+﻿[
+  {
+    "id": 3,
+    "tieude": "Bài 3: Đồ thị độ dịch chuyển – thời gian (Đồ thị d – t)",
+    "noidung": "Chuyển động thẳng đều, phương trình độ dịch chuyển và tọa độ, cách dựng và đọc đồ thị độ dịch chuyển – thời gian (d – t), tính vận tốc từ độ dốc đồ thị.",
+    "hinhAnh": "images/ChuDe1/lythuyet/bai3_do_thi_d_t.webp",
+    "videoYoutubeId": "X6yS6I65514",
+    "fileBaiTapNhanh": "ChuDe1/02BaiTapNhanh1_Bai3.json",
+    "sections": [
+      {
+        "id": 1,
+        "soThuTu": 1,
+        "tieuDeMuc": "1.1. Chuyển động thẳng đều và Phương trình độ dịch chuyển",
+        "noiDungBlocks": [
+          {
+            "loai": "khai_niem",
+            "tieuDePhu": "Định nghĩa chuyển động thẳng đều",
+            "noiDung": "Chuyển động thẳng đều là chuyển động có quỹ đạo là đường thẳng và có vận tốc không đổi theo thời gian (vật đi được những độ dịch chuyển bằng nhau trong những khoảng thời gian bằng nhau bất kì).",
+            "danhSachYCon": [
+              "**Ví dụ minh họa 1:** Một ô tô chuyển động thẳng đều với vận tốc $v = 15\\text{ m/s}$. Tại $t_0 = 0$, xe cách mốc tọa độ $x_0 = 20\\text{ m}$ theo chiều dương. Sau $t = 10\\text{ s}$: Độ dịch chuyển $d = v \\cdot t = 15 \\cdot 10 = 150\\text{ m}$; Tọa độ $x = x_0 + v \\cdot t = 20 + 150 = 170\\text{ m}$."
+            ]
+          },
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "PHƯƠNG TRÌNH ĐỘ DỊCH CHUYỂN & TỌA ĐỘ CHUYỂN ĐỘNG THẲNG ĐỀU",
+            "congThuc": "$d = v \\cdot t  ;  x = x_0 + v \\cdot (t - t_0)$",
+            "mucDich": "Xác định độ dịch chuyển $d$ và vị trí tọa độ $x$ của vật tại thời điểm $t$ bất kì.",
+            "chuThich": "Trong đó: $x_0$ là tọa độ ban đầu ($\\text{m}$) tại thời điểm $t_0$; $v$ là vận tốc ($\\text{m/s}$); $t$ là thời điểm xét ($\\text{s}$)."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "soThuTu": 2,
+        "tieuDeMuc": "1.2. Đồ thị độ dịch chuyển – thời gian (Đồ thị d – t)",
+        "noiDungBlocks": [
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Cách dựng và Ý nghĩa các dạng đường biểu diễn trên đồ thị (d – t)",
+            "noiDung": "Trục tung biểu diễn độ dịch chuyển $d$ (hoặc tọa độ $x$), trục hoành biểu diễn thời gian $t$. Đồ thị $(d - t)$ của chuyển động thẳng đều là một đường thẳng:",
+            "danhSachYCon": [
+              "**Đường thẳng hướng lên (độ dốc dương):** Vật đang chuyển động thẳng đều theo chiều dương ($v > 0$).",
+              "**Đường thẳng nằm ngang song song trục thời gian:** Độ dịch chuyển không đổi theo thời gian, vật đang đứng yên ($v = 0$).",
+              "**Đường thẳng hướng xuống (độ dốc âm):** Vật đang chuyển động thẳng đều theo chiều âm, tức quay đầu đi ngược chiều dương ($v < 0$).",
+              "**Đường cong:** Vận tốc của vật đang thay đổi, đây là chuyển động thẳng biến đổi (không đều).",
+              "**Ví dụ minh họa 2:** Giai đoạn 1 ($0\\text{ s} \\to 10\\text{ s}$) đoạn thẳng đi lên từ $0\\text{ m}$ đến $20\\text{ m}$ (đi thẳng đều theo chiều dương $20\\text{ m}$); Giai đoạn 2 ($10\\text{ s} \\to 25\\text{ s}$) nằm ngang ở $d = 20\\text{ m}$ (đứng yên $15\\text{ s}$); Giai đoạn 3 ($25\\text{ s} \\to 35\\text{ s}$) đi xuống về $0\\text{ m}$ (quay đầu đi ngược chiều dương về vị trí xuất phát)."
+            ]
+          },
+          {
+            "loai": "hinh_anh",
+            "duongDanAnh": "images/ChuDe1/lythuyet/bai3_do_thi_d_t.webp",
+            "moTaAnh": "Đồ thị độ dịch chuyển – thời gian (d – t) chuẩn SGK: đoạn OA đi theo chiều dương, đoạn AB đứng yên, đoạn BC đi ngược chiều dương."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "soThuTu": 3,
+        "tieuDeMuc": "1.3. Xác định vận tốc từ đồ thị độ dịch chuyển – thời gian",
+        "noiDungBlocks": [
+          {
+            "loai": "cong_thuc_buoc",
+            "tenBuoc": "TÍNH VẬN TỐC TỪ ĐỘ DỐC (HỆ SỐ GÓC) ĐỒ THỊ (d – t)",
+            "congThuc": "$v = \\tan\\alpha = \\frac{\\Delta d}{\\Delta t} = \\frac{d_2 - d_1}{t_2 - t_1}$",
+            "mucDich": "Xác định giá trị đại số của vận tốc dựa vào hai điểm $(t_1; d_1)$ và $(t_2; d_2)$ trên đoạn thẳng đồ thị.",
+            "chuThich": "Đường biểu diễn trên đồ thị $(d - t)$ càng dốc (góc nghiêng $\\alpha$ càng lớn) thì tốc độ chuyển động của vật càng lớn."
+          },
+          {
+            "loai": "doan_van",
+            "tieuDePhu": "Ví dụ minh họa tính vận tốc từ đồ thị",
+            "noiDung": "Trên đồ thị $(d - t)$ của một xe máy chuyển động thẳng đều, tại thời điểm $t_1 = 2\\text{ s}$ xe có độ dịch chuyển $d_1 = 10\\text{ m}$, tại thời điểm $t_2 = 6\\text{ s}$ xe có độ dịch chuyển $d_2 = 34\\text{ m}$.\nÁp dụng công thức độ dốc đồ thị: $v = \\frac{d_2 - d_1}{t_2 - t_1} = \\frac{34 - 10}{6 - 2} = \\frac{24}{4} = 6\\text{ m/s}$."
+          }
+        ]
+      }
+    ]
+  }
+]
