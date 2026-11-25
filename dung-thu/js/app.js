@@ -174,22 +174,22 @@
         <!-- Quick Actions -->
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <button id="qa-roadmap" class="glass-card glass-card-hover p-5 rounded-2xl text-left space-y-2 transition">
-            <div class="text-2xl">📚</div>
-            <div class="font-bold text-white text-sm">Lộ Trình 7 Chủ Đề</div>
-            <div class="text-xs text-slate-400">28 bài lý thuyết &amp; 1.594+ câu hỏi</div>
+            <img src="../assets/icons/ic_lesson_books.png" alt="Lộ trình" class="w-8 h-8 object-contain">
+            <div class="font-bold text-white text-sm">Lộ Trình Dùng Thử</div>
+            <div class="text-xs text-slate-400">Chủ đề Mở đầu &amp; Chủ đề 1</div>
           </button>
           <button id="qa-phanxa" class="glass-card glass-card-hover p-5 rounded-2xl text-left space-y-2 transition">
-            <div class="text-2xl">⚡</div>
+            <img src="../assets/icons/ic_lightning_reflex.png" alt="Phản xạ" class="w-8 h-8 object-contain">
             <div class="font-bold text-white text-sm">Phản Xạ Lý Thuyết</div>
             <div class="text-xs text-slate-400">Luyện tốc độ &amp; xếp hạng A+ đến F</div>
           </button>
           <button id="qa-3d" class="glass-card glass-card-hover p-5 rounded-2xl text-left space-y-2 transition">
-            <div class="text-2xl">🧊</div>
-            <div class="font-bold text-white text-sm">Phòng Lab 3D (19)</div>
-            <div class="text-xs text-slate-400">Xoay 360° trực quan mọi hiện tượng</div>
+            <img src="../assets/icons/ic_topic_atom.png" alt="Lab 3D" class="w-8 h-8 object-contain">
+            <div class="font-bold text-white text-sm">Phòng Lab 3D (Mẫu)</div>
+            <div class="text-xs text-slate-400">Xoay 360° trực quan mô hình mẫu</div>
           </button>
           <button id="qa-tools" class="glass-card glass-card-hover p-5 rounded-2xl text-left space-y-2 transition">
-            <div class="text-2xl">📐</div>
+            <img src="../assets/icons/ic_quiz_calculator.png" alt="Công cụ" class="w-8 h-8 object-contain">
             <div class="font-bold text-white text-sm">Đổi Đơn Vị &amp; Sai Số</div>
             <div class="text-xs text-slate-400">16 nhóm đơn vị &amp; tính sai số 6 bước</div>
           </button>
@@ -318,16 +318,17 @@
             const renderTaskRow = (tk) => {
               const isDone = state.completedTasks.includes(tk.id);
               const iconMap = {
-                LyThuyetBai: '📖',
-                BaiTapNhanhBai: '⚡',
-                DeLuyenTapBai: '📝',
-                LyThuyetCongThuc: '📐',
-                DeTongChuong: '🏆'
+                LyThuyetBai: '../assets/icons/ic_theory_book.png',
+                BaiTapNhanhBai: '../assets/icons/ic_quick_practice.png',
+                DeLuyenTapBai: '../assets/icons/ic_exam_grad.png',
+                LyThuyetCongThuc: '../assets/icons/ic_quiz_calculator.png',
+                DeTongChuong: '../assets/icons/ic_top_score.png'
               };
+              const icSrc = iconMap[tk.kind] || '../assets/icons/ic_theory_book.png';
               return `
                 <button data-kind="${tk.kind}" data-path="${tk.filePath}" data-id="${tk.id}" data-title="${APKatex.escapeHtml(tk.title)}" data-dur="${tk.durationMin}" class="task-open-btn w-full text-left p-3.5 rounded-xl bg-[#070D1F] border ${isDone ? 'border-emerald-500/40' : 'border-[#2A3C6E]'} hover:border-[#4FD1C5] flex items-center justify-between gap-3 transition">
                   <div class="flex items-center space-x-3 min-w-0">
-                    <span class="text-lg shrink-0">${iconMap[tk.kind] || '📄'}</span>
+                    <img src="${icSrc}" alt="" class="w-6 h-6 object-contain shrink-0">
                     <div class="min-w-0">
                       <div class="text-xs sm:text-sm font-bold text-white truncate">${APKatex.escapeHtml(tk.title)}</div>
                       <div class="text-[11px] text-slate-400">
@@ -496,7 +497,7 @@
               <h1 class="text-lg sm:text-xl font-extrabold text-white">${APKatex.escapeHtml(lesson.tieude || 'Bài học')}</h1>
             </div>
             <div class="flex items-center space-x-2">
-              ${lesson.videoYoutubeId ? `<button id="theory-yt-btn" class="px-3.5 py-2 rounded-xl bg-rose-500/20 border border-rose-500/40 text-xs font-bold text-rose-300 hover:bg-rose-500/30">▶ Video Bài Giảng</button>` : ''}
+              ${lesson.videoYoutubeId ? `<button id="theory-yt-btn" class="px-3.5 py-2 rounded-xl bg-rose-500/20 border border-rose-500/40 text-xs font-bold text-rose-300 hover:bg-rose-500/30 flex items-center space-x-1.5"><img src="../assets/icons/ic_video_lecture.png" class="w-4 h-4 object-contain"><span>Video Bài Giảng</span></button>` : ''}
               ${lesson.fileBaiTapNhanh ? `<button id="theory-quick-btn" class="px-3.5 py-2 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 text-xs font-bold">⚡ Làm Bài Tập Nhanh</button>` : ''}
             </div>
           </div>
