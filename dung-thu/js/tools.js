@@ -334,7 +334,7 @@
               <div class="mv-slot rounded-xl overflow-hidden bg-[#0B142C] border border-[#2A3C6E]/60 flex items-center justify-center min-h-[240px]" data-path="${mSrc}" data-title="${APKatex.escapeHtml(m.title)}">
                 ${lowEnd
                   ? `<button class="load-3d-btn px-4 py-2 rounded-xl bg-[#4FD1C5] text-slate-950 text-xs font-bold hover:opacity-90">▶ Bấm để tải mô hình 3D</button>`
-                  : `<model-viewer src="${mSrc}" alt="${APKatex.escapeHtml(m.title)}" auto-rotate camera-controls style="height:240px"></model-viewer>`
+                  : `<model-viewer src="${mSrc}" alt="${APKatex.escapeHtml(m.title)}" camera-controls style="height:240px"></model-viewer>`
                 }
               </div>
               <div class="flex items-center justify-between mt-3 text-[11px] text-slate-400">
@@ -363,6 +363,7 @@
       body.querySelectorAll('.open-fs-3d').forEach((btn) => {
         btn.addEventListener('click', () => open3dModal(btn.dataset.path, btn.dataset.title));
       });
+      if (global.APHover3D) global.APHover3D(body);
     }
 
     function renderConverter(body) {

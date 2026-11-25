@@ -44,13 +44,34 @@
     m.classList.remove('hidden');
   }
 
+  function bindHover3D(root) {
+    (root || document).querySelectorAll('model-viewer').forEach((mv) => {
+      if (mv.dataset.hoverBound) return;
+      mv.dataset.hoverBound = '1';
+      mv.addEventListener('load', () => {
+        if (typeof mv.pause === 'function') mv.pause();
+      });
+      mv.addEventListener('mouseenter', () => {
+        mv.setAttribute('auto-rotate', '');
+        mv.setAttribute('rotation-per-second', '30deg');
+        if (typeof mv.play === 'function') mv.play();
+      });
+      mv.addEventListener('mouseleave', () => {
+        mv.removeAttribute('auto-rotate');
+        if (typeof mv.pause === 'function') mv.pause();
+      });
+    });
+  }
+  global.APHover3D = bindHover3D;
+
   function open3dModal(path, title) {
     const m = document.getElementById('modal-3d');
     document.getElementById('mv-modal-title').textContent = title || 'Mô phỏng 3D';
     document.getElementById('mv-modal-body').innerHTML = `
-      <model-viewer src="${path}" alt="${APKatex.escapeHtml(title || '')}" camera-controls ${state.settings.lowEndMode ? '' : 'auto-rotate'} class="mv-fullscreen"></model-viewer>
+      <model-viewer src="${path}" alt="${APKatex.escapeHtml(title || '')}" camera-controls class="mv-fullscreen"></model-viewer>
     `;
     m.classList.remove('hidden');
+    bindHover3D(m);
   }
 
   function initModals() {
@@ -370,7 +391,7 @@
               <div class="mv-slot rounded-xl overflow-hidden bg-[#0B142C] flex items-center justify-center min-h-[240px]" data-path="${mPath}" data-title="${APKatex.escapeHtml(b.tenMoHinh3d || '')}">
                 ${state.settings.lowEndMode
                   ? `<button class="load-3d-btn px-4 py-2 rounded-xl bg-[#4FD1C5] text-slate-950 text-xs font-bold">▶ Bấm để khởi chạy 3D</button>`
-                  : `<model-viewer src="${mPath}" alt="${APKatex.escapeHtml(b.tenMoHinh3d || '')}" auto-rotate camera-controls style="height:260px"></model-viewer>`
+                  : `<model-viewer src="${mPath}" alt="${APKatex.escapeHtml(b.tenMoHinh3d || '')}" camera-controls style="height:260px"></model-viewer>`
                 }
               </div>
               ${b.moTaMoHinh3d ? `<p class="text-xs text-slate-400">${APKatex.render(b.moTaMoHinh3d)}</p>` : ''}
@@ -471,6 +492,7 @@
       mainEl.querySelectorAll('.theory-3d-fs').forEach((btn) => {
         btn.addEventListener('click', () => open3dModal(btn.dataset.path, btn.dataset.title));
       });
+      bindHover3D(mainEl);
       mainEl.querySelectorAll('.theory-zoom-img').forEach((img) => {
         img.addEventListener('click', () => openLightbox(img.src, img.alt));
       });
