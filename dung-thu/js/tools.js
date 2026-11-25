@@ -314,7 +314,7 @@
       body.innerHTML = `
         <div class="mb-4 p-3.5 rounded-xl bg-amber-500/10 border border-amber-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-amber-100">
           <span>🧪 <strong>Chế độ Dùng thử:</strong> Hiển thị 2 mô hình 3D mẫu. Tải ứng dụng Android để mở khóa trọn bộ <strong>19 mô hình 3D</strong> theo từng bài học.</span>
-          <a href="../index.html#tai-ve" class="text-[#4FD1C5] font-bold hover:underline shrink-0">Tải App Android →</a>
+          <a href="../tai-xuong.html" class="text-[#4FD1C5] font-bold hover:underline shrink-0">Tải App Android →</a>
         </div>
         ${lowEnd ? `<div class="mb-4 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-200">⚡ Đang bật <strong>Chế độ tối ưu máy yếu</strong>: Mô hình 3D chỉ tải khi bạn bấm "Xem 3D".</div>` : ''}
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Tải Xuống APK - A+ Physics</title>
+    <meta name="description" content="Trang tải xuống chính thức tệp cài đặt APK ứng dụng học tập Vật lý THPT A+ Physics dành cho Android.">
+    <link rel="icon" type="image/png" href="assets/ic_logo_aphysics.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Be Vietnam Pro', sans-serif; background-color: #070D1F; color: #E2E8F0; }
+        .glass-card { background: rgba(15, 26, 54, 0.78); backdrop-filter: blur(14px); border: 1px solid rgba(79, 209, 197, 0.2); }
+        .glass-card:hover { border-color: rgba(79, 209, 197, 0.45); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-[#4FD1C5] selection:text-slate-950">
+
+    <!-- ANNOUNCEMENT BANNER (Dynamic from Firestore) -->
+    <div id="announcement-banner" class="hidden bg-gradient-to-r from-[#0F1A36] via-[#162347] to-[#0F1A36] border-b border-[#4FD1C5]/30 text-xs sm:text-sm text-slate-100 px-4 py-2.5">
+        <div class="max-w-6xl mx-auto flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0">
+                <span class="shrink-0 text-[#4FD1C5] font-bold">📢</span>
+                <span id="announcement-text" class="truncate sm:whitespace-normal font-medium"></span>
+            </div>
+            <button id="announcement-close" type="button" aria-label="Đóng thông báo" class="shrink-0 text-slate-400 hover:text-white px-2 py-0.5 rounded-md transition text-base leading-none">&times;</button>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-40 bg-[#070D1F]/85 backdrop-blur-md border-b border-[#2A3C6E]">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+            <a href="index.html" class="flex items-center space-x-3">
+                <img src="assets/ic_logo_aphysics.png" alt="A+ Physics Logo" class="w-10 h-10 rounded-xl bg-white object-cover">
+                <div>
+                    <span class="font-extrabold text-base text-white block">A+ Physics</span>
+                    <span class="text-[11px] text-slate-400 block -mt-0.5">Trung tâm tải xuống APK</span>
+                </div>
+            </a>
+            <div class="flex items-center space-x-2">
+                <a href="dung-thu/" class="px-3.5 py-2 rounded-xl bg-[#162347] border border-[#2A3C6E] hover:border-[#4FD1C5] text-xs font-semibold text-slate-200 transition">
+                    Dùng thử Web
+                </a>
+                <a href="index.html" class="px-3.5 py-2 rounded-xl bg-[#0F1A36] border border-[#2A3C6E] hover:border-[#4FD1C5] text-xs font-semibold text-slate-200 transition">
+                    ← Trang chủ
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl w-full mx-auto px-4 sm:px-6 py-12 space-y-10 flex-1">
+        <!-- HERO SUMMARY -->
+        <section class="glass-card p-6 sm:p-8 rounded-3xl flex flex-col sm:flex-row items-center gap-6">
+            <img src="assets/ic_logo_aphysics.png" alt="A+ Physics Icon" class="w-20 h-20 rounded-3xl bg-white shadow-xl shadow-[#4FD1C5]/20 shrink-0">
+            <div class="text-center sm:text-left space-y-2 flex-1">
+                <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+                    <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">Android 7.0+ (API 24+)</span>
+                    <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#4FD1C5]/15 text-[#4FD1C5] border border-[#4FD1C5]/30">Miễn phí 100%</span>
+                    <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">Offline-First</span>
+                </div>
+                <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Danh Sách Tải Xuống A+ Physics (.APK)</h1>
+                <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                    Chọn phiên bản phù hợp để cài đặt trực tiếp lên thiết bị Android của bạn. Toàn bộ học liệu, mô hình 3D và đề thi đều hoạt động ngoại tuyến mượt mà.
+                </p>
+            </div>
+        </section>
+
+        <!-- DOWNLOAD LIST -->
+        <section class="space-y-4" id="download-list">
+            <div class="flex items-center justify-between">
+                <h2 class="text-lg sm:text-xl font-extrabold text-white">Các Phiên Bản Phát Hành</h2>
+                <span class="text-xs text-slate-400">Lượt tải ghi nhận: <strong id="app-download-count" class="text-[#4FD1C5]">—</strong></span>
+            </div>
+
+            <!-- Latest Release (Synced from Firestore) -->
+            <div class="glass-card p-6 rounded-2xl border border-[#4FD1C5]/40 space-y-4">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div class="space-y-1">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-xs font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-[#4FD1C5] text-slate-950">Mới nhất</span>
+                            <h3 class="text-lg font-extrabold text-white">A+ Physics <span id="app-version-badge" class="text-[#4FD1C5]">v1.0.0</span></h3>
+                        </div>
+                        <p class="text-xs text-slate-400">
+                            Cập nhật: <span id="app-updated-at" class="text-slate-300">Tháng 11/2026</span> • Định dạng: <span class="text-slate-300">Android Package (.apk)</span>
+                        </p>
+                    </div>
+                    <a
+                        href="https://github.com/aplusphysisc-hash/A-Physics/releases"
+                        data-download-file="latest"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold text-sm hover:opacity-95 transition shadow-lg shadow-[#4FD1C5]/25 flex items-center justify-center space-x-2 shrink-0"
+                    >
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3"/></svg>
+                        <span>Tải Xuống APK</span>
+                    </a>
+                </div>
+
+                <div id="app-release-info" class="p-4 rounded-xl bg-[#070D1F] border border-[#2A3C6E] space-y-1.5">
+                    <div class="text-xs font-bold text-[#38BDF8]">Ghi chú phiên bản:</div>
+                    <p id="app-changelog-text" class="text-xs text-slate-300 leading-relaxed whitespace-pre-line">• Đầy đủ 7 chủ đề Vật lý THPT bám sát chương trình GDPT 2018.
+• Tích hợp 19 mô hình mô phỏng 3D tương tác, 2.016 câu hỏi trắc nghiệm 3 dạng thức 2025.
+• Hỗ trợ máy tính sai số 6 bước, đổi 16 nhóm đơn vị và chế độ tối ưu máy yếu.</p>
+                </div>
+            </div>
+
+            <!-- Stable Archive Entry -->
+            <div class="glass-card p-5 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div class="space-y-1">
+                    <div class="flex items-center gap-2">
+                        <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-[#162347] text-slate-300 border border-[#2A3C6E]">Bản gốc KHKT</span>
+                        <h3 class="text-base font-bold text-white">A+ Physics v1.0.0</h3>
+                    </div>
+                    <p class="text-xs text-slate-400">Phiên bản phát hành chuẩn dự thi Nghiên cứu Khoa học Kỹ thuật • Hỗ trợ Android 7.0 trở lên.</p>
+                </div>
+                <a
+                    href="https://github.com/aplusphysisc-hash/A-Physics/releases"
+                    data-download-file="archive-v1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="px-5 py-2.5 rounded-xl bg-[#162347] border border-[#4FD1C5]/40 text-[#4FD1C5] font-bold text-xs hover:bg-[#4FD1C5]/10 transition flex items-center justify-center space-x-2 shrink-0"
+                >
+                    <span>⬇ Tải Bản v1.0.0 (.APK)</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- INSTALL GUIDE -->
+        <section class="glass-card p-6 sm:p-8 rounded-3xl space-y-5">
+            <h2 class="text-lg font-extrabold text-white">Hướng Dẫn Cài Đặt File APK Trên Điện Thoại Android</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
+                <div class="p-4 rounded-2xl bg-[#070D1F] border border-[#2A3C6E] space-y-1.5">
+                    <span class="text-[#4FD1C5] font-black text-sm">Bước 1</span>
+                    <div class="font-bold text-white">Tải tệp .APK</div>
+                    <p class="text-slate-400">Nhấn nút <strong>Tải Xuống APK</strong> ở trên và chờ trình duyệt tải xong tệp cài đặt.</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#070D1F] border border-[#2A3C6E] space-y-1.5">
+                    <span class="text-[#38BDF8] font-black text-sm">Bước 2</span>
+                    <div class="font-bold text-white">Mở tệp vừa tải</div>
+                    <p class="text-slate-400">Chạm vào thông báo tải xong hoặc mở trong mục <strong>Tệp đã tải xuống</strong> trên máy.</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#070D1F] border border-[#2A3C6E] space-y-1.5">
+                    <span class="text-[#818CF8] font-black text-sm">Bước 3</span>
+                    <div class="font-bold text-white">Cấp quyền cài đặt</div>
+                    <p class="text-slate-400">Nếu Android hỏi bảo mật, chọn <strong>Cài đặt</strong> và bật <strong>Cho phép từ nguồn này</strong>.</p>
+                </div>
+                <div class="p-4 rounded-2xl bg-[#070D1F] border border-[#2A3C6E] space-y-1.5">
+                    <span class="text-emerald-400 font-black text-sm">Bước 4</span>
+                    <div class="font-bold text-white">Hoàn tất &amp; Học ngay</div>
+                    <p class="text-slate-400">Bấm <strong>Cài đặt (Install)</strong> rồi mở ứng dụng A+ Physics để trải nghiệm ngay.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-auto border-t border-[#2A3C6E] bg-[#050914] py-8 text-xs text-slate-400">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>© 2026 A+ Physics • Trường THPT Chu Văn An.</div>
+            <div class="flex flex-wrap items-center justify-center gap-5">
+                <a href="index.html" class="hover:text-white transition">Trang chủ</a>
+                <a href="dung-thu/" class="text-[#4FD1C5] hover:underline font-semibold">Dùng thử Web</a>
+                <a href="tri-an.html" class="hover:text-white transition">Tri ân tài nguyên</a>
+                <a href="privacy-policy.html" class="hover:text-white transition">Chính sách quyền riêng tư</a>
+                <a href="terms.html" class="hover:text-white transition">Điều khoản sử dụng</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aplusphysics@gmail.com" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">aplusphysics@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="firebase-public.js"></script>
+</body>
+</html>

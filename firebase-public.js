@@ -29,6 +29,13 @@ function isValidHttpUrl(url) {
   }
 }
 
+function formatUpdatedAt(isoStr) {
+  if (!isoStr || typeof isoStr !== "string") return "";
+  const d = new Date(isoStr);
+  if (Number.isNaN(d.getTime())) return isoStr;
+  return d.toLocaleDateString("vi-VN");
+}
+
 function initAnnouncementBanner(data) {
   const banner = document.getElementById("announcement-banner");
   const textEl = document.getElementById("announcement-text");
@@ -54,30 +61,40 @@ function initReleaseInfo(data) {
   const box = document.getElementById("app-release-info");
   const verEl = document.getElementById("app-version-badge");
   const logEl = document.getElementById("app-changelog-text");
-  if (!box || !verEl || !logEl) return;
+  const updatedEl = document.getElementById("app-updated-at");
+  const countEl = document.getElementById("app-download-count");
 
   const version = typeof data.version === "string" ? data.version.trim() : "";
   const changelog = typeof data.changelog === "string" ? data.changelog.trim() : "";
 
-  if (!version && !changelog) return;
+  if (updatedEl && data.updatedAt) {
+    const formatted = formatUpdatedAt(data.updatedAt);
+    if (formatted) updatedEl.textContent = formatted;
+  }
+  if (countEl && typeof data.downloadCount === "number") {
+    countEl.textContent = data.downloadCount.toLocaleString("vi-VN");
+  }
 
-  if (version) {
+  if (verEl && version) {
     verEl.textContent = version;
     verEl.classList.remove("hidden");
   }
-  if (changelog) {
+  if (logEl && changelog) {
     logEl.textContent = changelog;
     logEl.classList.remove("hidden");
   }
-  box.classList.remove("hidden");
+  if (box && (version || changelog)) {
+    box.classList.remove("hidden");
+  }
 }
 
 function wireDownloadButtons(webConfigRef, data) {
-  const buttons = document.querySelectorAll("a[data-download-cta]");
+  // On tai-xuong.html, actual download file links use [data-download-file]
+  const fileButtons = document.querySelectorAll("a[data-download-file]");
   const validUrl = isValidHttpUrl(data?.downloadUrl) ? data.downloadUrl.trim() : "";
 
-  buttons.forEach((btn) => {
-    if (validUrl) {
+  fileButtons.forEach((btn) => {
+    if (btn.dataset.downloadFile === "latest" && validUrl) {
       btn.setAttribute("href", validUrl);
       btn.setAttribute("target", "_blank");
       btn.setAttribute("rel", "noopener noreferrer");

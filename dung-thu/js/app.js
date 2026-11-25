@@ -133,7 +133,7 @@
         <!-- Demo Mode Notice -->
         <div class="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-amber-100">
           <span>🧪 <strong>Chế độ Dùng thử (Web Demo):</strong> Hỗ trợ học thử <strong>Chủ đề Mở đầu &amp; Chủ đề 1</strong>. Toàn bộ 7 chủ đề (Chủ đề 2–6), 19 mô hình 3D và tính năng nâng cao có đầy đủ trên ứng dụng Android.</span>
-          <a href="../index.html#tai-ve" class="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-bold shrink-0 self-start sm:self-auto hover:opacity-90">Tải App Android →</a>
+          <a href="../tai-xuong.html" class="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-bold shrink-0 self-start sm:self-auto hover:opacity-90">Tải App Android →</a>
         </div>
         <!-- Welcome Banner -->
         <div class="glass-card p-6 sm:p-8 rounded-3xl flex flex-col lg:flex-row lg:items-center justify-between gap-6">
@@ -310,7 +310,7 @@
                     <h2 class="text-base sm:text-lg font-extrabold text-slate-200 mt-0.5">${APKatex.escapeHtml(t.ten)}</h2>
                     <p class="text-xs text-slate-400 mt-0.5">${APKatex.escapeHtml(t.moTa)}</p>
                   </div>
-                  <a href="../index.html#tai-ve" class="px-4 py-2 rounded-xl bg-[#162347] border border-[#4FD1C5]/40 text-xs font-bold text-[#4FD1C5] shrink-0 self-start sm:self-center hover:bg-[#4FD1C5]/10">Tải App để mở khóa →</a>
+                  <a href="../tai-xuong.html" class="px-4 py-2 rounded-xl bg-[#162347] border border-[#4FD1C5]/40 text-xs font-bold text-[#4FD1C5] shrink-0 self-start sm:self-center hover:bg-[#4FD1C5]/10">Tải App để mở khóa →</a>
                 </div>
               `;
             }
