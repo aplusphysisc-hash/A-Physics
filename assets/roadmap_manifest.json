@@ -1,15 +1,15 @@
 {
     "stats":  {
-                  "totalLessons":  28,
-                  "totalStandaloneQuestions":  1594,
+                  "totalLessons":  8,
+                  "totalStandaloneQuestions":  399,
                   "totalModels3D":  4
               },
     "topics":  [
                    {
                        "id":  "ChuDeMoDau",
                        "num":  0,
-                       "ten":  "Chá»§ Ä‘á» Má»Ÿ Ä‘áº§u: Nháº­p mÃ´n \u0026 Sai sá»‘",
-                       "moTa":  "Äá»‘i tÆ°á»£ng Váº­t lÃ½, quy táº¯c an toÃ n phÃ²ng thÃ­ nghiá»‡m, biá»ƒn bÃ¡o \u0026 6 bÆ°á»›c tÃ­nh sai sá»‘ phÃ©p Ä‘o.",
+                       "ten":  "Chủ đề Mở đầu: Nhập môn \u0026 Sai số",
+                       "moTa":  "Đối tượng Vật lý, quy tắc an toàn phòng thí nghiệm, biển báo \u0026 6 bước tính sai số phép đo.",
                        "color":  "#4FD1C5",
                        "tasks":  [
                                      {
@@ -18,7 +18,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  1,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 1: LÃ m quen vá»›i Váº­t lÃ½",
+                                         "title":  "Bài 1: Làm quen với Vật lý",
                                          "filePath":  "ChuDeMoDau/01Lythuyet1_Bai1.json",
                                          "durationMin":  0,
                                          "count":  2
@@ -29,7 +29,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  1,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 1",
+                                         "title":  "Bài tập nhanh - Bài 1",
                                          "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai1.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -40,7 +40,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  2,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 2: Váº¥n Ä‘á» an toÃ n trong Váº­t lÃ½",
+                                         "title":  "Bài 2: Vấn đề an toàn trong Vật lý",
                                          "filePath":  "ChuDeMoDau/01Lythuyet1_Bai2.json",
                                          "durationMin":  0,
                                          "count":  3
@@ -51,7 +51,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  2,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 2",
+                                         "title":  "Bài tập nhanh - Bài 2",
                                          "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai2.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -62,7 +62,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  3,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 3: Thá»±c hÃ nh tÃ­nh sai sá»‘ phÃ©p Ä‘o. Ghi káº¿t quáº£ Ä‘o",
+                                         "title":  "Bài 3: Thực hành tính sai số phép đo. Ghi kết quả đo",
                                          "filePath":  "ChuDeMoDau/01Lythuyet1_Bai3.json",
                                          "durationMin":  0,
                                          "count":  2
@@ -73,7 +73,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  3,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 3",
+                                         "title":  "Bài tập nhanh - Bài 3",
                                          "filePath":  "ChuDeMoDau/02BaiTapNhanh1_Bai3.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -84,7 +84,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  3,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 3 - Äá» 1",
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
                                          "filePath":  "ChuDeMoDau/03DeThi1_Bai3_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -95,7 +95,7 @@
                                          "kind":  "DeTongChuong",
                                          "baiSo":  999,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» tá»•ng káº¿t chÆ°Æ¡ng - Äá» 1",
+                                         "title":  "Đề tổng kết chương - Đề 1",
                                          "filePath":  "ChuDeMoDau/03DeThi1_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -106,7 +106,7 @@
                                          "kind":  "DeTongChuong",
                                          "baiSo":  999,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» tá»•ng káº¿t chÆ°Æ¡ng - Äá» 2",
+                                         "title":  "Đề tổng kết chương - Đề 2",
                                          "filePath":  "ChuDeMoDau/03DeThi1_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -116,8 +116,8 @@
                    {
                        "id":  "ChuDe1",
                        "num":  1,
-                       "ten":  "Chá»§ Ä‘á» 1: MÃ´ táº£ chuyá»ƒn Ä‘á»™ng",
-                       "moTa":  "Äá»™ dá»‹ch chuyá»ƒn, quÃ£ng Ä‘Æ°á»ng, tá»‘c Ä‘á»™, váº­n tá»‘c, cá»™ng váº­n tá»‘c, Ä‘á»“ thá»‹ (d-t) \u0026 gia tá»‘c.",
+                       "ten":  "Chủ đề 1: Mô tả chuyển động",
+                       "moTa":  "Độ dịch chuyển, quãng đường, tốc độ, vận tốc, cộng vận tốc, đồ thị (d-t) \u0026 gia tốc.",
                        "color":  "#38BDF8",
                        "tasks":  [
                                      {
@@ -126,7 +126,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  1,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 1: Äá»™ dá»‹ch chuyá»ƒn vÃ  QuÃ£ng Ä‘Æ°á»ng Ä‘i Ä‘Æ°á»£c",
+                                         "title":  "Bài 1: Độ dịch chuyển và Quãng đường đi được",
                                          "filePath":  "ChuDe1/01Lythuyet1_Bai1.json",
                                          "durationMin":  0,
                                          "count":  4
@@ -137,7 +137,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  1,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 1",
+                                         "title":  "Bài tập nhanh - Bài 1",
                                          "filePath":  "ChuDe1/02BaiTapNhanh1_Bai1.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -148,7 +148,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  1,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 1 - Äá» 1",
+                                         "title":  "Đề luyện tập Bài 1 - Đề 1",
                                          "filePath":  "ChuDe1/03DeThi1_Bai1_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -159,7 +159,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  1,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 1 - Äá» 2",
+                                         "title":  "Đề luyện tập Bài 1 - Đề 2",
                                          "filePath":  "ChuDe1/03DeThi1_Bai1_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -170,7 +170,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  2,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 2: Tá»‘c Ä‘á»™ vÃ  Váº­n tá»‘c",
+                                         "title":  "Bài 2: Tốc độ và Vận tốc",
                                          "filePath":  "ChuDe1/01Lythuyet1_Bai2.json",
                                          "durationMin":  0,
                                          "count":  3
@@ -181,7 +181,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  2,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 2",
+                                         "title":  "Bài tập nhanh - Bài 2",
                                          "filePath":  "ChuDe1/02BaiTapNhanh1_Bai2.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -192,7 +192,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  2,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 2 - Äá» 1",
+                                         "title":  "Đề luyện tập Bài 2 - Đề 1",
                                          "filePath":  "ChuDe1/03DeThi1_Bai2_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -203,7 +203,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  2,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 2 - Äá» 2",
+                                         "title":  "Đề luyện tập Bài 2 - Đề 2",
                                          "filePath":  "ChuDe1/03DeThi1_Bai2_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -214,7 +214,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  3,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 3: Äá»“ thá»‹ Ä‘á»™ dá»‹ch chuyá»ƒn â€“ thá»i gian (Äá»“ thá»‹ d â€“ t)",
+                                         "title":  "Bài 3: Đồ thị độ dịch chuyển – thời gian (Đồ thị d – t)",
                                          "filePath":  "ChuDe1/01Lythuyet1_Bai3.json",
                                          "durationMin":  0,
                                          "count":  3
@@ -225,7 +225,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  3,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 3",
+                                         "title":  "Bài tập nhanh - Bài 3",
                                          "filePath":  "ChuDe1/02BaiTapNhanh1_Bai3.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -236,7 +236,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  3,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 3 - Äá» 1",
+                                         "title":  "Đề luyện tập Bài 3 - Đề 1",
                                          "filePath":  "ChuDe1/03DeThi1_Bai3_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -247,7 +247,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  3,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 3 - Äá» 2",
+                                         "title":  "Đề luyện tập Bài 3 - Đề 2",
                                          "filePath":  "ChuDe1/03DeThi1_Bai3_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -258,7 +258,7 @@
                                          "kind":  "LyThuyetBai",
                                          "baiSo":  4,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i 4: Chuyá»ƒn Ä‘á»™ng biáº¿n Ä‘á»•i vÃ  Gia tá»‘c",
+                                         "title":  "Bài 4: Chuyển động biến đổi và Gia tốc",
                                          "filePath":  "ChuDe1/01Lythuyet1_Bai4.json",
                                          "durationMin":  0,
                                          "count":  4
@@ -269,7 +269,7 @@
                                          "kind":  "BaiTapNhanhBai",
                                          "baiSo":  4,
                                          "thuTuDe":  0,
-                                         "title":  "BÃ i táº­p nhanh - BÃ i 4",
+                                         "title":  "Bài tập nhanh - Bài 4",
                                          "filePath":  "ChuDe1/02BaiTapNhanh1_Bai4.json",
                                          "durationMin":  10,
                                          "count":  5
@@ -280,7 +280,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  4,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 4 - Äá» 1",
+                                         "title":  "Đề luyện tập Bài 4 - Đề 1",
                                          "filePath":  "ChuDe1/03DeThi1_Bai4_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -291,7 +291,7 @@
                                          "kind":  "DeLuyenTapBai",
                                          "baiSo":  4,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» luyá»‡n táº­p BÃ i 4 - Äá» 2",
+                                         "title":  "Đề luyện tập Bài 4 - Đề 2",
                                          "filePath":  "ChuDe1/03DeThi1_Bai4_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -302,7 +302,7 @@
                                          "kind":  "LyThuyetCongThuc",
                                          "baiSo":  5,
                                          "thuTuDe":  0,
-                                         "title":  "Báº£ng tÃ³m táº¯t cÃ´ng thá»©c \u0026 Kiáº¿n thá»©c trá»ng tÃ¢m ChÆ°Æ¡ng 1",
+                                         "title":  "Bảng tóm tắt công thức \u0026 Kiến thức trọng tâm Chương 1",
                                          "filePath":  "ChuDe1/01Lythuyet1_Bai5.json",
                                          "durationMin":  0,
                                          "count":  1
@@ -313,7 +313,7 @@
                                          "kind":  "DeTongChuong",
                                          "baiSo":  999,
                                          "thuTuDe":  1,
-                                         "title":  "Äá» tá»•ng káº¿t chÆ°Æ¡ng - Äá» 1",
+                                         "title":  "Đề tổng kết chương - Đề 1",
                                          "filePath":  "ChuDe1/03DeThi1_De1.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -324,7 +324,7 @@
                                          "kind":  "DeTongChuong",
                                          "baiSo":  999,
                                          "thuTuDe":  2,
-                                         "title":  "Äá» tá»•ng káº¿t chÆ°Æ¡ng - Äá» 2",
+                                         "title":  "Đề tổng kết chương - Đề 2",
                                          "filePath":  "ChuDe1/03DeThi1_De2.json",
                                          "durationMin":  45,
                                          "count":  28
@@ -334,8 +334,8 @@
                    {
                        "id":  "ChuDe2",
                        "num":  2,
-                       "ten":  "Chá»§ Ä‘á» 2: Chuyá»ƒn Ä‘á»™ng biáº¿n Ä‘á»•i",
-                       "moTa":  "Chuyá»ƒn Ä‘á»™ng tháº³ng Ä‘á»u, biáº¿n Ä‘á»•i Ä‘á»u, rÆ¡i tá»± do, nÃ©m ngang, trÃ²n Ä‘á»u \u0026 nÃ©m xiÃªn.",
+                       "ten":  "Chủ đề 2: Chuyển động biến đổi",
+                       "moTa":  "Chuyển động thẳng đều, biến đổi đều, rơi tự do, ném ngang, tròn đều \u0026 ném xiên.",
                        "color":  "#818CF8",
                        "tasks":  [
 
@@ -344,8 +344,8 @@
                    {
                        "id":  "ChuDe3",
                        "num":  3,
-                       "ten":  "Chá»§ Ä‘á» 3: Ba Ä‘á»‹nh luáº­t Newton",
-                       "moTa":  "Ba Ä‘á»‹nh luáº­t Newton, tá»•ng há»£p lá»±c, lá»±c Ä‘Ã n há»“i Hooke, ma sÃ¡t, Archimedes \u0026 cháº¥t lÆ°u.",
+                       "ten":  "Chủ đề 3: Ba định luật Newton",
+                       "moTa":  "Ba định luật Newton, tổng hợp lực, lực đàn hồi Hooke, ma sát, Archimedes \u0026 chất lưu.",
                        "color":  "#34D399",
                        "tasks":  [
 
@@ -354,8 +354,8 @@
                    {
                        "id":  "ChuDe4",
                        "num":  4,
-                       "ten":  "Chá»§ Ä‘á» 4: Moment lá»±c \u0026 CÃ¢n báº±ng",
-                       "moTa":  "Moment lá»±c, cÃ¡nh tay Ä‘Ã²n, quy táº¯c moment, Ä‘Ã²n báº©y, ngáº«u lá»±c \u0026 cÃ¢n báº±ng váº­t ráº¯n.",
+                       "ten":  "Chủ đề 4: Moment lực \u0026 Cân bằng",
+                       "moTa":  "Moment lực, cánh tay đòn, quy tắc moment, đòn bẩy, ngẫu lực \u0026 cân bằng vật rắn.",
                        "color":  "#FBBF24",
                        "tasks":  [
 
@@ -364,8 +364,8 @@
                    {
                        "id":  "ChuDe5",
                        "num":  5,
-                       "ten":  "Chá»§ Ä‘á» 5: NÄƒng lÆ°á»£ng \u0026 CÃ´ng cÆ¡ há»c",
-                       "moTa":  "CÃ´ng cÆ¡ há»c, cÃ´ng suáº¥t, hiá»‡u suáº¥t, Ä‘á»™ng nÄƒng, tháº¿ nÄƒng \u0026 Ä‘á»‹nh luáº­t báº£o toÃ n cÆ¡ nÄƒng.",
+                       "ten":  "Chủ đề 5: Năng lượng \u0026 Công cơ học",
+                       "moTa":  "Công cơ học, công suất, hiệu suất, động năng, thế năng \u0026 định luật bảo toàn cơ năng.",
                        "color":  "#F472B6",
                        "tasks":  [
 
@@ -374,8 +374,8 @@
                    {
                        "id":  "ChuDe6",
                        "num":  6,
-                       "ten":  "Chá»§ Ä‘á» 6: Äá»™ng lÆ°á»£ng \u0026 Va cháº¡m",
-                       "moTa":  "Äá»™ng lÆ°á»£ng, xung lÆ°á»£ng cá»§a lá»±c, báº£o toÃ n Ä‘á»™ng lÆ°á»£ng, va cháº¡m Ä‘Ã n há»“i \u0026 va cháº¡m má»m.",
+                       "ten":  "Chủ đề 6: Động lượng \u0026 Va chạm",
+                       "moTa":  "Động lượng, xung lượng của lực, bảo toàn động lượng, va chạm đàn hồi \u0026 va chạm mềm.",
                        "color":  "#22D3EE",
                        "tasks":  [
 
