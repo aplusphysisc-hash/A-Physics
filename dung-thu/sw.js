@@ -15,6 +15,8 @@ const SHELL_URLS = [
   '../assets/terms_of_service.json',
   '../assets/PhanXa/danhSachChuDePhanXa.json',
   '../assets/KhoiDong/cauHoiKhoiDong.json',
+  '../assets/ic_logo_aphysics.png',
+  '../assets/ic_launcher_round.png',
   '../assets/ic_logo_loading.webp',
   '../assets/ic_logo_loading.png'
 ];

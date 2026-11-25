@@ -6,7 +6,15 @@
     <title>A+ Physics - Cổng Dự Án Nghiên Cứu KHKT & Học Tập Vật Lý THPT</title>
     <meta name="description" content="Trang web chính thức giới thiệu ứng dụng Android A+ Physics - Dự án Nghiên cứu KHKT Trường THPT Chu Văn An. Học Vật lý THPT trực quan với 19 mô hình 3D, 2.016 câu hỏi chuẩn GDPT 2018 và công cụ hỗ trợ học tập toàn diện.">
     <meta name="theme-color" content="#070D1F">
-    <link rel="icon" type="image/webp" href="assets/ic_logo_loading.webp">
+    <link rel="canonical" href="https://aplusphysics.io.vn/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aplusphysics.io.vn/">
+    <meta property="og:title" content="A+ Physics - Ứng Dụng Học Tập Vật Lý THPT Trực Quan 3D">
+    <meta property="og:description" content="Dự án NCKH Trường THPT Chu Văn An: 19 mô hình 3D tương tác, 2.016 câu hỏi chuẩn GDPT 2018, miễn phí 100% và hoạt động Offline-First.">
+    <meta property="og:image" content="https://aplusphysics.io.vn/assets/ic_logo_aphysics.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="assets/ic_logo_aphysics.png">
+    <link rel="apple-touch-icon" href="assets/ic_logo_aphysics.png">
     
     <!-- Google Fonts & Tailwind CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,9 +65,7 @@
     <header class="sticky top-0 z-50 bg-[#070D1F]/80 backdrop-blur-md border-b border-[#2A3C6E]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
             <a href="#" class="flex items-center space-x-3 group">
-                <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-[#4FD1C5] to-[#818CF8] flex items-center justify-center font-black text-xl text-slate-950 shadow-lg shadow-[#4FD1C5]/20 group-hover:scale-105 transition">
-                    A+
-                </div>
+                <img src="assets/ic_logo_aphysics.png" alt="A+ Physics Logo" class="w-11 h-11 rounded-2xl object-cover bg-white shadow-lg shadow-[#4FD1C5]/20 group-hover:scale-105 transition">
                 <div>
                     <div class="flex items-center space-x-2">
                         <span class="font-extrabold text-xl text-white tracking-wide">A+ Physics</span>
@@ -83,7 +89,16 @@
             <div class="lg:hidden flex items-center space-x-2">
                 <a href="dung-thu/" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-[#162347] border border-[#2A3C6E] text-slate-200">Dùng thử</a>
                 <a href="#tai-ve" class="px-3 py-1.5 text-xs font-bold rounded-lg bg-[#4FD1C5] text-slate-950">Tải APK</a>
+                <button id="mobile-menu-btn" aria-label="Mở menu" class="p-2 rounded-lg bg-[#162347] border border-[#2A3C6E] text-slate-200">☰</button>
             </div>
+        </div>
+        <div id="mobile-menu-drawer" class="hidden lg:hidden border-t border-[#2A3C6E] bg-[#070D1F]/95 px-4 py-3 space-y-2 text-sm">
+            <a href="#tong-quan" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Tổng quan</a>
+            <a href="#quy-mo" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Quy mô</a>
+            <a href="#trai-nghiem-3d" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Phòng Lab 3D</a>
+            <a href="#khkt" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Hồ sơ KHKT</a>
+            <a href="#chu-de" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Chương trình</a>
+            <a href="#nhom-tac-gia" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Tác giả</a>
         </div>
     </header>
 
@@ -134,7 +149,7 @@
                             shadow-intensity="1.2"
                             exposure="1.0">
                         </model-viewer>
-                        <p class="text-[11px] text-center text-slate-400 mt-2 italic">Di chuột vào mô hình để bắt đầu chuyển động, kéo để xoay 360° hoặc cuộn để phóng to.</p>
+                        <p class="text-[11px] text-center text-slate-400 mt-2 italic">Kéo để xoay 360°, cuộn để phóng to chi tiết quỹ đạo.</p>
                     </div>
                 </div>
             </div>
@@ -366,6 +381,7 @@
     <!-- SECTION 7: DOWNLOAD & INSTALLATION -->
     <section class="py-16 text-center" id="tai-ve">
         <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <img src="assets/ic_logo_aphysics.png" alt="A+ Physics App Icon" class="w-20 h-20 rounded-3xl mx-auto mb-5 bg-white shadow-2xl shadow-[#4FD1C5]/25">
             <h2 class="text-3xl font-extrabold text-white mb-4">Sẵn Sàng Bứt Phá Điểm Số Vật Lý?</h2>
             <p class="text-slate-300 text-sm max-w-xl mx-auto mb-8">
                 Cài đặt ứng dụng Android A+ Physics để sử dụng trọn vẹn toàn bộ tính năng mượt mà nhất, hoặc mở nhanh bản Dùng thử trên trình duyệt.
@@ -397,6 +413,7 @@
                 </div>
                 <div class="flex flex-wrap items-center justify-center gap-5">
                     <a href="dung-thu/" class="text-[#4FD1C5] hover:underline font-semibold">Dùng thử Web</a>
+                    <a href="tri-an.html" class="hover:text-white transition">Tri ân tài nguyên</a>
                     <a href="privacy-policy.html" class="hover:text-white transition">Chính sách quyền riêng tư</a>
                     <a href="terms.html" class="hover:text-white transition">Điều khoản sử dụng</a>
                     <a href="mailto:aplusphysics@gmail.com" class="hover:text-white transition">aplusphysics@gmail.com</a>
@@ -406,19 +423,28 @@
     </footer>
 
     <script>
+        const mBtn = document.getElementById('mobile-menu-btn');
+        const mDrawer = document.getElementById('mobile-menu-drawer');
+        if (mBtn && mDrawer) {
+            mBtn.addEventListener('click', () => mDrawer.classList.toggle('hidden'));
+            mDrawer.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => mDrawer.classList.add('hidden')));
+        }
+        const mvObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                const mv = entry.target;
+                if (entry.isIntersecting) {
+                    mv.setAttribute('auto-rotate', '');
+                    mv.setAttribute('rotation-per-second', '30deg');
+                    if (typeof mv.play === 'function') mv.play();
+                } else {
+                    mv.removeAttribute('auto-rotate');
+                    if (typeof mv.pause === 'function') mv.pause();
+                }
+            });
+        }, { threshold: 0.15 });
+
         document.querySelectorAll('model-viewer').forEach((mv) => {
-            mv.addEventListener('load', () => {
-                if (typeof mv.pause === 'function') mv.pause();
-            });
-            mv.addEventListener('mouseenter', () => {
-                mv.setAttribute('auto-rotate', '');
-                mv.setAttribute('rotation-per-second', '30deg');
-                if (typeof mv.play === 'function') mv.play();
-            });
-            mv.addEventListener('mouseleave', () => {
-                mv.removeAttribute('auto-rotate');
-                if (typeof mv.pause === 'function') mv.pause();
-            });
+            mvObserver.observe(mv);
         });
     </script>
 </body>

@@ -403,8 +403,8 @@
           assert(!idxHtml.includes('độc quyền'), 'index.html vẫn còn từ "độc quyền"!');
           assert(!idxHtml.includes('../../app'), 'index.html vẫn còn đường dẫn ../../app bị gãy!');
           assert(idxHtml.includes('dung-thu/'), 'index.html phải có liên kết tới chế độ dùng thử dung-thu/');
-          assert(idxHtml.includes('mouseenter'), 'index.html chưa có sự kiện hover di chuột cho mô hình 3D!');
-          return 'index.html cô lập hoàn toàn với trang Admin, không có từ độc quyền và đã bật hover 3D.';
+          assert(idxHtml.includes('IntersectionObserver'), 'index.html chưa có IntersectionObserver tự chạy 3D khi vào màn hình!');
+          return 'index.html cô lập hoàn toàn với trang Admin, không có từ độc quyền và đã bật tự chạy 3D theo vùng nhìn.';
         }));
 
         const totalMs = Math.round(performance.now() - tStart);

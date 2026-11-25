@@ -308,37 +308,28 @@
     }
 
     function renderLab3D(body) {
-      const models = manifest.models3D || [];
-      const topics = ['ALL', ...Array.from(new Set(models.map((m) => m.topic)))];
-      const filtered = selectedTopicFilter === 'ALL' ? models : models.filter((m) => m.topic === selectedTopicFilter);
+      const models = (manifest.models3D || []).slice(0, 2);
       const lowEnd = !!state.settings.lowEndMode;
 
       body.innerHTML = `
-        <div class="flex flex-wrap gap-2 mb-4">
-          ${topics.map((t) => `
-            <button data-tf="${t}" class="tf-btn px-3 py-1.5 rounded-lg text-xs font-semibold border ${selectedTopicFilter === t ? 'bg-[#4FD1C5]/20 border-[#4FD1C5] text-[#4FD1C5]' : 'bg-[#0F1A36] border-[#2A3C6E] text-slate-300 hover:border-slate-500'}">
-              ${t === 'ALL' ? `Tất cả (${models.length})` : t}
-            </button>
-          `).join('')}
+        <div class="mb-4 p-3.5 rounded-xl bg-amber-500/10 border border-amber-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-amber-100">
+          <span>🧪 <strong>Chế độ Dùng thử:</strong> Hiển thị 2 mô hình 3D mẫu. Tải ứng dụng Android để mở khóa trọn bộ <strong>19 mô hình 3D</strong> theo từng bài học.</span>
+          <a href="../index.html#tai-ve" class="text-[#4FD1C5] font-bold hover:underline shrink-0">Tải App Android →</a>
         </div>
         ${lowEnd ? `<div class="mb-4 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-200">⚡ Đang bật <strong>Chế độ tối ưu máy yếu</strong>: Mô hình 3D chỉ tải khi bạn bấm "Xem 3D".</div>` : ''}
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          ${filtered.map((m, idx) => {
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          ${models.map((m) => {
             const mSrc = m.path.startsWith('../') ? m.path : `../${m.path}`;
             return `
             <div class="glass-card p-4 rounded-2xl flex flex-col">
               <div class="flex items-center justify-between gap-2 mb-2.5">
                 <h3 class="text-sm font-bold text-white truncate" title="${APKatex.escapeHtml(m.title)}">${APKatex.escapeHtml(m.title)}</h3>
-                <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${m.topic}</span>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${m.topic} (Mẫu)</span>
               </div>
               <div class="mv-slot rounded-xl overflow-hidden bg-[#0B142C] border border-[#2A3C6E]/60 flex items-center justify-center min-h-[240px]" data-path="${mSrc}" data-title="${APKatex.escapeHtml(m.title)}">
                 ${lowEnd
                   ? `<button class="load-3d-btn px-4 py-2 rounded-xl bg-[#4FD1C5] text-slate-950 text-xs font-bold hover:opacity-90">▶ Bấm để tải mô hình 3D</button>`
-<<<<<<< HEAD
                   : `<model-viewer src="${mSrc}" alt="${APKatex.escapeHtml(m.title)}" camera-controls style="height:240px"></model-viewer>`
-=======
-                  : `<model-viewer src="${mSrc}" alt="${APKatex.escapeHtml(m.title)}" auto-rotate camera-controls style="height:240px"></model-viewer>`
->>>>>>> e0b13fe72cb458322394b8bcfc2ccbc164c9e0d7
                 }
               </div>
               <div class="flex items-center justify-between mt-3 text-[11px] text-slate-400">
@@ -349,13 +340,6 @@
           `; }).join('')}
         </div>
       `;
-
-      body.querySelectorAll('.tf-btn').forEach((b) => {
-        b.addEventListener('click', () => {
-          selectedTopicFilter = b.dataset.tf;
-          renderLab3D(body);
-        });
-      });
 
       body.querySelectorAll('.load-3d-btn').forEach((btn) => {
         btn.addEventListener('click', () => {

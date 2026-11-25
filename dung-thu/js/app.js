@@ -44,22 +44,28 @@
     m.classList.remove('hidden');
   }
 
+  let mvObserver = null;
   function bindHover3D(root) {
+    if (!mvObserver && typeof IntersectionObserver !== 'undefined') {
+      mvObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const mv = entry.target;
+          if (state.settings.lowEndMode) return;
+          if (entry.isIntersecting) {
+            mv.setAttribute('auto-rotate', '');
+            mv.setAttribute('rotation-per-second', '30deg');
+            if (typeof mv.play === 'function') mv.play();
+          } else {
+            mv.removeAttribute('auto-rotate');
+            if (typeof mv.pause === 'function') mv.pause();
+          }
+        });
+      }, { threshold: 0.15 });
+    }
     (root || document).querySelectorAll('model-viewer').forEach((mv) => {
-      if (mv.dataset.hoverBound) return;
-      mv.dataset.hoverBound = '1';
-      mv.addEventListener('load', () => {
-        if (typeof mv.pause === 'function') mv.pause();
-      });
-      mv.addEventListener('mouseenter', () => {
-        mv.setAttribute('auto-rotate', '');
-        mv.setAttribute('rotation-per-second', '30deg');
-        if (typeof mv.play === 'function') mv.play();
-      });
-      mv.addEventListener('mouseleave', () => {
-        mv.removeAttribute('auto-rotate');
-        if (typeof mv.pause === 'function') mv.pause();
-      });
+      if (mv.dataset.obsBound) return;
+      mv.dataset.obsBound = '1';
+      if (mvObserver) mvObserver.observe(mv);
     });
   }
   global.APHover3D = bindHover3D;
@@ -114,7 +120,7 @@
       <div class="space-y-6">
         <!-- Demo Mode Notice -->
         <div class="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-amber-100">
-          <span>🧪 <strong>Chế độ Dùng thử (Web Demo):</strong> Trải nghiệm nhanh nội dung và mô hình 3D trên trình duyệt. Phiên bản đầy đủ với hiệu năng tối ưu và đồng bộ Google Drive có trên ứng dụng Android.</span>
+          <span>🧪 <strong>Chế độ Dùng thử (Web Demo):</strong> Hỗ trợ học thử <strong>Chủ đề Mở đầu &amp; Chủ đề 1</strong>. Toàn bộ 7 chủ đề (Chủ đề 2–6), 19 mô hình 3D và tính năng nâng cao có đầy đủ trên ứng dụng Android.</span>
           <a href="../index.html#tai-ve" class="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-bold shrink-0 self-start sm:self-auto hover:opacity-90">Tải App Android →</a>
         </div>
         <!-- Welcome Banner -->
@@ -186,12 +192,13 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               ${phanXaTopics.map((px) => {
+                const isTrialAllowed = Number(px.id) <= 2;
                 const savedRank = state.phanXaRanks[px.id];
                 return `
-                  <button data-pxid="${px.id}" class="px-start-btn p-3.5 rounded-xl bg-[#070D1F] border border-[#2A3C6E] hover:border-[#4FD1C5] text-left transition">
+                  <button data-pxid="${px.id}" data-allowed="${isTrialAllowed}" class="px-start-btn p-3.5 rounded-xl bg-[#070D1F] border ${isTrialAllowed ? 'border-[#2A3C6E] hover:border-[#4FD1C5]' : 'border-[#2A3C6E]/50 opacity-60'} text-left transition">
                     <div class="flex items-center justify-between gap-2">
                       <span class="text-xs font-bold text-white truncate">${APKatex.escapeHtml(px.tenChuDe)}</span>
-                      <span class="text-[11px] font-black px-2 py-0.5 rounded bg-[#162347] text-[#4FD1C5]">${savedRank ? `Hạng ${savedRank.rank}` : `${px.soCau} câu`}</span>
+                      <span class="text-[11px] font-black px-2 py-0.5 rounded bg-[#162347] ${isTrialAllowed ? 'text-[#4FD1C5]' : 'text-amber-300'}">${!isTrialAllowed ? '🔒 App' : (savedRank ? `Hạng ${savedRank.rank}` : `${px.soCau} câu`)}</span>
                     </div>
                     <p class="text-[11px] text-slate-400 mt-1 line-clamp-2">${APKatex.escapeHtml(px.moTa)}</p>
                   </button>
@@ -249,6 +256,10 @@
 
     mainEl.querySelectorAll('.px-start-btn').forEach((b) => {
       b.addEventListener('click', () => {
+        if (b.dataset.allowed !== 'true') {
+          alert('Chế độ Dùng thử chỉ mở khóa Chủ đề Mở đầu và Chủ đề 1. Vui lòng tải ứng dụng Android để luyện toàn bộ 7 chủ đề!');
+          return;
+        }
         const meta = phanXaTopics.find((x) => String(x.id) === String(b.dataset.pxid));
         if (meta) launchPhanXa(meta);
       });
@@ -268,15 +279,29 @@
     mainEl.innerHTML = `
       <div class="space-y-6">
         <div>
-          <h1 class="text-2xl font-extrabold text-white">Lộ Trình Học Tập 3 Tầng (7 Chủ Đề)</h1>
-          <p class="text-xs text-slate-400 mt-1">Tầng 1: Học cuốn chiếu từng bài • Tầng 2: Tổng hợp công thức • Tầng 3: Đề tổng kết chương.</p>
+          <h1 class="text-2xl font-extrabold text-white">Lộ Trình Học Thử (Chủ Đề Mở Đầu &amp; Chủ Đề 1)</h1>
+          <p class="text-xs text-slate-400 mt-1">Bản dùng thử mở khóa trọn vẹn Chủ đề Mở đầu và Chủ đề 1. Chủ đề 2–6 khả dụng đầy đủ trên ứng dụng Android.</p>
         </div>
         <div class="space-y-5">
           ${manifest.topics.map((t) => {
+            const isUnlocked = t.id === 'ChuDeMoDau' || t.id === 'ChuDe1';
             const doneInTopic = t.tasks.filter((tk) => state.completedTasks.includes(tk.id)).length;
             const tier1 = t.tasks.filter((tk) => tk.tier === 1);
             const tier2 = t.tasks.filter((tk) => tk.tier === 2);
             const tier3 = t.tasks.filter((tk) => tk.tier === 3);
+
+            if (!isUnlocked) {
+              return `
+                <div class="glass-card rounded-2xl p-5 opacity-75 flex flex-col sm:flex-row sm:items-center justify-between gap-4 border border-[#2A3C6E]">
+                  <div>
+                    <div class="text-xs font-bold uppercase tracking-wider text-slate-400">🔒 Chỉ có trên App Android • Chủ đề ${t.num}</div>
+                    <h2 class="text-base sm:text-lg font-extrabold text-slate-200 mt-0.5">${APKatex.escapeHtml(t.ten)}</h2>
+                    <p class="text-xs text-slate-400 mt-0.5">${APKatex.escapeHtml(t.moTa)}</p>
+                  </div>
+                  <a href="../index.html#tai-ve" class="px-4 py-2 rounded-xl bg-[#162347] border border-[#4FD1C5]/40 text-xs font-bold text-[#4FD1C5] shrink-0 self-start sm:self-center hover:bg-[#4FD1C5]/10">Tải App để mở khóa →</a>
+                </div>
+              `;
+            }
 
             const renderTaskRow = (tk) => {
               const isDone = state.completedTasks.includes(tk.id);
@@ -304,10 +329,10 @@
             };
 
             return `
-              <details class="glass-card rounded-2xl overflow-hidden" ${t.num === 0 || t.num === 2 ? 'open' : ''}>
+              <details class="glass-card rounded-2xl overflow-hidden" open>
                 <summary class="p-5 cursor-pointer flex items-center justify-between gap-4 hover:bg-[#162347]/40 transition list-none">
                   <div>
-                    <div class="text-xs font-bold uppercase tracking-wider" style="color:${t.color}">Chủ đề ${t.num === 0 ? 'Mở đầu' : t.num}</div>
+                    <div class="text-xs font-bold uppercase tracking-wider" style="color:${t.color}">Chủ đề ${t.num === 0 ? 'Mở đầu' : t.num} • Đang mở dùng thử</div>
                     <h2 class="text-base sm:text-lg font-extrabold text-white mt-0.5">${APKatex.escapeHtml(t.ten)}</h2>
                     <p class="text-xs text-slate-400 mt-0.5">${APKatex.escapeHtml(t.moTa)}</p>
                   </div>
