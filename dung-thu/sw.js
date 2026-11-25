@@ -1,10 +1,7 @@
-const CACHE_NAME = 'aphysics-web-v1.0.0';
+const CACHE_NAME = 'aphysics-demo-v1.0.0';
 const SHELL_URLS = [
   './',
   './index.html',
-  './app.html',
-  './privacy-policy.html',
-  './terms.html',
   './manifest.webmanifest',
   './css/app.css',
   './js/storage.js',
@@ -13,13 +10,13 @@ const SHELL_URLS = [
   './js/audio.js',
   './js/quiz.js',
   './js/app.js',
-  './assets/roadmap_manifest.json',
-  './assets/app_info.json',
-  './assets/terms_of_service.json',
-  './assets/PhanXa/danhSachChuDePhanXa.json',
-  './assets/KhoiDong/cauHoiKhoiDong.json',
-  './assets/ic_logo_loading.webp',
-  './assets/ic_logo_loading.png'
+  '../assets/roadmap_manifest.json',
+  '../assets/app_info.json',
+  '../assets/terms_of_service.json',
+  '../assets/PhanXa/danhSachChuDePhanXa.json',
+  '../assets/KhoiDong/cauHoiKhoiDong.json',
+  '../assets/ic_logo_loading.webp',
+  '../assets/ic_logo_loading.png'
 ];
 
 self.addEventListener('install', (event) => {

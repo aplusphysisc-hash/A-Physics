@@ -91,6 +91,11 @@
 
     mainEl.innerHTML = `
       <div class="space-y-6">
+        <!-- Demo Mode Notice -->
+        <div class="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-400/30 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-amber-100">
+          <span>🧪 <strong>Chế độ Dùng thử (Web Demo):</strong> Trải nghiệm nhanh nội dung và mô hình 3D trên trình duyệt. Phiên bản đầy đủ với hiệu năng tối ưu và đồng bộ Google Drive có trên ứng dụng Android.</span>
+          <a href="../index.html#tai-ve" class="px-3 py-1.5 rounded-lg bg-amber-400 text-slate-950 font-bold shrink-0 self-start sm:self-auto hover:opacity-90">Tải App Android →</a>
+        </div>
         <!-- Welcome Banner -->
         <div class="glass-card p-6 sm:p-8 rounded-3xl flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div class="space-y-2">
@@ -231,7 +236,7 @@
 
   async function launchPhanXa(meta) {
     try {
-      const qs = await fetchJson(`assets/${meta.fileJson}`);
+      const qs = await fetchJson(`../assets/${meta.fileJson}`);
       APQuiz.startPhanXa(mainEl, meta, qs, state, () => navigate('home'));
     } catch (e) {
       alert('Không thể tải dữ liệu Phản xạ: ' + e.message);
@@ -322,7 +327,7 @@
 
   async function openQuizFile(filePath, title, mode, durationMin, taskId) {
     try {
-      const qs = await fetchJson(`assets/${filePath}`);
+      const qs = await fetchJson(`../assets/${filePath}`);
       activeCleanup = APQuiz.startQuiz(mainEl, {
         title,
         filePath,
@@ -341,7 +346,7 @@
 
   async function openTheory(filePath, taskId) {
     try {
-      const raw = await fetchJson(`assets/${filePath}`);
+      const raw = await fetchJson(`../assets/${filePath}`);
       const lesson = Array.isArray(raw) ? raw[0] : raw;
       state.lastLesson = { filePath, taskId, title: lesson.tieude || 'Bài học' };
       if (taskId) APStorage.markTaskCompleted(state, taskId);
@@ -353,7 +358,7 @@
       const renderBlock = (b) => {
         const loai = b.loai || 'doan_van';
         if (loai === 'mo_hinh_3d') {
-          const mPath = b.duongDanGlb ? (b.duongDanGlb.startsWith('assets/') ? b.duongDanGlb : `assets/${b.duongDanGlb}`) : '';
+          const mPath = b.duongDanGlb ? (b.duongDanGlb.startsWith('assets/') ? `../${b.duongDanGlb}` : `../assets/${b.duongDanGlb}`) : '';
           if (!mPath || seenModels.has(mPath)) return '';
           seenModels.add(mPath);
           return `
@@ -373,7 +378,7 @@
           `;
         }
         if (loai === 'hinh_anh') {
-          const imgPath = b.duongDanAnh ? (b.duongDanAnh.startsWith('assets/') ? b.duongDanAnh : `assets/${b.duongDanAnh}`) : '';
+          const imgPath = b.duongDanAnh ? (b.duongDanAnh.startsWith('assets/') ? `../${b.duongDanAnh}` : `../assets/${b.duongDanAnh}`) : '';
           return `
             <div class="p-4 rounded-2xl bg-[#070D1F] border border-[#2A3C6E] text-center space-y-2">
               <img src="${imgPath}" alt="${APKatex.escapeHtml(b.chuThichAnh || '')}" class="theory-zoom-img max-h-72 mx-auto rounded-xl bg-white cursor-zoom-in">
@@ -404,7 +409,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               ${items.map((bb) => `
                 <div class="p-3 rounded-xl bg-[#070D1F] border border-[#2A3C6E] flex items-center space-x-3">
-                  ${bb.duongDanAnh ? `<img src="assets/${bb.duongDanAnh}" class="w-12 h-12 rounded-lg object-contain bg-white shrink-0">` : ''}
+                  ${bb.duongDanAnh ? `<img src="../assets/${bb.duongDanAnh}" class="w-12 h-12 rounded-lg object-contain bg-white shrink-0">` : ''}
                   <div class="text-xs">
                     <div class="font-bold text-white">${APKatex.escapeHtml(bb.tenBienBao || '')}</div>
                     <div class="text-slate-400">${APKatex.render(bb.yNghia || '')}</div>
@@ -566,7 +571,7 @@
   async function renderSettings() {
     let appInfo = null;
     try {
-      appInfo = await fetchJson('assets/app_info.json');
+      appInfo = await fetchJson('../assets/app_info.json');
     } catch {}
 
     const avatars = ['🧑‍🎓', '👩‍🔬', '👨‍🔬', '🚀', '⚡', '🔭', '⚛️', '🏆'];
@@ -645,8 +650,8 @@
               `).join('')}
             </div>
             <div class="pt-3 flex gap-4 text-xs">
-              <a href="privacy-policy.html" class="text-[#4FD1C5] hover:underline">Chính sách quyền riêng tư</a>
-              <a href="terms.html" class="text-[#4FD1C5] hover:underline">Điều khoản sử dụng</a>
+              <a href="../privacy-policy.html" class="text-[#4FD1C5] hover:underline">Chính sách quyền riêng tư</a>
+              <a href="../terms.html" class="text-[#4FD1C5] hover:underline">Điều khoản sử dụng</a>
             </div>
           </div>
         ` : ''}
@@ -720,8 +725,8 @@
     }
 
     try {
-      manifest = await fetchJson('assets/roadmap_manifest.json');
-      phanXaTopics = await fetchJson('assets/PhanXa/danhSachChuDePhanXa.json');
+      manifest = await fetchJson('../assets/roadmap_manifest.json');
+      phanXaTopics = await fetchJson('../assets/PhanXa/danhSachChuDePhanXa.json');
       navigate('home');
     } catch (e) {
       mainEl.innerHTML = `

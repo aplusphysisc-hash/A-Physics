@@ -7,9 +7,9 @@
     bgAudio = new Audio();
     bgAudio.loop = true;
     bgAudio.volume = 0.5;
-    bgAudio.src = 'assets/audio/song_nao_alpha.aac';
+    bgAudio.src = '../assets/audio/song_nao_alpha.aac';
 
-    clickAudio = new Audio('assets/audio/click.wav');
+    clickAudio = new Audio('../assets/audio/click.wav');
     clickAudio.volume = 0.28;
 
     const bar = document.getElementById('focus-music-bar');

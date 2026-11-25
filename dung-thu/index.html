@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A+ Physics Web App - Học Tập & Luyện Đề Vật Lý THPT</title>
-    <meta name="description" content="Ứng dụng học tập Vật lý THPT trực tuyến A+ Physics: 28 bài lý thuyết KaTeX, 19 mô hình 3D tương tác, 2.016 câu hỏi trắc nghiệm chuẩn GDPT 2018, công cụ đổi đơn vị và máy tính sai số.">
+    <title>A+ Physics (Dùng Thử Web Demo) - Trải Nghiệm Vật Lý THPT</title>
+    <meta name="description" content="Chế độ dùng thử trực tuyến (Web Demo) của ứng dụng Android A+ Physics - Dự án NCKH Trường THPT Chu Văn An.">
     <meta name="theme-color" content="#070D1F">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="icon" type="image/webp" href="assets/ic_logo_loading.webp">
+    <link rel="icon" type="image/webp" href="../assets/ic_logo_loading.webp">
 
     <!-- Fonts & Tailwind -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
 
-    <!-- Google Model Viewer (local offline fallback + CDN) -->
-    <script type="module" src="assets/js/model-viewer.min.js"></script>
+    <!-- Google Model Viewer -->
+    <script type="module" src="../assets/js/model-viewer.min.js"></script>
 
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -30,15 +30,15 @@
     <header class="sticky top-0 z-40 bg-[#070D1F]/90 backdrop-blur-md border-b border-[#2A3C6E]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
             <div class="flex items-center space-x-3">
-                <a href="index.html" title="Về trang giới thiệu" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4FD1C5] to-[#818CF8] flex items-center justify-center font-black text-lg text-slate-950 shadow-md">
+                <a href="../index.html" title="Về trang giới thiệu App" class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[#4FD1C5] to-[#818CF8] flex items-center justify-center font-black text-lg text-slate-950 shadow-md">
                     A+
                 </a>
                 <div>
                     <div class="flex items-center space-x-2">
                         <span class="font-extrabold text-base sm:text-lg text-white">A+ Physics</span>
-                        <span class="hidden sm:inline-block text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#4FD1C5]/15 text-[#4FD1C5] border border-[#4FD1C5]/30">WEB APP</span>
+                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/40">DÙNG THỬ</span>
                     </div>
-                    <span id="header-subtitle" class="text-[11px] text-slate-400 block -mt-0.5">Học trực tuyến &amp; Offline PWA</span>
+                    <span id="header-subtitle" class="text-[11px] text-slate-400 block -mt-0.5">Bản trải nghiệm Web Demo • <a href="../index.html#tai-ve" class="text-[#4FD1C5] hover:underline">Tải App Android</a></span>
                 </div>
             </div>
 
@@ -72,9 +72,9 @@
             <div class="flex items-center space-x-3">
                 <span class="font-bold text-[#4FD1C5]">🎧 Âm thanh tập trung:</span>
                 <select id="music-track-select" class="bg-[#070D1F] border border-[#2A3C6E] rounded-lg px-2.5 py-1 text-slate-200 focus:outline-none focus:border-[#4FD1C5]">
-                    <option value="assets/audio/song_nao_alpha.aac">🧠 Sóng não Alpha (Tập trung sâu)</option>
-                    <option value="assets/audio/tieng_mua.aac">🌧️ Tiếng mưa rơi</option>
-                    <option value="assets/audio/song_bien.aac">🌊 Sóng biển vỗ</option>
+                    <option value="../assets/audio/song_nao_alpha.aac">🧠 Sóng não Alpha (Tập trung)</option>
+                    <option value="../assets/audio/tieng_mua.aac">🌧️ Tiếng mưa rơi</option>
+                    <option value="../assets/audio/song_bien.aac">🌊 Sóng biển vỗ</option>
                 </select>
                 <button id="music-play-btn" class="px-3 py-1 rounded-lg bg-[#4FD1C5] text-slate-950 font-bold hover:opacity-90">▶ Phát</button>
             </div>
@@ -91,7 +91,7 @@
     <!-- MAIN APP CONTAINER -->
     <main id="app-main" class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6">
         <div class="flex flex-col items-center justify-center py-20 text-center">
-            <img src="assets/ic_logo_loading.webp" alt="A+ Physics" class="w-16 h-16 rounded-2xl mb-4 animate-pulse">
+            <img src="../assets/ic_logo_loading.webp" alt="A+ Physics" class="w-16 h-16 rounded-2xl mb-4 animate-pulse">
             <p class="text-sm text-slate-300 font-semibold">Đang tải dữ liệu học tập A+ Physics...</p>
         </div>
     </main>

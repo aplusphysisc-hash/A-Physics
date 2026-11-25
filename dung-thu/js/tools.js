@@ -323,24 +323,26 @@
         </div>
         ${lowEnd ? `<div class="mb-4 p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-200">⚡ Đang bật <strong>Chế độ tối ưu máy yếu</strong>: Mô hình 3D chỉ tải khi bạn bấm "Xem 3D".</div>` : ''}
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          ${filtered.map((m, idx) => `
+          ${filtered.map((m, idx) => {
+            const mSrc = m.path.startsWith('../') ? m.path : `../${m.path}`;
+            return `
             <div class="glass-card p-4 rounded-2xl flex flex-col">
               <div class="flex items-center justify-between gap-2 mb-2.5">
                 <h3 class="text-sm font-bold text-white truncate" title="${APKatex.escapeHtml(m.title)}">${APKatex.escapeHtml(m.title)}</h3>
                 <span class="text-[10px] px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 shrink-0">${m.topic}</span>
               </div>
-              <div class="mv-slot rounded-xl overflow-hidden bg-[#0B142C] border border-[#2A3C6E]/60 flex items-center justify-center min-h-[240px]" data-path="${m.path}" data-title="${APKatex.escapeHtml(m.title)}">
+              <div class="mv-slot rounded-xl overflow-hidden bg-[#0B142C] border border-[#2A3C6E]/60 flex items-center justify-center min-h-[240px]" data-path="${mSrc}" data-title="${APKatex.escapeHtml(m.title)}">
                 ${lowEnd
                   ? `<button class="load-3d-btn px-4 py-2 rounded-xl bg-[#4FD1C5] text-slate-950 text-xs font-bold hover:opacity-90">▶ Bấm để tải mô hình 3D</button>`
-                  : `<model-viewer src="${m.path}" alt="${APKatex.escapeHtml(m.title)}" auto-rotate camera-controls style="height:240px"></model-viewer>`
+                  : `<model-viewer src="${mSrc}" alt="${APKatex.escapeHtml(m.title)}" auto-rotate camera-controls style="height:240px"></model-viewer>`
                 }
               </div>
               <div class="flex items-center justify-between mt-3 text-[11px] text-slate-400">
                 <span class="truncate">${m.file}</span>
-                <button class="open-fs-3d text-[#4FD1C5] font-semibold hover:underline shrink-0 ml-2" data-path="${m.path}" data-title="${APKatex.escapeHtml(m.title)}">Toàn màn hình ↗</button>
+                <button class="open-fs-3d text-[#4FD1C5] font-semibold hover:underline shrink-0 ml-2" data-path="${mSrc}" data-title="${APKatex.escapeHtml(m.title)}">Toàn màn hình ↗</button>
               </div>
             </div>
-          `).join('')}
+          `; }).join('')}
         </div>
       `;
 
