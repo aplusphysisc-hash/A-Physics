@@ -27,7 +27,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
 
     <!-- Google Model Viewer for 3D glb -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <script type="module" src="assets/js/model-viewer.min.js"></script>
 
     <script>
         tailwind.config = {
@@ -433,17 +433,29 @@
             entries.forEach((entry) => {
                 const mv = entry.target;
                 if (entry.isIntersecting) {
+                    mv.dataset.inView = '1';
+                    mv.setAttribute('autoplay', '');
                     mv.setAttribute('auto-rotate', '');
+                    mv.setAttribute('auto-rotate-delay', '0');
                     mv.setAttribute('rotation-per-second', '30deg');
                     if (typeof mv.play === 'function') mv.play();
                 } else {
+                    mv.dataset.inView = '0';
                     mv.removeAttribute('auto-rotate');
                     if (typeof mv.pause === 'function') mv.pause();
                 }
             });
-        }, { threshold: 0.15 });
+        }, { threshold: 0.1 });
 
         document.querySelectorAll('model-viewer').forEach((mv) => {
+            mv.addEventListener('load', () => {
+                if (mv.dataset.inView === '1') {
+                    mv.setAttribute('autoplay', '');
+                    mv.setAttribute('auto-rotate', '');
+                    mv.setAttribute('auto-rotate-delay', '0');
+                    if (typeof mv.play === 'function') mv.play();
+                }
+            });
             mvObserver.observe(mv);
         });
     </script>

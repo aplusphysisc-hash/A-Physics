@@ -52,19 +52,31 @@
           const mv = entry.target;
           if (state.settings.lowEndMode) return;
           if (entry.isIntersecting) {
+            mv.dataset.inView = '1';
+            mv.setAttribute('autoplay', '');
             mv.setAttribute('auto-rotate', '');
+            mv.setAttribute('auto-rotate-delay', '0');
             mv.setAttribute('rotation-per-second', '30deg');
             if (typeof mv.play === 'function') mv.play();
           } else {
+            mv.dataset.inView = '0';
             mv.removeAttribute('auto-rotate');
             if (typeof mv.pause === 'function') mv.pause();
           }
         });
-      }, { threshold: 0.15 });
+      }, { threshold: 0.1 });
     }
     (root || document).querySelectorAll('model-viewer').forEach((mv) => {
       if (mv.dataset.obsBound) return;
       mv.dataset.obsBound = '1';
+      mv.addEventListener('load', () => {
+        if (!state.settings.lowEndMode && mv.dataset.inView === '1') {
+          mv.setAttribute('autoplay', '');
+          mv.setAttribute('auto-rotate', '');
+          mv.setAttribute('auto-rotate-delay', '0');
+          if (typeof mv.play === 'function') mv.play();
+        }
+      });
       if (mvObserver) mvObserver.observe(mv);
     });
   }
