@@ -8,7 +8,8 @@
 
   function resolveImgPath(p) {
     if (!p) return '';
-    return p.startsWith('assets/') ? p : `assets/${p.replace(/^\/+/, '')}`;
+    const clean = p.replace(/^\/+/, '');
+    return clean.startsWith('assets/') ? `../${clean}` : `../assets/${clean}`;
   }
 
   function gradeExam(questions, answers, mode) {

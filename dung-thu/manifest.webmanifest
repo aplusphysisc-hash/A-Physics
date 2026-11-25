@@ -1,0 +1,24 @@
+{
+  "name": "A+ Physics (Dùng Thử Web Demo)",
+  "short_name": "A+ Physics Demo",
+  "description": "Phiên bản dùng thử trên trình duyệt của ứng dụng học tập Vật lý THPT A+ Physics.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070D1F",
+  "theme_color": "#070D1F",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "../assets/ic_logo_loading.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "../assets/ic_logo_loading.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
