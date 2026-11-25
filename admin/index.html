@@ -399,7 +399,7 @@
         // Test 5: Security & Isolation Check on Main Site
         results.push(await runSuite('5. Kiểm tra Bảo mật & Cô lập Trang gốc (index.html)', async () => {
           const idxHtml = await (await fetch('../index.html')).text();
-          assert(!idxHtml.includes('quan-tri'), 'index.html không được chứa liên kết tới trang admin!');
+          assert(!idxHtml.includes('admin/'), 'index.html không được chứa liên kết tới trang admin!');
           assert(!idxHtml.includes('độc quyền'), 'index.html vẫn còn từ "độc quyền"!');
           assert(!idxHtml.includes('../../app'), 'index.html vẫn còn đường dẫn ../../app bị gãy!');
           assert(idxHtml.includes('dung-thu/'), 'index.html phải có liên kết tới chế độ dùng thử dung-thu/');
