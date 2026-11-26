@@ -73,16 +73,16 @@
     </div>
 
     <!-- NAVBAR -->
-    <header class="sticky top-0 z-50 bg-[#070D1F]/80 backdrop-blur-md border-b border-[#2A3C6E]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center space-x-3 group">
-                <img src="assets/ic_logo_aphysics.png" alt="A+ Physics Logo" class="w-11 h-11 rounded-2xl object-cover bg-white shadow-lg shadow-[#4FD1C5]/20 group-hover:scale-105 transition">
-                <div>
+    <header class="sticky top-0 z-50 bg-[#070D1F]/85 backdrop-blur-md border-b border-[#2A3C6E]">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 min-h-[64px] sm:h-20 py-2 sm:py-0 flex items-center justify-between gap-2">
+            <a href="#" class="flex items-center space-x-2.5 sm:space-x-3 min-w-0 group">
+                <img src="assets/ic_logo_aphysics.png" alt="A+ Physics Logo" class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl object-cover bg-white shadow-lg shadow-[#4FD1C5]/20 group-hover:scale-105 transition shrink-0">
+                <div class="min-w-0">
                     <div class="flex items-center space-x-2">
-                        <span class="font-extrabold text-xl text-white tracking-wide">A+ Physics</span>
-                        <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-[#4FD1C5]/10 text-[#4FD1C5] border border-[#4FD1C5]/30">KHKT 2026</span>
+                        <span class="font-extrabold text-base sm:text-xl text-white tracking-wide whitespace-nowrap">A+ Physics</span>
+                        <span class="hidden sm:inline-block text-[11px] font-bold px-2 py-0.5 rounded-full bg-[#4FD1C5]/10 text-[#4FD1C5] border border-[#4FD1C5]/30 whitespace-nowrap">KHKT 2026</span>
                     </div>
-                    <span class="text-xs text-slate-400 block -mt-0.5">Nhóm Cộng Hưởng Tư Duy</span>
+                    <span class="text-[11px] sm:text-xs text-slate-400 block -mt-0.5 truncate">Nhóm Cộng Hưởng Tư Duy</span>
                 </div>
             </a>
             
@@ -97,10 +97,9 @@
                 <a href="tai-xuong.html" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 font-bold hover:shadow-lg hover:shadow-[#4FD1C5]/25 transition">Tải Ứng Dụng</a>
             </nav>
 
-            <div class="lg:hidden flex items-center space-x-2">
-                <a href="dung-thu/" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-[#162347] border border-[#2A3C6E] text-slate-200">Dùng thử</a>
-                <a href="tai-xuong.html" class="px-3 py-1.5 text-xs font-bold rounded-lg bg-[#4FD1C5] text-slate-950">Tải APK</a>
-                <button id="mobile-menu-btn" aria-label="Mở menu" class="p-2 rounded-lg bg-[#162347] border border-[#2A3C6E] text-slate-200">☰</button>
+            <div class="lg:hidden flex items-center gap-1.5 shrink-0">
+                <a href="tai-xuong.html" class="px-3 py-1.5 text-xs font-bold rounded-lg bg-gradient-to-r from-[#4FD1C5] to-[#38BDF8] text-slate-950 whitespace-nowrap">Tải APK</a>
+                <button id="mobile-menu-btn" aria-label="Mở menu" class="w-9 h-9 flex items-center justify-center rounded-lg bg-[#162347] border border-[#2A3C6E] text-slate-200 text-base">☰</button>
             </div>
         </div>
         <div id="mobile-menu-drawer" class="hidden lg:hidden border-t border-[#2A3C6E] bg-[#070D1F]/95 px-4 py-3 space-y-2 text-sm">
@@ -110,6 +109,10 @@
             <a href="#khkt" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Hồ sơ KHKT</a>
             <a href="#chu-de" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Chương trình</a>
             <a href="#nhom-tac-gia" class="block py-1.5 text-slate-300 hover:text-[#4FD1C5]">Tác giả</a>
+            <div class="pt-2 border-t border-[#2A3C6E]/60 flex gap-2">
+                <a href="dung-thu/" class="flex-1 text-center py-2 rounded-lg bg-[#162347] border border-[#2A3C6E] text-xs font-semibold text-slate-200">Dùng thử Web</a>
+                <a href="tai-xuong.html" class="flex-1 text-center py-2 rounded-lg bg-[#4FD1C5] text-xs font-bold text-slate-950">Tải APK</a>
+            </div>
         </div>
     </header>
 
@@ -139,18 +142,18 @@
                             <span>→</span>
                         </a>
                     </div>
-                    <div class="mt-8 flex items-center justify-center lg:justify-start space-x-6 text-xs text-slate-400">
-                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-emerald-400 mr-2"></span> 100% Phi thương mại</span>
-                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-cyan-400 mr-2"></span> Offline-First (Không cần internet)</span>
-                        <span class="flex items-center"><span class="w-2 h-2 rounded-full bg-indigo-400 mr-2"></span> GDPT 2018</span>
+                    <div class="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-x-5 gap-y-2 text-xs text-slate-400">
+                        <span class="flex items-center whitespace-nowrap"><span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 shrink-0"></span> 100% Phi thương mại</span>
+                        <span class="flex items-center whitespace-nowrap"><span class="w-2 h-2 rounded-full bg-cyan-400 mr-2 shrink-0"></span> Offline-First (Không cần internet)</span>
+                        <span class="flex items-center whitespace-nowrap"><span class="w-2 h-2 rounded-full bg-indigo-400 mr-2 shrink-0"></span> GDPT 2018</span>
                     </div>
                 </div>
 
                 <div class="lg:col-span-5">
                     <div class="glass-card p-4 rounded-3xl relative shadow-2xl shadow-[#4FD1C5]/10">
-                        <div class="flex items-center justify-between pb-3 border-b border-[#2A3C6E]/60 mb-3 px-2">
-                            <span class="text-xs font-bold text-slate-300">Mô phỏng 3D: Ném Ngang & Trọng Trường</span>
-                            <span class="text-[11px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-semibold">Tương tác trực tiếp</span>
+                        <div class="flex items-center justify-between gap-2 pb-3 border-b border-[#2A3C6E]/60 mb-3 px-1 sm:px-2">
+                            <span class="text-xs font-bold text-slate-300 truncate">Mô phỏng 3D: Ném Ngang &amp; Trọng Trường</span>
+                            <span class="text-[11px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-semibold whitespace-nowrap shrink-0">Tương tác trực tiếp</span>
                         </div>
                         <!-- 3D Model Viewer directly embedded -->
                         <model-viewer 
