@@ -23,9 +23,10 @@
   }
 
   async function fetchJson(path) {
-    const res = await fetch(path);
+    const res = await fetch(path, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`Không tải được ${path}`);
-    const text = (await res.text()).replace(/^\uFEFF/, '');
+    const buf = await res.arrayBuffer();
+    const text = new TextDecoder('utf-8').decode(buf).replace(/^\uFEFF/, '');
     return JSON.parse(text);
   }
 
@@ -781,12 +782,12 @@
     });
 
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(() => {});
+      navigator.serviceWorker.register('sw.js?v=2').catch(() => {});
     }
 
     try {
-      manifest = await fetchJson('../assets/roadmap_manifest.json');
-      phanXaTopics = await fetchJson('../assets/PhanXa/danhSachChuDePhanXa.json');
+      manifest = await fetchJson('../assets/roadmap_manifest.json?v=2');
+      phanXaTopics = await fetchJson('../assets/PhanXa/danhSachChuDePhanXa.json?v=2');
       navigate('home');
     } catch (e) {
       mainEl.innerHTML = `

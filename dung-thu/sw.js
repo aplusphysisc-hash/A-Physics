@@ -1,24 +1,15 @@
-const CACHE_NAME = 'aphysics-demo-v1.0.0';
+const CACHE_NAME = 'aphysics-demo-v1.0.2';
 const SHELL_URLS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './css/app.css',
-  './js/storage.js',
-  './js/katex_render.js',
-  './js/tools.js',
-  './js/audio.js',
-  './js/quiz.js',
-  './js/app.js',
-  '../assets/roadmap_manifest.json',
-  '../assets/app_info.json',
-  '../assets/terms_of_service.json',
-  '../assets/PhanXa/danhSachChuDePhanXa.json',
-  '../assets/KhoiDong/cauHoiKhoiDong.json',
-  '../assets/ic_logo_aphysics.png',
-  '../assets/ic_launcher_round.png',
-  '../assets/ic_logo_loading.webp',
-  '../assets/ic_logo_loading.png'
+  './css/app.css?v=2',
+  './js/storage.js?v=2',
+  './js/katex_render.js?v=2',
+  './js/tools.js?v=2',
+  './js/audio.js?v=2',
+  './js/quiz.js?v=2',
+  './js/app.js?v=2'
 ];
 
 self.addEventListener('install', (event) => {
@@ -44,18 +35,16 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Network-first so updates to HTML/JS/JSON appear immediately
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      const fetchPromise = fetch(event.request)
-        .then((response) => {
-          if (response && response.status === 200) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-          }
-          return response;
-        })
-        .catch(() => cached);
-      return cached || fetchPromise;
-    })
+    fetch(event.request)
+      .then((response) => {
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
+        }
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
